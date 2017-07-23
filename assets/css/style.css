@@ -139,6 +139,14 @@ h4 {
 
 }
 
+#my-hidden-iframe iframe {
+   
+   display: none;
+   margin: 0 auto;
+   -webkit-overflow-scrolling: touch; 
+   overflow: auto;
+ }
+
 #navbar-modal{
 
 	background-color: rgb(250, 250, 250);
@@ -199,7 +207,7 @@ h4 {
 .footer-social-icon {
 	
 	display: block;
-	height: auto;
+	margin: auto;
 	width: 100%;
 	
 }
@@ -207,6 +215,7 @@ h4 {
 .footer-social-icon-container {
 	
 	float: left;
+	padding: .5em .5em .5em .5em;
 	text-align: center;
 	width: 33.33%;
 	
