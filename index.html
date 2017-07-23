@@ -25,7 +25,7 @@
 					<a href="#homepage-section-selected" class="header-nav-link">BIO</a>
 				</div>
 				<div id="sticky-header-righthand-righttmost-text">
-					<a href="#connect-footer" class="header-nav-link">CONNECT</a>
+					<span id="connect-modal-trigger" class="header-nav-link">CONNECT</span>
 				</div>
 			</div>
 		</header>
@@ -90,7 +90,7 @@
 					<br>
 
 					<p>
-						<span class="font-semibold">Hybrid methods:</span>
+						<h4>Hybrid methods:</h4>
 						<br>
 						animation + live video;
 						<br>
@@ -100,7 +100,7 @@
 					<br>
 
 					<p>
-						<span class="font-semibold">Recurring themes:</span>
+						<h4>Recurring themes:</h4>
 						<br>
 						the metropolis, travel, isolation + food.
 					</p>
@@ -199,9 +199,9 @@
 					<h2>PUBLIC HEALTH</h2>
 					<br>
 					<p>
-						<span class="font-semibold">Key Interests:</span>
+						<h4>Key Interests:</h4>
 						<br>
-						health equity, communication + social determinants of health.
+						communication, health equity + social determinants.
 					</p>
 					<br>
 					<p>
@@ -370,8 +370,53 @@
 
 		</main>
 
-		<footer id="connect-footer">
-			SAMUEL R MENDEZ, 2017
+		<footer id="connect-footer-modal">
+			
+			<div class="homepage-section-header">
+					<h2>CONNECT</h2>
+			</div>
+
+			<section id="footer-social-container">
+				<div class="footer-social-icon-container">
+					<p>VIMEO</p>
+					<img src="./assets/images/drawing.svg" class="footer-social-icon">
+				</div>
+				<div class="footer-social-icon-container">
+					<p>GITHUB</p>
+					<img src="./assets/images/drawing.svg" class="footer-social-icon">
+				</div>
+				<div class="footer-social-icon-container">
+					<p>LINKEDIN</p>
+					<img src="./assets/images/drawing.svg" class="footer-social-icon">
+				</div>
+			</section>
+
+			<section id="footer-contact-form-container">
+				
+				<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+					<div>
+						<span>FIRST NAME</span>
+						<input type="text" name="entry.1804477893" id="entry.1804477893" placeholder="Samuel">
+					</div>
+					<div>
+						<span>LAST NAME</span>
+						<input type="text" name="entry.779358458" id="entry.779358458" placeholder="Mendez">
+					</div>
+					<div>
+						<span>EMAIL</span>
+						<input type="text" name="entry.1973645689" id="entry.1973645689" placeholder="SMendez@123FakeStreet.com">
+					</div>
+					<div>
+						<span>MESSAGE</span>
+						<textarea name="entry.282615151" id="entry.282615151" form="gform" placeholder="Hi, stranger!"></textarea>
+						<input type="submit" value="SEND">
+					</div>
+				</form>
+
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+			</section>
+
 		</footer>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
