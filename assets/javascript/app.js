@@ -40,7 +40,7 @@ $( "#navbar-modal-trigger" ).click(function() {
 });
 
 //The navigation bar slides out to the left once a navigation link is clicked
-$( ".navbar-link" ).click(function() {
+$( "navbar-individual-link-container" ).click(function() {
 
 	//Hide navbar
 	$( "#navbar-modal" ).animate(
