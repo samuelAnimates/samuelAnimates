@@ -12,39 +12,79 @@
 
 		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">	
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Assistant|Overpass+Mono" rel="stylesheet">
 
 	</head>
 		
 	<body>
-
-		<header>
-			<h1>PUBLIC HEALTH + VISUAL MEDIA</h1>
+		
+		<header id="sticky-header">
+			<div id="navbar-modal-trigger">INDEX</div>
+			<div id="sticky-header-righthand-container">
+				<div id="sticky-header-righthand-leftmost-text">
+					<a href="#homepage-section-selected" class="header-nav-link">BIO</a>
+				</div>
+				<div id="sticky-header-righthand-righttmost-text">
+					<a href="#connect-footer" class="header-nav-link">CONNECT</a>
+				</div>
+			</div>
 		</header>
+
 		<main>
+
+			<section id="homepage-header">
+				<h1 id="homepage-header-text">PUBLIC<br>HEALTH<br>+<br>VISUAL<br>MEDIA</h1>
+			</section>
+
+			<nav id="navbar-modal">
+				<div id="navbar-text-container">
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-selected" class="navbar-link">Select Works</a></h2>
+					</div>
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-films" class="navbar-link">Film</a></h2>
+					</div>
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-health" class="navbar-link">Public Health</a></h2>
+					</div>
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-code" class="navbar-link">Code</a></h2>
+					</div>
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-video" class="navbar-link">Video</a></h2>
+					</div>
+					<div class="navbar-individual-link-container">
+						<h2><a href="#homepage-section-art" class="navbar-link-bottom">Public Art</a></h2>
+					</div>
+				</div>
+
+			</nav>
+
+			<!-- SELECTED PROJECTS SECTION -->
 			<section>
-				<div class="homepage-section-header">
-					<h2>SELECTED WORKS</h2>
+				<div class="homepage-section-header" id="homepage-section-selected">
+					
+
+					<h2>SELECT WORKS</h2>
 					<br>
 					<p>
-						<span class="font-semibold">Hybrid methods:</span>
-						<br>
+						<h4>Hybrid methods:</h4>
 						animation + live video;
 						<br>
 						fiction + documentary.
 					</p>
 					<br>
 					<p>
-						<span class="font-semibold">Recurring themes:</span>
-						<br>
+						<h4>Recurring themes:</h4>
 						the metropolis, food, isolation.
 					</p>
 				</div>	
 
 			</section>
 
+			<!-- SHORT FILMS SECTION -->
 			<section>
-				<div class="homepage-section-header">
+				<div class="homepage-section-header" id="homepage-section-films">
 					<h2>SHORT FILMS</h2>
 
 					<br>
@@ -82,7 +122,7 @@
 
 				<div class="homepage-project-container" id="homepage-project-container-Breakfast">
 					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+						<img src="./assets/images/homepage-icon-Breakfast.svg" class="homepage-project-icon">
 					</div>
 					<div class="homepage-project-description">
 						<div class="homepage-project-description-title">
@@ -152,8 +192,10 @@
 
 			</section>
 
+			<!-- PUBLIC HEALTH PROJECTS SECTION -->
 			<section>
-				<div class="homepage-section-header">
+
+				<div class="homepage-section-header" id="homepage-section-health">
 					<h2>PUBLIC HEALTH</h2>
 					<br>
 					<p>
@@ -168,28 +210,69 @@
 						the metropolis, food, isolation.
 					</p>
 				</div>
+
+				</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>Social Media Use by Community-Based Organizations</h3>
+						</div>
+						<div>
+							<p>Ramanadhan S, <span class="font-semibold"> Mendez SR </span>, Rao M, Viswanath K. Social media use by community-based organizations conducting health promotion: a content analysis. BMC Public Health. 2013;13:1129. doi:10.1186/1471-2458-13-1129.</p>
+						</div>
+					</div>
+				</div>
+
 			</section>
 
+			<!-- CODING PROJECTS SECTION -->
 			<section>
-				<div class="homepage-section-header">
+				<div class="homepage-section-header" id="homepage-section-code">
 					<h2>CODE</h2>
 					<br>
 					<p>
-						<span class="font-semibold">Interests:</span>
-						<br>
+						<h4>Interests:</h4>
 						communication, information + play.
 					</p>
 					<br>
 					<p>
-						<span class="font-semibold">Languages:</span>
-						<br>
-						JavaScript + HTML/CSS.
+						<h4>Languages:</h4>
+						JavaScript, JQuery + HTML/CSS.
 					</p>
 				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Busan">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 1</h3>
+						</div>
+						<div>
+							<p>A short description of project 1.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Breakfast">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 2</h3>
+						</div>
+						<div>
+							<p>A short description of project 2</p>
+						</div>
+					</div>
+				</div>
+
 			</section>
 
+			<!-- VIDEO PROJECTS SECTION -->
 			<section>
-				<div class="homepage-section-header">
+				<div class="homepage-section-header" id="homepage-section-video">
 					<h2>VIDEO PROJECTS</h2>
 					<br>
 					<p>
@@ -206,11 +289,93 @@
 						the metropolis, food, isolation.
 					</p>
 				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Busan">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/homepage-icon-Breakfast.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 1</h3>
+						</div>
+						<div>
+							<p>A short description of project 1.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Breakfast">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 2</h3>
+						</div>
+						<div>
+							<p>A short description of project 2</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- PUBLIC ART SECTION -->
+			<section>
+				<div class="homepage-section-header" id="homepage-section-art">
+					<h2>PUBLIC ART PROJECTS</h2>
+					<br>
+					<p>
+						<span class="font-semibold">Hybrid methods:</span>
+						<br>
+						animation + live video;
+						<br>
+						fiction + documentary.
+					</p>
+					<br>
+					<p>
+						<span class="font-semibold">Recurring themes:</span>
+						<br>
+						the metropolis, food, isolation.
+					</p>
+				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Busan">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 1</h3>
+						</div>
+						<div>
+							<p>A short description of project 1.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="homepage-project-container" id="homepage-project-container-Breakfast">
+					<div class="homepage-project-icon-container">
+						<img src="./assets/images/drawing.svg" class="homepage-project-icon">
+					</div>
+					<div class="homepage-project-description">
+						<div class="homepage-project-description-title">
+							<h3>PROJECT 2</h3>
+						</div>
+						<div>
+							<p>A short description of project 2</p>
+						</div>
+					</div>
+				</div>
+
 			</section>
 
 		</main>
 
+		<footer id="connect-footer">
+			SAMUEL R MENDEZ, 2017
+		</footer>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./assets/javascript/app.js"></script>
 
 	</body>
 
