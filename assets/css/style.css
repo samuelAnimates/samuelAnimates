@@ -93,7 +93,10 @@ h4 {
 
 #homepage-header{
 
-	background-color: rgb(17, 17, 17);
+	animation-name: pulse;
+	animation-duration: 16s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
 	margin-top: 3em;
 	padding: 3em 1em 4em 1em;
 	text-align: center;
@@ -289,5 +292,42 @@ h4 {
 	padding: .5em 0em 0em .25em;
 	text-decoration: none;
 
+}
+
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(17, 17, 17);
+  }
+  10% {
+	background-color: rgb(153, 20, 45);
+  }
+  20% {
+    background-color: rgb(17, 17, 17);
+  }
+  30%{
+	background-color: rgb(153, 98, 22);
+  }
+  40% {
+  	background-color: rgb(17, 17, 17);
+  }
+  50%{
+	background-color: rgb(148, 153, 22);
+  }
+  60%{
+	background-color: rgb(17, 17, 17);
+  }
+  70%{
+	background-color: rgb(22, 74, 153);
+  }
+  80%{
+	background-color: rgb(17, 17, 17);
+  }
+  90%{
+	background-color: rgb(153, 22, 98);
+  }
+  100% {
+  	background-color: rgb(17, 17, 17);
+  }
 }
 
