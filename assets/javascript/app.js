@@ -102,6 +102,13 @@ $( ".navbar-individual-link-container" ).click(function() {
 
 });
 
+//The navigation bar slides back out to the left once a navigation link is clicked
+$( "#navbar-modal-close-trigger" ).click(function() {
+
+	hideNavBar();
+
+});
+
 //The Connect modal slides in/out once the trigger is clicked
 $( "#connect-modal-trigger" ).click(function() {
 

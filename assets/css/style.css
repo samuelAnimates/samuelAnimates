@@ -79,7 +79,7 @@ h4 {
 	display: block;
 	clear: both;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 
 }
 
@@ -87,18 +87,19 @@ h4 {
 
 	display: block;
 	margin: auto;
-	width: 50%;
+	width: 80%;
 
 }
 
 #homepage-header{
 
 	animation-name: pulse;
-	animation-duration: 16s;
-	animation-delay: 0s;
+	animation-duration: 20s;
+	animation-delay: 2s;
+	animation-direction: alternate;
 	animation-iteration-count: infinite;
 	margin-top: 3em;
-	padding: 3em 1em 4em 1em;
+	padding: 4em 1em 6em 1em;
 	text-align: center;
 
 }
@@ -168,10 +169,16 @@ h4 {
 
 }
 
+#navbar-modal-close-trigger{
+
+	padding-top: 1em;
+
+}
+
 #navbar-text-container{
 
 	border-left: .5em solid;
-	padding:0em 1em 0em .25em;
+	padding:.5em 1em 0em .25em;
 
 }
 
@@ -220,8 +227,15 @@ h4 {
 	float: left;
 	padding: .5em .5em .5em .5em;
 	text-align: center;
-	width: 33.33%;
+	width: 25%;
 	
+}
+
+.footer-social-icon-label{
+
+	font-size: .50em;
+	font-weight: 400;
+
 }
 
 .header-nav-link{
@@ -280,7 +294,7 @@ h4 {
 	
 	border-left: 0.1em solid;
 	display: block;
-	padding: .5em 0em .25em .25em;
+	padding: .25em 0em .25em .25em;
 	text-decoration: none;
 
 }
@@ -297,37 +311,37 @@ h4 {
 
 @keyframes pulse {
   0% {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
   }
   10% {
-	background-color: rgb(153, 20, 45);
+	background-color: rgb(17, 17, 17);
   }
   20% {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(148, 153, 22);
   }
   30%{
-	background-color: rgb(153, 98, 22);
+	background-color: rgb(17, 17, 17);
   }
   40% {
-  	background-color: rgb(17, 17, 17);
+  	background-color: rgb(14, 132, 98);
   }
   50%{
-	background-color: rgb(148, 153, 22);
+	background-color: rgb(17, 17, 17);
   }
   60%{
-	background-color: rgb(17, 17, 17);
-  }
-  70%{
 	background-color: rgb(22, 74, 153);
   }
-  80%{
+  70%{
 	background-color: rgb(17, 17, 17);
   }
-  90%{
+  80%{
 	background-color: rgb(153, 22, 98);
   }
+  90%{
+	background-color: rgb(17, 17, 17);
+  }
   100% {
-  	background-color: rgb(17, 17, 17);
+  	background-color: rgb(153, 22, 22);
   }
 }
 
