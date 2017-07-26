@@ -1,6 +1,16 @@
+//<=============== GLOBAL STATUS TRACKING VARIABLES =============================>
+
+
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
+var isProjectModalDisplayed = false;
 
+
+/*
+DECLARE FUNCTIONS BELOW
+*/
+
+//<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 function hideConnectModal(){
 
 	//Hide Conncet Modal if it is already displayed
@@ -16,7 +26,24 @@ function hideConnectModal(){
 
 	isConnectDisplayed = false;
 	
-}
+};
+
+function hideHomepageProjectModal(){
+
+	//Hide navbar if it is already displayed
+	$( "#navbar-modal" ).animate(
+    	
+    	{ bottom: '-110%' },
+	    'slow',
+	    'swing',
+
+	);
+
+	$("body").removeClass("modal-open");
+
+	isProjectModalDisplayed = false;
+
+};
 
 function hideNavBar(){
 
@@ -50,7 +77,24 @@ function showConnectModal(){
 
 	isConnectDisplayed = true;
 
-}
+};
+
+function showHomepageProjectModal(){
+
+	//Display navbar if it is not already displayed
+	$( "#homepage-project-details-modal" ).animate(
+    	
+    	{ bottom: 0 },
+	    'slow',
+	    'swing',
+
+	);
+
+	 $("body").addClass("modal-open");
+
+	isProjectModalDisplayed = true;
+
+};
 
 function showNavBar(){
 
@@ -130,6 +174,13 @@ $( "#connect-modal-trigger" ).click(function() {
 		hideConnectModal();
 
 	}
+
+});
+
+//The Project Details Modal slides in if a project icon or title is clicked
+$( ".homepage-project-description-title" ).click(function() {
+
+	showHomepageProjectModal();
 
 });
 
