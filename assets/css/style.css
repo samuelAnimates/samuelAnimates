@@ -104,7 +104,7 @@ h4 {
 
 	animation-name: pulse;
 	animation-duration: 20s;
-	animation-delay: 2s;
+	animation-delay: 1.5s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 	margin-top: 3em;
@@ -160,6 +160,7 @@ h4 {
 	padding-top: 3.5em;
 	position: fixed;
 	width: 100%;
+	overflow-y:auto;
 	z-index: 1;
 
 }
@@ -179,7 +180,7 @@ h4 {
 	left: -110%;
 	position: fixed;
 	top: 2.5em;
-	overflow-y:auto;
+	overflow-y: auto;
 	width: 100%;
 	z-index: 1;
 
@@ -237,13 +238,17 @@ h4 {
 
 }
 
+.display-none{
+
+	display: none;
+}
+
 .embed-container{
 
 	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	width: 60%;
 
 }
 
@@ -251,9 +256,9 @@ h4 {
 
 	position: absolute;
 	top: 0;
-	left: 20%;
-	width: 60%;
-	height: 60%;
+	left: 0;
+	width: 100%;
+	height: 100%;
 
 }
 

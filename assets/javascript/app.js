@@ -31,7 +31,7 @@ function hideConnectModal(){
 function hideHomepageProjectModal(){
 
 	//Hide navbar if it is already displayed
-	$( "#navbar-modal" ).animate(
+	$( "#homepage-project-details-modal" ).animate(
     	
     	{ bottom: '-110%' },
 	    'slow',
@@ -177,6 +177,12 @@ $( "#connect-modal-trigger" ).click(function() {
 
 });
 
+$( "#connect-modal-close-trigger").click(function(){
+
+	hideConnectModal();
+
+})
+
 //The Project Details Modal slides in if a project icon or title is clicked
 $( ".homepage-project-description-title" ).click(function() {
 
@@ -184,8 +190,16 @@ $( ".homepage-project-description-title" ).click(function() {
 
 });
 
+$( "#homepage-project-details-modal-close-trigger" ).click(function() {
+
+	hideHomepageProjectModal();
+
+});
+
 //Show message after Contact Form has been submitted
 $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
+  $('#gform *').fadeOut(1000);
   $('#gform').prepend('Thank you! Talk to you soon...');
 });
+
+

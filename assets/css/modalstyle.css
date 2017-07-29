@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Assistant', sans-serif;
+}
+
+a{
+	
+	color: inherit;
+
+}
+
+
+body{
+	background-color: rgb(250, 250, 250);
+}
+
+
+h1{
+	font-size: 2.0em;
+	font-weight: 700;
+	font-family: 'Overpass Mono', monospace;
+	padding-bottom: .25em;
+	text-align: center;
+}
+
+h2{
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: 'Assistant', sans-serif;
+	padding-top: .25em;
+	padding-bottom: .125em;
+	text-align: center;
+}
+
+h3{
+	font-weight: 600;
+	text-align: center;
+}
+
+header{
+
+	padding-top: .5em;
+
+}
+
+.description{
+
+	font-family: 'Assistant', sans-serif;
+	font-size: .75em;
+	padding-top: .25em;
+
+}
+
+.details{
+	
+	padding: 1em 1em 1em 1em;
+
+}
+
+.embed-container{
+
+	left: 16.7%;
+	position: relative;
+	padding-top: 37.49625%;
+	width: 66.66%;
+	height: 37.49625%;
+
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.inline-title{
+
+	font-style: italic;
+	font-weight: 400;
+
+}
+
+.inspiration-block{
+
+	text-align: center;
+
+}
+
+.recognition-block{
+
+	background-color: rgb(221, 221, 221);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	text-align: center;
+
+}
+
+.recognition-text{
+
+	padding-top: 0.125em;
+	padding-bottom: 0.125em;
+
+}
+
+.statement-block{
+
+	padding-top: .75em;
+	padding-bottom: .5em;
+	text-align: center;
+
+}
+
+.stats{
+
+	font-size: .75em;
+	text-align: center;
+
+}
+
+.synopsis-block{
+
+	padding-bottom: 1em;
+	text-align: center;
+
+}
+
+@media only screen and (min-device-width : 700px){
+
+	.caption{
+		float: left;
+		padding: 0em .25em .25em .25em;
+		width: 50%;
+	}
+
+	.embed-container{
+
+		float: left;
+		left: 0;
+		position: relative;
+		padding-top: 28.125%;
+		width: 50%;
+		height: 28.125%;
+
+	}
+
+	.recognition-block{
+
+		clear: both;
+		background-color: rgb(221, 221, 221);
+		margin-top: 1em;
+		padding-top: .25em;
+		padding-bottom: .25em;
+		text-align: center;
+
+	}
+
+	.synopsis-block{
+
+		padding: 0em .25em .25em .25em;
+		text-align: center;
+
+	}
+
+}
+
+@media only screen and (min-device-width : 800px){
+
+	.caption{
+		float: left;
+		padding: 0em .25em .25em .25em;
+		width: 50%;
+	}
+
+	.embed-container{
+
+		float: left;
+		left: 0;
+		position: relative;
+		padding-top: 28.125%;
+		width: 50%;
+		height: 28.125%;
+
+	}
+
+	.recognition-block{
+
+		float: left;
+		background-color: rgb(221, 221, 221);
+		margin-top: 1em;
+		padding-top: .25em;
+		padding-bottom: .25em;
+		text-align: center;
+		width: 50%;
+
+	}
+
+	.synopsis-block{
+
+		padding: 0em .25em .25em .25em;
+		text-align: center;
+
+	}
+
+}
