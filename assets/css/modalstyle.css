@@ -12,6 +12,7 @@ a{
 
 body{
 	background-color: rgb(250, 250, 250);
+	padding-bottom: 2em;
 }
 
 
@@ -53,7 +54,11 @@ header{
 
 .details{
 	
-	padding: 1em 1em 1em 1em;
+	background-color: rgb(221, 221, 221);
+	font-family: 'Assistant', sans-serif;
+	font-size: .8em;
+	margin: .5em 1em .5em 1em;
+	padding-top: .5em;
 
 }
 
@@ -92,9 +97,9 @@ header{
 
 .recognition-block{
 
-	background-color: rgb(221, 221, 221);
-	padding-top: .25em;
-	padding-bottom: .25em;
+	background-color: rgb(210, 210, 210);
+	padding-top: .5em;
+	padding-bottom: 1em;
 	text-align: center;
 
 }
@@ -108,8 +113,8 @@ header{
 
 .statement-block{
 
-	padding-top: .75em;
-	padding-bottom: .5em;
+	font-family: 'Assistant', sans-serif;
+	padding: .75em 1em .5em 1em;
 	text-align: center;
 
 }
@@ -123,86 +128,77 @@ header{
 
 .synopsis-block{
 
-	padding-bottom: 1em;
+	padding-bottom: 1.125em;
 	text-align: center;
 
 }
 
-@media only screen and (min-device-width : 700px){
+@media only screen and (min-width : 700px){
 
 	.caption{
 		float: left;
 		padding: 0em .25em .25em .25em;
-		width: 50%;
+		width: 100%;
+	}
+
+	.details{
+
+		background-color: rgb(221, 221, 221);
+		float: right;
+		font-family: 'Assistant', sans-serif;
+		font-size: .8em;
+		margin: 0em .5em 0em 0em;
+		width: 48%;
+
 	}
 
 	.embed-container{
 
 		float: left;
 		left: 0;
+		margin-right: 0;
 		position: relative;
-		padding-top: 28.125%;
-		width: 50%;
-		height: 28.125%;
+		padding-top: 56.25%;
+		width: 100%;
+		height: 56.25%;
 
 	}
 
 	.recognition-block{
+
+		float: right;
+		background-color: rgb(210, 210, 210);
+		margin-top: 1em;
+		padding-top: .25em;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	.snapshot-container{
+
+		float: left;
+		margin-right: 0;
+		width: 50%;
+
+	}
+
+	.statement-block{
 
 		clear: both;
-		background-color: rgb(221, 221, 221);
-		margin-top: 1em;
-		padding-top: .25em;
-		padding-bottom: .25em;
+		font-family: 'Assistant', sans-serif;
+		padding-top: .75em;
+		padding-bottom: .5em;
 		text-align: center;
 
 	}
 
 	.synopsis-block{
-
-		padding: 0em .25em .25em .25em;
+		float: right;
 		text-align: center;
-
-	}
-
-}
-
-@media only screen and (min-device-width : 800px){
-
-	.caption{
-		float: left;
-		padding: 0em .25em .25em .25em;
-		width: 50%;
-	}
-
-	.embed-container{
-
-		float: left;
-		left: 0;
-		position: relative;
-		padding-top: 28.125%;
-		width: 50%;
-		height: 28.125%;
-
-	}
-
-	.recognition-block{
-
-		float: left;
-		background-color: rgb(221, 221, 221);
-		margin-top: 1em;
-		padding-top: .25em;
-		padding-bottom: .25em;
+		padding-bottom: 1.125em;
 		text-align: center;
-		width: 50%;
-
-	}
-
-	.synopsis-block{
-
-		padding: 0em .25em .25em .25em;
-		text-align: center;
-
+		width: 100%;
 	}
 
 }

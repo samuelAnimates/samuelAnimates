@@ -5,6 +5,7 @@ var isNavDisplayed = false;
 var isConnectDisplayed = false;
 var isProjectModalDisplayed = false;
 
+//<=============== END GLOBAL VARIABLE DECLARATION =============================>
 
 /*
 DECLARE FUNCTIONS BELOW
@@ -22,6 +23,7 @@ function hideConnectModal(){
 
 	);
 
+	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 
 	isConnectDisplayed = false;
@@ -30,7 +32,7 @@ function hideConnectModal(){
 
 function hideHomepageProjectModal(){
 
-	//Hide navbar if it is already displayed
+	//Hide modal by animating its position down offscreen
 	$( "#homepage-project-details-modal" ).animate(
     	
     	{ bottom: '-110%' },
@@ -39,6 +41,16 @@ function hideHomepageProjectModal(){
 
 	);
 
+	//Hide modal footer by animating its position down offscreen (at the same rate as the rest of the modal)
+	$( "#homepage-project-details-modal-footer" ).animate(
+    	
+    	{ bottom: '-100%' },
+	    'slow',
+	    'swing',
+
+	);
+
+	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 
 	isProjectModalDisplayed = false;
@@ -56,6 +68,7 @@ function hideNavBar(){
 
 	);
 
+	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 
 	isNavDisplayed = false;
@@ -73,7 +86,8 @@ function showConnectModal(){
 
 	);
 
-	 $("body").addClass("modal-open");
+	//Add the CSS class that blocks the main page from scrolling
+	$("body").addClass("modal-open");
 
 	isConnectDisplayed = true;
 
@@ -90,7 +104,16 @@ function showHomepageProjectModal(){
 
 	);
 
-	 $("body").addClass("modal-open");
+	$( "#homepage-project-details-modal-footer" ).animate(
+    	
+    	{ bottom: 0 },
+	    'slow',
+	    'swing',
+
+	);
+
+	//Add the CSS class that blocks the main page from scrolling
+	$("body").addClass("modal-open");
 
 	isProjectModalDisplayed = true;
 
@@ -107,35 +130,41 @@ function showNavBar(){
 
 	);
 
-	 $("body").addClass("modal-open");
+	//Add the CSS class that blocks the main page from scrolling
+	$("body").addClass("modal-open");
 
 	isNavDisplayed = true;
 
 };
+//<=============== END FUNCTION DECLARATIONS =========================>
 
+/*
+DECLARE FUNCTIONS BELOW
+*/
 
+//<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 
 //The navigation bar slides in/out once the trigger is clicked
 $( "#navbar-modal-trigger" ).click(function() {
 
-	if (!isNavDisplayed && !isConnectDisplayed){
-
+	if (!isNavDisplayed && !isConnectDisplayed && !isProjectModalDisplayed){
 		showNavBar();
-
 	}
 
-	else if (!isNavDisplayed && isConnectDisplayed){
-
+	else if (isConnectDisplayed && !isNavDisplayed){
 		hideConnectModal();
 		showNavBar();
+	}
 
+	else if (isProjectModalDisplayed && !isNavDisplayed){
+		hideHomepageProjectModal();
+		showNavBar();
 	}
 
 	else if (isNavDisplayed){
-
 		hideNavBar();
-
 	}
+
 
 });
 
@@ -156,10 +185,8 @@ $( "#navbar-modal-close-trigger" ).click(function() {
 //The Connect modal slides in/out once the trigger is clicked
 $( "#connect-modal-trigger" ).click(function() {
 
-	if (!isConnectDisplayed && !isNavDisplayed){
-
+	if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
 		showConnectModal();
-
 	}
 
 	else if (!isConnectDisplayed && isNavDisplayed){
@@ -169,19 +196,25 @@ $( "#connect-modal-trigger" ).click(function() {
 
 	}
 
-	else if (isConnectDisplayed){
-		
-		hideConnectModal();
-
+	else if (!isConnectDisplayed && isProjectModalDisplayed){
+		hideHomepageProjectModal();
+		showConnectModal();		
 	}
+
+	else if (isConnectDisplayed){
+		hideConnectModal();
+	}
+	
 
 });
 
+//ENTER DESCRIPTION HERE
 $( "#connect-modal-close-trigger").click(function(){
 
 	hideConnectModal();
 
 })
+
 
 //The Project Details Modal slides in if a project icon or title is clicked
 $( ".homepage-project-description-title" ).click(function() {
