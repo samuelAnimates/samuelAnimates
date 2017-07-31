@@ -23,6 +23,8 @@ function hideConnectModal(){
 
 	);
 
+	$("#connect-modal-trigger").html("<h3>CONNECT</h3>");
+
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 
@@ -68,6 +70,8 @@ function hideNavBar(){
 
 	);
 
+	$("#navbar-modal-trigger").html("<h3>INDEX</h3>");
+
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 
@@ -85,6 +89,8 @@ function showConnectModal(){
 	    'swing',
 
 	);
+
+	$("#connect-modal-trigger").html("<h3>[CONNECT]&raquo;</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
@@ -129,6 +135,8 @@ function showNavBar(){
 	    'swing',
 
 	);
+
+	$("#navbar-modal-trigger").html("<h3>&laquo;[INDEX]</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
