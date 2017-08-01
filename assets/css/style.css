@@ -102,14 +102,16 @@ h4 {
 
 #homepage-header{
 
-	background: linear-gradient(181deg, rgb(250, 250, 250), rgb(250, 250, 250), rgb(175, 12, 125), rgb(0, 59, 175), rgb(17, 17, 17));
-	background-size: 1100% 1100%;
+	background-color: rgb(17, 17, 17);
+	background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+	background-size: 1200% 1800%;
 
-	-webkit-animation: gradient-scroll 5s ease 1.5s 1 normal forwards;
-	-moz-animation: gradient-scroll 5s ease 1.5s 1 normal forwards;
-	-o-animation: gradient-scroll 5s ease 1.5s 1 normal forwards;
-	animation: gradient-scroll 5s ease 1.5s 1 normal forwards;
-
+	-webkit-animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	-moz-animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	-o-animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	
+	height: 80vh;
 	margin-top: 3em;
 	padding: 4em 1em 5em 1em;
 	text-align: center;
@@ -224,6 +226,19 @@ h4 {
 
 }
 
+#social-determinants-def{
+
+	background-color: rgb(17, 17, 17);
+	background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+	background-size: 1200% 1800%;
+
+	-webkit-animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	-moz-animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	-o-animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+
+}
+
 #sticky-header{
 
 	background-color: rgb(250, 250, 250);
@@ -323,6 +338,7 @@ h4 {
 
 .homepage-section-header{
 
+	color: rgb(17, 17, 17);
 	background-color: rgb(250, 250, 250);
 	padding: 3.5em 0em 1em 0em;
 	text-align: center;
@@ -357,24 +373,44 @@ h4 {
 
 	background-color: rgb(17, 17, 17);
 	color: rgb(250, 250, 250);
+	line-height: 1.5em;
+	padding: 1em .5em 1em .5em;
+	text-align: center;
 
 }
 
 
 @-webkit-keyframes gradient-scroll {
-    0%{background-position:52% 0%}
-    100%{background-position:49% 100%}
+    0%{background-position:50% 0%}
+    100%{background-position:50% 100%}
 }
 @-moz-keyframes gradient-scroll {
-    0%{background-position:52% 0%}
-    100%{background-position:49% 100%}
+    0%{background-position:50% 0%}
+    100%{background-position:50% 100%}
 }
 @-o-keyframes gradient-scroll {
-    0%{background-position:52% 0%}
-    100%{background-position:49% 100%}
+    0%{background-position:50% 0%}
+    100%{background-position:50% 100%}
 }
 @keyframes gradient-scroll { 
-    0%{background-position:52% 0%}
-    100%{background-position:49% 100%}
+    0%{background-position:50% 0%}
+    100%{background-position:50% 100%}
 }
 
+
+@-webkit-keyframes gradient-scroll-reverse {
+    0%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes gradient-scroll-reverse {
+    0%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes gradient-scroll-reverse {
+    0%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes gradient-scroll-reverse { 
+    0%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}

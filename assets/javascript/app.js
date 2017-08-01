@@ -23,7 +23,7 @@ function hideConnectModal(){
 
 	);
 
-	$("#connect-modal-trigger").html("<h3>CONNECT</h3>");
+	$("#connect-modal-trigger").html("<h3>&laquo;[CONNECT]</h3>");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -70,7 +70,7 @@ function hideNavBar(){
 
 	);
 
-	$("#navbar-modal-trigger").html("<h3>INDEX</h3>");
+	$("#navbar-modal-trigger").html("<h3>[INDEX]&raquo;</h3>");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
