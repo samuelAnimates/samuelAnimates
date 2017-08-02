@@ -6,13 +6,21 @@
 a{
 	
 	color: inherit;
+	text-decoration: none;
+
+}
+
+a:hover{
+
+	color: rgb(0, 72, 182);
+	text-decoration: underline;
 
 }
 
 
 body{
 	background-color: rgb(250, 250, 250);
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 }
 
 

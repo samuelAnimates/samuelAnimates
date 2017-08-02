@@ -231,11 +231,20 @@ $( ".homepage-project-description-title" ).click(function() {
 
 });
 
+$( ".homepage-project-icon" ).click(function() {
+
+	showHomepageProjectModal();
+
+});
+
+
 $( "#homepage-project-details-modal-close-trigger" ).click(function() {
 
 	hideHomepageProjectModal();
 
 });
+
+
 
 //Show message after Contact Form has been submitted
 $('#gform').on('submit', function(e) {
