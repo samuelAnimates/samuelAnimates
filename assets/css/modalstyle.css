@@ -20,7 +20,8 @@ a:hover{
 
 body{
 	background-color: rgb(250, 250, 250);
-	padding-bottom: 3em;
+	padding-bottom: .75em;
+	padding-top: .25em;
 }
 
 

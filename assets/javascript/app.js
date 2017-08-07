@@ -104,7 +104,7 @@ function showHomepageProjectModal(){
 	//Display navbar if it is not already displayed
 	$( "#homepage-project-details-modal" ).animate(
     	
-    	{ bottom: 0 },
+    	{ bottom: '2em' },
 	    'slow',
 	    'swing',
 
