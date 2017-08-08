@@ -246,8 +246,8 @@ textarea{
 #homepage-projects-iframe-container{
 
 	height: 95%;
-	position: fixed;
-	overflow: auto;
+	position: absolute;
+	overflow: hidden;
 	width: 100%;
 	
 
