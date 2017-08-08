@@ -246,7 +246,7 @@ textarea{
 
 	height: 95%;
 	position: fixed;
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	
 
