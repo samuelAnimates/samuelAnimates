@@ -212,7 +212,7 @@ textarea{
 	padding-bottom: .25em;
 	position: fixed;
 	width: 100%;
-	overflow-y:hidden;
+	overflow-y: hidden;
 	z-index: 1;
 
 }
@@ -242,6 +242,14 @@ textarea{
 
 	float: right;
 	font-family: 'Overpass Mono', monospace;
+	
+}
+
+#homepage-projects-iframe{
+
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+
 }
 
 #my-hidden-iframe iframe {
