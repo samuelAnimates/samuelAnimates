@@ -203,19 +203,7 @@ textarea{
 
 }
 
-#homepage-project-details-modal{
 
-	background-color: rgb(250, 250, 250);
-	height: 95%;
-	bottom: -100%;
-	padding-top: 4em;
-	padding-bottom: .25em;
-	position: fixed;
-	width: 100%;
-	overflow-y: hidden;
-	z-index: 1;
-
-}
 
 #homepage-project-details-modal-footer{
 
@@ -242,13 +230,35 @@ textarea{
 
 	float: right;
 	font-family: 'Overpass Mono', monospace;
-	
+
 }
 
 #homepage-projects-iframe{
 
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
+	width: 100%;
+	height: 100%;
+
+}
+
+#homepage-projects-iframe-container{
+
+	height: 100%;
+	overflow: hidden;
+	-webkit-overflow-scrolling:touch;
+
+}
+
+#homepage-projects-modal{
+
+	background-color: rgb(250, 250, 250);
+	height: 95%;
+	bottom: -100%;
+	padding-top: 4em;
+	padding-bottom: .25em;
+	position: fixed;
+	width: 100%;
+	overflow-y: hidden;
+	z-index: 1;
 
 }
 

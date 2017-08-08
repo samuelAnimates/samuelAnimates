@@ -35,7 +35,7 @@ function hideConnectModal(){
 function hideHomepageProjectModal(){
 
 	//Hide modal by animating its position down offscreen
-	$( "#homepage-project-details-modal" ).animate(
+	$( "#homepage-projects-modal" ).animate(
     	
     	{ bottom: '-110%' },
 	    'slow',
@@ -102,7 +102,7 @@ function showConnectModal(){
 function showHomepageProjectModal(){
 
 	//Display navbar if it is not already displayed
-	$( "#homepage-project-details-modal" ).animate(
+	$( "#homepage-projects-modal" ).animate(
     	
     	{ bottom: '2em' },
 	    'slow',
