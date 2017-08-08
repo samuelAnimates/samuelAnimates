@@ -237,8 +237,8 @@ textarea{
 #homepage-projects-iframe{
 
 	width: 100%;
+	height: calc(100% + 1px);
 	overflow: auto;
-	height: 101%;
 
 }
 
