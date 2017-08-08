@@ -27,14 +27,12 @@ a.anchor {
 
 body{
 	background-color: rgb(250, 250, 250);
-	position: absolute;
-	overflow-y: scroll;
 }
 
-body.modal-open{
+.modal-open{
     
-	height: 100%;
 	overflow: hidden;
+    position: relative;
 	
 }
 

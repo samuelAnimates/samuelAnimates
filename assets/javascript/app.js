@@ -27,6 +27,7 @@ function hideConnectModal(){
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
+	$("html").removeClass("modal-open");
 
 	isConnectDisplayed = false;
 	
@@ -54,6 +55,7 @@ function hideHomepageProjectModal(){
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
+	$("html").removeClass("modal-open");
 
 	isProjectModalDisplayed = false;
 
@@ -74,6 +76,7 @@ function hideNavBar(){
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
+	$("html").removeClass("modal-open");
 
 	isNavDisplayed = false;
 
@@ -94,6 +97,7 @@ function showConnectModal(){
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
+	$("html").addClass("modal-open");
 
 	isConnectDisplayed = true;
 
@@ -120,6 +124,7 @@ function showHomepageProjectModal(){
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
+	$("html").addClass("modal-open");
 
 	isProjectModalDisplayed = true;
 
@@ -140,6 +145,7 @@ function showNavBar(){
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
+	$("html").addClass("modal-open");
 
 	isNavDisplayed = true;
 
