@@ -30,9 +30,11 @@ body{
 }
 
 body.modal-open{
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+    
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	
 }
 
 footer{
@@ -203,8 +205,6 @@ textarea{
 
 }
 
-
-
 #homepage-project-details-modal-footer{
 
 	background-color: rgb(250, 250, 250);
@@ -237,13 +237,16 @@ textarea{
 
 	width: 100%;
 	height: 100%;
+	overflow: scroll;
 
 }
 
 #homepage-projects-iframe-container{
 
-	height: 100%;
+	height: 95%;
+	position: fixed;
 	overflow: hidden;
+	width: 100%;
 	-webkit-overflow-scrolling:touch;
 
 }
