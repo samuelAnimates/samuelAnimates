@@ -245,6 +245,8 @@ textarea{
 #homepage-projects-iframe-container{
 
 	height: 95%;
+	overflow: scroll;
+  	-webkit-overflow-scrolling: touch;
 	position: absolute;
 	width: 100%;
 	
