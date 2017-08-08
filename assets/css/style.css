@@ -238,7 +238,6 @@ textarea{
 
 	width: 100%;
 	height: 100%;
-	overflow: scroll;
 
 }
 
@@ -247,7 +246,7 @@ textarea{
 	height: 95%;
 	position: absolute;
 	overflow: hidden;
-	-webkit-overflow-scrolling: auto;
+	-webkit-overflow-scrolling: touch;
 	width: 100%;
 	
 
