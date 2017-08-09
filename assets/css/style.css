@@ -246,7 +246,7 @@ textarea{
 
 #homepage-projects-modal{
 
-	background-color: rgb(250, 250, 250);
+	background-color: red;
 	height: calc(100vh - 5.5em);
 	bottom: -100%;
 	overflow: auto;
