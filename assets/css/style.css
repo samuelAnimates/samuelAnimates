@@ -237,26 +237,17 @@ textarea{
 #homepage-projects-iframe{
 
 	width: 100%;
-	height: calc(100% + 1px);
-	overflow: auto;
-	position: relative;
-
-}
-
-#homepage-projects-iframe-container{
-
 	height: 75%;
-  	-webkit-overflow-scrolling: touch;
-	top: 0;
-	width: 100%;
-
+	overflow: scroll;
+	top: 1.5em;
+	position: relative;
 
 }
 
 #homepage-projects-modal{
 
-	background-color: rgb(250, 250, 250);
-	height: 100vh;
+	background-color: rgba(250, 250, 250, 0.2);
+	height: calc(100vh - 5.5em);
 	bottom: -100%;
 	position: fixed;
 	width: 100%;
