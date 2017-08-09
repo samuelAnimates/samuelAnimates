@@ -239,27 +239,25 @@ textarea{
 	width: 100%;
 	height: calc(100% + 1px);
 	overflow: auto;
+	position: relative;
 
 }
 
 #homepage-projects-iframe-container{
 
-	height: 95%;
-	overflow: scroll;
+	height: 75%;
   	-webkit-overflow-scrolling: touch;
-	position: absolute;
+	top: 0;
 	width: 100%;
-	
+
 
 }
 
 #homepage-projects-modal{
 
 	background-color: rgb(250, 250, 250);
-	height: 95%;
+	height: 100vh;
 	bottom: -100%;
-	padding-top: 4em;
-	padding-bottom: .25em;
 	position: fixed;
 	width: 100%;
 	overflow-y: hidden;

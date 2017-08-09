@@ -38,7 +38,7 @@ function hideHomepageProjectModal(){
 	//Hide modal by animating its position down offscreen
 	$( "#homepage-projects-modal" ).animate(
     	
-    	{ bottom: '-110%' },
+    	{ top: '110%' },
 	    'slow',
 	    'swing',
 
@@ -47,11 +47,14 @@ function hideHomepageProjectModal(){
 	//Hide modal footer by animating its position down offscreen (at the same rate as the rest of the modal)
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
-    	{ bottom: '-100%' },
+    	{ bottom: '-110%' },
 	    'slow',
 	    'swing',
 
 	);
+
+
+	
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -108,7 +111,7 @@ function showHomepageProjectModal(){
 	//Display navbar if it is not already displayed
 	$( "#homepage-projects-modal" ).animate(
     	
-    	{ bottom: '2em' },
+    	{ top: '3.5em' },
 	    'slow',
 	    'swing',
 
