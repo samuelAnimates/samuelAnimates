@@ -240,7 +240,7 @@ textarea{
 	height: calc(100vh - 6em);
 	overflow: scroll;
 	top: 0;
-	position: relative;
+	position: absolute;
 
 }
 
