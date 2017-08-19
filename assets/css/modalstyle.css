@@ -19,7 +19,7 @@ a:hover{
 
 
 body{
-	background-color: rgb(25, 25, 255);
+	background-color: rgb(250, 250, 250);
 	padding-bottom: .75em;
 	padding-top: .25em;
 }
@@ -50,6 +50,13 @@ h3{
 header{
 
 	padding-top: .5em;
+
+}
+
+.snapshot-container{
+
+	color: rgb(250, 250, 250);
+	background-color: rgb(17, 17, 17);
 
 }
 
@@ -157,7 +164,7 @@ header{
 		font-family: 'Assistant', sans-serif;
 		font-size: .8em;
 		margin: 0em .5em 0em 0em;
-		width: 48%;
+		width: 47%;
 
 	}
 
@@ -187,7 +194,6 @@ header{
 	.snapshot-container{
 
 		float: left;
-		margin-right: 0;
 		width: 50%;
 
 	}
@@ -196,8 +202,7 @@ header{
 
 		clear: both;
 		font-family: 'Assistant', sans-serif;
-		padding-top: .75em;
-		padding-bottom: .5em;
+		padding: .75em 1em .5em 1em;
 		text-align: center;
 
 	}
@@ -208,6 +213,74 @@ header{
 		padding-bottom: 1.125em;
 		text-align: center;
 		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width : 1050px){
+
+	.caption{
+		
+		padding: 0em .25em .25em .25em;
+		width: 100%;
+	}
+
+	.details{
+
+		background-color: rgb(221, 221, 221);
+		float: right;
+		font-family: 'Assistant', sans-serif;
+		font-size: .8em;
+		margin: 0em .5em 0em 0em;
+		width: 47%;
+
+	}
+
+	.embed-container{
+
+		left: 0;
+		margin-right: 0;
+		position: relative;
+		padding-top: 56.25%;
+		width: 100%;
+		height: 56.25%;
+
+	}
+
+	.recognition-block{
+
+		background-color: rgb(210, 210, 210);
+		margin-top: 1em;
+		padding-top: .25em;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	.snapshot-container{
+
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		width: 50%;
+
+	}
+
+	.statement-block{
+
+		display: inline;
+		font-family: 'Assistant', sans-serif;
+		padding: .75em 1em .5em 1em;
+		text-align: center;
+
+	}
+
+	.synopsis-block{
+
+		text-align: center;
+		padding-bottom: 1.125em;
+		width: 100%;
+
 	}
 
 }
