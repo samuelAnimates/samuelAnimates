@@ -105,7 +105,10 @@ function showConnectModal(){
 
 };
 
-function showHomepageProjectModal(){
+function showHomepageProjectModal(nameStr){
+
+	modalUrl="./modals/" + nameStr  +".html";
+	$("#homepage-projects-iframe").attr("src", modalUrl);
 
 	//Display navbar if it is not already displayed
 	$( "#homepage-projects-modal" ).animate(
@@ -250,15 +253,19 @@ $(document).ready(function () {
 
 
 	//The Project Details Modal slides in if a project icon or title is clicked
-	$( ".homepage-project-description-title" ).click(function() {
+	$( ".homepage-project-description-title" ).click(function(e) {
 
-		showHomepageProjectModal();
+		var id = $(this).closest(".homepage-project-container").prop("id");
+		var projectSectionIdSuffix = id.split('-')[1];
+		showHomepageProjectModal(projectSectionIdSuffix);
 
 	});
 
 	$( ".homepage-project-icon" ).click(function() {
-
-		showHomepageProjectModal();
+		
+		var id = $(this).closest(".homepage-project-container").prop("id");
+		var projectSectionIdSuffix = id.split('-')[1];
+		showHomepageProjectModal(projectSectionIdSuffix);
 
 	});
 

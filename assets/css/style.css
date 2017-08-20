@@ -173,28 +173,28 @@ textarea{
 
 }
 
-#homepage-project-container-After {
+#homepageProjectContainer-after {
 
 	color: rgb(236, 236, 236);
 	background-color: rgb(201, 20, 44);
 
 }
 
-#homepage-project-container-Bodega {
+#homepageProjectContainer-bodega {
 
 	color: rgb(17, 17, 17);
 	background-color: rgb(199, 235, 252);
 
 }
 
-#homepage-project-container-Breakfast {
+#homepageProjectContainer-breakfast {
 
 	color: rgb(236, 236, 236);
 	background-color: rgb(17, 17, 17);
 
 }
 
-#homepage-project-container-Busan {
+#homepageProjectContainer-busan {
 
 	color: rgb(17, 17, 17);
 	background-color: rgb(199, 235, 252);
@@ -207,14 +207,14 @@ textarea{
 	
 }
 
-#homepage-project-container-Saigon {
+#homepageProjectContainer-saigon {
 	
 		color: rgb(236, 236, 236);
 		background-color: rgb(91, 56, 31);
 	
 }
 
-#homepage-project-container-Yuca {
+#homepageProjectContainer-yuca {
 
 	color: rgb(236, 236, 236);
 	background-color: rgb(91, 56, 31);
@@ -617,7 +617,7 @@ textarea{
 		.homepage-project-container{
 			
 				float: left;
-				height: 19.5em;
+				height: 20em;
 				width: 33.3%;
 				padding: 0em 0em .5em 0em;
 			
@@ -644,7 +644,7 @@ textarea{
 			display: block;
 			height: auto;
 			margin: auto;
-			width: 66%;
+			width: 60%;
 			
 		}
 
