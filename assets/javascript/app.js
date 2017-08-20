@@ -96,7 +96,7 @@ function showConnectModal(){
 
 	);
 
-	$("#connect-modal-trigger").html("<h3>[CONNECT]&raquo;</h3>");
+	$("#connect-modal-trigger").html("<h3>[CONTACT]&raquo;</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
