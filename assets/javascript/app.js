@@ -83,6 +83,8 @@ function hideNavBar(){
 
 function showConnectModal(){
 
+	var offset = window.pageYOffset;
+
 	//Display Connect modal if it is not already displayed
 	$( "#connect-footer-modal" ).animate(
 		
@@ -98,6 +100,7 @@ function showConnectModal(){
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
 	
+	window.scrollTo(0, offset);
 	isConnectDisplayed = true;
 
 };
