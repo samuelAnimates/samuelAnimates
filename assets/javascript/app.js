@@ -257,12 +257,27 @@ $(document).ready(function () {
 
 
 	//The Project Details Modal slides in if a project icon or title is clicked
-	$( ".homepage-project-description-title" ).click(function(e) {
+	$( ".homepage-project-description-title" ).click(function() {
 
-		e.preventDefault();
 		var id = $(this).closest(".homepage-project-container").prop("id");
 		var projectSectionIdSuffix = id.split('-')[1];
-		showHomepageProjectModal(projectSectionIdSuffix);
+
+		if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
+			showHomepageProjectModal(projectSectionIdSuffix);
+		}
+		else if (!isProjectModalDisplayed && isConnectDisplayed){
+			hideConnectModal();
+			showHomepageProjectModal(projectSectionIdSuffix);
+		}
+
+		else if (!isProjectModalDisplayed && isNavDisplayed){
+			hideNavBar();
+			showHomepageProjectModal(projectSectionIdSuffix);
+		}
+
+		else if (isConnectDisplayed){
+			hideHomepageProjectModal();
+		}
 
 	});
 
