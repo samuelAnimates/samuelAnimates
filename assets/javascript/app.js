@@ -1,6 +1,5 @@
 //<=============== GLOBAL STATUS TRACKING VARIABLES =============================>
 
-
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
 var isProjectModalDisplayed = false;
@@ -162,103 +161,120 @@ DECLARE FUNCTIONS BELOW
 //<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 
 //The navigation bar slides in/out once the trigger is clicked
-$( "#navbar-modal-trigger" ).click(function() {
-
-	if (!isNavDisplayed && !isConnectDisplayed && !isProjectModalDisplayed){
-		showNavBar();
-	}
-
-	else if (isConnectDisplayed && !isNavDisplayed){
-		hideConnectModal();
-		showNavBar();
-	}
-
-	else if (isProjectModalDisplayed && !isNavDisplayed){
-		hideHomepageProjectModal();
-		showNavBar();
-	}
-
-	else if (isNavDisplayed){
-		hideNavBar();
-	}
-
-
-});
-
-//The navigation bar slides back out to the left once a navigation link is clicked
-$( ".navbar-individual-link-container" ).click(function() {
-
-	hideNavBar();
-
-});
-
-//The navigation bar slides back out to the left once a navigation link is clicked
-$( "#navbar-modal-close-trigger" ).click(function() {
-
-	hideNavBar();
-
-});
-
-//The Connect modal slides in/out once the trigger is clicked
-$( "#connect-modal-trigger" ).click(function() {
-
-	if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
-		showConnectModal();
-	}
-
-	else if (!isConnectDisplayed && isNavDisplayed){
-
-		hideNavBar();
-		showConnectModal();
-
-	}
-
-	else if (!isConnectDisplayed && isProjectModalDisplayed){
-		hideHomepageProjectModal();
-		showConnectModal();		
-	}
-
-	else if (isConnectDisplayed){
-		hideConnectModal();
-	}
+$(document).ready(function () {
 	
+	$(document).keyup(function (e) {
+		
+		if (e.keyCode == 27 || e.keyCode == 13){
+			if (isNavDisplayed){
+				hideNavBar();
+			}
+			if (isConnectDisplayed){
+				hideConnectModal();
+			}
+			if (isProjectModalDisplayed) {
+				hideHomepageProjectModal();
+			}
+		}
+	});
+
+	$( "#navbar-modal-trigger" ).click(function() {
+
+		if (!isNavDisplayed && !isConnectDisplayed && !isProjectModalDisplayed){
+			showNavBar();
+		}
+
+		else if (isConnectDisplayed && !isNavDisplayed){
+			hideConnectModal();
+			showNavBar();
+		}
+
+		else if (isProjectModalDisplayed && !isNavDisplayed){
+			hideHomepageProjectModal();
+			showNavBar();
+		}
+
+		else if (isNavDisplayed){
+			hideNavBar();
+		}
+
+
+	});
+
+	//The navigation bar slides back out to the left once a navigation link is clicked
+	$( ".navbar-individual-link-container" ).click(function() {
+
+		hideNavBar();
+
+	});
+
+	//The navigation bar slides back out to the left once a navigation link is clicked
+	$( "#navbar-modal-close-trigger" ).click(function() {
+
+		hideNavBar();
+
+	});
+
+	//The Connect modal slides in/out once the trigger is clicked
+	$( "#connect-modal-trigger" ).click(function() {
+
+		if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
+			showConnectModal();
+		}
+
+		else if (!isConnectDisplayed && isNavDisplayed){
+
+			hideNavBar();
+			showConnectModal();
+
+		}
+
+		else if (!isConnectDisplayed && isProjectModalDisplayed){
+			hideHomepageProjectModal();
+			showConnectModal();		
+		}
+
+		else if (isConnectDisplayed){
+			hideConnectModal();
+		}
+		
+
+	});
+
+	//ENTER DESCRIPTION HERE
+	$( "#connect-modal-close-trigger").click(function(){
+
+		hideConnectModal();
+
+	})
+
+
+	//The Project Details Modal slides in if a project icon or title is clicked
+	$( ".homepage-project-description-title" ).click(function() {
+
+		showHomepageProjectModal();
+
+	});
+
+	$( ".homepage-project-icon" ).click(function() {
+
+		showHomepageProjectModal();
+
+	});
+
+
+	$( "#homepage-project-details-modal-close-trigger" ).click(function() {
+
+		hideHomepageProjectModal();
+
+	});
+
+
+
+	//Show message after Contact Form has been submitted
+	$('#gform').on('submit', function(e) {
+	$('#gform *').fadeOut(1000);
+	$('#gform').prepend('Thank you! Talk to you soon...');
+	});
 
 });
-
-//ENTER DESCRIPTION HERE
-$( "#connect-modal-close-trigger").click(function(){
-
-	hideConnectModal();
-
-})
-
-
-//The Project Details Modal slides in if a project icon or title is clicked
-$( ".homepage-project-description-title" ).click(function() {
-
-	showHomepageProjectModal();
-
-});
-
-$( ".homepage-project-icon" ).click(function() {
-
-	showHomepageProjectModal();
-
-});
-
-
-$( "#homepage-project-details-modal-close-trigger" ).click(function() {
-
-	hideHomepageProjectModal();
-
-});
-
-
-
-//Show message after Contact Form has been submitted
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(1000);
-  $('#gform').prepend('Thank you! Talk to you soon...');
-});
-
-
