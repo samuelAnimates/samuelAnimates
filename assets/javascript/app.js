@@ -107,6 +107,8 @@ function showConnectModal(){
 
 function showHomepageProjectModal(nameStr){
 
+	var offset = window.pageYOffset;
+
 	modalUrl="./modals/" + nameStr  +".html";
 	$("#homepage-projects-iframe").attr("src", modalUrl);
 
@@ -129,7 +131,7 @@ function showHomepageProjectModal(nameStr){
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
-	$("html").addClass("modal-open");
+	window.scrollTo(0, offset);
 
 	isProjectModalDisplayed = true;
 
@@ -257,6 +259,7 @@ $(document).ready(function () {
 	//The Project Details Modal slides in if a project icon or title is clicked
 	$( ".homepage-project-description-title" ).click(function(e) {
 
+		e.preventDefault();
 		var id = $(this).closest(".homepage-project-container").prop("id");
 		var projectSectionIdSuffix = id.split('-')[1];
 		showHomepageProjectModal(projectSectionIdSuffix);
