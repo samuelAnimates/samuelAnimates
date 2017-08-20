@@ -34,7 +34,6 @@ body{
 	height: 100%;
  	overflow: hidden;
 	width: 100%;
-	position: fixed;
 	
 }
 
@@ -122,6 +121,7 @@ textarea{
 	background-color: rgb(250, 250, 250);
 	height: 100%;
 	overflow-y:auto;
+	display: block;
 	position: fixed;
 	right: -110%;
 	top: 2.5em;

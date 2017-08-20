@@ -22,11 +22,11 @@ function hideConnectModal(){
 
 	);
 
-	$("#connect-modal-trigger").html("<h3>&laquo;[CONNECT]</h3>");
+	$("#connect-modal-trigger").html("<h3>&laquo;[CONTACT]</h3>");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
-	$("html").removeClass("modal-open");
+	//$("html").removeClass("modal-open");
 
 	isConnectDisplayed = false;
 	
@@ -51,9 +51,6 @@ function hideHomepageProjectModal(){
 	    'swing',
 
 	);
-
-
-	
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -88,19 +85,19 @@ function showConnectModal(){
 
 	//Display Connect modal if it is not already displayed
 	$( "#connect-footer-modal" ).animate(
-    	
-    	{ right: 0 },
+		
+		{right: 0},
 	    'slow',
 	    'swing',
 
 	);
 
+
 	$("#connect-modal-trigger").html("<h3>[CONTACT]&raquo;</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
-	$("html").addClass("modal-open");
-
+	
 	isConnectDisplayed = true;
 
 };
@@ -137,6 +134,8 @@ function showHomepageProjectModal(nameStr){
 
 function showNavBar(){
 
+	var offset = window.pageYOffset;
+
 	//Display navbar if it is not already displayed
 	$( "#navbar-modal" ).animate(
     	
@@ -149,8 +148,9 @@ function showNavBar(){
 	$("#navbar-modal-trigger").html("<h3>&laquo;[INDEX]</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
+	
 	$("body").addClass("modal-open");
-	$("html").addClass("modal-open");
+	window.scrollTo(0, offset);
 
 	isNavDisplayed = true;
 
@@ -229,12 +229,11 @@ $(document).ready(function () {
 
 			hideNavBar();
 			showConnectModal();
-
 		}
 
 		else if (!isConnectDisplayed && isProjectModalDisplayed){
 			hideHomepageProjectModal();
-			showConnectModal();		
+			showConnectModal();
 		}
 
 		else if (isConnectDisplayed){
