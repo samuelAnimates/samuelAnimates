@@ -109,6 +109,7 @@ textarea{
 
 #connect-modal-close-trigger{
 
+	clear: both;
 	padding-top: 1.5em;
 	padding-right: .5em;
 	text-align: right;
@@ -143,6 +144,7 @@ textarea{
 
 #footer-social-container {
 
+	clear: both;
 	display: block;
 	margin: auto;
 	width: 80%;
@@ -326,6 +328,14 @@ textarea{
 	overflow:auto;
 	-webkit-overflow-scrolling:touch;
 
+
+}
+
+#homepage-section-highlights{
+
+	display: block;
+	clear: both;
+	text-align: center;
 
 }
 
@@ -706,8 +716,10 @@ textarea{
 
 		.homepage-section-header{
 
+			clear: both;
 			float: left;
 			width: 33.3%;
+			text-align: center;
 
 		}
 	}

@@ -300,8 +300,17 @@ $(document).ready(function () {
 
 	//Show message after Contact Form has been submitted
 	$('#gform').on('submit', function(e) {
-	$('#gform *').fadeOut(1000);
-	$('#gform').prepend('Thank you! Talk to you soon...');
+		
+		var message = $('#entry\\.282615151').val();
+		if (message.length > 144 || message.length === 0){
+			alert("ERROR: please check the length of your message, make sure it is between 1 and 144 characters, and try again.")
+			return false;
+		}
+
+		else {
+			$('#gform *').fadeOut(1000);
+			$('#gform').prepend('Thank you! Talk to you soon~');
+		}
 	});
 
 });
