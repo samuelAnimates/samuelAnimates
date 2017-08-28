@@ -32,6 +32,9 @@ function hideConnectModal(){
 
 function hideHomepageProjectModal(){
 
+	$("#homepage-projects-iframe").attr("src", "");
+	$("#homepage-project-new-window-trigger").attr("href", "http://www.samuelanimates.com");
+
 	//Hide modal by animating its position down offscreen
 	$( "#homepage-projects-modal" ).animate(
     	
@@ -100,6 +103,7 @@ function showHomepageProjectModal(nameStr){
 
 	modalUrl="./modals/" + nameStr  +".html";
 	$("#homepage-projects-iframe").attr("src", modalUrl);
+	$("#homepage-project-new-window-trigger").attr("href", modalUrl);
 
 	//Display navbar if it is not already displayed
 	$( "#homepage-projects-modal" ).animate(
@@ -151,9 +155,10 @@ DECLARE FUNCTIONS BELOW
 
 //<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 
-//The navigation bar slides in/out once the trigger is clicked
+
 $(document).ready(function () {
-	
+
+	//An open modal closes if enter or x is pressed
 	$(document).keyup(function (e) {
 		
 		if (e.keyCode == 27 || e.keyCode == 13){
@@ -169,6 +174,7 @@ $(document).ready(function () {
 		}
 	});
 
+	//The navigation bar slides in/out once the trigger is clicked
 	$( "#navbar-modal-trigger" ).click(function() {
 
 		if (!isNavDisplayed && !isConnectDisplayed && !isProjectModalDisplayed){
@@ -237,7 +243,6 @@ $(document).ready(function () {
 		hideConnectModal();
 
 	});
-
 
 	//The Project Details Modal slides in if a project icon or title is clicked
 	$( ".homepage-project-description-title" ).click(function() {
