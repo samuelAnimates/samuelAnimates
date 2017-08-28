@@ -17,16 +17,12 @@
 
 		<style>
 			a{
-	
 				color: inherit;
 				text-decoration: none;
-
 			}
 			a:hover{
-
 				color: rgb(0, 72, 182);
 				text-decoration: underline;
-
 			}
 			h1{
 				font-size: 2.5em;
@@ -39,17 +35,23 @@
 				font-weight: 700;
 				font-family: 'Overpass Mono', monospace;
 			}
-
 			h3{
 				font-size: 1.4em;
 				font-weight: 600;
 				font-family: 'Overpass Mono', monospace;
 			}
-
 			h4 {
-
 				font-weight: 600;
-
+			}
+			#homepage-header{
+				background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+				background-size: 110% 1800%;
+				animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+			}
+			#social-determinants-def{
+				background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+				background-size: 110% 1800%;
+				animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
 			}
 			.bg-black{
 				background-color: rgb(17, 17, 17);
@@ -99,6 +101,20 @@
 			.text-center{
 				text-align: center;
 			}
+			.text-left{
+				text-align: left;
+			}
+			.width-100pc{
+				width: 100%;
+			}
+			@keyframes gradient-scroll { 
+				0%{background-position:50% 0%}
+				100%{background-position:50% 100%}
+			}
+			@keyframes gradient-scroll-reverse { 
+				0%{background-position:50% 100%}
+				100%{background-position:50% 0%}
+			}
 		</style>
 
 	</head>
@@ -106,104 +122,103 @@
 	<body class="bg-white color-black font-Assistant">
 		
 		<header id="sticky-header" class="bg-white font-Overpass">
-			<div id="navbar-modal-trigger" class="header-nav-link float-left JS-link">
+			<div id="navbar-modal-trigger" class="JS-link header-nav-link float-left">
 				<h3>[INDEX]&raquo;</h3>
 			</div>
 			<div id="sticky-header-righttmost-text" class="float-right">
-				<span id="connect-modal-trigger" class="header-nav-link  JS-link"><h3>&laquo;[CONTACT]</h3></span>
+				<span id="connect-modal-trigger" class="JS-link header-nav-link"><h3>&laquo;[CONTACT]</h3></span>
 			</div>
 		</header>
 
 		<main>
 
-			<section id="homepage-header" class="color-white text-center">
-				<h1 id="homepage-header-text" class=" color-white text-center">SOCIAL</h1>
-				<h2>DETERMINANTS<br>+</h2>
-				<h1>DIGITAL</h1>
-				<h2>MEDIA</h2>
-			</section>
-
-			<!-- NAVBAR MODAL -->
-			<nav id="navbar-modal" class="bg-white">
-
-				<div id="navbar-text-container">
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-highlights" class="navbar-link JS-link">[Highlights]</a></h2>
-					</div>
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-films" class="navbar-link JS-link">[Film]</a></h2>
-					</div>
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-health" class="navbar-link JS-link">[Public Health]</a></h2>
-					</div>
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-code" class="navbar-link JS-link">[Code]</a></h2>
-					</div>
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-video" class="navbar-link JS-link">[Video]</a></h2>
-					</div>
-					<div class="navbar-individual-link-container">
-						<h2><a href="#homepage-section-art" class="navbar-link-bottom JS-link">[Public Art]</a></h2>
-					</div>
+		<!-- NAVBAR MODAL -->
+		<nav id="navbar-modal" class="bg-white">
+				
+			<div id="navbar-text-container">
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-highlights" class="JS-link navbar-link">[Highlights]</a></h2>
 				</div>
-				<div id="navbar-modal-close-trigger" class="JS-link padding-top-1p5em">
-				&laquo;[CLOSE]
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-films" class="JS-link navbar-link">[Film]</a></h2>
 				</div>
-
-			</nav>
-
-			<!-- SOCIAL DETERMINANTS OF HEALTH DEFINITION -->
-			<div class="color-white text-center pull-quote" id="social-determinants-title">
-				<h3>SOCIAL DETERMINANTS OF HEALTH:</h3>
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-health" class="JS-link navbar-link">[Public Health]</a></h2>
+				</div>
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-code" class="JS-link navbar-link">[Code]</a></h2>
+				</div>
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-video" class="JS-link navbar-link">[Video]</a></h2>
+				</div>
+				<div class="navbar-individual-link-container">
+					<h2><a href="#homepage-section-art" class="JS-link navbar-link-bottom">[Public Art]</a></h2>
+				</div>
 			</div>
-			<section class="color-white text-center pull-quote" id="social-determinants-def">
-				<br>
-				<br>
-				<span>the conditions in which we<br>live, learn, work + play;</span>
-				<br>
-				<br>
-				<span>the conditions that shape the<br>choices we can make in our daily lives;</span>
-				<br>
-				<br>
-				<span>the conditions that, in turn,<br>shape our long-term health.</span>
-			</section>
+			<div id="navbar-modal-close-trigger" class="JS-link padding-top-1p5em">
+			&laquo;[CLOSE]
+			</div>
 
-			<!-- GOALS SUMMARY SECTION -->
-			<section>
+		</nav>
 
-				<div class="homepage-goals-header color-black" id="homepage-section-highlights">
+		<!-- HOMEPAGE HEADER -->
+		<section id="homepage-header" class="bg-black color-white homepageheader-padding text-center width-100pc">
+			<h1 id="homepage-header-text" class="color-white text-center">SOCIAL</h1>
+			<h2>DETERMINANTS<br>+</h2>
+			<h1>DIGITAL</h1>
+			<h2>MEDIA</h2>
+		</section>
+		<div class="color-white text-center pull-quote" id="social-determinants-title">
+			<h3>SOCIAL DETERMINANTS OF HEALTH:</h3>
+		</div>
+		<section class="color-white text-center pull-quote" id="social-determinants-def">
+			<br>
+			<br>
+			<span>the conditions in which we<br>live, learn, work + play;</span>
+			<br>
+			<br>
+			<span>the conditions that shape the<br>choices we can make in our daily lives;</span>
+			<br>
+			<br>
+			<span>the conditions that, in turn,<br>shape our long-term health.</span>
+		</section>
 
-					
-					<h2>MY GOALS</h2>
-					<div id="about-me-divider" class="padding-top-1p5em">
-					<p>I aim to use digital media<br>to create new spaces for</p>
-					<h4>social change + community engagement.</h4>
-					<br>
-					<p>I plan to achieve this
-					<br>through a focus on</p>
-					<h4>social determinants + underserved communities</h4>
-					</div>
+		<!-- GOALS SUMMARY SECTION -->
+		<section>
 
-					<div id="about-me-divider" class="padding-top-1p5em">
-						I believe this requires the ability
-						<br>
-						to look at the world through
-						<br>
-						<h4>complementary lenses,</h4>
-						<br>
-						interpret it through
-						<br>
-						<h4>complementary methods,</h4>
-						<br>
-						show others what I've learned,
-						<br>
-						<h4>+ empower others to do the same.</h4>
-						</p>
-					</div>
+			<div class="homepage-goals-header color-black text-center" id="homepage-section-highlights">
 
+				
+				<h2>MY GOALS</h2>
+				<div id="about-me-divider" class="padding-top-1p5em">
+				<p>I aim to use digital media<br>to create new spaces for</p>
+				<h4>social change + community engagement.</h4>
+				<br>
+				<p>I plan to achieve this
+				<br>through a focus on</p>
+				<h4>social determinants + underserved communities</h4>
 				</div>
 
-			</section>
+				<div id="about-me-divider" class="padding-top-1p5em">
+					I believe this requires the ability
+					<br>
+					to look at the world through
+					<br>
+					<h4>complementary lenses,</h4>
+					<br>
+					interpret it through
+					<br>
+					<h4>complementary methods,</h4>
+					<br>
+					show others what I've learned,
+					<br>
+					<h4>+ empower others to do the same.</h4>
+					</p>
+				</div>
+
+			</div>
+
+		</section>
 
 			<!-- SELECTED PROJECTS SECTION -->
 			<section class="text-center">
@@ -217,8 +232,8 @@
 					<div class="homepage-highlight-project-icon-container clear-both">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'10 Days in Saigon' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[10 Days in Saigon]</h3>
 						</div>
 						<div>
@@ -231,8 +246,8 @@
 					<div class="homepage-highlight-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'A Bodega' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[A Bodega]</h3>
 						</div>
 						<div>
@@ -263,8 +278,8 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'By Foot: Busan and the Sea' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[By Foot:<br>Busan and the Sea]</h3>
 						</div>
 						<div>
@@ -279,8 +294,8 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-Breakfast.svg" class="homepage-project-icon" alt="'Persefones Breakfast' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[Persefone's Breakfast]</h3>
 						</div>
 						<div>
@@ -296,8 +311,8 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'A Bodega' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[A Bodega]</h3>
 						</div>
 						<div>
@@ -312,8 +327,8 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'How to Make Yuca Frita' icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title">
 							<h3>[How to Make Yuca Frita]</h3>
 						</div>
 						<div>
@@ -328,7 +343,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-queen.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Snow Queen Travel Company]</h3>
 						</div>
@@ -344,8 +359,8 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-after.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
-						<div class="homepage-project-description-title color-white JS-link">
+					<div class="homepage-project-description text-left">
+						<div class="JS-link homepage-project-description-title color-white">
 							<h3>[After, After That]</h3>
 						</div>
 						<div>
@@ -369,7 +384,7 @@
 
 				<div>
 					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+						<div class="JS-link homepage-project-description-title">
 							<h3>Social Media Use by Community-Based Organizations</h3>
 						</div>
 						<div>
@@ -403,7 +418,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="Everything But Apples icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[EVERYTHING BUT APPLES]</h3>
 						</div>
@@ -417,7 +432,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="GiftPitch icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[GiftPitch]</h3>
 						</div>
@@ -452,7 +467,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-saigon.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[10 Days in Saigon]</h3>
 						</div>
@@ -466,7 +481,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-artemis.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Artemis I Fundraiser Video]</h3>
 						</div>
@@ -480,7 +495,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-joliet.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Spanish Community Center Promo Video]</h3>
 						</div>
@@ -494,7 +509,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Teeny Kickstarter Campaign Video]</h3>
 						</div>
@@ -508,7 +523,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Study Abroad Interview Series]</h3>
 						</div>
@@ -522,7 +537,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[WhyUEdu Info Series]</h3>
 						</div>
@@ -536,7 +551,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Bodegas Saludables]</h3>
 						</div>
@@ -564,7 +579,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Connect the Dots!]</h3>
 						</div>
@@ -578,7 +593,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Not a Male Member in Sight]</h3>
 						</div>
@@ -592,7 +607,7 @@
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
-					<div class="homepage-project-description">
+					<div class="homepage-project-description text-left">
 						<div class="homepage-project-description-title JS-link">
 							<h3>[Walks through Cambridge]</h3>
 						</div>
@@ -607,12 +622,12 @@
 		</main>
 
 		<!-- PROJECT DETAILS MODAL -->
-		<aside id="homepage-projects-modal" class="bg-white">
-			<iframe id="homepage-projects-iframe" src="" scrolling="yes">It looks like there's a problem with iframes in this browser...</iframe>
+		<aside id="homepage-projects-modal" class="bg-white width-100pc">
+			<iframe id="homepage-projects-iframe" class="width-100pc" src="" scrolling="yes">It looks like there's a problem with iframes in this browser...</iframe>
 		</aside>
-		<div id="homepage-project-details-modal-footer" class="bg-white">
-			<h4 id="homepage-project-details-modal-close-trigger" class=".float-left .font-Overpass .JS-link">[CLOSE] &times;</h4>
-			<h4 id ="homepage-project-new-window-trigger" class=".JS-link">&plus; [NEW TAB]</h4>
+		<div id="homepage-project-details-modal-footer" class="bg-white width-100pc">
+			<h4 id="homepage-project-details-modal-close-trigger" class="JS-link float-left font-Overpass ">[CLOSE] &times;</h4>
+			<h4 id ="homepage-project-new-window-trigger" class="JS-link font-Overpass">&plus; [NEW TAB]</h4>
 		</div>
 
 		<!-- CONNECT FOOTER MODAL -->
