@@ -28,7 +28,7 @@ function hideConnectModal(){
 
 	isConnectDisplayed = false;
 	
-};
+}
 
 function hideHomepageProjectModal(){
 
@@ -52,7 +52,7 @@ function hideHomepageProjectModal(){
 
 	isProjectModalDisplayed = false;
 
-};
+}
 
 function hideNavBar(){
 
@@ -71,7 +71,7 @@ function hideNavBar(){
 
 	isNavDisplayed = false;
 
-};
+}
 
 function showConnectModal(){
 
@@ -92,7 +92,7 @@ function showConnectModal(){
 	window.scrollTo(0, offset);
 	isConnectDisplayed = true;
 
-};
+}
 
 function showHomepageProjectModal(nameStr){
 
@@ -120,7 +120,7 @@ function showHomepageProjectModal(nameStr){
 
 	isProjectModalDisplayed = true;
 
-};
+}
 
 function showNavBar(){
 
@@ -142,7 +142,7 @@ function showNavBar(){
 
 	isNavDisplayed = true;
 
-};
+}
 //<=============== END FUNCTION DECLARATIONS =========================>
 
 /*
@@ -236,7 +236,7 @@ $(document).ready(function () {
 
 		hideConnectModal();
 
-	})
+	});
 
 
 	//The Project Details Modal slides in if a project icon or title is clicked
@@ -289,11 +289,11 @@ $(document).ready(function () {
 			firstName: $("#entry\\.1804477893").val(),
 			lastName: $("#entry\\.779358458").val(),
 			email: $("#entry\\.1973645689").val()
-		}
+		};
 
 
 		if (formContent.message.length > 144 || formContent.message.length === 0){
-			alert("Oops! Please make sure your message length is between 1 and 144 characters, and try again~")
+			alert("Oops! Please make sure your message length is between 1 and 144 characters, and try again~");
 			return false;
 		}
 
