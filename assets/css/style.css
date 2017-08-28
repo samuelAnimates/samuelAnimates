@@ -103,7 +103,7 @@ textarea{
 
 #my-hidden-iframe iframe {  
    display: none;
-   margin: 0 auto; 
+   margin: auto; 
    overflow: auto;
 }
 
