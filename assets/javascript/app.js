@@ -101,7 +101,7 @@ function showHomepageProjectModal(nameStr){
 
 	var offset = window.pageYOffset;
 
-	modalUrl="./modals/" + nameStr  +".html";
+	var modalUrl="./modals/" + nameStr  +".html";
 	$("#homepage-projects-iframe").attr("src", modalUrl);
 	$("#homepage-project-new-window-trigger").attr("href", modalUrl);
 

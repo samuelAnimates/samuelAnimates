@@ -1,720 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+	<title>Samuel R. Mendez Portfolio</title>
+	<meta charset="utf-8">
+	<meta content="Samuel R. Mendez is a researcher, filmmaker, + creator working toward health equity." name="description">
+	<meta content="animation, public health, health equity, digital media" name="keywords">
+	<meta content="Samuel R. Mendez" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
+	<style>
+	           html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	               margin: 0;
+	               padding: 0;
+	               border: 0;
+	               font-size: 100%;
+	               font: inherit;
+	               vertical-align: baseline;
+	           }
+	           article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	               display: block;
+	           }
+	           body {
+	               line-height: 1;
+	           }
+	           * {
+	               box-sizing: border-box;
+	           }
+	           a{
+	               color: inherit;
+	               text-decoration: none;
+	           }
+	           a:hover{
+	               color: rgb(0, 72, 182);
+	               text-decoration: underline;
+	           }
+	           h1{
+	               font-size: 2.5em;
+	               font-weight: 700;
+	               font-family: 'Overpass Mono', monospace;
+	           }
 
-	<head>
-	
-		<title>Samuel R. Mendez Portfolio</title>
-
-		<meta charset=utf-8>
-		<meta name="description" content="Samuel R. Mendez is a researcher, filmmaker, + creator working toward health equity.">
-  		<meta name="keywords" content="animation, public health, health equity, digital media">
-  		<meta name="author" content="Samuel R. Mendez">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
-
-		<style>
-			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-				margin: 0;
-				padding: 0;
-				border: 0;
-				font-size: 100%;
-				font: inherit;
-				vertical-align: baseline;
-			}
-			article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-				display: block;
-			}
-			body {
-				line-height: 1;
-			}
-			* {
-				box-sizing: border-box;
-			}
-			a{
-				color: inherit;
-				text-decoration: none;
-			}
-			a:hover{
-				color: rgb(0, 72, 182);
-				text-decoration: underline;
-			}
-			h1{
-				font-size: 2.5em;
-				font-weight: 700;
-				font-family: 'Overpass Mono', monospace;
-			}
-
-			h2{
-				font-size: 2.0em;
-				font-weight: 700;
-				font-family: 'Overpass Mono', monospace;
-			}
-			h3{
-				font-size: 1.4em;
-				font-weight: 600;
-				font-family: 'Overpass Mono', monospace;
-			}
-			h4 {
-				font-weight: 600;
-			}
-			#homepage-header{
-				background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
-				background-size: 110% 1800%;
-				animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
-			}
-			#social-determinants-def{
-				background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
-				background-size: 110% 1800%;
-				animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
-			}
-			.bg-black{
-				background-color: rgb(17, 17, 17);
-			}
-			.bg-blue{
-				background-color: rgb(159, 223, 255);
-			}
-			.bg-white{
-				background-color: rgb(250, 250, 250);
-			}
-			.bg-white-opaque{
-				background-color: rgba(250, 250, 250, 0.96);
-			}
-			.clear-both{
-				clear: both;
-			}
-			.color-black{
-				color: rgb(17, 17, 17);
-			}
-			.color-white{
-				color: rgb(236, 236, 236);
-			}
-			.display-block{
-				display: block;
-			}
-			.float-left{
-				float: left;
-			}
-			.float-right{
-				float: right;
-			}
-			.font-Assistant{
-				font-family: 'Assistant', sans-serif;
-			}
-			.font-Overpass{
-				font-family: 'Overpass Mono', monospace;
-			}
-			.height-100pc{
-				height: 100%;
-			}
-			.JS-link:hover{
-				color: rgb(0, 72, 182);
-				text-decoration: underline;	
-			}
-			.margin-top-3p4-em{
-				margin-top: 3.4em;
-			}
-			.max-height-12em{
-				max-height: 12em;
-			}
-			.max-width-24em{
-				max-width: 22em;
-			}
-			.padding-3-p5-3-p5-em{
-				padding: 3em .5em 3em .5em;
-			}
-			.text-center{
-				text-align: center;
-			}
-			.text-left{
-				text-align: left;
-			}
-			.top-3p4em{
-				top: 3.4em;
-			}
-			.width-100pc{
-				width: 100%;
-			}
-			.z1{
-				z-index: 1;
-			}
-			.z2{
-				z-index: 2;
-			}
-			@keyframes gradient-scroll { 
-				0%{background-position:50% 0%}
-				100%{background-position:50% 100%}
-			}
-			@keyframes gradient-scroll-reverse { 
-				0%{background-position:50% 100%}
-				100%{background-position:50% 0%}
-			}
-		</style>
-
-	</head>
-		
-	<body class="bg-white color-black font-Assistant">
-		
-		<header id="sticky-header" class="bg-white-opaque font-Overpass width-100pc z2">
-			<div id="navbar-modal-trigger" class="JS-link header-nav-link float-left">
-				<h3>[INDEX]&raquo;</h3>
-			</div>
-			<div class="float-right">
-				<span id="connect-modal-trigger" class="JS-link header-nav-link"><h3>&laquo;[CONTACT]</h3></span>
-			</div>
-		</header>
-
-		<!-- NAVBAR MODAL -->
-		<nav id="navbar-modal" class="bg-white height-100pc top-3p4em width-100pc z1 max-width-24em">
-				
-			<div id="navbar-text-container">
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-highlights" class="JS-link display-block navbar-link">[Highlights]</a></h2>
-				</div>
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-films" class="JS-link display-block navbar-link">[Film]</a></h2>
-				</div>
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-health" class="JS-link display-block navbar-link">[Public Health]</a></h2>
-				</div>
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-code" class="JS-link display-block navbar-link">[Code]</a></h2>
-				</div>
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-video" class="JS-link display-block navbar-link">[Video]</a></h2>
-				</div>
-				<div class="navbar-individual-link-container">
-					<h2><a href="#homepage-section-art" class="JS-link display-block navbar-link-bottom">[Public Art]</a></h2>
-				</div>
-			</div>
-			<div id="navbar-modal-close-trigger" class="JS-link padding-top-1p5em">
-			&laquo;[CLOSE]
-			</div>
-
-		</nav>
-
-		<main>
-			
-			<!-- HOMEPAGE HEADER -->
-			<section id="homepage-header" class="bg-blue color-white margin-top-3p4-em padding-3-p5-3-p5-em text-center width-100pc">
-				<h1 id="homepage-header-text" class="color-white text-center">SOCIAL</h1>
-				<h2>DETERMINANTS<br>+</h2>
-				<h1>DIGITAL</h1>
-				<h2>MEDIA</h2>
-			</section>
-			<div class="bg-black color-white text-center">
-				<h3>SOCIAL DETERMINANTS OF HEALTH:</h3>
-			</div>
-			<section id="social-determinants-def" class="bg-blue color-white padding-3-p5-3-p5-em text-center">
-				<span>the conditions in which we<br>live, learn, work + play;</span>
-				<br>
-				<br>
-				<span>the conditions that shape the<br>choices in our daily lives;</span>
-				<br>
-				<br>
-				<span>the conditions that, in turn,<br>shape our long-term health.</span>
-			</section>
-
-			<!-- GOALS SUMMARY SECTION -->
-			<section>
-
-				<div class="homepage-goals-header color-black text-center" id="homepage-section-highlights">
-
-					
-					<h2>MY GOALS</h2>
-					<div id="about-me-divider" class="padding-top-1p5em">
-					<p>I aim to use digital media<br>to create new spaces for</p>
-					<h4>social change + community engagement.</h4>
-					<br>
-					<p>I plan to achieve this
-					<br>through a focus on</p>
-					<h4>social determinants + underserved communities</h4>
-					</div>
-
-					<div id="about-me-divider" class="padding-top-1p5em">
-						I believe this requires the ability
-						<br>
-						to look at the world through
-						<br>
-						<h4>complementary lenses,</h4>
-						<br>
-						interpret it through
-						<br>
-						<h4>complementary methods,</h4>
-						<br>
-						show others what I've learned,
-						<br>
-						<h4>+ empower others to do the same.</h4>
-						</p>
-					</div>
-
-				</div>
-
-			</section>
-
-			<!-- SELECTED PROJECTS SECTION -->
-			<section class="clear-both">
-				<div class="display-block text-center">
-					<h2>HIGHLIGHTED<br>PROJECTS</h2>
-				</div>
-
-				<div class="homepage-highlight-project-container float-left">
-					<div class="homepage-highlight-project-icon-container clear-both">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block" alt="'10 Days in Saigon' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[10 Days in Saigon]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							<p>A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-highlight-project-container float-left">
-					<div class="homepage-highlight-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block" alt="'A Bodega' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[A Bodega]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							<p>An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.</p>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- SHORT FILMS SECTION -->
-			<section class="clear-both">
-				<div class="homepage-section-header text-center" id="homepage-section-films">
-					<h2>SHORT FILMS</h2>
-					<br>
-					<h4>Hybrid methods:</h4>
-					<br>
-					<p>animation + live video;</p>
-					<br>
-					<p>fiction + documentary.</p>
-					<br>
-					<h4>Recurring themes:</h4>
-					<br>
-					<p>the metropolis, travel, isolation + food.</p>
-				</div>
-
-				<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-busan">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="'By Foot: Busan and the Sea' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[By Foot:<br>Busan and the Sea]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							An animated travel doc: a solo trip through Busan, South Korea.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-breakfast">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-Breakfast.svg" class="homepage-project-icon display-block max-height-12em" alt="'Persefones Breakfast' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[Persefone's Breakfast]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-								An experimental short: Persephone's voice messages to Hades as she leaves the Underworld once and for all.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-bodega">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="'A Bodega' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[A Bodega]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
-						</div>
-					</div>
-				</div>
-				<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-yuca">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="'How to Make Yuca Frita' icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title padding-left-p5em">
-							<h3>[How to Make Yuca Frita]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							An instructional animation: peel, chop, remove the stringy core, boil, fry, and eat.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-queen">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-queen.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Snow Queen Travel Company]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A hybrid animated short: travel to the North on a map made of broken glass.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-after">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-after.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="JS-link homepage-project-description-title color-white padding-left-p5em">
-							<h3>[After, After That]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							An experimental documentary: a cross between two marks.
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- PUBLIC HEALTH PROJECTS SECTION -->
-			<section class="clear-both">
-
-				<div class="homepage-section-header text-center " id="homepage-section-health">
-					<h2>PUBLIC HEALTH</h2>
-					<br>
-					<h4>Key Interests:</h4>
-					<br>
-					<p>communication, health equity + social determinants.</p>
-				</div>
-
-				<div>
-					<div class="homepage-project-description">
-						<div class="JS-link homepage-project-description-title">
-							<h3>Social Media Use by Community-Based Organizations</h3>
-						</div>
-						<div>
-							<p>
-								Ramanadhan S, <span class="font-semibold"> Mendez SR </span>, Rao M, Viswanath K. 
-								Social media use by community-based organizations conducting health promotion: 
-								a content analysis. BMC Public Health. 2013;13:1129. doi:10.1186/1471-2458-13-1129.
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- CODING PROJECTS SECTION -->
-			<section class="clear-both">
-
-				<div class="homepage-section-header text-center" id="homepage-section-code">
-					<h2>CODE</h2>
-					<br>
-					
-					<h4>Interests:</h4>
-					<p>communication, information + play.</p>
-					<br>
-					<h4>Languages:</h4>
-					<p>JavaScript/JQuery + HTML/CSS.</p>
-					
-				</div>
-
-				<div class="homepage-project-container float-left" id="homepageProjectContainer-apples">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="Everything But Apples icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Everything But Apples]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A multiplayer web-enabled party game; a digital version of Apples to Apples.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container float-left" id="homepageProjectContainer-giftpitch">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="GiftPitch icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[GiftPitch]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A web app that lets you take a personality quiz about a loved one to help you find the perfect gift from Amazon, Etsy, or Ebay.
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- VIDEO PROJECTS SECTION -->
-			<section class="clear-both">
-
-				<div class="homepage-section-header text-center" id="homepage-section-video">
-					<h2>VIDEO PROJECTS</h2>
-					<br>
-					<p>
-						<h4>Videos made for</h4>
-						<br>
-						community partners,
-						<br>
-						<br> employers,
-						<br>
-						<br>
-						non-profit organizations + individuals
-						<br>I want to support.
-					</p>
-				</div>
-
-				<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-saigon">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-saigon.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[10 Days in Saigon]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam. Produced in partnership with <a href="http://www.wearemuui.com" target="_blank">[Muui]</a>.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-artemis">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-artemis.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Artemis I Fundraiser Video]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A fundraising video for a high-altitude balloon launch by <a href="https://sshchicago.org/" target="_blank">[South Side Hackerspace: Chicago]</a> to document the 2017 solar eclipse.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-joliet">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/homepage-icon-joliet.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Spanish Community Center Promo Video]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A promotional video for the <a href="http://spanishcenter.org/" target="_blank">[Spanish Community Center]</a> in Joliet, IL.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-teeny">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Teeny Kickstarter Campaign Video]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A fundraising video for a Kickstarter campaign promoting a Taiwanese artisan's work.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-pink float-left" id="homepageProjectContainer-whyushenqing">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Study Abroad Interview Series]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							Interview series with Chinese college students studying abroad in the US.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-whyu">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[WhyUEdu Info Series]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							2 sets of informational videos and worksheets on aspects of the US college application process.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-lmhtf">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Bodegas Saludables]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							Video explaining a Lawrence Mayor's Health Task Force program to potential stakeholders.
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- PUBLIC ART SECTION -->
-			<section class="clear-both">
-				<div class="homepage-section-header text-center" id="homepage-section-art">
-					<h2>PUBLIC ART PROJECTS</h2>
-					<br>
-						<h4>Hybrid methods:</h4>
-						<p>animation + live video;<br>fiction + documentary.</p>
-					<br>
-						<h4>Recurring themes:</h4>
-						<p>the metropolis, food, isolation.</p>
-				</div>
-
-				<div class="homepage-project-container color-black float-left" id="homepageProjectContainer-dots">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Connect the Dots!]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							An interactive art installation taking place in a public bathroom in a Harvard dorm.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-member">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Not a Male Member in Sight]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A proposal for a projection-mapping art installation on the columns of Harvard's Widener Library.
-						</div>
-					</div>
-				</div>
-
-				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-walks">
-					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon display-block max-height-12em" alt="icon">
-					</div>
-					<div class="homepage-project-description text-left">
-						<div class="homepage-project-description-title JS-link padding-left-p5em">
-							<h3>[Walks through Cambridge]</h3>
-						</div>
-						<div class="padding-0p5-0p5-0p5-1p5em">
-							A site-specific public art installation in Harvard Yard, produced as part of Harvard ARTS FIRST 2011.
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-		</main>
-
-		<!-- PROJECT DETAILS MODAL -->
-		<aside id="homepage-projects-modal" class="bg-white width-100pc z1">
-			<iframe id="homepage-projects-iframe" class="width-100pc" src="" scrolling="yes">It looks like there's a problem with iframes in this browser...</iframe>
-		</aside>
-		<div id="homepage-project-details-modal-footer" class="bg-white width-100pc">
-			<h4 id="homepage-project-details-modal-close-trigger" class="JS-link float-left font-Overpass ">[CLOSE] &times;</h4>
-			<h4><a id="homepage-project-new-window-trigger" target="_blank" class="float-right font-Overpass" href="http://www.samuelanimates.com">&plus; [NEW TAB]</a></h4>
+	           h2{
+	               font-size: 2.0em;
+	               font-weight: 700;
+	               font-family: 'Overpass Mono', monospace;
+	           }
+	           h3{
+	               font-size: 1.4em;
+	               font-weight: 600;
+	               font-family: 'Overpass Mono', monospace;
+	           }
+	           h4 {
+	               font-weight: 600;
+	           }
+	           #homepage-header{
+	               background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+	               background-size: 110% 1800%;
+	               animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	           }
+	           #social-determinants-def{
+	               background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
+	               background-size: 110% 1800%;
+	               animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
+	           }
+	           .bg-black{
+	               background-color: rgb(17, 17, 17);
+	           }
+	           .bg-blue{
+	               background-color: rgb(159, 223, 255);
+	           }
+	           .bg-white{
+	               background-color: rgb(250, 250, 250);
+	           }
+	           .bg-white-opaque{
+	               background-color: rgba(250, 250, 250, 0.96);
+	           }
+	           .clear-both{
+	               clear: both;
+	           }
+	           .color-black{
+	               color: rgb(17, 17, 17);
+	           }
+	           .color-white{
+	               color: rgb(236, 236, 236);
+	           }
+	           .display-block{
+	               display: block;
+	           }
+	           .float-left{
+	               float: left;
+	           }
+	           .float-right{
+	               float: right;
+	           }
+	           .font-Assistant{
+	               font-family: 'Assistant', sans-serif;
+	           }
+	           .font-Overpass{
+	               font-family: 'Overpass Mono', monospace;
+	           }
+	           .height-100pc{
+	               height: 100%;
+	           }
+	           .JS-link:hover{
+	               color: rgb(0, 72, 182);
+	               text-decoration: underline; 
+	           }
+	           .margin-top-3p4-em{
+	               margin-top: 3.4em;
+	           }
+	           .max-height-12em{
+	               max-height: 12em;
+	           }
+	           .max-width-24em{
+	               max-width: 22em;
+	           }
+	           .padding-3-p5-3-p5-em{
+	               padding: 3em .5em 3em .5em;
+	           }
+	           .text-center{
+	               text-align: center;
+	           }
+	           .text-left{
+	               text-align: left;
+	           }
+	           .top-3p4em{
+	               top: 3.4em;
+	           }
+	           .width-100pc{
+	               width: 100%;
+	           }
+	           .z1{
+	               z-index: 1;
+	           }
+	           .z2{
+	               z-index: 2;
+	           }
+	           @keyframes gradient-scroll { 
+	               0%{background-position:50% 0%}
+	               100%{background-position:50% 100%}
+	           }
+	           @keyframes gradient-scroll-reverse { 
+	               0%{background-position:50% 100%}
+	               100%{background-position:50% 0%}
+	           }
+	</style>
+</head>
+<body class="bg-white color-black font-Assistant">
+	<header class="bg-white-opaque font-Overpass width-100pc z2" id="sticky-header">
+		<div class="JS-link header-nav-link float-left" id="navbar-modal-trigger">
+			<h3>[INDEX]&raquo;</h3>
 		</div>
-
-		<!-- CONNECT FOOTER MODAL -->
-		<footer id="connect-footer-modal" class="bg-white display-block font-Overpass height-100pc top-2p5em width-100pc z1 max-width-24em">
-			
-			<div class="homepage-section-header text-center">
-					<h2>CONNECT</h2>
+		<div class="JS-link header-nav-link float-right" id="connect-modal-trigger">
+			<h3>&laquo;[CONTACT]</h3>
+		</div>
+	</header>
+	
+	<!-- NAVBAR MODAL -->
+	<nav class="bg-white height-100pc top-3p4em width-100pc z1 max-width-24em" id="navbar-modal">
+		<div id="navbar-text-container">
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link" href="#homepage-section-highlights">[Highlights]</a></h2>
 			</div>
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link" href="#homepage-section-films">[Film]</a></h2>
+			</div>
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link" href="#homepage-section-health">[Public Health]</a></h2>
+			</div>
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link" href="#homepage-section-code">[Code]</a></h2>
+			</div>
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link" href="#homepage-section-video">[Video]</a></h2>
+			</div>
+			<div class="navbar-individual-link-container">
+				<h2><a class="JS-link display-block navbar-link-bottom" href="#homepage-section-art">[Public Art]</a></h2>
+			</div>
+		</div>
+		<div class="JS-link padding-top-1p5em" id="navbar-modal-close-trigger">
+			&laquo;[CLOSE]
+		</div>
+	</nav>
+	<main>
 
-			<div id="footer-social-container" class="clear-both display-block">
-				<div class="float-left text-center footer-social-icon-container ">
-					<p class="footer-social-icon-label">VIMEO</p>
-					<a href="https://vimeo.com/user15152945"><img src="./assets/images/social-icon-vimeo.svg" class="display-block margin-auto width-100pc" alt="Vimeo social icon"></a>
+		<!-- HOMEPAGE HEADER -->
+		<section class="bg-blue color-white margin-top-3p4-em padding-3-p5-3-p5-em text-center width-100pc" id="homepage-header">
+			<h1 class="color-white text-center" id="homepage-header-text">SOCIAL</h1>
+			<h2>DETERMINANTS<br>
+			+</h2>
+			<h1>DIGITAL</h1>
+			<h2>MEDIA</h2>
+		</section>
+		<div class="bg-black color-white text-center">
+			<h3>SOCIAL DETERMINANTS OF HEALTH:</h3>
+		</div>
+		<section class="bg-blue color-white padding-3-p5-3-p5-em text-center" id="social-determinants-def">
+			<span>the conditions in which we<br>
+			live, learn, work + play;</span><br>
+			<br>
+			<span>the conditions that shape the<br>
+			choices in our daily lives;</span><br>
+			<br>
+			<span>the conditions that, in turn,<br>
+			shape our long-term health.</span>
+		</section><!-- GOALS SUMMARY SECTION -->
+		<section>
+			<div class="homepage-goals-header color-black text-center" id="homepage-section-highlights">
+				<h2>MY GOALS</h2>
+				<div class="padding-top-1p5em" id="about-me-divider">
+					<p>I aim to use digital media<br>
+					to create new spaces for</p>
+					<h4>social change + community engagement.</h4><br>
+					<p>I plan to achieve this<br>
+					through a focus on</p>
+					<h4>social determinants + underserved communities</h4>
 				</div>
-				<div class="float-left text-center footer-social-icon-container">
-					<p class="footer-social-icon-label">GITHUB</p>
-					<a href="https://github.com/smendez92"><img src="./assets/images/social-icon-github.svg" class="display-block margin-auto width-100pc" alt="GitHub social icon"></a>
-				</div>
-				<div class="float-left text-center footer-social-icon-container">
-					<p class="footer-social-icon-label">LINKEDIN</p>
-					<a href="https://www.linkedin.com/in/samuel-r-mendez/"><img src="./assets/images/social-icon-linkedin.svg" class="display-block margin-auto width-100pc" alt="LinkedIn social icon"></a>
-				</div>
-				<div class="float-left text-center footer-social-icon-container">
-					<p class="footer-social-icon-label">INSTAGRAM</p>
-					<a href="https://www.instagram.com/samuelanimates/"><img src="./assets/images/social-icon-instagram.svg" class="display-block margin-auto width-100pc" alt="Instagram social icon"></a>
+				<div class="padding-top-1p5em" id="about-me-divider">
+					I believe this requires the ability<br>
+					to look at the world through<br>
+					<h4>complementary lenses,</h4><br>
+					interpret it through<br>
+					<h4>complementary methods,</h4><br>
+					show others what I've learned,<br>
+					<h4>+ empower others to do the same.</h4>
+					<p></p>
 				</div>
 			</div>
-
-			<section id="footer-contact-form-container" class="clear-both display-block text-center">
-				
-				<h3>Contact Form</h3>
-				<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-					<div>
-						<label for="entry.1804477893">FIRST NAME</label>
-						<input type="text" name="entry.1804477893" id="entry.1804477893" placeholder="Samuel">
+		</section>
+		
+		<!-- SELECTED PROJECTS SECTION -->
+		<section class="clear-both">
+			<div class="display-block text-center">
+				<h2>HIGHLIGHTED<br>
+				PROJECTS</h2>
+			</div>
+			<div class="homepage-highlight-project-container float-left">
+				<div class="homepage-highlight-project-icon-container clear-both"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[10 Days in Saigon]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						<p>A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam.</p>
+					</div>
+				</div>
+			</div>
+			<div class="homepage-highlight-project-container float-left">
+				<div class="homepage-highlight-project-icon-container"><img alt="'A Bodega' icon" class="homepage-project-icon display-block" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[A Bodega]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						<p>An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- SHORT FILMS SECTION -->
+		<section class="clear-both">
+			<div class="homepage-section-header text-center" id="homepage-section-films">
+				<h2>SHORT FILMS</h2><br>
+				<h4>Hybrid methods:</h4><br>
+				<p>animation + live video;</p><br>
+				<p>fiction + documentary.</p><br>
+				<h4>Recurring themes:</h4><br>
+				<p>the metropolis, travel, isolation + food.</p>
+			</div>
+			<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-busan">
+				<div class="homepage-project-icon-container"><img alt="'By Foot: Busan and the Sea' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[By Foot:<br>
+						Busan and the Sea]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An animated travel doc: a solo trip through Busan, South Korea.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-breakfast">
+				<div class="homepage-project-icon-container"><img alt="'Persefones Breakfast' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-Breakfast.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[Persefone's Breakfast]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An experimental short: Persephone's voice messages to Hades as she leaves the Underworld once and for all.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-bodega">
+				<div class="homepage-project-icon-container"><img alt="'A Bodega' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[A Bodega]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-yuca">
+				<div class="homepage-project-icon-container"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title padding-left-p5em">
+						<h3>[How to Make Yuca Frita]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An instructional animation: peel, chop, remove the stringy core, boil, fry, and eat.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-queen">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-queen.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Snow Queen Travel Company]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A hybrid animated short: travel to the North on a map made of broken glass.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-after">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-after.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="JS-link homepage-project-description-title color-white padding-left-p5em">
+						<h3>[After, After That]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An experimental documentary: a cross between two marks.
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- PUBLIC HEALTH PROJECTS SECTION -->
+		<section class="clear-both">
+			<div class="homepage-section-header text-center" id="homepage-section-health">
+				<h2>PUBLIC HEALTH</h2><br>
+				<h4>Key Interests:</h4><br>
+				<p>communication, health equity + social determinants.</p>
+			</div>
+			<div>
+				<div class="homepage-project-description">
+					<div class="JS-link homepage-project-description-title">
+						<h3>Social Media Use by Community-Based Organizations</h3>
 					</div>
 					<div>
-						<label for="entry.779358458">LAST NAME</label>
-						<input type="text" name="entry.779358458" id="entry.779358458" placeholder="Mendez">
+						<p>Ramanadhan S, <span class="font-semibold">Mendez SR</span> , Rao M, Viswanath K. Social media use by community-based organizations conducting health promotion: a content analysis. BMC Public Health. 2013;13:1129. doi:10.1186/1471-2458-13-1129.</p>
 					</div>
-					<div>
-						<label for="entry.1973645689">EMAIL</label>
-						<input type="text" name="entry.1973645689" id="entry.1973645689" placeholder="mendez@samuelanimates.com">
+				</div>
+			</div>
+		</section><!-- CODING PROJECTS SECTION -->
+		<section class="clear-both">
+			<div class="homepage-section-header text-center" id="homepage-section-code">
+				<h2>CODE</h2><br>
+				<h4>Interests:</h4>
+				<p>communication, information + play.</p><br>
+				<h4>Languages:</h4>
+				<p>JavaScript/JQuery + HTML/CSS.</p>
+			</div>
+			<div class="homepage-project-container float-left" id="homepageProjectContainer-apples">
+				<div class="homepage-project-icon-container"><img alt="Everything But Apples icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Everything But Apples]</h3>
 					</div>
-					<div>
-						<label for="entry.282615151">MESSAGE</label>
-						<textarea name="entry.282615151" id="entry.282615151" form="gform" rows="4" placeholder="144 characters or less, please~"></textarea>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A multiplayer web-enabled party game; a digital version of Apples to Apples.
 					</div>
-					<div class="button-container">
-						<input class="clear-both float-right" type="submit" value="SEND">
+				</div>
+			</div>
+			<div class="homepage-project-container float-left" id="homepageProjectContainer-giftpitch">
+				<div class="homepage-project-icon-container"><img alt="GiftPitch icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[GiftPitch]</h3>
 					</div>
-					<div id="my-hidden-iframe">
-							<iframe name="hidden_iframe" id="hidden_iframe"></iframe>
-					</div>		
-				</form>
-				
-				
-			</section>
-
-			<div id="connect-modal-close-trigger" class="JS-link clear-both float-right padding-top-5em">
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A web app that lets you take a personality quiz about a loved one to help you find the perfect gift from Amazon, Etsy, or Ebay.
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- VIDEO PROJECTS SECTION -->
+		<section class="clear-both">
+			<div class="homepage-section-header text-center" id="homepage-section-video">
+				<h2>VIDEO PROJECTS</h2><br>
+				<p></p>
+				<h4>Videos made for</h4><br>
+				community partners,<br>
+				<br>
+				employers,<br>
+				<br>
+				non-profit organizations + individuals<br>
+				I want to support.
+				<p></p>
+			</div>
+			<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-saigon">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[10 Days in Saigon]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam. Produced in partnership with <a href="http://www.wearemuui.com" target="_blank">[Muui]</a>.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-artemis">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-artemis.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Artemis I Fundraiser Video]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A fundraising video for a high-altitude balloon launch by <a href="https://sshchicago.org/" target="_blank">[South Side Hackerspace: Chicago]</a> to document the 2017 solar eclipse.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-joliet">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-joliet.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Spanish Community Center Promo Video]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A promotional video for the <a href="http://spanishcenter.org/" target="_blank">[Spanish Community Center]</a> in Joliet, IL.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-teeny">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Teeny Kickstarter Campaign Video]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A fundraising video for a Kickstarter campaign promoting a Taiwanese artisan's work.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-pink float-left" id="homepageProjectContainer-whyushenqing">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Study Abroad Interview Series]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						Interview series with Chinese college students studying abroad in the US.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-whyu">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[WhyUEdu Info Series]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						2 sets of informational videos and worksheets on aspects of the US college application process.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-lmhtf">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Bodegas Saludables]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						Video explaining a Lawrence Mayor's Health Task Force program to potential stakeholders.
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- PUBLIC ART SECTION -->
+		<section class="clear-both">
+			<div class="homepage-section-header text-center" id="homepage-section-art">
+				<h2>PUBLIC ART PROJECTS</h2><br>
+				<h4>Hybrid methods:</h4>
+				<p>animation + live video;<br>
+				fiction + documentary.</p><br>
+				<h4>Recurring themes:</h4>
+				<p>the metropolis, food, isolation.</p>
+			</div>
+			<div class="homepage-project-container color-black float-left" id="homepageProjectContainer-dots">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Connect the Dots!]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						An interactive art installation taking place in a public bathroom in a Harvard dorm.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-member">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Not a Male Member in Sight]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A proposal for a projection-mapping art installation on the columns of Harvard's Widener Library.
+					</div>
+				</div>
+			</div>
+			<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-walks">
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-project-description text-left">
+					<div class="homepage-project-description-title JS-link padding-left-p5em">
+						<h3>[Walks through Cambridge]</h3>
+					</div>
+					<div class="padding-0p5-0p5-0p5-1p5em">
+						A site-specific public art installation in Harvard Yard, produced as part of Harvard ARTS FIRST 2011.
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<!-- PROJECT DETAILS MODAL -->
+	<aside class="bg-white width-100pc z1" id="homepage-projects-modal">
+		<iframe class="width-100pc" id="homepage-projects-iframe" name="homepage-projects-iframe" scrolling="yes" src="">It looks like there's a problem with iframes in this browser...</iframe>
+	</aside>
+	<div class="bg-white width-100pc" id="homepage-project-details-modal-footer">
+		<h4 class="JS-link float-left font-Overpass" id="homepage-project-details-modal-close-trigger">[CLOSE] &times;</h4>
+		<h4><a class="float-right font-Overpass" href="http://www.samuelanimates.com" id="homepage-project-new-window-trigger" target="_blank">&plus; [NEW TAB]</a></h4>
+	</div>
+	
+	<!-- CONNECT FOOTER MODAL -->
+	<footer class="bg-white display-block font-Overpass height-100pc top-2p5em width-100pc z1 max-width-24em" id="connect-footer-modal">
+		<div class="homepage-section-header text-center">
+			<h2>CONNECT</h2>
+		</div>
+		<div class="clear-both display-block" id="footer-social-container">
+			<div class="float-left text-center footer-social-icon-container">
+				<p class="footer-social-icon-label">VIMEO</p><a href="https://vimeo.com/user15152945"><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-vimeo.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<p class="footer-social-icon-label">GITHUB</p><a href="https://github.com/smendez92"><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-github.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<p class="footer-social-icon-label">LINKEDIN</p><a href="https://www.linkedin.com/in/samuel-r-mendez/"><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-linkedin.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<p class="footer-social-icon-label">INSTAGRAM</p><a href="https://www.instagram.com/samuelanimates/"><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-instagram.svg"></a>
+			</div>
+		</div>
+		<section class="clear-both display-block text-center" id="footer-contact-form-container">
+			<h3>Contact Form</h3>
+			<form action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" enctype="text/plain" id="gform" name="gform" onsubmit="submitted=true;" target="hidden_iframe">
+				<div>
+					<label for="entry.1804477893">FIRST NAME</label> <input id="entry.1804477893" name="entry.1804477893" placeholder="Samuel" type="text">
+				</div>
+				<div>
+					<label for="entry.779358458">LAST NAME</label> <input id="entry.779358458" name="entry.779358458" placeholder="Mendez" type="text">
+				</div>
+				<div>
+					<label for="entry.1973645689">EMAIL</label> <input id="entry.1973645689" name="entry.1973645689" placeholder="mendez@samuelanimates.com" type="text">
+				</div>
+				<div>
+					<label for="entry.282615151">MESSAGE</label> 
+					<textarea form="gform" id="entry.282615151" name="entry.282615151" placeholder="144 characters or less, please~" rows="4"></textarea>
+				</div>
+				<div class="button-container">
+					<input class="clear-both float-right" type="submit" value="SEND">
+				</div>
+				<div id="my-hidden-iframe">
+					<iframe id="hidden_iframe" name="hidden_iframe"></iframe>
+				</div>
+			</form>
+		</section>
+		<div class="JS-link clear-both float-right padding-top-5em" id="connect-modal-close-trigger">
 			[CLOSE]&raquo;
-			</div>
-
-		</footer>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="./assets/javascript/minifiedApp.js"></script>
-
-	</body>
-
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script> 
+	<script src="./assets/javascript/app.js">
+	</script>
+</body>
 </html>
