@@ -16,7 +16,7 @@ function hideConnectModal(){
 	//Hide Conncet Modal if it is already displayed
 	$( "#connect-footer-modal" ).animate(
     	
-    	{ right: '-110%' },
+    	{ right: '-23em' }
 
 	);
 
@@ -35,14 +35,14 @@ function hideHomepageProjectModal(){
 	//Hide modal by animating its position down offscreen
 	$( "#homepage-projects-modal" ).animate(
     	
-    	{ top: '110%' },
+    	{ top: '110%' }
 
 	);
 
 	//Hide modal footer by animating its position down offscreen (at the same rate as the rest of the modal)
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
-    	{ bottom: '-110%' },
+    	{ bottom: '-110%' }
 
 	);
 
@@ -59,7 +59,7 @@ function hideNavBar(){
 	//Hide navbar if it is already displayed
 	$( "#navbar-modal" ).animate(
     	
-    	{ left: '-130%' },
+    	{ left: '-23em' }
 
 	);
 
@@ -80,10 +80,9 @@ function showConnectModal(){
 	//Display Connect modal if it is not already displayed
 	$( "#connect-footer-modal" ).animate(
 		
-		{right: 0},
+		{right: 0}
 
 	);
-
 
 	$("#connect-modal-trigger").html("<h3>[CONTACT]&raquo;</h3>");
 
@@ -105,13 +104,13 @@ function showHomepageProjectModal(nameStr){
 	//Display navbar if it is not already displayed
 	$( "#homepage-projects-modal" ).animate(
     	
-    	{ top: '3.5em' },
+    	{ top: '3.5em' }
 
 	);
 
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
-    	{ bottom: 0 },
+    	{ bottom: 0 }
 
 	);
 
@@ -130,7 +129,7 @@ function showNavBar(){
 	//Display navbar if it is not already displayed
 	$( "#navbar-modal" ).animate(
     	
-    	{ left: 0 },
+    	{ left: 0 }
 
 	);
 

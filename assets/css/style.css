@@ -1,56 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-	box-sizing: border-box;
-	
-}
 
 a.anchor {
     
@@ -100,23 +47,11 @@ textarea{
 	text-align: right;
 }
 
-.padding-top-5em{
-	padding-top: .5em;
-}
-
-.padding-top-1p5em{
-	padding-top: 1.5em;
-}
-
 #connect-footer-modal{
-	height: 100%;
-	overflow-y:auto;
+	overflow-y: auto;
 	display: block;
 	position: fixed;
-	right: -110%;
-	top: 2.5em;
-	width: 100%;
-	z-index: 1;
+	right: -23em;
 }
 
 #footer-contact-form-container{
@@ -141,7 +76,6 @@ textarea{
 #homepage-project-details-modal-trigger{
 	height: 2em;
 }
-
 
 #homepage-project-new-window-trigger{
 	float: right;
@@ -174,13 +108,8 @@ textarea{
 }
 
 #navbar-modal{
-	height: 100%;
-	left: -110%;
+	left: -23em;
 	position: fixed;
-	top: 2.5em;
-	overflow-y: auto;
-	width: 100%;
-	z-index: 1;
 }
 
 #navbar-modal-close-trigger{
@@ -196,22 +125,48 @@ textarea{
 	padding: 1em .15em 1em .15em;
 	position: fixed;
 	top: 0;
-	width: 100%;
-	z-index: 2;
+}
+
+/*=========================================================================
+MY NEW CLASSES
+=========================================================================*/
+.bg-blue{
+	background-color: rgb(159, 223, 255);
+}
+.bg-brown{
+	background-color: rgb(85, 44, 15);
+}
+.bg-gray{
+	background-color: rgb(161, 158, 162);
+}
+.bg-green{
+	background-color: rgb(50, 201, 98);
+}
+.bg-pink{
+	background-color: rgb(245, 124, 165);
+}
+.bg-red{
+	background-color: rgb(122, 8, 24);
 }
 
 .border-none{
 	border: none;
 }
 
-.JS-link:hover{
-	color: rgb(0, 72, 182);
-	text-decoration: underline;	
-}
-
 .display-none{
 	display: none;
 }
+.padding-top-5em{
+	padding-top: .5em;
+}
+
+.padding-top-1p5em{
+	padding-top: 1.5em;
+}
+
+/*=========================================================================
+MY NEW CLASSES
+===========================================================================*/
 
 .embed-container{
 	position: relative;
@@ -260,12 +215,9 @@ textarea{
 }
 
 .homepage-highlight-project-icon{
-
-	display: block;
 	height: auto;
 	margin: auto;
 	width: 50%;
-
 }
 
 .homepage-project-description{
@@ -277,7 +229,6 @@ textarea{
 }
 
 .homepage-project-icon {
-	display: block;
 	height: auto;
 	margin: auto;
 	width: 50%;
@@ -293,14 +244,12 @@ textarea{
 
 .navbar-link{
 	border-left: 0.1em solid;
-	display: block;
 	padding: .25em 0em .25em .25em;
 	text-decoration: none;
 }
 
 .navbar-link-bottom{
 	border-left: 0.1em solid;
-	display: block;
 	padding: .5em 0em 0em .25em;
 	text-decoration: none;
 }
@@ -313,8 +262,6 @@ textarea{
 	}
 
 	.homepage-project-icon {
-		
-		display: block;
 		height: auto;
 		margin: auto;
 		width: 50%;	
@@ -333,7 +280,6 @@ textarea{
 	}
 
 	.homepage-highlight-project-icon{
-		display: block;
 		height: auto;
 		margin: auto;
 		width: 50%;
@@ -349,8 +295,6 @@ textarea{
 		}
 
 		.homepage-highlight-project-icon-container{
-			
-			display: block;
 			margin: auto;
 			width: 50%;
 			height: auto;
@@ -374,20 +318,15 @@ textarea{
 		}
 	
 		.homepage-project-icon {
-			
-			display: block;
 			height: auto;
 			margin: auto;
 			width: 60%;
-			
 		}
 
 		.homepage-section-header{
-
 			clear: both;
 			float: left;
 			width: 33.3%;
 			text-align: center;
-
 		}
 	}
