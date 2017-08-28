@@ -12,25 +12,18 @@ a.anchor {
 
 }
 
-
 .modal-open{
-    
 	height: 100%;
  	overflow: hidden;
-	width: 100%;
-	
+	width: 100%;	
 }
 
-
-
 input {
-  display: inline-block;
   float: right;
   width: 14.5em;
 }
 
 label{
-    display: inline-block;
     float: left;
     clear: left;
     width: 6.5em;
@@ -88,12 +81,6 @@ textarea{
 	margin: auto;
 	width: 80%;
 }
-
-.homepageheader-padding{
-margin-top: 3em;
-padding: 5em 1em 5em 1em;
-}
-
 
 #homepage-project-details-modal-footer{
 	padding: .5em .5em .5em .5em;
@@ -233,65 +220,40 @@ padding: 5em 1em 5em 1em;
 }
 
 .homepage-project-description{
-
 	padding: 1em 1em 1em 1em;
-	
 }
 
 .homepage-project-description-title{
-
 	border-left: 1em double;
-
 }
 
 .homepage-project-icon {
-	
 	display: block;
 	height: auto;
 	margin: auto;
 	width: 50%;
-	
 }
 
 .homepage-section-header{
-
 	padding: 3.5em 0em 1em 0em;
-
-
 }
 
 .navbar-individual-link-container{
-
 	border-left: .15em solid;
-	
 }
 
 .navbar-link{
-	
 	border-left: 0.1em solid;
 	display: block;
 	padding: .25em 0em .25em .25em;
 	text-decoration: none;
-
 }
 
 .navbar-link-bottom{
-	
 	border-left: 0.1em solid;
 	display: block;
 	padding: .5em 0em 0em .25em;
 	text-decoration: none;
-
-}
-
-.pull-quote{
-
-	background-color: rgb(17, 17, 17);
-	color: rgb(250, 250, 250);
-	line-height: 1.5em;
-	padding: 1em .5em 1em .5em;
-	text-align: center;
-
 }
 
 @media only screen and (min-width : 620px){
@@ -310,28 +272,22 @@ padding: 5em 1em 5em 1em;
 	}
 
 	.homepage-project-container{
-		
 		height: 18em;
 		width: 50%;
 		padding: 0em 0em .5em 0em;
-
 	}
 
 	.homepage-project-description-title{
-
 		border-left: 1em double;
 		padding: 0em .5em 0em .5em;
 		margin-bottom: .5em;
-
 	}
 
 	.homepage-highlight-project-icon{
-		
 		display: block;
 		height: auto;
 		margin: auto;
 		width: 50%;
-		
 	}
 
 }
