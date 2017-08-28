@@ -15,30 +15,116 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
 
+		<style>
+			a{
+	
+				color: inherit;
+				text-decoration: none;
+
+			}
+			a:hover{
+
+				color: rgb(0, 72, 182);
+				text-decoration: underline;
+
+			}
+			h1{
+				font-size: 2.5em;
+				font-weight: 700;
+				font-family: 'Overpass Mono', monospace;
+			}
+
+			h2{
+				font-size: 2.0em;
+				font-weight: 700;
+				font-family: 'Overpass Mono', monospace;
+			}
+
+			h3{
+				font-size: 1.4em;
+				font-weight: 600;
+				font-family: 'Overpass Mono', monospace;
+			}
+
+			h4 {
+
+				font-weight: 600;
+
+			}
+			.bg-black{
+				background-color: rgb(17, 17, 17);
+			}
+			.bg-blue{
+				background-color: rgb(159, 223, 255);
+			}
+			.bg-brown{
+				background-color: rgb(85, 44, 15);
+			}
+			.bg-gray{
+				background-color: rgb(161, 158, 162);
+			}
+			.bg-green{
+				background-color: rgb(50, 201, 98);
+			}
+			.bg-pink{
+				background-color: rgb(245, 124, 165);
+			}
+			.bg-red{
+				background-color: rgb(122, 8, 24);
+			}
+			.bg-white{
+				background-color: rgb(250, 250, 250);
+			}
+			.clear-both{
+				clear: both;
+			}
+			.color-black{
+				color: rgb(17, 17, 17);
+			}
+			.color-white{
+				color: rgb(236, 236, 236);
+			}
+			.float-left{
+				float: left;
+			}
+			.float-right{
+				float: right;
+			}
+			.font-Assistant{
+				font-family: 'Assistant', sans-serif;
+			}
+			.font-Overpass{
+				font-family: 'Overpass Mono', monospace;
+			}
+			.text-center{
+				text-align: center;
+			}
+		</style>
+
 	</head>
 		
-	<body>
+	<body class="bg-white color-black font-Assistant">
 		
-		<header id="sticky-header">
-			<div id="navbar-modal-trigger" class="header-nav-link JS-link">
+		<header id="sticky-header" class="bg-white font-Overpass">
+			<div id="navbar-modal-trigger" class="header-nav-link float-left JS-link">
 				<h3>[INDEX]&raquo;</h3>
 			</div>
-			<div id="sticky-header-righttmost-text">
-				<span id="connect-modal-trigger" class="header-nav-link JS-link"><h3>&laquo;[CONTACT]</h3></span>
+			<div id="sticky-header-righttmost-text" class="float-right">
+				<span id="connect-modal-trigger" class="header-nav-link  JS-link"><h3>&laquo;[CONTACT]</h3></span>
 			</div>
 		</header>
 
 		<main>
 
-			<section id="homepage-header">
-				<h1 id="homepage-header-text">SOCIAL</h1>
+			<section id="homepage-header" class="color-white text-center">
+				<h1 id="homepage-header-text" class=" color-white text-center">SOCIAL</h1>
 				<h2>DETERMINANTS<br>+</h2>
 				<h1>DIGITAL</h1>
 				<h2>MEDIA</h2>
 			</section>
 
 			<!-- NAVBAR MODAL -->
-			<nav id="navbar-modal">
+			<nav id="navbar-modal" class="bg-white">
 
 				<div id="navbar-text-container">
 					<div class="navbar-individual-link-container">
@@ -60,17 +146,17 @@
 						<h2><a href="#homepage-section-art" class="navbar-link-bottom JS-link">[Public Art]</a></h2>
 					</div>
 				</div>
-				<div id="navbar-modal-close-trigger" class="JS-link">
+				<div id="navbar-modal-close-trigger" class="JS-link padding-top-1p5em">
 				&laquo;[CLOSE]
 				</div>
 
 			</nav>
 
 			<!-- SOCIAL DETERMINANTS OF HEALTH DEFINITION -->
-			<div class="pull-quote" id="social-determinants-title">
+			<div class="color-white text-center pull-quote" id="social-determinants-title">
 				<h3>SOCIAL DETERMINANTS OF HEALTH:</h3>
 			</div>
-			<section class="pull-quote" id="social-determinants-def">
+			<section class="color-white text-center pull-quote" id="social-determinants-def">
 				<br>
 				<br>
 				<span>the conditions in which we<br>live, learn, work + play;</span>
@@ -85,11 +171,11 @@
 			<!-- GOALS SUMMARY SECTION -->
 			<section>
 
-				<div class="homepage-goals-header" id="homepage-section-highlights">
+				<div class="homepage-goals-header color-black" id="homepage-section-highlights">
 
 					
 					<h2>MY GOALS</h2>
-					<div id="about-me-divider">
+					<div id="about-me-divider" class="padding-top-1p5em">
 					<p>I aim to use digital media<br>to create new spaces for</p>
 					<h4>social change + community engagement.</h4>
 					<br>
@@ -98,7 +184,7 @@
 					<h4>social determinants + underserved communities</h4>
 					</div>
 
-					<div id="about-me-divider">
+					<div id="about-me-divider" class="padding-top-1p5em">
 						I believe this requires the ability
 						<br>
 						to look at the world through
@@ -120,15 +206,15 @@
 			</section>
 
 			<!-- SELECTED PROJECTS SECTION -->
-			<section>
-				<div class="homepage-section-header" id="homepage-section-highlights">
+			<section class="text-center">
+				<div class="clear-both homepage-section-header" id="homepage-section-highlights">
 
 					<h2>HIGHLIGHTED<br>PROJECTS</h2>
 
 				</div>
 
-				<div class="homepage-highlight-project-container" id="homepage-project-container-highlight1">
-					<div class="homepage-highlight-project-icon-container">
+				<div class="homepage-highlight-project-container float-left" id="homepage-project-container-highlight1">
+					<div class="homepage-highlight-project-icon-container clear-both">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'10 Days in Saigon' icon">
 					</div>
 					<div class="homepage-project-description">
@@ -141,7 +227,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-highlight-project-container" id="homepage-project-container-highlight2">
+				<div class="homepage-highlight-project-container float-left" id="homepage-project-container-highlight2">
 					<div class="homepage-highlight-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'A Bodega' icon">
 					</div>
@@ -159,7 +245,7 @@
 
 			<!-- SHORT FILMS SECTION -->
 			<section class = "homepage-section">
-				<div class="homepage-section-header" id="homepage-section-films">
+				<div class="homepage-section-header text-center" id="homepage-section-films">
 					<h2>SHORT FILMS</h2>
 					<br>
 					<h4>Hybrid methods:</h4>
@@ -173,8 +259,8 @@
 					<p>the metropolis, travel, isolation + food.</p>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-busan">
-					<div class="homepage-project-icon-container">
+				<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-busan">
+					<div class="homepage-project-icon-container float-left">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'By Foot: Busan and the Sea' icon">
 					</div>
 					<div class="homepage-project-description">
@@ -187,8 +273,8 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-breakfast">
-					<div class="homepage-project-icon-container">
+				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-breakfast">
+					<div class="homepage-project-icon-container float-left">
 						<img src="./assets/images/homepage-icon-Breakfast.svg" class="homepage-project-icon" alt="'Persefones Breakfast' icon">
 					</div>
 					<div class="homepage-project-description">
@@ -201,7 +287,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-bodega">
+				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-bodega">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'A Bodega' icon">
 					</div>
@@ -214,7 +300,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="homepage-project-container" id="homepageProjectContainer-yuca">
+				<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-yuca">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="'How to Make Yuca Frita' icon">
 					</div>
@@ -228,7 +314,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-queen">
+				<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-queen">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-queen.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -242,12 +328,12 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-after">
+				<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-after">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-after.svg" class="homepage-project-icon" alt="icon">
 					</div>
 					<div class="homepage-project-description">
-						<div class="homepage-project-description-title JS-link">
+						<div class="homepage-project-description-title color-white JS-link">
 							<h3>[After, After That]</h3>
 						</div>
 						<div>
@@ -261,7 +347,7 @@
 			<!-- PUBLIC HEALTH PROJECTS SECTION -->
 			<section class = "homepage-section">
 
-				<div class="homepage-section-header" id="homepage-section-health">
+				<div class="homepage-section-header text-center" id="homepage-section-health">
 					<h2>PUBLIC HEALTH</h2>
 					<br>
 					<h4>Key Interests:</h4>
@@ -285,7 +371,7 @@
 			<!-- CODING PROJECTS SECTION -->
 			<section class = "homepage-section">
 
-				<div class="homepage-section-header" id="homepage-section-code">
+				<div class="homepage-section-header text-center" id="homepage-section-code">
 					<h2>CODE</h2>
 					<br>
 					
@@ -297,7 +383,7 @@
 					
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-giftpitch">
+				<div class="homepage-project-container float-left" id="homepageProjectContainer-giftpitch">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="GiftPitch icon">
 					</div>
@@ -316,7 +402,7 @@
 			<!-- VIDEO PROJECTS SECTION -->
 			<section class = "homepage-section">
 
-				<div class="homepage-section-header" id="homepage-section-video">
+				<div class="homepage-section-header text-center" id="homepage-section-video">
 					<h2>VIDEO PROJECTS</h2>
 					<br>
 					<p>
@@ -332,7 +418,7 @@
 					</p>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-saigon">
+				<div class="homepage-project-container bg-gray float-left" id="homepageProjectContainer-saigon">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-saigon.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -346,7 +432,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-artemis">
+				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-artemis">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/homepage-icon-artemis.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -360,9 +446,9 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-joliet">
+				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-joliet">
 					<div class="homepage-project-icon-container">
-						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
+						<img src="./assets/images/homepage-icon-joliet.svg" class="homepage-project-icon" alt="icon">
 					</div>
 					<div class="homepage-project-description">
 						<div class="homepage-project-description-title JS-link">
@@ -374,7 +460,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-teeny">
+				<div class="homepage-project-container bg-brown color-white float-left" id="homepageProjectContainer-teeny">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -388,7 +474,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-whyushenqing">
+				<div class="homepage-project-container bg-pink float-left" id="homepageProjectContainer-whyushenqing">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -402,7 +488,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-whyu">
+				<div class="homepage-project-container bg-red color-white float-left" id="homepageProjectContainer-whyu">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -416,7 +502,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-lmhtf">
+				<div class="homepage-project-container bg-blue float-left" id="homepageProjectContainer-lmhtf">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -434,7 +520,7 @@
 
 			<!-- PUBLIC ART SECTION -->
 			<section class = "homepage-section">
-				<div class="homepage-section-header" id="homepage-section-art">
+				<div class="homepage-section-header text-center" id="homepage-section-art">
 					<h2>PUBLIC ART PROJECTS</h2>
 					<br>
 						<h4>Hybrid methods:</h4>
@@ -444,7 +530,7 @@
 						<p>the metropolis, food, isolation.</p>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-dots">
+				<div class="homepage-project-container color-black float-left" id="homepageProjectContainer-dots">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -458,7 +544,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-member">
+				<div class="homepage-project-container bg-black color-white float-left" id="homepageProjectContainer-member">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -472,7 +558,7 @@
 					</div>
 				</div>
 
-				<div class="homepage-project-container" id="homepageProjectContainer-walks">
+				<div class="homepage-project-container bg-green float-left" id="homepageProjectContainer-walks">
 					<div class="homepage-project-icon-container">
 						<img src="./assets/images/drawing.svg" class="homepage-project-icon" alt="icon">
 					</div>
@@ -491,41 +577,41 @@
 		</main>
 
 		<!-- PROJECT DETAILS MODAL -->
-		<aside id="homepage-projects-modal">
+		<aside id="homepage-projects-modal" class="bg-white">
 			<iframe id="homepage-projects-iframe" src="" scrolling="yes">It looks like there's a problem with iframes in this browser...</iframe>
 		</aside>
-		<div id="homepage-project-details-modal-footer">
-			<h4 id="homepage-project-details-modal-close-trigger" class=".JS-link">[CLOSE] &times;</h4>
+		<div id="homepage-project-details-modal-footer" class="bg-white">
+			<h4 id="homepage-project-details-modal-close-trigger" class=".float-left .font-Overpass .JS-link">[CLOSE] &times;</h4>
 			<h4 id ="homepage-project-new-window-trigger" class=".JS-link">&plus; [NEW TAB]</h4>
 		</div>
 
 		<!-- CONNECT FOOTER MODAL -->
-		<footer id="connect-footer-modal">
+		<footer id="connect-footer-modal" class="bg-white font-Overpass">
 			
-			<div class="homepage-section-header">
+			<div class="homepage-section-header text-center">
 					<h2>CONNECT</h2>
 			</div>
 
-			<div id="footer-social-container">
-				<div class="footer-social-icon-container">
+			<div id="footer-social-container" class="clear-both">
+				<div class="float-left text-center footer-social-icon-container ">
 					<p class="footer-social-icon-label">VIMEO</p>
 					<a href="https://vimeo.com/user15152945"><img src="./assets/images/social-icon-vimeo.svg" class="footer-social-icon" alt="Vimeo social icon"></a>
 				</div>
-				<div class="footer-social-icon-container">
+				<div class="float-left text-center footer-social-icon-container">
 					<p class="footer-social-icon-label">GITHUB</p>
 					<a href="https://github.com/smendez92"><img src="./assets/images/social-icon-github.svg" class="footer-social-icon" alt="GitHub social icon"></a>
 				</div>
-				<div class="footer-social-icon-container">
+				<div class="float-left text-center footer-social-icon-container">
 					<p class="footer-social-icon-label">LINKEDIN</p>
 					<a href="https://www.linkedin.com/in/samuel-r-mendez/"><img src="./assets/images/social-icon-linkedin.svg" class="footer-social-icon" alt="LinkedIn social icon"></a>
 				</div>
-				<div class="footer-social-icon-container">
+				<div class="float-left text-center footer-social-icon-container">
 					<p class="footer-social-icon-label">INSTAGRAM</p>
 					<a href="https://www.instagram.com/samuelanimates/"><img src="./assets/images/social-icon-instagram.svg" class="footer-social-icon" alt="Instagram social icon"></a>
 				</div>
 			</div>
 
-			<section id="footer-contact-form-container">
+			<section id="footer-contact-form-container" class="clear-both text-center">
 				
 				<h3>Contact Form</h3>
 				<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
@@ -544,17 +630,19 @@
 					<div>
 						<label for="entry.282615151">MESSAGE</label>
 						<textarea name="entry.282615151" id="entry.282615151" form="gform" rows="4" placeholder="144 characters or less, please~"></textarea>
-						<input type="submit" value="SEND">
 					</div>
+					<div class="button-container">
+						<input class="clear-both float-right" type="submit" value="SEND">
+					</div>
+					<div id="my-hidden-iframe">
+							<iframe name="hidden_iframe" id="hidden_iframe"></iframe>
+					</div>		
 				</form>
 				
-				<div id="my-hidden-iframe">
-					<iframe name="hidden_iframe" id="hidden_iframe"></iframe>
-				</div>
-
+				
 			</section>
 
-			<div id="connect-modal-close-trigger" class="JS-link">
+			<div id="connect-modal-close-trigger" class="JS-link padding-top-5em">
 			[CLOSE]&raquo;
 			</div>
 

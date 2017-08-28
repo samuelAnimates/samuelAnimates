@@ -301,9 +301,16 @@ $(document).ready(function () {
 	//Show message after Contact Form has been submitted
 	$('#gform').on('submit', function(e) {
 		
-		var message = $('#entry\\.282615151').val();
-		if (message.length > 144 || message.length === 0){
-			alert("ERROR: please check the length of your message, make sure it is between 1 and 144 characters, and try again.")
+		var formContent = {
+			message: $("#entry\\.282615151").val(),
+			firstName: $("#entry\\.1804477893").val(),
+			lastName: $("#entry\\.779358458").val(),
+			email: $("#entry\\.1973645689").val()
+		}
+
+
+		if (formContent.message.length > 144 || formContent.message.length === 0){
+			alert("Oops! Please make sure your message length is between 1 and 144 characters, and try again~")
 			return false;
 		}
 
