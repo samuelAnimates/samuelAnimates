@@ -1,4 +1,42 @@
+/*=========================================================================
+NECESSARY FOR i-frames/modals to work
+=========================================================================*/
 
+#connect-footer-modal{
+	overflow-y: auto;
+	position: fixed;
+	right: -23em;
+}
+
+#homepage-projects-iframe{
+	height: calc(100vh - 6em);
+	overflow: scroll;
+	top: 0;
+	position: absolute;
+}
+
+#homepage-projects-modal{
+	height: calc(100vh - 5.5em);
+	bottom: -100%;
+	position: fixed;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#my-hidden-iframe iframe {  
+	display: none;
+	margin: auto; 
+	overflow: auto;
+ }
+
+ #navbar-modal{
+	left: -23em;
+	position: fixed;
+}
+
+/*=========================================================================
+TO TIGHTEN UP
+=========================================================================*/
 a.anchor {
     
     display: block;
@@ -42,26 +80,15 @@ textarea{
 }
 
 #connect-modal-close-trigger{
-	clear: both;
 	padding-right: .5em;
-	text-align: right;
-}
-
-#connect-footer-modal{
-	overflow-y: auto;
-	display: block;
-	position: fixed;
-	right: -23em;
 }
 
 #footer-contact-form-container{
-	display: block;
 	margin: auto;
 	width: 80%;
 }
 
 #footer-social-container {
-	display: block;
 	margin: auto;
 	width: 80%;
 }
@@ -75,41 +102,6 @@ textarea{
 
 #homepage-project-details-modal-trigger{
 	height: 2em;
-}
-
-#homepage-project-new-window-trigger{
-	float: right;
-}
-
-#homepage-projects-iframe{
-	height: calc(100vh - 6em);
-	overflow: scroll;
-	top: 0;
-	position: absolute;
-}
-
-#homepage-projects-modal{
-	height: calc(100vh - 5.5em);
-	bottom: -100%;
-	position: fixed;
-	z-index: 1;
-	overflow:auto;
-	-webkit-overflow-scrolling:touch;
-}
-
-#homepage-section-highlights{
-	display: block;
-}
-
-#my-hidden-iframe iframe {  
-   display: none;
-   margin: auto; 
-   overflow: auto;
-}
-
-#navbar-modal{
-	left: -23em;
-	position: fixed;
 }
 
 #navbar-modal-close-trigger{
@@ -128,7 +120,7 @@ textarea{
 }
 
 /*=========================================================================
-MY NEW CLASSES
+ONE CLASS DOES ONE THING
 =========================================================================*/
 .bg-blue{
 	background-color: rgb(159, 223, 255);
@@ -148,7 +140,6 @@ MY NEW CLASSES
 .bg-red{
 	background-color: rgb(122, 8, 24);
 }
-
 .border-none{
 	border: none;
 }
@@ -156,6 +147,19 @@ MY NEW CLASSES
 .display-none{
 	display: none;
 }
+
+.margin-auto{
+	margin: auto;	
+}
+
+.padding-0p5-0p5-0p5-1p5em{
+	padding: 0.5em 0.5em 0.5em 1.5em;
+}
+
+.padding-left-p5em{
+	padding-left: .5em;
+}
+
 .padding-top-5em{
 	padding-top: .5em;
 }
@@ -183,55 +187,17 @@ MY NEW CLASSES
 	height: 100%;
 }
 
-.footer-social-icon {
-	display: block;
-	margin: auto;
-	width: 100%;	
-}
-
-.footer-social-icon-container {
-	padding: .5em .5em .5em .5em;
-	width: 25%;
-}
-
 .footer-social-icon-label{
 	font-size: .50em;
 	font-weight: 400;
 }
 
-
-.homepage-project-container {
-	width: 100%;
-	padding: 0em 0em 1em 0em;
-}
-
 .homepage-goals-header{
-		padding: 3.5em 0em 1em 0em;
-}
-
-.homepage-highlight-project-container{
-	width: 100%;
-	padding: 0em 0em 1em 0em;
-}
-
-.homepage-highlight-project-icon{
-	height: auto;
-	margin: auto;
-	width: 50%;
-}
-
-.homepage-project-description{
-	padding: 1em 1em 1em 1em;
+	padding: 3.5em 0em 1em 0em;
 }
 
 .homepage-project-description-title{
 	border-left: 1em double;
-}
-
-.homepage-project-icon {
-	height: auto;
-	margin: auto;
-	width: 50%;
 }
 
 .homepage-section-header{
@@ -254,12 +220,39 @@ MY NEW CLASSES
 	text-decoration: none;
 }
 
+/*=========================================================================
+Responsive portions
+===========================================================================*/
+
+.footer-social-icon-container {
+	padding: .5em .5em .5em .5em;
+	width: 25%;
+}
+
+.homepage-project-container {
+	width: 100%;
+	padding: 0em 0em 1em 0em;
+}
+
+.homepage-highlight-project-container{
+	width: 100%;
+	padding: 0em 0em 1em 0em;
+}
+
+.homepage-highlight-project-icon{
+	height: auto;
+	margin: auto;
+	width: 50%;
+}
+
+.homepage-project-icon {
+	height: auto;
+	margin: auto;
+	width: 50%;
+}
+
 @media only screen and (min-width : 620px){
 
-
-	.homepage-section{
-		clear: both;
-	}
 
 	.homepage-project-icon {
 		height: auto;
@@ -289,11 +282,6 @@ MY NEW CLASSES
 
 @media only screen and (min-width : 764px){
 	
-
-		.homepage-section{
-			clear: both;
-		}
-
 		.homepage-highlight-project-icon-container{
 			margin: auto;
 			width: 50%;
