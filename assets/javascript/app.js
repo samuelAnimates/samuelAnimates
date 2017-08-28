@@ -17,8 +17,6 @@ function hideConnectModal(){
 	$( "#connect-footer-modal" ).animate(
     	
     	{ right: '-110%' },
-	    'slow',
-	    'swing',
 
 	);
 
@@ -38,8 +36,6 @@ function hideHomepageProjectModal(){
 	$( "#homepage-projects-modal" ).animate(
     	
     	{ top: '110%' },
-	    'slow',
-	    'swing',
 
 	);
 
@@ -47,8 +43,6 @@ function hideHomepageProjectModal(){
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
     	{ bottom: '-110%' },
-	    'slow',
-	    'swing',
 
 	);
 
@@ -66,8 +60,6 @@ function hideNavBar(){
 	$( "#navbar-modal" ).animate(
     	
     	{ left: '-130%' },
-	    'slow',
-	    'swing',
 
 	);
 
@@ -89,8 +81,6 @@ function showConnectModal(){
 	$( "#connect-footer-modal" ).animate(
 		
 		{right: 0},
-	    'slow',
-	    'swing',
 
 	);
 
@@ -116,16 +106,12 @@ function showHomepageProjectModal(nameStr){
 	$( "#homepage-projects-modal" ).animate(
     	
     	{ top: '3.5em' },
-	    'slow',
-	    'swing',
 
 	);
 
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
     	{ bottom: 0 },
-	    'slow',
-	    'swing',
 
 	);
 
@@ -145,8 +131,6 @@ function showNavBar(){
 	$( "#navbar-modal" ).animate(
     	
     	{ left: 0 },
-	    'slow',
-	    'swing',
 
 	);
 

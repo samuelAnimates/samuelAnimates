@@ -215,6 +215,10 @@ textarea{
 
 }
 
+.border-none{
+	border: none;
+}
+
 .JS-link:hover{
 
 	color: rgb(0, 72, 182);
@@ -465,8 +469,6 @@ textarea{
 		}
 
 		.homepage-project-description{
-			border: none;
-			color: inherit;
 			padding: 0em .4em 0em .4em;
 			text-align: left;
 		
