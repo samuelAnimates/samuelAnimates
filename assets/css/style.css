@@ -215,6 +215,12 @@ Responsive portions
 	margin: auto;
 	width: 50%;
 }
+
+.project-container-doublewidth{
+	width: 100%;
+	padding: 0em 0em 1em 0em;
+}
+
 @media only screen and (min-width: 620px) {
 	.homepage-project-icon {
 		height: auto;
@@ -235,6 +241,11 @@ Responsive portions
 		height: auto;
 		margin: auto;
 		width: 50%;
+	}
+	.project-container-doublewidth{
+		height: 18em;
+		width: 100%;
+		padding: 0em 0em 1em 0em;
 	}
 }
 @media only screen and (min-width: 764px) {
@@ -262,5 +273,10 @@ Responsive portions
 		float: left;
 		width: 33%;
 		text-align: center;
+	}
+	.project-container-doublewidth{
+		height: 20em;
+		width: 66%;
+		padding: 0em 0em 1em 0em;
 	}
 }
