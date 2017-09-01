@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="215mm"
-   height="215mm"
-   viewBox="0 0 215 215"
-   version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
-   sodipodi:docname="homepage-icon-gift.svg">
+   version="1.1"
+   viewBox="0 0 215 215"
+   height="215mm"
+   width="215mm">
   <defs
      id="defs2" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="449.52804"
-     inkscape:cy="331.42857"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -49,46 +25,40 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
+     transform="translate(0,-82)"
      style="display:inline"
-     transform="translate(0,-82)">
+     id="layer1">
     <rect
-       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5053"
-       width="30.238094"
-       height="29.860117"
-       x="7.5595236"
-       y="270.91965"
+       ry="0.80000001"
        rx="0.40000001"
-       ry="0.80000001" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:163.63557434px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#799485;fill-opacity:1;stroke:none;stroke-width:4.09088945;"
-       x="14.489289"
-       y="255.22623"
+       y="270.91965"
+       x="7.5595236"
+       height="29.860117"
+       width="30.238094"
+       id="rect5053"
+       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <g
        id="text5868"
-       transform="rotate(-6.5560017)"><tspan
-         sodipodi:role="line"
-         id="tspan5866"
-         x="14.489289"
-         y="255.22623"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Handwriting';-inkscape-font-specification:'Lucida Handwriting';stroke-width:4.09088945;fill:#799485;fill-opacity:1;">P</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:163.63557434px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#799485;fill-opacity:1;stroke:none;stroke-width:4.09088945"
+       transform="rotate(-6.5560017)"
+       aria-label="P">
+      <path
+         id="path4487"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Handwriting';-inkscape-font-specification:'Lucida Handwriting';fill:#799485;fill-opacity:1;stroke-width:4.09088945"
+         d="m 68.182212,213.27863 -7.031216,35.07618 q -1.518103,7.59052 -1.518103,9.82772 0,2.23721 1.038702,4.79401 -8.229719,4.07491 -14.781534,4.07491 -4.154809,0 -4.154809,-3.3558 0,-1.75781 1.598003,-9.98753 l 8.389519,-41.86769 q -20.214746,-4.55431 -20.214746,-13.42323 0,-1.83771 0.799002,-4.71411 8.62922,7.11111 20.933848,10.30712 l 5.513113,-27.64546 q 1.358303,-6.79152 1.358303,-9.66793 0,-2.7965 -1.917605,-5.11361 10.626725,-3.99501 14.781534,-3.99501 4.953811,0 4.953811,5.75282 0,1.3583 -2.636706,13.98253 l -5.593012,28.12486 q 23.011252,0 37.632984,-11.34582 14.62174,-11.34583 14.62174,-29.08367 0,-9.74782 -7.67042,-15.66044 -7.59052,-5.99251 -20.134848,-5.99251 -37.393286,0 -60.005038,31.32087 -1.917604,-4.95381 -1.917604,-7.75032 0,-12.06492 21.573049,-22.45195 21.65295,-10.46692 46.821511,-10.46692 38.19228,0 38.19228,28.12486 0,20.53435 -19.89514,35.87519 -19.815247,15.34083 -46.342108,15.34083 z" />
+    </g>
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2"
-     transform="translate(0,-82)">
+     transform="translate(0,-82)"
+     id="layer2">
     <rect
-       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5086"
-       width="74.839287"
-       height="108.47916"
-       x="38.55357"
-       y="103.09821"
+       ry="0.79999942"
        rx="0.39999971"
-       ry="0.79999942" />
+       y="103.09821"
+       x="38.55357"
+       height="108.47916"
+       width="74.839287"
+       id="rect5086"
+       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
   </g>
 </svg>
