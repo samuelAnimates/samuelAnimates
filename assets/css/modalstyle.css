@@ -162,6 +162,13 @@ header{
 
 }
 
+.quote-block{
+	background-color: rgb(221, 221, 221);
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 .recognition-block{
 
 	background-color: rgb(210, 210, 210);

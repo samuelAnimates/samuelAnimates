@@ -244,10 +244,10 @@ $(document).ready(function () {
 
 	});
 
-	//The Project Details Modal slides in if a project icon or title is clicked
-	$( ".homepage-project-description-title" ).click(function() {
+	//The Project Details Modal slides in if a project title is clicked
+	$( ".JS-homepage-project" ).click(function() {
 
-		var id = $(this).closest(".homepage-project-container").prop("id");
+		var id = $(this).closest(".JS-homepage-project").prop("id");
 		var projectSectionIdSuffix = id.split('-')[1];
 
 		if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
@@ -271,7 +271,7 @@ $(document).ready(function () {
 
 	$( ".homepage-project-icon" ).click(function() {
 		
-		var id = $(this).closest(".homepage-project-container").prop("id");
+		var id = $(this).closest(".JS-homepage-project").prop("id");
 		var projectSectionIdSuffix = id.split('-')[1];
 		showHomepageProjectModal(projectSectionIdSuffix);
 
