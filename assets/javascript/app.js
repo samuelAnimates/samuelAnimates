@@ -114,7 +114,7 @@ function showHomepageProjectModal(nameStr){
 
 	$( "#homepage-project-details-modal-footer" ).animate(
     	
-    	{ bottom: 0 }
+    	{ bottom: '2em' }
 
 	);
 

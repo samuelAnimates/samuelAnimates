@@ -108,6 +108,9 @@ li{
 	padding: .25em 0 .25em 0;
 }
 
+.font-size-p75em{
+	 font-size: 0.75em;
+}
 .snapshot-container{
 
 	color: rgb(250, 250, 250);

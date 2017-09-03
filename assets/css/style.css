@@ -14,7 +14,7 @@ NECESSARY FOR i-frames/modals to work
 	right: -23em;
 }
 #homepage-projects-iframe {
-	height: calc(100vh - 6em);
+	height: calc(100vh - 8em);
 	overflow: scroll;
 	top: 0;
 	position: absolute;
@@ -78,11 +78,9 @@ textarea {
 	padding-right: .5em;
 }
 #footer-contact-form-container {
-	margin: auto;
 	width: 80%;
 }
 #footer-social-container {
-	margin: auto;
 	width: 80%;
 }
 #homepage-project-details-modal-footer {
@@ -97,11 +95,7 @@ textarea {
 #navbar-modal-close-trigger {
 	padding-left: .5em;
 }
-#sticky-header {
-	padding: 1em .15em 1em .15em;
-	position: fixed;
-	top: 0;
-}
+
 
 /*=========================================================================
 ONE CLASS DOES ONE THING
@@ -128,20 +122,20 @@ ONE CLASS DOES ONE THING
 .display-none {
 	display: none;
 }
-.margin-auto {
-	margin: auto;
+.font-weight-600{
+	font-weight: 600;
 }
 .padding-0p5-0p5-0p5-1p5em {
 	padding: 0.5em 0.5em 0.5em 1.5em;
 }
-.padding-left-p5em {
+.padding-L-p5em {
 	padding-left: .5em;
 }
-.padding-top-5em {
-	padding-top: .5em;
-}
-.padding-top-1p5em {
+.padding-T-1p5em {
 	padding-top: 1.5em;
+}
+.width-90pc{
+	width: 90%;
 }
 
 /*=========================================================================
@@ -167,9 +161,6 @@ MY NEW CLASSES
 .footer-social-icon-label {
 	font-size: .50em;
 	font-weight: 400;
-}
-.homepage-goals-header {
-	padding: 3.5em 0em 1em 0em;
 }
 
 .homepage-section-header {
