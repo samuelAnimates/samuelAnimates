@@ -131,6 +131,9 @@ ONE CLASS DOES ONE THING
 .padding-L-p5em {
 	padding-left: .5em;
 }
+.padding-R-p5em{
+	padding-right: .5em;
+}
 .padding-T-1p5em {
 	padding-top: 1.5em;
 }
@@ -250,6 +253,11 @@ Responsive portions
 		float: left;
 		width: 33%;
 		text-align: center;
+	}
+	.personal-statment-block{
+		float: left;
+		padding-bottom: 2em;
+		width: 50%;
 	}
 	.project-container-doublewidth{
 		height: 20em;
