@@ -20,7 +20,7 @@ function hideConnectModal(){
 
 	);
 
-	$("#connect-modal-trigger").html("<h3>&laquo;[CONTACT]</h3>");
+	$( "#connect-footer-modal" ).addClass("display-none");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -49,6 +49,8 @@ function hideHomepageProjectModal(){
 
 	);
 
+	$( "#homepage-project-details-modal-footer" ).addClass("display-none");
+
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
 	$("html").removeClass("modal-open");
@@ -59,6 +61,8 @@ function hideHomepageProjectModal(){
 
 function hideNavBar(){
 
+
+
 	//Hide navbar if it is already displayed
 	$( "#navbar-modal" ).animate(
     	
@@ -66,7 +70,7 @@ function hideNavBar(){
 
 	);
 
-	$("#navbar-modal-trigger").html("<h3>[INDEX]&raquo;</h3>");
+	$( "#navbar-modal" ).addClass("display-none");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -78,6 +82,8 @@ function hideNavBar(){
 
 function showConnectModal(){
 
+	$( "#connect-footer-modal" ).removeClass("display-none");
+
 	var offset = window.pageYOffset;
 
 	//Display Connect modal if it is not already displayed
@@ -86,8 +92,6 @@ function showConnectModal(){
 		{right: 0}
 
 	);
-
-	$("#connect-modal-trigger").html("<h3>[CONTACT]&raquo;</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
@@ -98,6 +102,8 @@ function showConnectModal(){
 }
 
 function showHomepageProjectModal(nameStr){
+
+	$( "#homepage-projects-modal" ).removeClass("display-none");
 
 	var offset = window.pageYOffset;
 
@@ -128,6 +134,8 @@ function showHomepageProjectModal(nameStr){
 
 function showNavBar(){
 
+	$( "#navbar-modal" ).removeClass("display-none");
+
 	var offset = window.pageYOffset;
 
 	//Display navbar if it is not already displayed
@@ -136,8 +144,6 @@ function showNavBar(){
     	{ left: 0 }
 
 	);
-
-	$("#navbar-modal-trigger").html("<h3>&laquo;[INDEX]</h3>");
 
 	//Add the CSS class that blocks the main page from scrolling
 	
