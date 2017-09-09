@@ -61,8 +61,6 @@ function hideHomepageProjectModal(){
 
 function hideNavBar(){
 
-
-
 	//Hide navbar if it is already displayed
 	$( "#navbar-modal" ).animate(
     	
@@ -104,7 +102,8 @@ function showConnectModal(){
 function showHomepageProjectModal(nameStr){
 
 	$( "#homepage-projects-modal" ).removeClass("display-none");
-
+	$( "#homepage-project-details-modal-footer" ).removeClass("display-none");
+	
 	var offset = window.pageYOffset;
 
 	var modalUrl="./modals/" + nameStr  +".html";
