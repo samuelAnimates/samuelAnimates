@@ -13,13 +13,6 @@ DECLARE FUNCTIONS BELOW
 //<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 function hideConnectModal(){
 
-	//Hide Conncet Modal if it is already displayed
-	$( "#connect-footer-modal" ).animate(
-    	
-    	{ right: '-23em' }
-
-	);
-
 	$( "#connect-footer-modal" ).addClass("display-none");
 
 	//Remove the CSS class that blocks the main page from scrolling
@@ -33,22 +26,8 @@ function hideConnectModal(){
 function hideHomepageProjectModal(){
 
 	$("#homepage-projects-iframe").attr("src", "");
-	$("#homepage-project-new-window-trigger").attr("href", "http://www.samuelanimates.com");
-
-	//Hide modal by animating its position down offscreen
-	$( "#homepage-projects-modal" ).animate(
-    	
-    	{ top: '110%' }
-
-	);
-
-	//Hide modal footer by animating its position down offscreen (at the same rate as the rest of the modal)
-	$( "#homepage-project-details-modal-footer" ).animate(
-    	
-    	{ bottom: '-110%' }
-
-	);
-
+	$("#homepage-project-new-window-trigger").attr("href", "http://www.google.com");
+	$( "#homepage-projects-modal" ).addClass("display-none");
 	$( "#homepage-project-details-modal-footer" ).addClass("display-none");
 
 	//Remove the CSS class that blocks the main page from scrolling
@@ -61,12 +40,6 @@ function hideHomepageProjectModal(){
 
 function hideNavBar(){
 
-	//Hide navbar if it is already displayed
-	$( "#navbar-modal" ).animate(
-    	
-    	{ left: '-23em' }
-
-	);
 
 	$( "#navbar-modal" ).addClass("display-none");
 
@@ -83,13 +56,6 @@ function showConnectModal(){
 	$( "#connect-footer-modal" ).removeClass("display-none");
 
 	var offset = window.pageYOffset;
-
-	//Display Connect modal if it is not already displayed
-	$( "#connect-footer-modal" ).animate(
-		
-		{right: 0}
-
-	);
 
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
@@ -110,19 +76,6 @@ function showHomepageProjectModal(nameStr){
 	$("#homepage-projects-iframe").attr("src", modalUrl);
 	$("#homepage-project-new-window-trigger").attr("href", modalUrl);
 
-	//Display navbar if it is not already displayed
-	$( "#homepage-projects-modal" ).animate(
-    	
-    	{ top: '3.5em' }
-
-	);
-
-	$( "#homepage-project-details-modal-footer" ).animate(
-    	
-    	{ bottom: '2em' }
-
-	);
-
 	//Add the CSS class that blocks the main page from scrolling
 	$("body").addClass("modal-open");
 	window.scrollTo(0, offset);
@@ -136,13 +89,6 @@ function showNavBar(){
 	$( "#navbar-modal" ).removeClass("display-none");
 
 	var offset = window.pageYOffset;
-
-	//Display navbar if it is not already displayed
-	$( "#navbar-modal" ).animate(
-    	
-    	{ left: 0 }
-
-	);
 
 	//Add the CSS class that blocks the main page from scrolling
 	
