@@ -30,9 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 0 .25em 0 .25em
 }
-ol, ul {
-	list-style: none;
+ul {
+	list-style: square;
+	list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -165,7 +167,7 @@ li{
 
 .inspiration-block{
 
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -179,16 +181,14 @@ li{
 .recognition-block{
 
 	background-color: rgb(210, 210, 210);
-	padding-top: .5em;
-	padding-bottom: 1em;
-	text-align: center;
+	padding: .5em .25em 1em .25em;
+	text-align: left;
 
 }
 
 .recognition-text{
 
-	padding-top: 0.125em;
-	padding-bottom: 0.125em;
+	padding: 0.125em 0.125em 0.125em 0.125em;
 
 }
 
@@ -196,7 +196,7 @@ li{
 
 	font-family: 'Assistant', sans-serif;
 	padding: .75em 1em .5em 1em;
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -209,8 +209,8 @@ li{
 
 .synopsis-block{
 
-	padding-bottom: 1.125em;
-	text-align: center;
+	padding: 0 .25em 1.125em .25em;
+	text-align: left;
 
 }
 
@@ -249,9 +249,8 @@ li{
 
 		float: right;
 		background-color: rgb(210, 210, 210);
-		margin-top: 1em;
-		padding-top: .25em;
-		text-align: center;
+		padding: .5em .25em 1em .25em;
+		text-align: left;
 		width: 100%;
 
 	}
@@ -268,15 +267,14 @@ li{
 		clear: both;
 		font-family: 'Assistant', sans-serif;
 		padding: .75em 1em .5em 1em;
-		text-align: center;
+		text-align: left;
 
 	}
 
 	.synopsis-block{
 		float: right;
-		text-align: center;
-		padding-bottom: 1.125em;
-		text-align: center;
+		text-align: left;
+		padding: 0 .25em 1.125em .25em;
 		width: 100%;
 	}
 
@@ -315,9 +313,8 @@ li{
 	.recognition-block{
 
 		background-color: rgb(210, 210, 210);
-		margin-top: 1em;
-		padding-top: .25em;
-		text-align: center;
+		padding: .5em .25em 1em .25em;
+		text-align: left;
 		width: 100%;
 
 	}
@@ -342,8 +339,8 @@ li{
 
 	.synopsis-block{
 
-		text-align: center;
-		padding-bottom: 1.125em;
+		text-align: left;
+		padding: 0 .25em 1.125em .25em;
 		width: 100%;
 
 	}
