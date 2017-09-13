@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -129,25 +129,25 @@
        id="circle4549-3"
        style="display:inline;fill:#c4ebff;fill-opacity:1;stroke:none;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7276)"
        sodipodi:type="arc"
-       sodipodi:cx="106.88568"
-       sodipodi:cy="189.5"
+       sodipodi:cx="102.65234"
+       sodipodi:cy="186.8542"
        sodipodi:rx="74.461304"
        sodipodi:ry="74.461304"
        sodipodi:start="3.5767097"
        sodipodi:end="5.8890295"
-       d="m 39.362629,158.11333 a 74.461304,74.461304 0 0 1 69.047961,-43.05902 74.461304,74.461304 0 0 1 67.22678,45.8504"
+       d="m 35.129291,155.46753 a 74.461304,74.461304 0 0 1 69.047959,-43.05902 74.461304,74.461304 0 0 1 67.22679,45.8504"
        sodipodi:open="true" />
     <path
        id="circle4549-2"
        style="display:inline;fill:#078847;fill-opacity:1;stroke:none;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7300)"
        sodipodi:type="arc"
-       sodipodi:cx="107.45158"
-       sodipodi:cy="189.5"
+       sodipodi:cx="112.74323"
+       sodipodi:cy="190.55832"
        sodipodi:rx="74.461304"
        sodipodi:ry="74.461304"
        sodipodi:start="0.14050965"
        sodipodi:end="2.9920818"
-       d="M 181.17905,199.92814 A 74.461304,74.461304 0 0 1 107.7867,263.96055 74.461304,74.461304 0 0 1 33.820959,200.59134"
+       d="M 186.4707,200.98646 A 74.461304,74.461304 0 0 1 113.07835,265.01887 74.461304,74.461304 0 0 1 39.112615,201.64966"
        sodipodi:open="true" />
   </g>
   <g
