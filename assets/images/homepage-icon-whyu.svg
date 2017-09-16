@@ -335,8 +335,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70000001"
-     inkscape:cx="35.803466"
-     inkscape:cy="638.78169"
+     inkscape:cx="366.86413"
+     inkscape:cy="524.49598"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -353,7 +353,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -363,6 +363,13 @@
      id="layer1"
      style="display:inline"
      transform="translate(0,-82)">
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:#89ffed;fill-opacity:1;stroke:#111111;stroke-width:3.03579664;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path5102"
+       cx="107.5"
+       cy="189.5"
+       rx="71.041618"
+       ry="71.041603" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot9570"
@@ -373,7 +380,7 @@
            height="258.57144"
            x="161.42857"
            y="371.16986" /></flowRegion><flowPara
-         id="flowPara9576"></flowPara></flowRoot>    <g
+         id="flowPara9576" /></flowRoot>    <g
        aria-label="??"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.59259796px;line-height:1.25;font-family:Webdings;-inkscape-font-specification:Webdings;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.76481485"
        id="text9580"

@@ -36,6 +36,7 @@
 			border: thin single rgb(0, 72, 182);
 			color: rgb(236, 229, 102);
 			text-decoration: underline;
+			cursor: pointer;
 		}
 		button{
 			font-size: 1em;
@@ -180,7 +181,7 @@
 			<button class="JS-link bg-white font-weight-600 height-3em">[INDEX]</button>
 		</div>
 		<div class="display-block header-nav-link float-left margin-auto text-center width-33pc">
-			<button class="JS-link bg-white font-weight-600 height-3em">[RESUME]</button>
+			<button class="JS-link bg-white font-weight-600 height-3em"><a href="#homepage-section-about">[ABOUT]</a></button>
 		</div>
 		<div class="header-nav-link float-right text-right width-33pc" id="connect-modal-trigger">
 			<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
@@ -190,16 +191,14 @@
 
 		<!-- HOMEPAGE HEADER -->
 		<section class="bg-blue-neg1 color-white margin-top-3-em padding-B-2em padding-T-2em text-center text-shadow width-100pc" id="homepage-header">
-			<h1>SOCIAL<br>EQUITY</h1>
-			<br>
 			<h1>DIGITAL<br>MEDIA</h1>
+			<br>
+			<h1>COMMUNITY<br>ENGAGEMENT</h1>
 		</section>
 		<section class="bg-blue color-white padding-B-2em text-center text-shadow" id="social-determinants-def">
-			<h1>AWARENESS</h1>
-			<br>
 			<h1>+</h1>
 			<br>
-			<h1>PHYSICAL<br>ACTION</h1>
+			<h1>SOCIAL<br>EQUITY</h1>
 			<br>
 		</section>
 		<!-- PERSONAL STATEMENT SECTION -->
@@ -293,8 +292,7 @@
 		<!-- ONGOING WORK SECTION -->
 		<section class="clear-both" id="homepage-section-ongoing">
 			<div class="display-block text-center">
-				<h2>ONGOING<br>
-				WORK</h2>
+				<h2>ONGOING WORK</h2>
 			</div>
 			<div class="homepage-project-container bg-blue-1 float-left JS-homepage-project" id="homepageProjectContainer-chec">
 				<div class="homepage-project-icon-container"><img alt="'A Bodega' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-chec.svg"></div>
@@ -426,7 +424,7 @@
 				<p>supports community partners.</p>
 			</div>
 			<div>
-				<div class="project-container-doublewidth bg-brown-1 float-left JS-homepage-project id="homepageProjectContainer-media">
+				<div class="project-container-doublewidth bg-brown-1 float-left JS-homepage-project" id="homepageProjectContainer-media">
 					<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-media.svg"></div>
 					<div class="homepage-project-description padding-R-p5em text-left">
 						<div class="homepage-project-description-title border-left-p75em-solid JS-link">
@@ -640,7 +638,24 @@
 				</div>
 			</div>	
 		</section>
+
+		<!-- ABOUT ME SECTION -->
+		<section class="clear-both">
+			<div class="bg-white text-center width-100pc" id="homepage-section-about">
+				<h2>ABOUT ME</h2><br>
+				<div class="homepage-project-icon-container"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/portrait.svg"></div>
+				<div class="padding-0p5-0p5-0p5-1p5em">
+					<p class="font-weight-600">Samuel R. Mendez</p>
+					<p>Filmmaker, researcher, maker</p>
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 	</main>
+
 	<!-- NAVBAR MODAL -->
 	<nav class="bg-white display-none height-100pc top-2p75-em width-100pc z1 max-width-24em" id="navbar-modal">
 		<div id="navbar-text-container">
@@ -670,6 +685,7 @@
 				<button class="bg-white font-weight-600 height-3em">[CLOSE]</button>
 		</div>
 	</nav>
+
 	<!-- PROJECT DETAILS MODAL -->
 	<aside class="bg-white-opaque height-100pc width-100pc z1" id="homepage-projects-modal-background">	
 		<div class="bg-white display-none width-90pc z2" id="homepage-projects-modal">
