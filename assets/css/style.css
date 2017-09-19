@@ -157,6 +157,10 @@ ONE CLASS DOES ONE THING
 	display: none;
 }
 
+.max-width-26em{
+	max-width: 26em;
+}
+
 .padding-0p5-0p5-0p5-1p5em {
 	padding: 0.5em 0.5em 0.5em 1.5em;
 }
