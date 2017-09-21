@@ -163,6 +163,12 @@ li{
 
 }
 
+.full-width-container{
+	clear: both;
+	width: 100%;
+	background-color: rgb(221, 221, 221);
+}
+
 .inline-title{
 
 	font-style: italic;
@@ -254,6 +260,9 @@ li{
 	opacity: 1;
     z-index: 2;
 }
+
+/* Questionaiire style */
+
 
 @media only screen and (min-width : 700px){
 
