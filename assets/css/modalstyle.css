@@ -182,6 +182,11 @@ li{
 
 }
 
+.progress-bar { 
+	background-color: #8b4d4e;
+	height: 2em;
+  }
+
 .quote-block{
 	background-color: rgb(221, 221, 221);
 	float: left;
