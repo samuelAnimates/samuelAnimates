@@ -287,6 +287,7 @@ Responsive portions
 	.homepage-section-header {
 		clear: both;
 		float: left;
+		height: 20em;
 		width: 33%;
 		text-align: center;
 	}

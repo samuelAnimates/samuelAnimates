@@ -166,7 +166,9 @@ li{
 .full-width-container{
 	clear: both;
 	width: 100%;
-	background-color: rgb(221, 221, 221);
+	background-color: rgb(181, 217, 239);
+	text-align: center;
+	padding: .5em .5em .5em .5em;
 }
 
 .inline-title{
@@ -185,6 +187,7 @@ li{
 .progress-bar { 
 	background-color: #8b4d4e;
 	height: 2em;
+	width: 1%;
   }
 
 .quote-block{

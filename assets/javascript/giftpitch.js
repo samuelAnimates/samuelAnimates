@@ -3,11 +3,11 @@ var questionsObject = {
         question: "Who would the gift recipient spend a perfect weekend with?", //On the perfect weekend, will your gift recipient be with their squad or flying solo?
         answerA: {
             id: "Q1aA",
-            text: "Squad"
+            text: "Their Squad"
         },
         answerB: {
             id: "Q1aB",
-            text: "Solo"
+            text: "No One - They Fly Solo"
         }
     },
     q2a: {
@@ -44,7 +44,7 @@ var questionsObject = {
         }
     },
     q3b: {
-        question: "Who would the gift recipient invite to his/her home first?",
+        question: "Who would the gift recipient invite to their new home first?",
         answerA: {
             id: "Q3bA",
             text: "Friends"
@@ -66,7 +66,7 @@ var questionsObject = {
         }
     },
     q3d: {
-        question: "Which lifestyle is the gift recipient drawn to?", //Does your gift recipient prefer the finer things in life or living the simple life?
+        question: "What is the gift recipient more drawn to?", //Does your gift recipient prefer the finer things in life or living the simple life?
         answerA: {
             id: "Q3dA",
             text: "The Finer Things in Life"
@@ -84,11 +84,11 @@ var questionsObject = {
         },
         answerB: {
             id: "Q4aB",
-            text: "Making Sure Everyone Has a Good Time"
+            text: "Everyone Having a Good Time"
         }
     },
     q4b: {
-        question: "Who's feelings is the gift recipient more in tune with?", //Is your gift recipient more in tune with how they're feeling or with how others are feeling?
+        question: "Whose feelings is the gift recipient more in tune with?", //Is your gift recipient more in tune with how they're feeling or with how others are feeling?
         answerA: {
             id: "Q4bA",
             text: "Their Own"
@@ -121,7 +121,7 @@ var questionsObject = {
         }
     },
     q4e: {
-        question: "What is most likely the reason for the gift recipient's trip?", //Your gift recipient is taking a weekend trip. Is it more likely for business or for fun",
+        question: "What is most likely the reason for the gift recipient to take a trip?", //Your gift recipient is taking a weekend trip. Is it more likely for business or for fun",
         answerA: {
             id: "Q4eA",
             text: "Business"
@@ -143,7 +143,7 @@ var questionsObject = {
         }
     },
     q4g: {
-        question: "What does the gift recipient value more in those finer things?",
+        question: "What does the gift recipient value more from an expensive purchase?",
         answerA: {
             id: "Q4gA",
             text: "Form"
@@ -256,7 +256,7 @@ function displayResults(personalityObject){
     
     var personalityDescription = $("<p></p>")
     personalityDescription.html(personalityObject.description);
-    $("#questionnaire-header-title").html("Personality: " + personalityObject.name);
+    $("#questionnaire-header-title").html("Personality:");
     $("#questionnaire-header-description").html("");
     $("#question-div").html(personalityObject.name);
     $("#answers-row").prepend(personalityDescription);
@@ -287,7 +287,7 @@ function loadQuestion1() {
         currentQuestionNumber = 0;
         currentQuestionNumber++;
         $("#questionnaire-header-title").html("Questionnaire");
-        $("#questionnaire-header-description").html("Narrow down your options by answering the following questions about the gift receiver.");
+        $("#questionnaire-header-description").html("Answer the following questions about the gift receiver.");
     
 }
         
