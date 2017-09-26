@@ -69,6 +69,10 @@ function showHomepageProjectModal(nameStr){
 
 	$( "#homepage-projects-modal" ).removeClass("display-none");
 	$( "#homepage-project-details-modal-footer" ).removeClass("display-none");
+	$( "#homepage-project-details-modal-footer" ).addClass("margin-auto");
+	$( "#homepage-project-details-modal" ).addClass("margin-auto");
+	$( "#homepage-project-details-modal-footer" ).addClass("display-block");
+	$( "#homepage-project-details-modal" ).addClass("display-block");
 	
 	var offset = window.pageYOffset;
 

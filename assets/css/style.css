@@ -22,8 +22,8 @@ NECESSARY FOR i-frames/modals to work
 }
 #homepage-projects-modal {
 	height: calc(100vh - 5.5em);
-	bottom: -100%;
 	position: fixed;
+	left: 5%;
 	overflow: auto;
 	top: 3em;
 	-webkit-overflow-scrolling: touch;
@@ -32,6 +32,7 @@ NECESSARY FOR i-frames/modals to work
 	padding: .5em .5em .5em .5em;
 	position: fixed;
 	bottom: 2em;
+	left: 5%;
 	z-index: 2;
 }
 #my-hidden-iframe iframe {
