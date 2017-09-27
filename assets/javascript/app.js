@@ -200,7 +200,7 @@ $(document).ready(function () {
 	});
 
 	//The Project Details Modal slides in if a project title is clicked
-	$( ".JS-homepage-project" ).click(function() {
+	$( ".JS-homepage-project-title" ).click(function() {
 
 		var id = $(this).closest(".JS-homepage-project").prop("id");
 		var projectSectionIdSuffix = id.split('-')[1];
