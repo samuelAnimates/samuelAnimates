@@ -15,7 +15,7 @@ NECESSARY FOR i-frames/modals to work
 	right: 0;
 }
 #homepage-projects-iframe {
-	height: calc(100vh - 8em);
+	height: calc(100vh - 6em);
 	overflow: scroll;
 	top: 0;
 	position: absolute;
@@ -31,7 +31,7 @@ NECESSARY FOR i-frames/modals to work
 #homepage-project-details-modal-footer {
 	padding: .5em .5em .5em .5em;
 	position: fixed;
-	bottom: 2em;
+	bottom: 1em;
 	left: 5%;
 	z-index: 2;
 }
@@ -70,6 +70,9 @@ label {
 	clear: left;
 	width: 6.5em;
 	text-align: right;
+}
+table{
+	width: 100%;
 }
 textarea {
 	display: inline-block;
@@ -154,8 +157,17 @@ ONE CLASS DOES ONE THING
 .border-none {
 	border: none;
 }
+
 .display-none {
 	display: none;
+}
+
+.display-table-cell{
+	display: table-cell;
+}
+
+.display-table-row{
+	display: table-row;
 }
 
 .max-width-26em{
@@ -173,6 +185,9 @@ ONE CLASS DOES ONE THING
 }
 .padding-T-1p5em {
 	padding-top: 1.5em;
+}
+.width-50pc{
+	width: 50%;
 }
 .width-90pc{
 	width: 90%;
@@ -258,10 +273,10 @@ Responsive portions
 		width: 50%;
 		padding: 0em 0em .5em 0em;
 	}
-	.homepage-highlight-project-icon {
+	.homepage-highlight-project-icon-container {
 		height: auto;
 		margin: auto;
-		width: 50%;
+		width: 67%;
 	}
 	.project-container-doublewidth{
 		height: 18em;
@@ -275,9 +290,18 @@ Responsive portions
 		width: 50%;
 		height: auto;
 	}
+	.homepage-highlight-project-container {
+		width: 50%;
+		padding: 0em 0em 1em 0em;
+	}
+	.homepage-highlight-project-icon-container {
+		height: auto;
+		margin: auto;
+		width: 80%;
+	}
 	.homepage-project-container {
 		height: 20em;
-		width: 33%;
+		width: 33.3%;
 		padding: 0em 0em .5em 0em;
 	}
 	.homepage-project-icon {
@@ -289,17 +313,12 @@ Responsive portions
 		clear: both;
 		float: left;
 		height: 20em;
-		width: 33%;
+		width: 33.3%;
 		text-align: center;
-	}
-	.personal-statment-block{
-		float: left;
-		padding-bottom: 2em;
-		width: 50%;
 	}
 	.project-container-doublewidth{
 		height: 20em;
-		width: 66%;
+		width: 66.7%;
 		padding: 0em 0em 1em 0em;
 	}
 }

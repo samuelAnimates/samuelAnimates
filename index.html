@@ -180,13 +180,13 @@
 </head>
 <body class="bg-white color-black font-Assistant">
 	<header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
-		<div class="float-left header-nav-link width-33pc" id="navbar-modal-trigger">
+		<div class="float-left header-nav-link height-3em width-33pc" id="navbar-modal-trigger">
 			<button class="JS-link bg-white font-weight-600 height-3em">[INDEX]</button>
 		</div>
-		<div class="display-block header-nav-link float-left margin-auto text-center width-33pc">
+		<div class="display-block header-nav-link height-3em float-left margin-auto text-center width-33pc">
 			<button class="JS-link bg-white font-weight-600 height-3em"><a href="#homepage-section-about">[ABOUT]</a></button>
 		</div>
-		<div class="header-nav-link float-right text-right width-33pc" id="connect-modal-trigger">
+		<div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
 			<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
 		</div>
 	</header>
@@ -203,9 +203,12 @@
 			<h1>DIGITAL<br>CREATOR</h1>
 		</section>
 		<!-- PERSONAL STATEMENT SECTION -->
-		<section class="display-block margin-auto padding-T-2em text-center">
-				<h2>PERSONAL STATEMENT</h2>
-				<div class="bg-black color-white personal-statment-block padding-L-p5em padding-R-p5em padding-T-2em">
+		<div class="adding-B-p5em padding-T-2em text-center">
+			<h2>PERSONAL STATEMENT</h2>
+		</div>
+		<table>
+		<tr class="bg-black color-white text-center" width="100%">
+				<td class="padding-B-2em padding-L-p5em padding-R-p5em padding-T-2em" width="50%">
 					<p>
 						I am motivated by a goal of<br>
 						<span class="font-weight-600">helping to advance social equity.</span>
@@ -220,8 +223,8 @@
 						I work toward this goal by weaving together<br>
 						<span class="font-weight-600">experimental documentary, participatory research, + web development.</span>
 					</p>
-				</div>
-				<div class="bg-black color-white personal-statment-block padding-L-p5em padding-R-p5em padding-T-2em">
+				</td>
+				<td class="padding-B-2em padding-L-p5em padding-R-p5em padding-T-2em" width="50%">
 					<p>
 						I create work that<br>
 						<span class="font-weight-600">guides people through personal + community spaces in new ways.</span>
@@ -236,28 +239,29 @@
 						I create work that bridges<br>
 						<span class="font-weight-600">digital media + physical action.</span>
 					</p>
-				</div>
-				<div class="clear-both padding-B-2em padding-L-p5em padding-R-p5em padding-T-2em">
-					<p>
-						I aim to address longstanding problems by<br>
-						<span class="font-weight-600">asking new questions to arrive at new answers.</span>
-					</p>
-					<br>
-					<p>
-						And I learn the skills I need to accomplish this by<br>
-						<span class="font-weight-600">making the kind of work I want to see.</span>
-					</p>
-				</div>
-		</section>
+				</td>
+			</tr>
+		</table>
+		<div class="clear-both padding-B-2em padding-L-p5em padding-R-p5em padding-T-2em text-center">
+			<p>
+				I aim to address longstanding problems by<br>
+				<span class="font-weight-600">asking new questions to arrive at new answers.</span>
+			</p>
+			<br>
+			<p>
+				And I learn the skills I need to accomplish this by<br>
+				<span class="font-weight-600">making the kind of work I want to see.</span>
+			</p>
+		</div>
 		
 		<!-- SELECTED PROJECTS SECTION -->
-		<section class="clear-both" id="homepage-section-highlights">
+		<section class="clear-both padding-T-2em" id="homepage-section-highlights">
 			<div class="display-block text-center">
 				<h2>HIGHLIGHTED<br>
 				PROJECTS</h2>
 			</div>
 			<div class="homepage-highlight-project-container float-left JS-homepage-project" id="homepageHighlightContainer-saigon">
-				<div class="homepage-highlight-project-icon-container clear-both"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-highlight-project-icon-container clear-both"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block" src="./assets/images/homepage-icon-saigon.svg"></div>
 				<div class="JS-homepage-project-title text-left">
 					<div class="border-left-p75em-solid padding-L-p5em JS-link">
 						<h3><button class="font-weight-600 JS-homepage-project-title">[10 Days in Saigon]</button></h3>
@@ -268,7 +272,7 @@
 				</div>
 			</div>
 			<div class="homepage-highlight-project-container float-left JS-homepage-project" id="homepageHighlightContainer-bodega">
-				<div class="homepage-highlight-project-icon-container"><img alt="'A Bodega' icon" class="homepage-project-icon display-block" src="./assets/images/drawing.svg"></div>
+				<div class="homepage-highlight-project-icon-container"><img alt="'A Bodega' icon" class="homepage-project-icon display-block" src="./assets/images/homepage-icon-bodega.svg"></div>
 				<div class="text-left">
 					<div class="border-left-p75em-solid padding-L-p5em JS-link">
 						<h3><button class="font-weight-600 JS-homepage-project-title">[A Bodega]</button></h3>
@@ -281,7 +285,7 @@
 		</section>
 
 		<!-- ONGOING WORK SECTION -->
-		<section class="clear-both" id="homepage-section-ongoing">
+		<section class="clear-both padding-T-2em" id="homepage-section-ongoing">
 			<div class="display-block text-center">
 				<h2>ONGOING WORK</h2>
 			</div>
@@ -565,7 +569,7 @@
 						<h3><button class="font-weight-600 JS-homepage-project-title">[Animating Food]</button></h3>
 					</div>
 					<div class="padding-0p5-0p5-0p5-1p5em">
-						A proposal for a projection-mapping art installation on the columns of Harvard's Widener Library.
+						Experiments in object animation with food to depict different facets of texture, color, and changes over time.
 					</div>
 				</div>
 			</div>
@@ -598,7 +602,7 @@
 						<h3><button class="bg-black color-white font-weight-600 JS-homepage-project-title">[GiftPitch]</button></h3>
 					</div>
 					<div class="padding-0p5-0p5-0p5-1p5em">
-						A web app that lets you take a personality quiz about a loved one to help you find the perfect gift from Amazon, Etsy, or Ebay.
+						A web app that lets users take a personality quiz to help find the perfect gift for someone from Amazon, Etsy, or Ebay.
 					</div>
 				</div>
 			</div>
@@ -761,9 +765,9 @@
 			<iframe class="width-100pc" id="homepage-projects-iframe" name="homepage-projects-iframe" scrolling="yes" src="">It looks like there's a problem with iframes in this browser...</iframe>
 		</div>
 	</div>
-	<div class="bg-white display-none width-90pc" id="homepage-project-details-modal-footer">
-		<button class="JS-link float-left bg-white font-weight-600 font-Overpass" id="homepage-project-details-modal-close-trigger">[CLOSE] &times;</button>
-		<button class="float-right bg-white font-weight-600 font-Overpass"><a href="http://www.samuelanimates.com" id="homepage-project-new-window-trigger" target="_blank">&plus; [NEW TAB]</a></button>
+	<div class="bg-white display-none height-3em width-90pc" id="homepage-project-details-modal-footer">
+		<button class="JS-link float-left bg-white font-weight-600 font-Overpass" id="homepage-project-details-modal-close-trigger">[CLOSE]</button>
+		<button class="float-right bg-white font-weight-600 font-Overpass"><a href="http://www.samuelanimates.com" id="homepage-project-new-window-trigger" target="_blank">[NEW TAB]</a></button>
 	</div>
 	
 	<!-- CONNECT FOOTER MODAL -->
