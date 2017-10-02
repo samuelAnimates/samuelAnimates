@@ -1,11 +1,5 @@
-
 /*=========================================================================
-COLOR SCHEME: http://paletton.com/#uid=35-0U0kpUjKgZsrlQnEuIeYFg9F
-=========================================================================*/
-
-
-/*=========================================================================
-NECESSARY FOR i-frames/modals to work
+i-frames/modals
 =========================================================================*/
 
 #connect-footer-modal {
@@ -46,54 +40,10 @@ NECESSARY FOR i-frames/modals to work
 	top: 3em;
 }
 
-/*=========================================================================
-TO TIGHTEN UP
-=========================================================================*/
-
-a.anchor {
-	display: block;
-	position: relative;
-	top: -1.5em;
-	visibility: hidden;
-}
 .modal-open {
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
-}
-input {
-	float: right;
-	width: 14.5em;
-}
-label {
-	float: left;
-	clear: left;
-	width: 6.5em;
-	text-align: right;
-}
-table{
-	width: 100%;
-}
-textarea {
-	display: inline-block;
-	float: right;
-	width: 14.5em;
-}
-
-#connect-modal-close-trigger {
-	padding-right: .5em;
-}
-#footer-contact-form-container {
-	width: 80%;
-}
-#footer-social-container {
-	width: 80%;
-}
-#homepage-project-details-modal-trigger {
-	height: 2em;
-}
-#navbar-modal-close-trigger {
-	padding-left: .5em;
 }
 
 
@@ -186,48 +136,14 @@ ONE CLASS DOES ONE THING
 .padding-T-1p5em {
 	padding-top: 1.5em;
 }
+.padding-T-4p5em {
+	padding-top: 4.5em;
+}
 .width-50pc{
 	width: 50%;
 }
 .width-90pc{
 	width: 90%;
-}
-
-/*=========================================================================
-MY NEW CLASSES
-===========================================================================*/
-
-.embed-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	/* 16:9 */
-	padding-top: 25px;
-	width: 60%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.footer-social-icon-label {
-	font-size: .50em;
-	font-weight: 400;
-}
-
-.homepage-section-header {
-	padding: 3.5em 0em 1em 0em;
-}
-.navbar-link {
-	padding: .25em 0em .25em .25em;
-	text-decoration: none;
-}
-.navbar-link-bottom {
-	padding: .5em 0em 0em .25em;
-	text-decoration: none;
 }
 
 /*=========================================================================
