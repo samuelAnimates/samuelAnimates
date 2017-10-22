@@ -107,17 +107,15 @@ ONE CLASS DOES ONE THING
 .border-none {
 	border: none;
 }
-
+.border-bottom-2px-thin-gray{
+	border-style: solid;
+	border-bottom: 2px solid rgba(150, 150, 150, 0.2);
+}
 .display-none {
 	display: none;
 }
-
-.display-table-cell{
-	display: table-cell;
-}
-
-.display-table-row{
-	display: table-row;
+.display-inline-block{
+	display: inline-block;
 }
 .float-left{
 	float: left;
@@ -144,8 +142,14 @@ ONE CLASS DOES ONE THING
 .padding-T-4p5em {
 	padding-top: 4.5em;
 }
+.position-relative{
+	position: relative;
+}
 .width-50pc{
 	width: 50%;
+}
+.width-70pc{
+	width: 70%;
 }
 .width-90pc{
 	width: 90%;
@@ -157,30 +161,40 @@ section::after {
 /*=========================================================================
 Decorative elements
 ===========================================================================*/
-.gradient{
-	background: #fffcfc; /* Old browsers */
-	background: -moz-linear-gradient(top, #fffcfc 0%, #fcffe0 21%, #ffe5f9 43%, #d6f4ff 69%, #fff7e0 99%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #fffcfc 0%,#fcffe0 21%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #fffcfc 0%,#fcffe0 21%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#fff7e0',GradientType=0 ); /* IE6-9 */
+.circle{
+	border-radius: 100%;
+	display: block;
+	background: #ffffff url("http://www.samuelanimates.com/assets/images/portrait-full.svg") no-repeat center top;
+	background-size: cover;
+	border: 3px solid black;
+	margin: auto;
+	width: 10em;
+	height: 10em; 
 }
-.triangle-topleft {
-	width: 1px;
-	height: 1px;
-	position: relative;
-	float: left;
+.homepage-project-icon-container::after{
+    content: '';
 	border-top: 1.5em solid rgba(150, 150, 150, 0.2);
 	border-right: 1.5em solid transparent;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.triangle-bottomright {
-	width: 1px;
-	height: 1px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	float: right;
+.homepage-project-text-container::after{
+    content: '';
 	border-bottom: 1.5em solid rgba(0, 0, 0, 0.4);
 	border-left: 1.5em solid transparent;
+    height: 1px;
+    position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.gradient{
+	background: rgb(250, 250, 250)
+	background: -moz-linear-gradient(top, rgb(250, 250, 250) 0%, rgb(250, 250, 250) 5%, #fcffe0 15%, #ffe5f9 43%, #d6f4ff 69%, #fff7e0 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#fff7e0',GradientType=0 ); /* IE6-9 */
 }
 
 /*=========================================================================
@@ -190,6 +204,10 @@ Responsive portions
 .footer-social-icon-container {
 	padding: .5em .5em .5em .5em;
 	width: 25%;
+}
+.homepage-about-text-container{
+	float: left;
+	width: 60%;
 }
 .homepage-project-container {
 	position: relative;
@@ -209,6 +227,10 @@ Responsive portions
 	margin: auto;
 	width: 20%;
 }
+.homepage-portrait-container{
+	float: left;
+	width: 40%;
+}
 .homepage-project-icon {
 	height: auto;
 	width: 100%;
@@ -219,7 +241,10 @@ Responsive portions
 	float: left;
 	width: 10%;
 }
-
+.homepage-project-text-container{
+	float: left;
+	width: 90%;
+}
 .project-container-doublewidth{
 	width: 100%;
 }
