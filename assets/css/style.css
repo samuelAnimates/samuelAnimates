@@ -107,9 +107,13 @@ ONE CLASS DOES ONE THING
 .border-none {
 	border: none;
 }
-.border-bottom-2px-thin-gray{
+.border-all-1px-thin-gray{
 	border-style: solid;
-	border-bottom: 2px solid rgba(150, 150, 150, 0.2);
+	border: 1px solid rgba(206, 206, 206, 0.2);
+}
+.border-top-2px-thin-gray{
+	border-style: solid;
+	border-top: 2px solid rgba(150, 150, 150, 0.2);
 }
 .display-none {
 	display: none;
@@ -126,7 +130,9 @@ ONE CLASS DOES ONE THING
 .max-width-26em{
 	max-width: 26em;
 }
-.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-18{ 
+	font-size: 18px;
+}
 .padding-0p5-0p5-0p5-1p5em {
 	padding: 0.5em 0.5em 0.5em 1.5em;
 }
@@ -182,7 +188,7 @@ Decorative elements
 }
 .homepage-project-text-container::after{
     content: '';
-	border-bottom: 1.5em solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1.5em solid rgba(0, 0, 0, 0.5);
 	border-left: 1.5em solid transparent;
     height: 1px;
     position: absolute;
@@ -191,9 +197,9 @@ Decorative elements
 }
 .gradient{
 	background: rgb(250, 250, 250)
-	background: -moz-linear-gradient(top, rgb(250, 250, 250) 0%, rgb(250, 250, 250) 5%, #fcffe0 15%, #ffe5f9 43%, #d6f4ff 69%, #fff7e0 99%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, rgb(250, 250, 250) 0%, rgb(250, 250, 250) 5%, #fcffe0 15%, #ffe5f9 43%, #d6f4ff 69%, #fff7e0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#fff7e0',GradientType=0 ); /* IE6-9 */
 }
 
@@ -244,6 +250,9 @@ Responsive portions
 .homepage-project-text-container{
 	float: left;
 	width: 90%;
+}
+.homepage-project-links-container{
+	width: 50%;
 }
 .project-container-doublewidth{
 	width: 100%;

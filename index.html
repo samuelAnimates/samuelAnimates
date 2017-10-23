@@ -22,7 +22,7 @@
 			vertical-align: baseline;
 		}
 		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-			
+			display: block;
 		}
 		body {
 			line-height: 1;
@@ -88,7 +88,7 @@
 			border-left: 0.75em solid;
 		}
 		.box-shadow{
-			box-shadow: 0 0 5px #888888;
+			box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
 		}
 		.clear-both{
 			clear: both;
@@ -239,73 +239,89 @@
 	<div class="gradient padding-T-4em">
 		<main class="margin-auto max-width-56em width-90pc">
 			<!-- ABOUT ME SECTION -->
-			<section class="box-shadow bg-white color-black clear-both">
-				<div class="bg-white text-center width-100pc" id="homepage-section-about">
-					<div class="homepage-project-container">
-						<div class="homepage-portrait-container display-block">
-							<div class="circle"></div>
-							<div class="clear-both">
-								<h3>SAMUEL R. MENDEZ</h3>
-								<p>Filmmaker, researcher, digital creator.</p>
-							</div>
-						</div>
-						<div class="homepage-about-text-container">
-							<h2>ABOUT ME</h2>
-							<div class="font-size-p75em">
-								<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank"><i class="material-icons md-18"><i class="material-icons">description</i></i> [CV]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-								<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
-							</div>
+			<section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both padding-B-2em">
+				<div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
+					<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center width-100pc">
+						<h2>ABOUT ME</h2>
+					</div>
+					<div class="homepage-portrait-container display-block">
+						<div class="circle"></div>
+						<div class="clear-both">
+							<h3>SAMUEL R. MENDEZ</h3>
+							<p>Filmmaker, researcher, digital creator.</p>
 						</div>
 					</div>
+					<div class="homepage-about-text-container">
+						<div class="padding-B-p5em text-left">
+							I grew up in Chicago, studied animation & global health at Harvard, directed video projects internationally, and currently work on community-engaged public health research at Northwestern.
+						</div>
+						<div class="padding-B-p5em text-left">
+							I want to develop video + stop-motion animation as participatory research techniques, and build platforms for community research partners to document and analyze their environments as they are related to social equity.
+						</div>
+						<div class="padding-B-p5em text-left">
+							I prioritize flexibility, concrete outcomes, and listening when working on a project.
+						</div>
+						<h3>Links</h3>
+						<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank"><i class="material-icons md-18"><i class="material-icons">description</i></i> [CV]</a></span>
+						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/user15152945" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Vimeo]</a></span>
+						<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/smendez92" target="_blank"><i class="material-icons md-18">code</i> [GitHub]</a></span>
+						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank"><i class="material-icons md-18">account_circle</i> [LinkedIn]</a></span>
+					</div>	
+				</div>
 			</section>
 
 			<!-- SELECTED PROJECTS SECTION -->
-			<section class="box-shadow clear-both margin-bottom-1em margin-top-3-em" id="homepage-section-highlights">
-				<div class="bg-white-opaque text-center">
-					<h2>HIGHLIGHTED<br>
-					PROJECTS</h2>
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
+						<h2>HIGHLIGHTED PROJECTS</h2>
 				</div>
-				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white float-left " id="homepageHighlightProjectContainer-saigon">
-					<div class="triangle-topleft float-left"></div>
-					<div class="homepage-project-icon-container float-left display-block"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"></div>
+				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageHighlightProjectContainer-saigon">
+					<div class="homepage-project-icon-container display-block"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-						<div class=" padding-L-p5em JS-link">
-							<h3>10 Days in Saigon</h3>
+						<div class="padding-L-p5em JS-link">
+								<h3>10 Days in Saigon</h3>
+						</div>
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+							A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam.
+						</div>
+						<ul class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+								<li class="padding-B-p5em">Discusses wheelchair accessibility in playful, digestible videos for an audience that might not necessarily be looking specifically for accessibility information.</li>
+								<li class="padding-B-p5em">Aims to challenge common mass media images of disability as an object of pity or "inspiration".</li>
+						</ul>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</a></span>
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
 						</div>
 					</div>
-					<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
-						<p>A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam:</p>
-						<ul class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
-							<li class="padding-B-p5em">Discusses wheelchair accessibility in playful, digestible videos for an audience that might not necessarily be looking specifically for accessibility information.</li>
-							<li class="padding-B-p5em">Aims to challenge common mass media images of disability as an object of pity or "inspiration".</li>
-						</ul>
-					</div>
-
 				</div>
-				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white float-left " id="homepageHighlightProjectContainer-bodega">
-					<div class="homepage-project-icon-container display-block"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-bodega.svg"></div>
+				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageHighlightProjectContainer-bodega">
+					<div class="homepage-project-icon-container display-block"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-bodega.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-						<div class=" padding-L-p5em JS-link">
+						<div class="padding-L-p5em JS-link">
 							<h3>A Bodega</h3>
 						</div>
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+							An experimental documentary; an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
+						</div>
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+							<ul class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+								<li class="padding-B-p5em">Shows the potential of animation as a documentary method to inspire empathy, convery information, and join distinct yet related topics into one playful format with fewer audienec barriers than a more traditional documentary method.</li>
+								<li class="padding-B-p5em">Highlights my desire to amplify the stories of underserved communities from an internal point of view, rather than relying on problems/solutions to be define solyle by outside "experts".</li>
+							</ul>
+						</div>							
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
+						</div>
 					</div>
-					<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
-						<p>An experimental documentary; an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA:</p>
-						<ul class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
-							<li class="padding-B-p5em">Shows the potential of animation as a documentary method to inspire empathy, convery information, and join distinct yet related topics into one playful format with fewer audienec barriers than a more traditional documentary method.</li>
-							<li class="padding-B-p5em">Highlights my desire to amplify the stories of underserved communities from an internal point of view, rather than relying on problems/solutions to be define solyle by outside "experts".</li>						</ul>
-					</div>
-
 				</div>
 			</section>
 
 			<!-- ONGOING WORK SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em" id="homepage-section-ongoing">
-				<div class="bg-white-sheer text-center">
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em" id="homepage-section-ongoing">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center">
 					<h2>ONGOING WORK</h2>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white" id="homepageProjectContainer-wiki">
@@ -315,16 +331,14 @@
 						<div class="padding-L-p5em">
 							<h3>Wheelchair Travel Wiki</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Web app allowing users to document and access location-based data around wheelchair accessibility.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/wiki.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/smendez92/wheelchairWiki" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://docs.google.com/presentation/d/e/2PACX-1vSHgkq7e-YyAYJNcxFAidPSJn6Cho9bl-xoMKEzgYgUIz3cC0RQ8colsHKmRzDYNjA2iLB6hDlDOKXO/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="material-icons md-18">note</i> [Slides]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://wheelchairtravelwiki.herokuapp.com" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</a></span>
 						</div>
 					</div>
 
@@ -335,16 +349,12 @@
 						<div class="padding-L-p5em">
 							<h3>No One Can Hear You</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A mixed-media animation: the memories of Officer Hernández as she loses contact with her crewmates and drifts off into space.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/hernandez.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/233932687" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Excerpt]</a></span>
 						</div>
 					</div>
 
@@ -355,16 +365,11 @@
 						<div class="padding-L-p5em">
 							<h3>Library Partnership</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Research partnership with NLM and Chicago Public Libraries to tailor + implement an educational tool about clinical trials.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/nlm.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
 						</div>
 					</div>
 
@@ -375,16 +380,11 @@
 							<div class="padding-L-p5em">
 								<h3>ChicagoCHEC Community Engagement</h3>
 							</div>
-							<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+							<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 								A tri-instiutional U54 partnership focused on cancer health equity in Chicago. Community engagement activities + long-term partnerships to increase underserved communities' access to tri-instiutional resources.
 							</div>
-							<div class="font-size-p75em">
-								<span class="padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]display-inline-block </span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-								<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+							<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/chec.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
 							</div>
 						</div>
 	
@@ -395,25 +395,19 @@
 						<div class="JS-link padding-L-p5em">
 							<h3>Perceptions of Planned Parenthood</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Qualitative study on medical providers' perceptions of Planned Parenthood; independent analysis of US media coverage, utilizing Media Cloud platform. 
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/pp.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
 						</div>
 					</div>
-
 				</div>
 			</section>
 			
 			<!-- SHORT FILMS SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-films">
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-films">
 					<h2>ANIMATION</h2>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-yuca">
@@ -422,13 +416,12 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>How to Make Yuca Frita</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An instructional animation: peel, chop, remove the stringy core, boil, fry, and eat.
 						</div>
-						<div class="font-size-p75em">
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/yuca.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/95826024" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
 						</div>
 					</div>
 				</div>
@@ -438,15 +431,14 @@
 							<div class="padding-L-p5em JS-link">
 								<h3>A Bodega</h3>
 							</div>
-							<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
-									An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
+							<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+								An experimental documentary: an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
+							</div>
+							<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/bodega.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/91566613" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
 							</div>
 						</div>
-					<div class="font-size-p75em">
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-busan">
 					<div class="homepage-project-icon-container display-block"><img alt="'By Foot: Busan and the Sea' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-busan.svg"></div>
@@ -454,14 +446,13 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>By Foot:<br>Busan and the Sea</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An experimental documentary: a solo trip through Busan, South Korea.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/busan.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/55657740" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</a></span>
+						</div>
 					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-after">
@@ -470,13 +461,12 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>After, After That</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An experimental documentary: a cross between two marks.
 						</div>
-						<div class="font-size-p75em">
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/after.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/55657740" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
 						</div>
 					</div>
 				</div>
@@ -484,38 +474,36 @@
 					<div class="homepage-project-icon-container display-block"><img alt="Persefone's Breakfast icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-breakfast.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
-							<h3><a class="bg-white color-black font-weight-600 ">[Persefone's Breakfast</h3>
+							<h3>Persefone's Breakfast</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An experimental animation: Persephone's voice messages to Hades as she leaves the Underworld once and for all.
 						</div>
-						<div class="font-size-p75em">
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/breakfast.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/134973465" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</a></span>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- RESEARCH SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-health">
-					<h2>PUBLIC HEALTH RESEARCH</h2><br>
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-health">
+					<h2>PUBLIC HEALTH RESEARCH</h2>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-media">
-					<div class="homepage-project-icon-container display-block"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-media.svg"></div>
+					<div class="homepage-project-icon-container display-block"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-media.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
 							<h3>Social Media Use by Community-Based Organizations</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A content analysis of community-based organizations' social media posts.
 						</div>
-						<div class="font-size-p75em">
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/media.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1129" target="_blank"><i class="material-icons md-18">description</i> [Article]</a></span>
 						</div>
 					</div>
 				</div>
@@ -525,47 +513,44 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Bodegas Saludables</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Video explaining a community research partner's public health program.
 						</div>
-						<div class="font-size-p75em">
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/lmhtf.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/231980215" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Video]</a></span>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- CODING PROJECTS SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-code">
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-code">
 					<h2>WEB DEVELOPMENT</h2>
 				</div>
-				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-lmhtf">
-					<div class="homepage-project-icon-container display-block"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-apples.svg"></div>
+				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-apples">
+					<div class="homepage-project-icon-container display-block"><img alt="'Everything But Apples' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-apples.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
 							<h3>Everything But Apples</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A multiplayer web-enabled party game; a social-digital version of Apples to Apples.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/apples.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/235844101/settings/privacy" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo Presentation]</a></span>
+							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/amgault/everythingButApples" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://everythingbutapples.herokuapp.com" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</a></span>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- VIDEO PROJECTS SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-video">
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-video">
 					<h2>VIDEO</h2>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-joliet">
@@ -574,17 +559,13 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Spanish Community Center Promo Video</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A promotional video for the <a href="http://spanishcenter.org/" target="_blank">[Spanish Community Center]</a> in Joliet, IL.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/joliet.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https//:vimeo.com/221224584" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</a></span>
+						</div>
 					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-artemis">
@@ -593,62 +574,57 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Artemis I Fundraiser Video</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A fundraising video for a high-altitude balloon launch by <a href="https://sshchicago.org/" target="_blank">[South Side Hackerspace: Chicago]</a> to document the 2017 solar eclipse.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+								<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/artemis.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/223448852" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Video]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://www.generosity.com/education-fundraising/experience-the-2017-eclipse-with-us-artemis-i" target="_blank"><i class="material-icons md-18">web</i> [Campaign]</a></span>
+						</div>
 					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-saigon">
-					<div class="homepage-project-icon-container display-block"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"></div>
+					<div class="homepage-project-icon-container display-block"><img alt="'10 Days in Saigon' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
 							<h3>10 Days in Saigon</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam. Produced in partnership with <a href="http://www.wearemuui.com" target="_blank">[Muui]</a>.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/saigon.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://www.facebook.com/wearemuui/videos/1834490626823232/" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://www.facebook.com/wearemuui/videos/1838183853120576/" target="_blank"><i class="material-icons md-18">movie</i> [Episode 1]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://www.google.com/maps/d/viewer?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US&ll=10.798291852220926%2C106.67387433398437&z=13" target="_blank"><i class="material-icons md-18">pin_drop</i> [Map]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://www.giantrobot.media/stories/2017/5/30/muui" target="_blank"><i class="material-icons md-18">description</i> [Article]</a></span>
+						</div>
 					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-whyu">
-					<div class="homepage-project-icon-container display-block"><img alt="'How to Make Yuca Frita' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-whyu.svg"></div>
+					<div class="homepage-project-icon-container display-block"><img alt="'WhyUEdu Information Series' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-whyu.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
 							<h3>WhyUEdu Info Series</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							2 sets of informational videos + worksheets on aspects of the US college application process.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/whyu.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/128663374/341f06632a" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Excerpt 1]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/128663372/553014bdd5" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Excerpt 2]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="http://www.samuelanimates.com/assets/documents/Why+Essay+Planning+Worksheet.pdf" target="_blank"><i class="material-icons md-18">description</i> [Worksheet 1]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="http://www.samuelanimates.com/assets/documents/Sample+Questions.pdf" target="_blank"><i class="material-icons md-18">description</i> [Worksheet 2]</a></span>
+						</div>
 					</div>
 				</div>
 			</section>			
 
 			<!-- PUBLIC ART SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-art">
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-art">
 					<h2>PUBLIC ART</h2>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-dots">
@@ -657,17 +633,12 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Connect the Dots!</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An interactive art installation taking place in a public bathroom.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/dots.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+						</div>
 					</div>
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-walks">
@@ -676,25 +647,20 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Walks through Cambridge</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A site-specific public art installation in Harvard Yard, produced as part of Harvard ARTS FIRST 2011.
 						</div>
-					</div>
-					<div class="font-size-p75em">
-						<span class=display-inline-block "padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-						<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-						<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/walks.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- EXPERIENTAL LEARNING SECTION -->
-			<section class="box-shadow color-black clear-both margin-bottom-1em margin-top-1em">
-				<div class="bg-white-sheer text-center" id="homepage-section-art">
-						<h2>LEARNING<br>THROUGH<br>DOING</h2>
+			<section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+				<div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-learning">
+						<h2>LEARNING THROUGH DOING</h2>
 					</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-nytreact">
 					<div class="homepage-project-icon-container display-block"><img alt="NYT React App icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-nyt.svg"></div>
@@ -702,36 +668,31 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>NYT React App</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A web app made with React and Bootstrap that lets users search New York Times Articles and select ones to save to the page.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/nytreact.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/smendez92/nytreact" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://nyreactapp.herokuapp.com" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</a></span>
 						</div>
 					</div>
 
 				</div>
-				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white color-white " id="homepageProjectContainer-food">
+				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white" id="homepageProjectContainer-food">
 					<div class="homepage-project-icon-container display-block"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-food.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
-							<h3><a class="font-weight-600 ">[Animating Food</h3>
+							<h3>Animating Food</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Experiments in object animation with food to depict different facets of texture, color, and changes over time.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/food.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/95826022" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo 1]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/95826020" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo 2]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/95826025" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo 3]</a></span>							
 						</div>
 					</div>
 
@@ -742,16 +703,13 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Teeny Kickstarter Campaign Video</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A fundraising video for a Kickstarter campaign promoting a Taiwanese artisan's work.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/teeny.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/172990828" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Video]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://www.kickstarter.com/projects/849732009/teeny-artisan-coin-holders-for-your-change-and-ess" target="_blank"><i class="material-icons md-18">web</i> [Campaign]</a></span>
 						</div>
 					</div>
 
@@ -760,18 +718,15 @@
 					<div class="homepage-project-icon-container display-block"><img alt="'Badly Drawn Battle Game' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-projection.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
-							<h3><a class="bg-black color-white ">[Projection Mapping</h3>
+							<h3>Projection Mapping</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A technique involving 3D modeling, video/animation, and public art installation techniques. 
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/projection.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/80842844" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo 1]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/231818824" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo 2]</a></span>
 						</div>
 					</div>
 
@@ -780,18 +735,15 @@
 					<div class="homepage-project-icon-container display-block"><img alt="'Badly Drawn Battle Game' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-badlydrawn.svg"></div>
 					<div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
 						<div class="padding-L-p5em JS-link">
-							<h3><a class="bg-black color-white ">[Badly Drawn Puzzle Game</h3>
+							<h3>Badly Drawn Puzzle Game</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An experiment in JQuery to make a short puzzle game: figure out the order to face your opponents so that you win.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/badlydrawn.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/smendez92/badly-drawn-puzzle-game" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</a></span>
+							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="https://smendez92.github.io/badly-drawn-puzzle-game/" target="_blank"><i class="material-icons md-18">web</i> [Demo]</a></span>
 						</div>
 					</div>
 				</div>
@@ -801,19 +753,15 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>GiftPitch</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							A web app that lets users take a personality quiz to help find the perfect gift for someone from Amazon, Etsy, or Ebay.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/giftpitch.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="https://github.com/jmoc1181/GiftProject" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/235300604" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Demo Video]</a></span>
 						</div>
 					</div>
-
 				</div>
 				<div class="homepage-project-container padding-T-p5em padding-B-p5em bg-white " id="homepageProjectContainer-queen">
 					<div class="homepage-project-icon-container display-block"><img alt="icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-queen.svg"></div>
@@ -821,16 +769,12 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Snow Queen Travel Company</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							An experimental animation: travel to the North on a map made of broken glass.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/queen.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/65009544" target="_blank"><i class="material-icons md-18">movie</i> [Short Film]</a></span>
 						</div>
 					</div>
 				</div>
@@ -840,16 +784,12 @@
 						<div class="padding-L-p5em JS-link">
 							<h3>Study Abroad Interview Series</h3>
 						</div>
-						<div class="border-bottom-2px-thin-gray position-relative padding-L-p5em padding-T-p5em">
+						<div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
 							Interview series with Chinese college students studying abroad in the US.
 						</div>
-						<div class="font-size-p75em">
-							<span class="display-inline-block padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">code</i> [GitHub Repo]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Trailer]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">note</i> [Slides]</span></a>
-							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">movie</i> [Online Film]</span></a>
-							<span class="display-inline-block padding-L-p5em"><a class="JS-link" href="" target="_blank"><i class="material-icons md-18">web</i> [Heroku Demo]</span></a>
+						<div class="homepage-project-links-container border-top-2px-thin-gray font-size-p75em">
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="./modals/whyushenqing.html" target="_blank"><i class="material-icons md-18">art_track</i> [Overview]</a></span>
+							<span class="display-inline-block padding-L-p5em padding-R-p5em"><a class="JS-link" href="https://vimeo.com/132910787" target="_blank"><i class="material-icons md-18">ondemand_video</i> [Excerpt]</a></span>
 						</div>
 					</div>
 				</div>	
@@ -919,7 +859,7 @@
 					<label class="clear-left float-left text-right width-6p5em" for="entry.1973645689">EMAIL</label> <input class="float-right width-14p5em" id="entry.1973645689" name="entry.1973645689" placeholder="mendez@samuelanimates.com" type="text">
 				</div>
 				<div>
-					<label class="clear-left float-left text-right width-6p5em" class="float-left" for="entry.282615151">MESSAGE</label> 
+					<label class="clear-left float-left text-right width-6p5em" for="entry.282615151">MESSAGE</label> 
 					<textarea class="float-right width-14p5em" form="gform" id="entry.282615151" name="entry.282615151" placeholder="Hello, world!" rows="4"></textarea>
 				</div>
 				<div class="button-container">
