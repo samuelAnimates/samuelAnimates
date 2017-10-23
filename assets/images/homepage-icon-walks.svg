@@ -1246,7 +1246,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1257,7 +1257,7 @@
      style="display:inline"
      transform="translate(0,-82)">
     <rect
-       style="opacity:1;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#fff5f5;fill-opacity:1;stroke:none;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect5526"
        width="130.02383"
        height="144.3869"
