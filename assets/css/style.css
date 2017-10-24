@@ -202,7 +202,13 @@ Decorative elements
 	background: linear-gradient(to bottom, rgb(250, 250, 250) 0%,#fffcfc 5%,#fcffe0 15%,#ffe5f9 43%,#d6f4ff 69%,#fff7e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#fff7e0',GradientType=0 ); /* IE6-9 */
 }
-
+.waves{
+	background-image: url("../images/waves.png");
+	background-repeat: repeat;
+	background-size: 839px 483px;
+	width: 100%;
+	height: 100%;
+}
 /*=========================================================================
 Responsive portions
 ===========================================================================*/
