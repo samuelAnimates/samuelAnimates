@@ -61,16 +61,6 @@
 			font-weight: 600;
 			font-family: 'Overpass Mono', monospace;
 		}
-		#homepage-header{
-			background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
-			background-size: 110% 1800%;
-			animation: gradient-scroll 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
-		}
-		#social-determinants-def{
-			background: linear-gradient(180deg, rgb(0, 36, 91), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(17, 17, 17), rgb(0, 36, 91), rgb(0, 36, 91));
-			background-size: 110% 1800%;
-			animation: gradient-scroll-reverse 10s cubic-bezier(.13,.43,.76,.35) infinite normal forwards;
-		}
 		#sticky-header {
 			position: fixed;
 			top: 0;
@@ -134,9 +124,6 @@
 		}
 		.height-3em{
 			height: 3em;
-		}
-		.JS-link:hover{
-			text-decoration: underline;
 		}
 		.margin-auto {
 			margin: auto;
@@ -212,14 +199,6 @@
 		}
 		.z2{
 			z-index: 2;
-		}
-		@keyframes gradient-scroll { 
-			0%{background-position:50% 0%}
-			100%{background-position:50% 100%}
-		}
-		@keyframes gradient-scroll-reverse { 
-			0%{background-position:50% 100%}
-			100%{background-position:50% 0%}
 		}
 	</style>
 </head>
@@ -834,16 +813,16 @@
 		</div>
 		<div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
 			<div class="float-left text-center footer-social-icon-container">
-				<p class="font-size-p5em font-weight-400">VIMEO</p><a href="http://www.vimeo.com/user15152945"><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-vimeo.svg"></a>
+				<a href="http://www.vimeo.com/user15152945"><p class="font-size-p5em bg-black color-white font-weight-400">VIMEO</p><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-vimeo.svg"></a>
 			</div>
 			<div class="float-left text-center footer-social-icon-container">
-				<p class="font-size-p5em font-weight-400">GITHUB</p><a href="https://github.com/smendez92"><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-github.svg"></a>
+				<a href="https://github.com/smendez92"><p class="font-size-p5em bg-black color-white font-weight-400">GITHUB</p><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-github.svg"></a>
 			</div>
 			<div class="float-left text-center footer-social-icon-container">
-				<p class="font-size-p5em font-weight-400">LINKEDIN</p><a href="https://www.linkedin.com/in/samuel-r-mendez/"><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-linkedin.svg"></a>
+				<a href="https://www.linkedin.com/in/samuel-r-mendez/"><p class="font-size-p5em bg-black color-white font-weight-400">LINKEDIN</p><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-linkedin.svg"></a>
 			</div>
 			<div class="float-left text-center footer-social-icon-container">
-				<p class="font-size-p5em font-weight-400">INSTAGRAM</p><a href="https://www.instagram.com/samuelanimates/"><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-instagram.svg"></a>
+				<a href="https://www.instagram.com/samuelanimates/"><p class="font-size-p5em bg-black color-white font-weight-400">INSTAGRAM</p><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-instagram.svg"></a>
 			</div>
 		</div>
 		<section class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
