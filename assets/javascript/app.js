@@ -2,6 +2,7 @@
 
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
+var focused = null;
 
 //<=============== END GLOBAL VARIABLE DECLARATION =============================>
 
@@ -84,7 +85,7 @@ $(document).ready(function () {
 	//An open modal closes if enter or x is pressed
 	$(document).keyup(function (e) {
 		
-		if (e.keyCode == 27){
+		if (e.keyCode === 27){
 			if (isNavDisplayed){
 				hideNavBar();
 			}
@@ -92,6 +93,32 @@ $(document).ready(function () {
 				hideConnectModal();
 			}
 		}
+		else if (e.keyCode === 9){
+			if ($(focused).attr('id') === "navbar-modal-close-trigger"){
+				$("#highlights-navbar-link").focus();
+				focused = $(document.activeElement);
+			}
+			else if ($(focused).attr('id') === "connect-modal-close-trigger"){
+				$("#Vimeo-link").focus();
+				focused = $(document.activeElement);
+			}
+			else {
+				focused = $(document.activeElement);
+			}
+		}
+		
+		/*else if (e.keyCode === 9){
+			if ($(document.activeElement).attr('id') === "navbar-modal-close-trigger"){
+				$("#highlights-navbar-link").focus();
+			}
+			else if ($(document.activeElement).attr('id') === "connect-modal-close-trigger"){
+				$("#Vimeo-link").focus();
+			}
+			else {
+				focused = $(document.activeElement);
+			}
+		}*/
+
 	});
 
 	//The navigation bar slides in/out once the trigger is clicked

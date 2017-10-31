@@ -28,7 +28,7 @@
      id="namedview4498"
      showgrid="false"
      inkscape:zoom="0.64"
-     inkscape:cx="139.28845"
+     inkscape:cx="-31.958374"
      inkscape:cy="340.82958"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
@@ -473,13 +473,13 @@
          mode="normal" />
     </filter>
     <filter
-       x="-0.25"
-       width="1.5"
-       y="-0.25"
-       height="1.5"
-       inkscape:menu-tooltip="Smooth rainbow colors slightly melted along the edges"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Wax print on tissue texture"
        inkscape:menu="Textures"
-       inkscape:label="Melted Rainbow"
+       inkscape:label="Wax Print"
        style="color-interpolation-filters:sRGB;"
        id="filter9036">
       <feGaussianBlur
@@ -517,16 +517,70 @@
          in="fbSourceGraphic"
          k2="2.5"
          operator="arithmetic"
-         id="feComposite9034" />
+         id="feComposite9034"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14372" />
+      <feGaussianBlur
+         id="feGaussianBlur14374"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence14376"
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap14378"
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix14380"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3" />
+      <feBlend
+         in2="result3"
+         id="feBlend14382"
+         mode="multiply"
+         in="result2"
+         result="result5" />
+      <feGaussianBlur
+         id="feGaussianBlur14384"
+         result="result4"
+         in="result3"
+         stdDeviation="5" />
+      <feComposite
+         in2="result5"
+         id="feComposite14386"
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         operator="arithmetic"
+         result="result6" />
+      <feComposite
+         in2="result4"
+         id="feComposite14388"
+         operator="in"
+         in="result6" />
     </filter>
     <filter
-       x="-0.25"
-       width="1.5"
-       y="-0.25"
-       height="1.5"
-       inkscape:menu-tooltip="Smooth rainbow colors slightly melted along the edges"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Wax print on tissue texture"
        inkscape:menu="Textures"
-       inkscape:label="Melted Rainbow"
+       inkscape:label="Wax Print"
        style="color-interpolation-filters:sRGB;"
        id="filter9050">
       <feGaussianBlur
@@ -564,16 +618,70 @@
          in="fbSourceGraphic"
          k2="2.5"
          operator="arithmetic"
-         id="feComposite9048" />
+         id="feComposite9048"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14390" />
+      <feGaussianBlur
+         id="feGaussianBlur14392"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence14394"
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap14396"
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix14398"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3" />
+      <feBlend
+         in2="result3"
+         id="feBlend14400"
+         mode="multiply"
+         in="result2"
+         result="result5" />
+      <feGaussianBlur
+         id="feGaussianBlur14402"
+         result="result4"
+         in="result3"
+         stdDeviation="5" />
+      <feComposite
+         in2="result5"
+         id="feComposite14404"
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         operator="arithmetic"
+         result="result6" />
+      <feComposite
+         in2="result4"
+         id="feComposite14406"
+         operator="in"
+         in="result6" />
     </filter>
     <filter
-       x="-0.25"
-       width="1.5"
-       y="-0.25"
-       height="1.5"
-       inkscape:menu-tooltip="Smooth rainbow colors slightly melted along the edges"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Wax print on tissue texture"
        inkscape:menu="Textures"
-       inkscape:label="Melted Rainbow"
+       inkscape:label="Wax Print"
        style="color-interpolation-filters:sRGB;"
        id="filter9064">
       <feGaussianBlur
@@ -611,16 +719,70 @@
          in="fbSourceGraphic"
          k2="2.5"
          operator="arithmetic"
-         id="feComposite9062" />
+         id="feComposite9062"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14408" />
+      <feGaussianBlur
+         id="feGaussianBlur14410"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence14412"
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap14414"
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix14416"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3" />
+      <feBlend
+         in2="result3"
+         id="feBlend14418"
+         mode="multiply"
+         in="result2"
+         result="result5" />
+      <feGaussianBlur
+         id="feGaussianBlur14420"
+         result="result4"
+         in="result3"
+         stdDeviation="5" />
+      <feComposite
+         in2="result5"
+         id="feComposite14422"
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         operator="arithmetic"
+         result="result6" />
+      <feComposite
+         in2="result4"
+         id="feComposite14424"
+         operator="in"
+         in="result6" />
     </filter>
     <filter
-       x="-0.25"
-       width="1.5"
-       y="-0.25"
-       height="1.5"
-       inkscape:menu-tooltip="Smooth rainbow colors slightly melted along the edges"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Wax print on tissue texture"
        inkscape:menu="Textures"
-       inkscape:label="Melted Rainbow"
+       inkscape:label="Wax Print"
        style="color-interpolation-filters:sRGB;"
        id="filter9078">
       <feGaussianBlur
@@ -658,7 +820,61 @@
          in="fbSourceGraphic"
          k2="2.5"
          operator="arithmetic"
-         id="feComposite9076" />
+         id="feComposite9076"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14426" />
+      <feGaussianBlur
+         id="feGaussianBlur14428"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence14430"
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap14432"
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix14434"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3" />
+      <feBlend
+         in2="result3"
+         id="feBlend14436"
+         mode="multiply"
+         in="result2"
+         result="result5" />
+      <feGaussianBlur
+         id="feGaussianBlur14438"
+         result="result4"
+         in="result3"
+         stdDeviation="5" />
+      <feComposite
+         in2="result5"
+         id="feComposite14440"
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         operator="arithmetic"
+         result="result6" />
+      <feComposite
+         in2="result4"
+         id="feComposite14442"
+         operator="in"
+         in="result6" />
     </filter>
   </defs>
   <metadata

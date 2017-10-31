@@ -28,7 +28,7 @@
      id="namedview4602"
      showgrid="false"
      inkscape:zoom="0.58085271"
-     inkscape:cx="391.41343"
+     inkscape:cx="43.648848"
      inkscape:cy="448.23718"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
@@ -251,6 +251,59 @@
          in2="result91"
          id="feComposite5828" />
     </filter>
+    <filter
+       inkscape:label="Blotting Paper"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Inkblot on blotting paper"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter15135">
+      <feGaussianBlur
+         stdDeviation="3"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur15121" />
+      <feTurbulence
+         type="turbulence"
+         baseFrequency="0.05"
+         numOctaves="5"
+         result="result0"
+         id="feTurbulence15123" />
+      <feDisplacementMap
+         in2="result0"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result2"
+         id="feDisplacementMap15125" />
+      <feBlend
+         result="result5"
+         in="result2"
+         mode="multiply"
+         in2="result2"
+         id="feBlend15127" />
+      <feGaussianBlur
+         stdDeviation="5"
+         in="result2"
+         result="result4"
+         id="feGaussianBlur15129" />
+      <feComposite
+         operator="arithmetic"
+         in2="result5"
+         in="result4"
+         k2="0.25"
+         k3="1"
+         k1="1"
+         id="feComposite15131" />
+      <feComposite
+         operator="in"
+         in2="result2"
+         id="feComposite15133" />
+    </filter>
   </defs>
   <metadata
      id="metadata5">
@@ -260,16 +313,10 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <circle
-     style="opacity:1;vector-effect:none;fill:#f3f9fa;fill-opacity:1;stroke:none;stroke-width:2.99438477;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path4700-1"
-     cx="107.5"
-     cy="107.5"
-     r="93.820602" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot4665"
@@ -280,10 +327,16 @@
          height="282.34354"
          x="-531.9765"
          y="382.19672" /></flowRegion><flowPara
-       id="flowPara4671"></flowPara></flowRoot>  <g
+       id="flowPara4671" /></flowRoot>  <circle
+     style="opacity:1;vector-effect:none;fill:#f3f9fa;fill-opacity:1;stroke:none;stroke-width:2.99438477;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path4700-1"
+     cx="107.5"
+     cy="107.5"
+     r="93.820602" />
+  <g
      id="g5235"
      transform="matrix(1.1697599,0,0,1.1697599,-17.783877,-31.341271)"
-     style="fill:#000000;fill-opacity:1">
+     style="fill:#000000;fill-opacity:1;filter:url(#filter15135)">
     <path
        d="M 67.3177,127.96755 V 156.6949 H 58.41328 V 80.689317 h 20.882985 q 12.190575,0 18.86889,5.93628 6.731315,5.93628 6.731315,16.748793 0,10.81251 -7.47335,17.70283 -7.42035,6.89033 -20.087947,6.89033 z m 0,-39.221853 v 31.165473 h 9.32844 q 9.222435,0 14.045662,-4.1872 4.87623,-4.2402 4.87623,-11.92556 0,-15.052713 -17.808839,-15.052713 z"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56535995"

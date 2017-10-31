@@ -1217,6 +1217,124 @@
          in2="result7"
          id="feComposite7255" />
     </filter>
+    <filter
+       inkscape:label="Wax Print"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Wax print on tissue texture"
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2"
+       style="color-interpolation-filters:sRGB;"
+       id="filter17899">
+      <feGaussianBlur
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="2"
+         id="feGaussianBlur17883" />
+      <feTurbulence
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise"
+         id="feTurbulence17885" />
+      <feDisplacementMap
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1"
+         in2="result0"
+         id="feDisplacementMap17887" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3"
+         id="feColorMatrix17889" />
+      <feBlend
+         mode="multiply"
+         in="result2"
+         result="result5"
+         in2="result3"
+         id="feBlend17891" />
+      <feGaussianBlur
+         result="result4"
+         in="result3"
+         stdDeviation="5"
+         id="feGaussianBlur17893" />
+      <feComposite
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         in2="result5"
+         operator="arithmetic"
+         result="result6"
+         id="feComposite17895" />
+      <feComposite
+         operator="in"
+         in="result6"
+         in2="result4"
+         id="feComposite17897" />
+    </filter>
+    <filter
+       inkscape:label="Wax Print"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Wax print on tissue texture"
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2"
+       style="color-interpolation-filters:sRGB;"
+       id="filter17917">
+      <feGaussianBlur
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="2"
+         id="feGaussianBlur17901" />
+      <feTurbulence
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise"
+         id="feTurbulence17903" />
+      <feDisplacementMap
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1"
+         in2="result0"
+         id="feDisplacementMap17905" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3"
+         id="feColorMatrix17907" />
+      <feBlend
+         mode="multiply"
+         in="result2"
+         result="result5"
+         in2="result3"
+         id="feBlend17909" />
+      <feGaussianBlur
+         result="result4"
+         in="result3"
+         stdDeviation="5"
+         id="feGaussianBlur17911" />
+      <feComposite
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         in2="result5"
+         operator="arithmetic"
+         result="result6"
+         id="feComposite17913" />
+      <feComposite
+         operator="in"
+         in="result6"
+         in2="result4"
+         id="feComposite17915" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1226,7 +1344,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="364.42899"
+     inkscape:cx="158.52049"
      inkscape:cy="428.10073"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -1257,7 +1375,7 @@
      style="display:inline"
      transform="translate(0,-82)">
     <rect
-       style="opacity:1;fill:#fff5f5;fill-opacity:1;stroke:none;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#67ffa2;fill-opacity:1;stroke:none;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter17917)"
        id="rect5526"
        width="130.02383"
        height="144.3869"
@@ -1266,7 +1384,7 @@
        rx="0.39999971"
        ry="0.79999942" />
     <rect
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#111111;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#111111;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter17899)"
        id="rect5526-4"
        width="130.02383"
        height="144.3869"

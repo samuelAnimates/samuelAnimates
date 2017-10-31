@@ -108,11 +108,15 @@
          id="feComposite7298" />
     </filter>
     <filter
-       inkscape:label="Speckle"
-       inkscape:menu="Overlays"
-       inkscape:menu-tooltip="Fill object with sparse translucent specks"
+       inkscape:label="Blotting Paper"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Inkblot on blotting paper"
        style="color-interpolation-filters:sRGB;"
-       id="filter4619">
+       id="filter4619"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15">
       <feTurbulence
          result="result1"
          numOctaves="1"
@@ -141,7 +145,56 @@
          operator="out"
          in="SourceGraphic"
          in2="result91"
-         id="feComposite4617" />
+         id="feComposite4617"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10578" />
+      <feGaussianBlur
+         id="feGaussianBlur10580"
+         stdDeviation="3"
+         in="fbSourceGraphic"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence10582"
+         type="turbulence"
+         baseFrequency="0.05"
+         numOctaves="5"
+         result="result0" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap10584"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result2" />
+      <feBlend
+         in2="result2"
+         id="feBlend10586"
+         result="result5"
+         in="result2"
+         mode="multiply" />
+      <feGaussianBlur
+         id="feGaussianBlur10588"
+         stdDeviation="5"
+         in="result2"
+         result="result4" />
+      <feComposite
+         in2="result5"
+         id="feComposite10590"
+         operator="arithmetic"
+         in="result4"
+         k2="0.25"
+         k3="1"
+         k1="1"
+         result="result92" />
+      <feComposite
+         in2="result2"
+         id="feComposite10592"
+         operator="in" />
     </filter>
     <filter
        inkscape:label="Dripping"
@@ -310,14 +363,14 @@
        gradientUnits="userSpaceOnUse"
        spreadMethod="reflect" />
     <filter
-       x="-0.25"
-       width="1.5"
-       y="-0.25"
-       height="1.5"
-       inkscape:menu="Non realistic 3D shaders"
-       inkscape:menu-tooltip="Aluminium effect with sharp brushed reflections"
-       inkscape:label="Aluminium"
-       style="color-interpolation-filters:sRGB"
+       x="-0.15"
+       width="1.3"
+       y="-0.15"
+       height="1.3"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Inkblot on blotting paper"
+       inkscape:label="Blotting Paper"
+       style="color-interpolation-filters:sRGB;"
        id="filter5005">
       <feGaussianBlur
          result="result8"
@@ -374,11 +427,59 @@
          result="result18"
          id="feComposite5001" />
       <feComposite
-         result="result19"
+         result="fbSourceGraphic"
          in2="SourceGraphic"
          operator="in"
          in="result18"
          id="feComposite5003" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10562" />
+      <feGaussianBlur
+         id="feGaussianBlur10564"
+         stdDeviation="3"
+         in="fbSourceGraphic"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence10566"
+         type="turbulence"
+         baseFrequency="0.05"
+         numOctaves="5"
+         result="result0" />
+      <feDisplacementMap
+         in2="result0"
+         id="feDisplacementMap10568"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result2" />
+      <feBlend
+         in2="result2"
+         id="feBlend10570"
+         result="result5"
+         in="result2"
+         mode="multiply" />
+      <feGaussianBlur
+         id="feGaussianBlur10572"
+         stdDeviation="5"
+         in="result2"
+         result="result4" />
+      <feComposite
+         in2="result5"
+         id="feComposite10574"
+         operator="arithmetic"
+         in="result4"
+         k2="0.25"
+         k3="1"
+         k1="1"
+         result="result23" />
+      <feComposite
+         in2="result2"
+         id="feComposite10576"
+         operator="in" />
     </filter>
     <linearGradient
        inkscape:collect="always"
@@ -389,6 +490,59 @@
        x2="111.88097"
        y2="159.03868"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:label="Blotting Paper"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Inkblot on blotting paper"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter10608">
+      <feGaussianBlur
+         stdDeviation="3"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur10594" />
+      <feTurbulence
+         type="turbulence"
+         baseFrequency="0.05"
+         numOctaves="5"
+         result="result0"
+         id="feTurbulence10596" />
+      <feDisplacementMap
+         in2="result0"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result2"
+         id="feDisplacementMap10598" />
+      <feBlend
+         result="result5"
+         in="result2"
+         mode="multiply"
+         in2="result2"
+         id="feBlend10600" />
+      <feGaussianBlur
+         stdDeviation="5"
+         in="result2"
+         result="result4"
+         id="feGaussianBlur10602" />
+      <feComposite
+         operator="arithmetic"
+         in2="result5"
+         in="result4"
+         k2="0.25"
+         k3="1"
+         k1="1"
+         id="feComposite10604" />
+      <feComposite
+         operator="in"
+         in2="result2"
+         id="feComposite10606" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -398,8 +552,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="128.76828"
-     inkscape:cy="490.84539"
+     inkscape:cx="163.05399"
+     inkscape:cy="470.0113"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -416,7 +570,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -427,7 +581,7 @@
      style="display:inline"
      transform="translate(0,-82)">
     <path
-       style="display:inline;fill:url(#linearGradient5007);fill-opacity:1;stroke:none;stroke-width:12.47456455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:url(#linearGradient5007);fill-opacity:1;stroke:none;stroke-width:12.47456455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter10608)"
        d="m 166.43075,190.27463 c 0,34.85119 11.35165,63.39385 -60.76784,63.10376 -74.894979,-0.30112 -60.767808,-28.25257 -60.76781,-63.10376 2e-6,-34.85124 27.206671,-63.10382 60.76781,-63.10382 33.56114,0 60.76784,28.25258 60.76784,63.10382 z"
        id="circle4549-5"
        inkscape:connector-curvature="0"
