@@ -2,12 +2,11 @@
 
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
-var isProjectModalDisplayed = false;
 
 //<=============== END GLOBAL VARIABLE DECLARATION =============================>
 
 /*
-DECLARE FUNCTIONS BELOW
+HELPER FUNCTIONS
 */
 
 //<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
@@ -17,25 +16,9 @@ function hideConnectModal(){
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
-	//$("html").removeClass("modal-open");
-
+	$("main").unbind('click');
 	isConnectDisplayed = false;
 	
-}
-
-function hideHomepageProjectModal(){
-
-	$("#homepage-projects-iframe").attr("src", "");
-	$("#homepage-project-new-window-trigger").attr("href", "http://www.google.com");
-	$( "#homepage-projects-modal" ).addClass("display-none");
-	$( "#homepage-project-details-modal-footer" ).addClass("display-none");
-
-	//Remove the CSS class that blocks the main page from scrolling
-	$("body").removeClass("modal-open");
-	$("html").removeClass("modal-open");
-
-	isProjectModalDisplayed = false;
-
 }
 
 function hideNavBar(){
@@ -45,8 +28,7 @@ function hideNavBar(){
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
-	$("html").removeClass("modal-open");
-
+	$("main").unbind('click');
 	isNavDisplayed = false;
 
 }
@@ -58,35 +40,17 @@ function showConnectModal(){
 	var offset = window.pageYOffset;
 
 	//Add the CSS class that blocks the main page from scrolling
-	$("body").addClass("modal-open");
-	
+	$("body").addClass("modal-open");	
 	window.scrollTo(0, offset);
+	
+	document.getElementById("Vimeo-link").focus();
+	$("main").click(function(e){
+		return false;
+	});
 	isConnectDisplayed = true;
 
 }
 
-function showHomepageProjectModal(nameStr){
-
-	$( "#homepage-projects-modal" ).removeClass("display-none");
-	$( "#homepage-project-details-modal-footer" ).removeClass("display-none");
-	$( "#homepage-project-details-modal-footer" ).addClass("margin-auto");
-	$( "#homepage-project-details-modal" ).addClass("margin-auto");
-	$( "#homepage-project-details-modal-footer" ).addClass("display-block");
-	$( "#homepage-project-details-modal" ).addClass("display-block");
-	
-	var offset = window.pageYOffset;
-
-	var modalUrl="./modals/" + nameStr  +".html";
-	$("#homepage-projects-iframe").attr("src", modalUrl);
-	$("#homepage-project-new-window-trigger").attr("href", modalUrl);
-
-	//Add the CSS class that blocks the main page from scrolling
-	$("body").addClass("modal-open");
-	window.scrollTo(0, offset);
-
-	isProjectModalDisplayed = true;
-
-}
 
 function showNavBar(){
 
@@ -99,6 +63,10 @@ function showNavBar(){
 	$("body").addClass("modal-open");
 	window.scrollTo(0, offset);
 
+	document.getElementById("highlights-navbar-link").focus();
+	$("main").click(function(e){
+		return false;
+	});
 	isNavDisplayed = true;
 
 }
@@ -116,15 +84,12 @@ $(document).ready(function () {
 	//An open modal closes if enter or x is pressed
 	$(document).keyup(function (e) {
 		
-		if (e.keyCode == 27 || e.keyCode == 13){
+		if (e.keyCode == 27){
 			if (isNavDisplayed){
 				hideNavBar();
 			}
 			if (isConnectDisplayed){
 				hideConnectModal();
-			}
-			if (isProjectModalDisplayed) {
-				hideHomepageProjectModal();
 			}
 		}
 	});
@@ -132,17 +97,12 @@ $(document).ready(function () {
 	//The navigation bar slides in/out once the trigger is clicked
 	$( "#navbar-modal-trigger" ).click(function() {
 
-		if (!isNavDisplayed && !isConnectDisplayed && !isProjectModalDisplayed){
+		if (!isNavDisplayed && !isConnectDisplayed){
 			showNavBar();
 		}
 
 		else if (isConnectDisplayed && !isNavDisplayed){
 			hideConnectModal();
-			showNavBar();
-		}
-
-		else if (isProjectModalDisplayed && !isNavDisplayed){
-			hideHomepageProjectModal();
 			showNavBar();
 		}
 
@@ -170,18 +130,13 @@ $(document).ready(function () {
 	//The Connect modal slides in/out once the trigger is clicked
 	$( "#connect-modal-trigger" ).click(function() {
 
-		if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
+		if (!isConnectDisplayed && !isNavDisplayed){
 			showConnectModal();
 		}
 
 		else if (!isConnectDisplayed && isNavDisplayed){
 
 			hideNavBar();
-			showConnectModal();
-		}
-
-		else if (!isConnectDisplayed && isProjectModalDisplayed){
-			hideHomepageProjectModal();
 			showConnectModal();
 		}
 
@@ -199,38 +154,6 @@ $(document).ready(function () {
 
 	});
 
-	//The Project Details Modal slides in if a project title is clicked
-	$( ".JS-homepage-project-title" ).click(function() {
-
-		var id = $(this).closest(".JS-homepage-project").prop("id");
-		var projectSectionIdSuffix = id.split('-')[1];
-
-		if (!isConnectDisplayed && !isNavDisplayed && !isProjectModalDisplayed){
-			showHomepageProjectModal(projectSectionIdSuffix);
-		}
-		else if (!isProjectModalDisplayed && isConnectDisplayed){
-			hideConnectModal();
-			showHomepageProjectModal(projectSectionIdSuffix);
-		}
-
-		else if (!isProjectModalDisplayed && isNavDisplayed){
-			hideNavBar();
-			showHomepageProjectModal(projectSectionIdSuffix);
-		}
-
-		else if (isConnectDisplayed){
-			hideHomepageProjectModal();
-		}
-
-	});
-
-	$( ".homepage-project-icon" ).click(function() {
-		
-		var id = $(this).closest(".JS-homepage-project").prop("id");
-		var projectSectionIdSuffix = id.split('-')[1];
-		showHomepageProjectModal(projectSectionIdSuffix);
-
-	});
 
 
 	$( "#homepage-project-details-modal-close-trigger" ).click(function() {
