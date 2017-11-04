@@ -212,54 +212,111 @@ Decorative elements
 /*=========================================================================
 Responsive portions
 ===========================================================================*/
+@media screen and (max-width:929px){
+	.footer-social-icon-container {
+		padding: .5em .5em .5em .5em;
+		width: 25%;
+	}
+	.homepage-about-text-container{
+		float: left;
+		width: 100%;
+	}
+	.homepage-project-container {
+		position: relative;
+		width: 100%;
+	}
+	.homepage-project-container::after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.homepage-highlight-project-container {
+		width: 100%;
+		padding: 0em 0em 1em 0em;
+	}
+	.homepage-highlight-project-icon {
+		height: auto;
+		margin: auto;
+		width: 20%;
+	}
+	.homepage-portrait-container{
+		float: left;
+		width: 40%;
+	}
+	.homepage-project-icon {
+		height: auto;
+		width: 100%;
+		min-width: 5em;
+	}
+	.homepage-project-icon-container{
+		margin: auto;
+		width: 15%;
+	}
+	.homepage-project-text-container{
+		clear: both;
+		text-align: center;
+		width: 100%;
+	}
+	.homepage-project-links-container{
+		width: 100%;
+	}
+	.project-container-doublewidth{
+		width: 100%;
+	}
+}
 
-.footer-social-icon-container {
-	padding: .5em .5em .5em .5em;
-	width: 25%;
-}
-.homepage-about-text-container{
-	float: left;
-	width: 60%;
-}
-.homepage-project-container {
-	position: relative;
-	width: 100%;
-}
-.homepage-project-container::after{
-	content: "";
-	display: table;
-	clear: both;
-}
-.homepage-highlight-project-container {
-	width: 100%;
-	padding: 0em 0em 1em 0em;
-}
-.homepage-highlight-project-icon {
-	height: auto;
-	margin: auto;
-	width: 20%;
-}
-.homepage-portrait-container{
-	float: left;
-	width: 40%;
-}
-.homepage-project-icon {
-	height: auto;
-	width: 100%;
-	float: left;
-	min-width: 3em;
-}
-.homepage-project-icon-container{
-	float: left;
-	width: 10%;
-}
-.homepage-project-text-container{
-	float: left;
-	width: 90%;
-}
-.homepage-project-links-container{
-	width: 50%;
-}
-.project-container-doublewidth{
-	width: 100%;
+
+@media screen and (min-width: 930px)
+{
+	.footer-social-icon-container {
+		padding: .5em .5em .5em .5em;
+		width: 25%;
+	}
+	.homepage-about-text-container{
+		float: left;
+		width: 60%;
+	}
+	.homepage-project-container {
+		position: relative;
+		width: 100%;
+	}
+	.homepage-project-container::after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.homepage-highlight-project-container {
+		width: 100%;
+		padding: 0em 0em 1em 0em;
+	}
+	.homepage-highlight-project-icon {
+		height: auto;
+		margin: auto;
+		width: 20%;
+	}
+	.homepage-portrait-container{
+		float: left;
+		width: 40%;
+	}
+	.homepage-project-icon {
+		height: auto;
+		width: 100%;
+		float: left;
+		min-width: 5em;
+	}
+	.homepage-project-icon-container{
+		float: left;
+		width: 10%;
+	}
+	.homepage-project-text-container{
+		float: left;
+		width: 90%;
+	}
+	.homepage-project-links-container{
+		width: 50%;
+	}
+	.project-container-doublewidth{
+		width: 100%;
+	}
+	
 }
