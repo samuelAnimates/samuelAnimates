@@ -14,21 +14,7 @@ i-frames/modals
 	top: 0;
 	position: absolute;
 }
-#homepage-projects-modal {
-	height: calc(100vh - 5.5em);
-	position: fixed;
-	left: 5%;
-	overflow: auto;
-	top: 3em;
-	-webkit-overflow-scrolling: touch;
-}
-#homepage-project-details-modal-footer {
-	padding: .5em .5em .5em .5em;
-	position: fixed;
-	bottom: 1em;
-	left: 5%;
-	z-index: 2;
-}
+
 #my-hidden-iframe iframe {
 	display: none;
 	margin: auto;

@@ -268,8 +268,35 @@ li{
 	opacity: 1;
     z-index: 2;
 }
+#connect-footer-modal {
+	overflow-y: auto;
+	position: fixed;
+	top: 3em;
+	right: 0;
+}
+#homepage-projects-iframe {
+	height: calc(100vh - 6em);
+	overflow: scroll;
+	top: 0;
+	position: absolute;
+}
 
-/* Questionaiire style */
+#my-hidden-iframe iframe {
+	display: none;
+	margin: auto;
+	overflow: auto;
+}
+#navbar-modal {
+	left: 0;
+	position: fixed;
+	top: 3em;
+}
+
+.modal-open {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
 
 
 @media only screen and (min-width : 700px){

@@ -93,20 +93,6 @@ $(document).ready(function () {
 				hideConnectModal();
 			}
 		}
-		else if (e.keyCode === 9){
-			if ($(focused).attr('id') === "navbar-modal-close-trigger"){
-				$("#highlights-navbar-link").focus();
-				focused = $(document.activeElement);
-			}
-			else if ($(focused).attr('id') === "connect-modal-close-trigger"){
-				$("#Vimeo-link").focus();
-				focused = $(document.activeElement);
-			}
-			else {
-				focused = $(document.activeElement);
-			}
-		}
-		
 		/*else if (e.keyCode === 9){
 			if ($(document.activeElement).attr('id') === "navbar-modal-close-trigger"){
 				$("#highlights-navbar-link").focus();
@@ -119,6 +105,11 @@ $(document).ready(function () {
 			}
 		}*/
 
+	});
+
+	//The home button acts as a JS link in modal pages.
+	$( "#home-button" ).click(function() {
+		window.location.replace("../index.html");
 	});
 
 	//The navigation bar slides in/out once the trigger is clicked
