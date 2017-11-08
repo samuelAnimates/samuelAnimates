@@ -97,9 +97,18 @@ ONE CLASS DOES ONE THING
 	border-style: solid;
 	border: 1px solid rgba(206, 206, 206, 0.2);
 }
+.border-top-1px-thin-gray{
+	border-top: 1px solid rgba(206, 206, 206, 0.2);
+}
+.border-left-p75em-solid {
+	border-left: 0.75em solid;
+}
 .border-top-2px-thin-gray{
 	border-style: solid;
 	border-top: 2px solid rgba(150, 150, 150, 0.2);
+}
+.bottom-0{
+	bottom: 0;
 }
 .display-none {
 	display: none;
@@ -110,8 +119,14 @@ ONE CLASS DOES ONE THING
 .float-left{
 	float: left;
 }
+.font-italic{
+	font-style: italic;
+}
 .font-size-p75em{
 	font-size: 0.75em;
+}
+.font-weight-400{
+	font-weight: 400;
 }
 .max-width-26em{
 	max-width: 26em;
@@ -121,6 +136,9 @@ ONE CLASS DOES ONE THING
 }
 .padding-0p5-0p5-0p5-1p5em {
 	padding: 0.5em 0.5em 0.5em 1.5em;
+}
+.padding-B-1em {
+	padding-bottom: 1em;
 }
 .padding-L-p5em {
 	padding-left: .5em;
@@ -134,8 +152,20 @@ ONE CLASS DOES ONE THING
 .padding-T-4p5em {
 	padding-top: 4.5em;
 }
+.position-absolute{
+	position: absolute;
+}
 .position-relative{
 	position: relative;
+}
+.right-0{
+	right: 0;
+}
+.width-3em{
+	width: 4em;
+}
+.width-10pc{
+	width: 10%;
 }
 .width-50pc{
 	width: 50%;
@@ -149,6 +179,9 @@ ONE CLASS DOES ONE THING
 section::after {
 	content: "";
 	margin-bottom: 1em;
+}
+ul {
+    list-style-position: inside;
 }
 /*=========================================================================
 Decorative elements
@@ -226,8 +259,10 @@ Responsive portions
 		width: 20%;
 	}
 	.homepage-portrait-container{
-		float: left;
-		width: 40%;
+		display: block;
+		margin: auto;
+		padding-bottom: 1em;
+		width: 100%;
 	}
 	.homepage-project-icon {
 		height: auto;
@@ -260,7 +295,7 @@ Responsive portions
 	}
 	.homepage-about-text-container{
 		float: left;
-		width: 60%;
+		width: 65%;
 	}
 	.homepage-project-container {
 		position: relative;
@@ -282,7 +317,7 @@ Responsive portions
 	}
 	.homepage-portrait-container{
 		float: left;
-		width: 40%;
+		width: 35%;
 	}
 	.homepage-project-icon {
 		height: auto;
