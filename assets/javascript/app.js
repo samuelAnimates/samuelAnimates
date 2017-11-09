@@ -1,16 +1,9 @@
-//<=============== GLOBAL STATUS TRACKING VARIABLES =============================>
 
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
 var focused = null;
 
-//<=============== END GLOBAL VARIABLE DECLARATION =============================>
 
-/*
-HELPER FUNCTIONS
-*/
-
-//<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 function hideConnectModal(){
 
 	$( "#connect-footer-modal" ).addClass("display-none");
@@ -73,9 +66,6 @@ function showNavBar(){
 }
 //<=============== END FUNCTION DECLARATIONS =========================>
 
-/*
-DECLARE FUNCTIONS BELOW
-*/
 
 //<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
 
@@ -93,17 +83,6 @@ $(document).ready(function () {
 				hideConnectModal();
 			}
 		}
-		/*else if (e.keyCode === 9){
-			if ($(document.activeElement).attr('id') === "navbar-modal-close-trigger"){
-				$("#highlights-navbar-link").focus();
-			}
-			else if ($(document.activeElement).attr('id') === "connect-modal-close-trigger"){
-				$("#Vimeo-link").focus();
-			}
-			else {
-				focused = $(document.activeElement);
-			}
-		}*/
 
 	});
 
