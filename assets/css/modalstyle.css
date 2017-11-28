@@ -163,6 +163,11 @@ li{
 
 }
 
+.footer-social-icon-container {
+	padding: .5em .5em .5em .5em;
+	width: 25%;
+}
+
 .full-width-container{
 	clear: both;
 	width: 100%;
