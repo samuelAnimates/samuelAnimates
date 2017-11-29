@@ -72,8 +72,6 @@ a:hover{
 
 body{
 	background-color: rgb(250, 250, 250);
-	padding-bottom: .75em;
-	padding-top: .25em;
 }
 
 
@@ -113,6 +111,10 @@ img {
 
 li{
 	padding: .25em 0 .25em 0;
+}
+
+main{
+	padding: 0 .5em .5em .5em;
 }
 
 .font-size-p75em{
@@ -245,34 +247,17 @@ li{
 	height: 13em;
 	position: relative;
 	text-align: center;
-
 }
 
 .slide {
 	float: left; 
-	position: absolute;
 	display: block;
 	width: 100%;
 	height: auto;
 	padding: .5em .5em .5em .5em;
-	opacity: 0;
     z-index: 1;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
 }
 
-.showing {
-	position: absolute;
-	display: block;
-	float: left;
-    left: 0px;
-	top: 0px;
-	opacity: 1;
-    z-index: 2;
-}
 #connect-footer-modal {
 	overflow-y: auto;
 	position: fixed;
