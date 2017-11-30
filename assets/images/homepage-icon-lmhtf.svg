@@ -104,34 +104,35 @@
   </metadata>
   <g
      id="g9759"
-     style="filter:url(#filter10512)">
+     style="">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="rect4502"
        d="M 53.467461,60.0732 H 86.643055 L 85.732038,185.90722 C 74.946125,184.26121 63.449118,176.21536 51.759304,166.43423 Z"
-       style="opacity:1;vector-effect:none;fill:#ff0003;fill-opacity:1;stroke:#0000ff;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke" />
+       style="opacity:1;vector-effect:none;fill:#ff0003;fill-opacity:1;stroke:#0000ff;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke;" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="rect4502-8"
        d="m 90.669212,116.47932 h 33.175598 l -2.61917,72.42108 c -9.77798,0.6252 -19.73651,0.88929 -31.011936,-1.48041 z"
-       style="opacity:1;vector-effect:none;fill:#0200ff;fill-opacity:1;stroke:#00ff00;stroke-width:2.04138541;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke" />
+       style="opacity:1;vector-effect:none;fill:#0200ff;fill-opacity:1;stroke:#00ff00;stroke-width:2.04138541;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke;" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="rect4502-8-5"
        d="m 129.64249,74.01638 h 33.17559 l -2.84693,97.12356 c -29.29202,18.4472 -24.75795,12.67325 -31.58131,15.03178 z"
-       style="opacity:1;vector-effect:none;fill:#00ff00;fill-opacity:1;stroke:#ff0009;stroke-width:2.56064081;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke" />
+       style="opacity:1;vector-effect:none;fill:#00ff00;fill-opacity:1;stroke:#ff0009;stroke-width:2.56064081;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:1;paint-order:fill markers stroke;" />
     <circle
-       style="display:inline;fill:none;fill-opacity:1;stroke:#000005;stroke-width:4.23789835;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98823529"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000005;stroke-width:4.23789835;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98823529;"
        r="81.645393"
        cy="107.5"
        cx="107.5"
        id="circle4487-2" />
     <g
        transform="translate(0,-82)"
-       id="layer2">
+       id="layer2"
+       style="">
       <rect
          ry="0.79999942"
          rx="0.39999971"
@@ -140,7 +141,7 @@
          height="108.47916"
          width="74.839287"
          id="rect5086"
-         style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+         style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;" />
     </g>
     <path
        transform="matrix(1.7126621,0,0,1.7110023,-90.608198,-103.95446)"
@@ -153,7 +154,7 @@
        sodipodi:cy="123.52554"
        sodipodi:cx="115.63143"
        id="path4534"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;opacity:0.366"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;opacity:0.366;"
        sodipodi:type="spiral" />
   </g>
 </svg>
