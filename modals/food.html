@@ -2,7 +2,19 @@
 <html lang="en">
 
 	<head>
-	
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110528808-1">
+			</script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){
+				dataLayer.push(arguments);
+				}
+				gtag('js', new Date());
+				gtag('config', 'UA-110528808-1');
+			</script>
+
 		<title>Animating Food - Samuel R. Mendez</title>
 
 		<meta charset=utf-8>
@@ -277,6 +289,7 @@
 			<p>These shorts arose out of spontaneity, animated under the camera with no plan in mind and no underlying objective. I simply bought the ingredients and set out to see what different qualities of the food I could bring out on screen. Shot in one spontaneous burst, this lack of structure led to shots I would have never planned ahead of time, as wel as techniques of object animation that would end up in [<a href="./bodega.html" class="inline-title">A Bodega</a>].</p>
 		</div>
 	</main>
+
 	<!-- CONNECT FOOTER ASIDE -->
 	<aside class="bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em" id="connect-footer-modal">
 		<div class="display-block text-center width-100pc">
@@ -324,55 +337,7 @@
 			<button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]</button>
 		</div>
 	</aside>
-	<!-- CONNECT FOOTER ASIDE -->
-	<aside class="bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em" id="connect-footer-modal">
-		<div class="display-block text-center width-100pc">
-			<h2>CONNECT</h2>
-		</div>
-		<div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="http://www.vimeo.com/user15152945" id="Vimeo-link"><p class="font-size-p5em bg-black color-white font-weight-400">VIMEO</p><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-vimeo.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://github.com/smendez92" id="GitHub-link"><p class="font-size-p5em bg-black color-white font-weight-400">GITHUB</p><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-github.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://www.linkedin.com/in/samuel-r-mendez/" id="LinkedIn-link"><p class="font-size-p5em bg-black color-white font-weight-400">LINKEDIN</p><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-linkedin.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://www.instagram.com/samuelanimates/" id="Instagram-link"><p class="font-size-p5em bg-black color-white font-weight-400">INSTAGRAM</p><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="./assets/images/social-icon-instagram.svg"></a>
-			</div>
-		</div>
-		<section class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
-			<h3>Contact Form</h3>
-			<form action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" enctype="text/plain" id="gform" name="gform" onsubmit="submitted=true;" target="hidden_iframe">
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.1804477893">FIRST NAME</label> <input class="float-right width-14p5em" id="entry.1804477893" name="entry.1804477893" placeholder="Samuel" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.779358458">LAST NAME</label> <input class="float-right width-14p5em" id="entry.779358458" name="entry.779358458" placeholder="Mendez" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.1973645689">EMAIL</label> <input class="float-right width-14p5em" id="entry.1973645689" name="entry.1973645689" placeholder="mendez@samuelanimates.com" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.282615151">MESSAGE</label> 
-					<textarea class="float-right width-14p5em" form="gform" id="entry.282615151" name="entry.282615151" placeholder="Hello, world!" rows="4"></textarea>
-				</div>
-				<div class="button-container">
-					<input class="clear-both float-right" type="submit" value="SEND">
-				</div>
-				<div id="my-hidden-iframe">
-					<iframe id="hidden_iframe" name="hidden_iframe"></iframe>
-				</div>
-			</form>
-		</section>
-		<div class="JS-link clear-both float-right">
-			<button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]</button>
-		</div>
-	</aside>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-	<script src="../assets/javascript/app.js"></script>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	<script src="../assets/javascript/app.js"></script>
 	</body>
