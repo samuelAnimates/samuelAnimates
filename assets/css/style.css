@@ -1,5 +1,5 @@
 /*=========================================================================
-i-frames/modals
+modals
 =========================================================================*/
 
 #connect-footer-modal {
@@ -355,7 +355,7 @@ Responsive portions
 		width: 90%;
 	}
 	.homepage-project-links-container{
-		width: 50%;
+		width: 75%;
 	}
 	.project-container-doublewidth{
 		width: 100%;
