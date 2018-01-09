@@ -1,4 +1,3 @@
-
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
 var focused = null;
@@ -73,9 +72,17 @@ function showNavBar(){
 $(document).ready(function () {
 
 	//An open modal closes if enter or x is pressed
-	$(document).keyup(function (e) {
+	$(document).keydown(function (e) {
 		
 		if (e.keyCode === 27){
+			if (isNavDisplayed){
+				hideNavBar();
+			}
+			if (isConnectDisplayed){
+				hideConnectModal();
+			}
+        }
+        else if (e.keyCode === 13 && document.activeElement.id.endsWith("navbar-link")){
 			if (isNavDisplayed){
 				hideNavBar();
 			}
@@ -144,21 +151,12 @@ $(document).ready(function () {
 
 	});
 
-	//ENTER DESCRIPTION HERE
+	//Close the Connect modal when the close button is pressed
 	$( "#connect-modal-close-trigger").click(function(){
 
 		hideConnectModal();
 
 	});
-
-
-
-	$( "#homepage-project-details-modal-close-trigger" ).click(function() {
-
-		hideHomepageProjectModal();
-
-	});
-
 
 
 	//Show message after Contact Form has been submitted
@@ -171,13 +169,7 @@ $(document).ready(function () {
 			email: $("#entry\\.1973645689").val()
 		};
 
-
-		if (formContent.message.length > 144 || formContent.message.length === 0){
-			alert("Oops! Please make sure your message length is between 1 and 144 characters, and try again~");
-			return false;
-		}
-
-		else {
+        {
 			$('#gform *').fadeOut(1000);
 			$('#gform').prepend('Thank you! Talk to you soon~');
 		}
