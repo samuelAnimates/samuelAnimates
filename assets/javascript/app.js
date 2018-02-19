@@ -511,35 +511,35 @@ const projectsData = [
 				"sectionShortName": "art",
 				"projects": [
 					{
-						"name": "Spanish Community Center (SCC) Promo Video",
-						"shortName": "joliet",
-						"descriptionShort": "A promotional video for the Spanish Community Center in Joliet.",
+						"name": "Connect the Dots!",
+						"shortName": "dots",
+						"descriptionShort": "An interactive art installation taking place in a public bathroom.",
 						"links": [
 							{
-								"url": "./modals/joliet.html",
+								"url": "./modals/dots.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "SCC Video Overview Page"
+								"linkText": "Connect the Dots Overview Page"
 							}
 						],
 						"logo": {
-							"altText": "SCC Promo Video cartoon logo",
-							"svg": "./assets/images/homepage-icon-joliet.svg"
+							"altText": "'Connect the Dots' cartoon logo",
+							"svg": "./assets/images/homepage-icon-dots.svg"
 						}
 					},
 					{
-						"name": "Artemis I Fundraiser Video",
+						"name": "Walks Through Cambridge",
 						"shortName": "Yuca",
-						"descriptionShort": "A fundraising video for a high-altitude balloon launch by South Side Hackerspace: Chicago to document the 2017 solar eclipse.",
+						"descriptionShort": "A site-specific public art installation in Harvard Yard, produced for Harvard ARTS FIRST 2011.",
 						"links": [
 							{
-								"url": "./modals/artemis.html",
+								"url": "./modals/walks.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "Artemis I Video Overview Page"
+								"linkText": "'Walks' Overview Page"
 							}
 						],
 						"logo": {
-							"altText": "Artemis 1 cartoon logo",
-							"svg": "./assets/images/homepage-icon-artemis.svg"
+							"altText": "'Walks' cartoon logo",
+							"svg": "./assets/images/homepage-icon-walks.svg"
 						}
 					}
 				]
