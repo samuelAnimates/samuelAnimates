@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
 
   </head>
-  <body class="font-Assistant">
+  <body class="font-Assistant gradient">
     <header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
       <div class="float-left header-nav-link height-3em width-33pc" id="navbar-modal-trigger">
         <button class="JS-link bg-white font-weight-600 height-3em">[INDEX]
@@ -36,8 +36,7 @@
         </button>
       </div>
     </header>
-    <div class="gradient padding-T-4em" id="background-gradient">
-      <main class="margin-auto max-width-56em width-90pc">
+      <main class="margin-auto max-width-56em padding-T-4em width-90pc">
         <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both padding-B-2em padding-L-p5em padding-R-p5em">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
@@ -226,10 +225,10 @@
         <script id="projects-template" type="text/x-handlebars-template">​
           {{#sections}}
             <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-              <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
-                <h2>
+              <div class="bg-white-sheer height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
+                <h2 class="left-50pc position-absolute z3">
                   {{sectionName}}
-                </h2> 
+                </h2>
               </div>
               {{#projects}}
                 <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white " id="homepageHighlightProjectContainer-{{shortName}}">
@@ -347,7 +346,7 @@
           </a>
         </div>
       </div>
-      <section class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
+      <div class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
         <h3>Contact Form
         </h3>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" enctype="text/plain" id="gform" name="gform" onsubmit="submitted=true;" target="hidden_iframe">
@@ -379,7 +378,7 @@
             </iframe>
           </div>
         </form>
-      </section>
+      </div>
       <div class="JS-link clear-both float-right">
         <button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]
         </button>
@@ -387,9 +386,9 @@
     </aside>
 
             <!-- Include jQuery -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <!-- Include this page's Javascript -->
-            <script src="./assets/javascript/app.js"/></script>
+            <script src="./assets/javascript/app.js"></script>
             <!-- Include Mustache -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
 

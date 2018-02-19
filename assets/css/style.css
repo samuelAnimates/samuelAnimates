@@ -110,7 +110,7 @@
   }
   .height-3em {
 	height: 3em;
-  }
+	}
   .height-100pc {
 	height: 100%;
   }
@@ -165,7 +165,10 @@
   }
   .z2 {
 	z-index: 2;
-  }
+	}
+	.z3 {
+		z-index: 10;
+	}
   .width-90pc {
 	width: 90%;
   }
@@ -243,6 +246,9 @@ ONE CLASS DOES ONE THING
 }
 .font-weight-400{
 	font-weight: 400;
+}
+.left-50pc{
+	left: 50%;
 }
 .max-width-26em{
 	max-width: 26em;
