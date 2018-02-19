@@ -94,6 +94,31 @@ const projectsData = [
 		]
 	},
 	{
+		"newsitems": [
+			{
+				"date": "2017.11",
+				"update": "'By Foot: Busan and the Sea'screened at Chinh India Kids Film Festival in New Delhi, India."
+			},
+			{
+				"date": "2017.11",
+				"update": "'A Bodega' selected for inclusion in the National Academy of Medicine's Visualizing Health Equity project. The film was included in a pop-up gallery, and I was personally invited to speak at a panel event in Washington DC."
+			},
+			{
+				"date": "2017.10",
+				"update": "'By Foot: Busan and the Sea' won the Exceptional Artistry award for animation at the Official Latino Short Film Festival in New York City."
+			},
+			{
+				"date": "2017.10",
+				"update": "'10 Days in Saigon' was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest."
+			},
+			{
+				"date": "2017.9",
+				"update": "'A Bodega' screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District."
+			}
+		]
+
+	},
+	{
 		"sections": [
 			{
 				"sectionName": "ANIMATED FILMS",
@@ -543,7 +568,8 @@ const projectsData = [
 						}
 					}
 				]
-			}
+			},
+			
 		]
 	}
 ]
@@ -615,13 +641,12 @@ function showNavBar(){
 //<=============== END FUNCTION DECLARATIONS =========================>
 
 
-//<=============== HOMEPAGE MODAL DISPLAY/HIDE FUNCTIONS =========================>
-
-
+//<=============== HOMEPAGE FUNCTIONS =========================>
 $(document).ready(function () {
 
 	$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
-	$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
+	$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
+	$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
 	
 
 	//An open modal closes if enter or x is pressed

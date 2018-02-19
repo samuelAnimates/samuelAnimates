@@ -107,7 +107,10 @@
   }
   .display-none {
 	display: none;
-  }
+	}
+	.left-0{
+		left: 0;
+	}
   .height-3em {
 	height: 3em;
 	}
@@ -146,7 +149,10 @@
   }
   .padding-T-4em {
 	padding-top: 4em;
-  }
+	}
+	.right-0{
+		right: 0;
+	}
   .text-center {
 	text-align: center;
   }
@@ -165,9 +171,6 @@
   }
   .z2 {
 	z-index: 2;
-	}
-	.z3 {
-		z-index: 10;
 	}
   .width-90pc {
 	width: 90%;
@@ -252,6 +255,9 @@ ONE CLASS DOES ONE THING
 }
 .max-width-26em{
 	max-width: 26em;
+}
+.max-width-50em{
+	max-width: 50em;
 }
 .material-icons.md-18{ 
 	font-size: 18px;
@@ -436,6 +442,9 @@ Responsive portions
 
 @media screen and (min-width: 930px)
 {
+	.floating-heading{
+			z-index: 3;
+	}
 	.footer-social-icon-container {
 		padding: .5em .5em .5em .5em;
 		width: 25%;
