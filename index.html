@@ -21,192 +21,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta property="og:image" content="http://www.samuelanimates.com/assets/images/png/portrait.png">
     <link rel="icon" href="./assets/images/png/logo.png">
-    <link href="./assets/css/mini-style.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
-      {  margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
-      article,
-      aside,
-      details,
-      figcaption,
-      figure,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      section {
-        display: block;
-      }
-      body {
-        line-height: 1;
-      }
-      a {
-        color: inherit;
-        text-decoration: underline;
-      }
-      a:hover,
-      a:focus,
-      button:hover,
-      button:focus {
-        background-color: rgb(17, 17, 17);
-        border: thin single rgb(0, 72, 182);
-        color: rgb(236, 229, 102);
-        text-decoration: underline;
-        cursor: pointer;
-      }
-      button {
-        font-size: 1em;
-        border: none;
-      }
-      h1 {
-        font-size: 2.5em;
-        font-weight: 700;
-        font-family: 'Overpass Mono', monospace;
-      }
-      h2 {
-        font-size: 1.5em;
-        font-weight: 700;
-        font-family: 'Overpass Mono', monospace;
-      }
-      h3 {
-        font-size: 1.25em;
-        font-weight: 600;
-        font-family: 'Overpass Mono', monospace;
-      }
-      #sticky-header {
-        position: fixed;
-        top: 0;
-      }
-      .bg-white-opaque {
-        background-color: rgba(250, 250, 250, 0.96);
-      }
-      .bg-white {
-        background-color: rgb(250, 250, 250);
-      }
-      .bg-white-sheer {
-        background-color: rgba(250, 250, 250, 0.57);
-      }
-      .border-all-1px-thin-gray {
-        border-style: solid;
-        border: 1px solid rgba(206, 206, 206, 0.2);
-      }
-      .border-top-1px-thin-gray{
-        border-top: 1px solid rgba(206, 206, 206, 0.2);
-      }
-      .box-shadow {
-        box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
-      }
-      .color-black {
-        color: rgb(17, 17, 17);
-      }
-      .clear-both {
-        clear: both;
-      }
-      .font-Assistant {
-        font-family: 'Assistant', sans-serif;
-      }
-      .font-Overpass {
-        font-family: 'Overpass Mono', monospace;
-      }
-      .font-weight-200{
-        font-weight: 200;
-      }
-      .font-weight-600{
-        font-weight: 600;
-      }
-      .display-block {
-        display: block;
-      }
-      .display-inline-block {
-        display: inline-block;
-      }
-      .display-none {
-        display: none;
-      }
-      .height-3em {
-        height: 3em;
-      }
-      .height-100pc {
-        height: 100%;
-      }
-      .margin-auto {
-        margin: auto;
-      }
-      .max-width-56em {
-        max-width: 56em;
-      }
-      .padding-B-p25em {
-        padding-bottom: 0.25em;
-      }
-      .padding-B-p5em {
-        padding-bottom: 0.5em;
-      }
-      .padding-B-1em {
-        padding-bottom: 1em;
-      }
-      .padding-B-2em {
-        padding-bottom: 2em;
-      }
-      .padding-L-p5em {
-        padding-left: .5em;
-      }
-      .padding-R-p5em {
-        padding-right: .5em;
-      }
-      .padding-T-p25em{
-        padding-top: 0.25em;
-      }
-      .padding-T-1p5em {
-        padding-top: 1.5em;
-      }
-      .padding-T-4em {
-        padding-top: 4em;
-      }
-      .text-center {
-        text-align: center;
-      }
-      .text-left {
-        text-align: left;
-      }
-      .top-2p75-em {
-        top: 2.75em;
-      }
-      .width-100pc {
-        width: 100%;
-      }
-      .gradient {
-        background: rgb(250, 250, 250);
-        background: linear-gradient(to bottom, rgb(250, 250, 250) 0%, #fffcfc 5%, #fcffe0 15%, #ffe5f9 43%, #d6f4ff 69%, #fff7e0 100%);
-      }
-      .waves {
-        background-image: url("./assets/images/waves.png");
-        background-repeat: repeat;
-        background-size: 839px 483px;
-        width: 100%;
-        height: 100%;
-      }
-      .z2 {
-        z-index: 2;
-      }
-      .width-90pc {
-        width: 90%;
-      }
-      section::after {
-        content: "";
-        margin-bottom: 1em;
-      }
-    </style>
+
   </head>
   <body class="font-Assistant">
     <header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
@@ -220,1159 +37,297 @@
       </div>
     </header>
     <div class="gradient padding-T-4em" id="background-gradient">
-      <div class="waves" id="background-waves">
-        <main class="margin-auto max-width-56em width-90pc">
-          <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both padding-B-2em padding-L-p5em padding-R-p5em">
-            <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
-              <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
-                <h1>SAMUEL R. MENDEZ
-                </h1>
-              </div>
-              <div class="padding-B-p5em">
-                <h2>ABOUT ME
-                </h2>
-              </div>
-              <div class="display-block padding-B-1em padding-L-p5em padding-R-p5em">
-                <div class="homepage-portrait-container display-block margin-auto padding-B-1em text-center">
-                  <div role="img" aria-label="Samuel R. Mendez round cartoon portrait" class="circle">
-                  </div>
-                  <div class="font-Overpass font-size-p75em padding-T-1p5em">"I could trace about 80% of my humor back to specific SpongeBob episodes."
-                  </div>
+      <main class="margin-auto max-width-56em width-90pc">
+        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both padding-B-2em padding-L-p5em padding-R-p5em">
+          <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
+            <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
+              <h1>SAMUEL R. MENDEZ
+              </h1>
+            </div>
+            <div class="padding-B-p5em">
+              <h2>ABOUT ME
+              </h2>
+            </div>
+            <div class="display-block padding-B-1em padding-L-p5em padding-R-p5em">
+              <div class="homepage-portrait-container display-block margin-auto padding-B-1em text-center">
+                <div role="img" aria-label="Samuel R. Mendez round cartoon portrait" class="circle">
                 </div>
-                <div class="homepage-about-text-container padding-L-p5em padding-R-p5em">
-                  <div class="padding-B-p5em padding-L-p5em text-left">
-                    <span class="font-weight-600">Research Interests:
-                    </span> community-based participatory research (CBPR), social determinants of health, digital documentary methods.
-                  </div>
-                  <div class="padding-B-1em padding-L-p5em text-left">
-                    <span class="font-weight-600">Long-term Goals:
-                    </span> develop animation and video as participatory research methods; build empathy across community research partners and increase accessibility of such partnerships; develop research partnership models and platforms to disseminate lessons learned.
-                  </div>
-                  <div class="padding-B-p5em padding-L-p5em text-left">
-                    <span class="font-weight-600">Personal Note:
-                    </span> I make films. I conduct community-engaged research. And I do (mostly) front-end web development, with an eye toward web accessibility. As I recognize the time & effort I put into learning these skills, I recognize the privilege of having such chances in the first place. I'm determined to use the chances I've been given to make the spaces & systems I occupy accessible to a wider range of people. I appreciate direct feedback if I unwittingly act against these values by making a space exclusive or unwelcoming.
-                  </div>
+                <div class="font-Overpass font-size-p75em padding-T-1p5em">"I could trace about 80% of my humor back to specific SpongeBob episodes."
                 </div>
               </div>
-              <div class="border-top-1px-thin-gray clear-both padding-T-1p5em width-100pc">
-                <div>
-                  <h3> Personal Links
-                  </h3>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                    <a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank">[Link to My CV as a Published Google Doc]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/user15152945" target="_blank">[Link to My Vimeo Profile]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                    </svg>
-                    <a class="JS-link" href="https://github.com/smendez92" target="_blank">[Link to My GitHub Profile]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank">[Link to My LinkedIn Profile]
-                    </a>
-                  </span> 
+              <div class="homepage-about-text-container padding-L-p5em padding-R-p5em">
+                <div class="padding-B-p5em padding-L-p5em text-left">
+                  <span class="font-weight-600">Research Interests:
+                  </span> community-based participatory research (CBPR), social determinants of health, digital documentary methods.
+                </div>
+                <div class="padding-B-1em padding-L-p5em text-left">
+                  <span class="font-weight-600">Long-term Goals:
+                  </span> develop animation and video as participatory research methods; build empathy across community research partners and increase accessibility of such partnerships; develop research partnership models and platforms to disseminate lessons learned.
+                </div>
+                <div class="padding-B-p5em padding-L-p5em text-left">
+                  <span class="font-weight-600">Personal Note:
+                  </span> I make films. I conduct community-engaged research. And I do (mostly) front-end web development, with an eye toward web accessibility. As I recognize the time & effort I put into learning these skills, I recognize the privilege of having such chances in the first place. I'm determined to use the chances I've been given to make the spaces & systems I occupy accessible to a wider range of people. I appreciate direct feedback if I unwittingly act against these values by making a space exclusive or unwelcoming.
                 </div>
               </div>
-            </div>		
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+            </div>
+            <div class="border-top-1px-thin-gray clear-both padding-T-1p5em width-100pc">
+              <div>
+                <h3>
+                  Personal Links
+                </h3>
+                <span class="display-inline-block padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                  </svg>
+                  <a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank">[Link to My CV as a Published Google Doc]
+                  </a>
+                </span>
+                <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
+                  </svg>
+                  <a class="JS-link" href="http://www.vimeo.com/user15152945" target="_blank">[Link to My Vimeo Profile]
+                  </a>
+                </span>
+                <span class="display-inline-block padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+                  </svg>
+                  <a class="JS-link" href="https://github.com/smendez92" target="_blank">[Link to My GitHub Profile]
+                  </a>
+                </span>
+                <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                  </svg>
+                  <a class="JS-link" href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank">[Link to My LinkedIn Profile]
+                  </a>
+                </span> 
+              </div>
+            </div>
+          </div>		
+        </section>
+        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em" id="homepage-section-highlights-container">
+          
+          <!-- Mustache template script for highlights section -->
+          <script id="highlighted-projects-template" type="text/x-handlebars-template">​
             <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
-              <h2>HIGHLIGHTED PROJECTS
+              <h2>
+                {{sectionName}}
               </h2> 
             </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageHighlightProjectContainer-saigon">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'10 Days in Saigon' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-saigon.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/saigon.html" target="_blank">10 Days in Saigon
-                    </a>
-                  </h3> 
+            {{#projects}}
+              <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white " id="homepageHighlightProjectContainer-{{shortName}}">
+                <div class="homepage-project-icon-container display-block">
+                  <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
                 </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
-                  <div class="position-relativepadding-T-p5em">A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam.
+                <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
+                  <div class="padding-L-p5em">
+                    <h3>
+                      <a href="./modals/{{shortName}}.html" target="_blank">
+                        {{name}}
+                      </a>
+                    </h3> 
+                  </div>
+                  <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+                    <div class="position-relative padding-T-p5em">
+                      {{descriptionShort}}
+                    </div>
                   </div>
                 </div>
-                <ul class="position-relative padding-L-p5em">
-                  <li class="font-size-p75em padding-B-p5em">Discusses wheelchair accessibility in playful, digestible videos for an audience that might not necessarily be looking specifically for accessibility information.
-                  </li>
-                  <li class="font-size-p75em padding-B-p5em">Aims to challenge common mass media images of disability as an object of pity or "inspiration".
-                  </li>
-                </ul>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/saigon.html" target="_blank">
-                      [Link to "10 Days" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.facebook.com/wearemuui/videos/1834490626823232/" target="_blank">
-                      [Link to "10 Days" Trailer on Facebook]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.facebook.com/wearemuui/videos/1838183853120576/" target="_blank">	
-                      [Link to "10 Days" Episode 1 on Facebook]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 8c0-3.31-2.69-6-6-6S6 4.69 6 8c0 4.5 6 11 6 11s6-6.5 6-11zm-8 0c0-1.1.9-2 2-2s2 .9 2 2-.89 2-2 2c-1.1 0-2-.9-2-2zM5 20v2h14v-2H5z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.google.com/maps/d/viewer?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US&ll=10.798291852220926%2C106.67387433398437&z=13" target="_blank">	
-                      [Link to "10 Days" Google Map]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.giantrobot.media/stories/2017/5/30/muui" target="_blank">
-                      [Link to "10 Days" Article]
-                    </a>
-                  </span> 
+                <div class="homepage-project-links-container bg-239-241-241 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                  {{#links}}
+                    <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                      <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                        {{{icon}}}
+                      </svg>
+                      <a class="JS-link" href={{url}} target="_blank">
+                        [{{linkText}}]
+                      </a>
+                    </span>
+                  {{/links}}
                 </div>
               </div>
+            {{/projects}}
+          </script>
+        </section>
+
+        <!-- News Section -->
+        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-bottom-1em margin-top-1em padding-B-2em">
+          <div class="homepage-project-container border-top-1px-thin-gray bg-white width-100pc" id="homepage-section-news">
+            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center width-100pc">
+              <h2>NEWS
+              </h2> 
             </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageHighlightProjectContainer-bodega">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'A Bodega' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-bodega.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/bodega.html" target="_blank">A Bodega
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-L-p5em padding-T-p5em">An experimental documentary; an asset-based look at health equity, made with ingredients from a bodega in Lawrence, MA.
-                </div>
-                <div class="position-relative padding-B-p5empadding-T-p5em">
-                  <ul class="position-relative padding-L-p5em padding-T-p5em">
-                    <li class="font-size-p75em padding-B-p5em">Takes an asset-based look at food access and corner stores, respecting the work already underway to address the gaps left behind by inequitable social systems.
-                    </li>
-                    <li class="font-size-p75em padding-B-p5em">Shows the potential of animation as a documentary method to inspire empathy and amplify underheard voices.
-                    </li>
-                  </ul>
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/bodega.html" target="_blank">
-                      [Link to "A Bodega" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/91566613" target="_blank">
-                      [Link to "A Bodega" Film on Vimeo]
-                    </a>
-                  </span> 
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white" id="homepageProjectContainer-wiki">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="Wheelchair Travel Wiki logo" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-wiki.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/wiki.html" target="_blank">Wheelchair Travel A11Y Wiki
-                    </a> (ongoing)
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">In-progress demo of a wheelchair travel accessibility (A11Y) wiki.
-                </div>
-                <div class="position-relative padding-B-p5empadding-T-p5em">
-                  <ul class="position-relative padding-L-p5em">
-                    <li class="font-size-p75em padding-B-p5em">Creating a structure for crowd-sourced accessibility information, focusing on a sweet spot of brevity, useful details, and contextualizing information.
-                    </li>
-                    <li class="font-size-p75em padding-B-p5em">Designed with web accessibility in mind—error spotting and suggestions for improvement welcome!
-                    </li>
-                  </ul>
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/wiki.html" target="_blank">
-                      [Link to Wiki Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                    </svg>
-                    <a class="JS-link" href="https://github.com/smendez92/wheelchairWiki" target="_blank">[Link to GitHub Repo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M22 10l-6-6H4c-1.1 0-2 .9-2 2v12.01c0 1.1.9 1.99 2 1.99l16-.01c1.1 0 2-.89 2-1.99v-8zm-7-4.5l5.5 5.5H15V5.5z"/>
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://docs.google.com/presentation/d/e/2PACX-1vSHgkq7e-YyAYJNcxFAidPSJn6Cho9bl-xoMKEzgYgUIz3cC0RQ8colsHKmRzDYNjA2iLB6hDlDOKXO/pub?start=false&loop=false&delayms=3000" target="_blank">	
-                      [Link to Wiki Presentation on Google Slides]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://wheelchairtravelwiki.herokuapp.com" target="_blank">
-                      [Link to Wiki Demo on Heroku]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-bottom-1em margin-top-1em padding-B-2em">
-            <div class="homepage-project-container border-top-1px-thin-gray bg-white width-100pc" id="homepage-section-news">
-              <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center width-100pc">
-                <h2>NEWS
+            <table class="margin-auto width-90pc">
+              <tr class="text-left">
+                <th scope="col">Date <span class="font-size-p75em">(YYYY.MM)</span>
+                </th>
+                <th scope="col">Update
+                </th>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.11
+                </td>
+                <td class="padding-T-p5em">
+                  <span class="font-italic">By Foot: Busan and the Sea
+                  </span> screened at Chinh India Kids Film Festival in New Delhi, India.
+                </td>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.11
+                </td>
+                <td class="padding-T-p5em">
+                  <span class="font-italic">A Bodega
+                  </span> selected for inclusion in the National Academy of Medicine's Visualizing Health Equity project. The film was included in a pop-up gallery, and I was personally invited to speak at a panel event in Washington DC. 
+                </td>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.10
+                </td>
+                <td class="padding-T-p5em">
+                  <span class="font-italic">By Foot: Busan and the Sea
+                  </span> won the Exceptional Artistry award for animation at the Official Latino Short Film Festival in New York City.
+                </td>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.10
+                </td>
+                <td class="padding-T-p5em">A festival edit of 
+                  <span class="font-italic">10 Days in Saigon
+                  </span> was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest.
+                </td>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.09
+                </td>
+                <td class="padding-T-p5em">
+                  <span class="font-italic">A Bodega
+                  </span> screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District.
+                </td>
+              </tr>
+              <tr>
+                <td class="width-3em">2017.06
+                </td>
+                <td class="padding-T-p5em">
+                  <span class="font-italic">10 Days in Saigon
+                  </span> covered by Giant Robot Media. [
+                  <a href="https://www.giantrobot.media/stories/2017/5/30/muui" target="_blank">Link
+                  </a>]
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- Mustache template script for remaining project sections -->
+        <script id="projects-template" type="text/x-handlebars-template">​
+          {{#sections}}
+            <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+              <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
+                <h2>
+                  {{sectionName}}
                 </h2> 
               </div>
-              <table class="margin-auto width-90pc">
-                <tr class="text-left">
-                  <th scope="col">Date <span class="font-size-p75em">(YYYY.MM)</span>
-                  </th>
-                  <th scope="col">Update
-                  </th>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.11
-                  </td>
-                  <td class="padding-T-p5em">
-                    <span class="font-italic">By Foot: Busan and the Sea
-                    </span> screened at Chinh India Kids Film Festival in New Delhi, India.
-                  </td>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.11
-                  </td>
-                  <td class="padding-T-p5em">
-                    <span class="font-italic">A Bodega
-                    </span> selected for inclusion in the National Academy of Medicine's Visualizing Health Equity project. The film was included in a pop-up gallery, and I was personally invited to speak at a panel event in Washington DC. 
-                  </td>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.10
-                  </td>
-                  <td class="padding-T-p5em">
-                    <span class="font-italic">By Foot: Busan and the Sea
-                    </span> won the Exceptional Artistry award for animation at the Official Latino Short Film Festival in New York City.
-                  </td>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.10
-                  </td>
-                  <td class="padding-T-p5em">A festival edit of 
-                    <span class="font-italic">10 Days in Saigon
-                    </span> was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest.
-                  </td>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.09
-                  </td>
-                  <td class="padding-T-p5em">
-                    <span class="font-italic">A Bodega
-                    </span> screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District.
-                  </td>
-                </tr>
-                <tr>
-                  <td class="width-3em">2017.06
-                  </td>
-                  <td class="padding-T-p5em">
-                    <span class="font-italic">10 Days in Saigon
-                    </span> covered by Giant Robot Media. [
-                    <a href="https://www.giantrobot.media/stories/2017/5/30/muui" target="_blank">Link
-                    </a>]
-                  </td>
-                </tr>
-              </table>
+              {{#projects}}
+                <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white " id="homepageHighlightProjectContainer-{{shortName}}">
+                  <div class="homepage-project-icon-container display-block">
+                    <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
+                  </div>
+                  <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
+                    <div class="padding-L-p5em">
+                      <h3>
+                        <a href="./modals/{{shortName}}.html" target="_blank">
+                          {{name}}
+                        </a>
+                      </h3> 
+                    </div>
+                    <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
+                      <div class="position-relative padding-T-p5em">
+                        {{descriptionShort}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="homepage-project-links-container bg-239-241-241 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                    {{#links}}
+                      <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                        <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                          {{{icon}}}
+                        </svg>
+                        <a class="JS-link" href={{url}} target="_blank">
+                          [{{linkText}}]
+                        </a>
+                      </span>
+                    {{/links}}
+                  </div>
+                </div>
+              {{/projects}}
+            </section>
+          {{/sections}}
+        </script>
+        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
+          <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-art">
+            <h2>PUBLIC ART
+            </h2> 
+          </div>
+          <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-dots">
+            <div class="homepage-project-icon-container display-block ">
+              <img alt="'Connect the Dots!' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-dots.svg"> 
             </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-animation">
-              <h2>ANIMATED FILMS
-              </h2> 
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-hernandez">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'No One CanHear You' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-hernandez.svg"> 
+            <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
+              <div class="padding-L-p5em">
+                <h3>
+                  <a href="./modals/dots.html" target="_blank">Connect the Dots!
+                  </a>
+                </h3> 
               </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/hernandez.html" target="_blank">No One Can Hear You
-                    </a> (ongoing)
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A mixed-media animation: the memories of Officer Hernández, an astronaut losing contact with her crewmates and drifting off into space.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/hernandez.html" target="_blank">
-                      [Link to "No One" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/233932687" target="_blank">
-                      [Link to "No One" Excerpt on Vimeo]
-                    </a>
-                  </span>
-                </div>
+              <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An interactive art installation taking place in a public bathroom.
+              </div>
+              <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
+                <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
+                  </svg>
+                  <a class="JS-link" href="./modals/dots.html" target="_blank">
+                    [Link to "Dots" Overview]
+                  </a>
+                </span>
               </div>
             </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-yuca">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'How to Make Yuca Frita' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-yuca.svg"> 
+          </div>
+          <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-walks">
+            <div class="homepage-project-icon-container display-block">
+              <img alt="'Walks through Cambridge' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-walks.svg"> 
+            </div>
+            <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
+              <div class="padding-L-p5em">
+                <h3>
+                  <a href="./modals/walks.html" target="_blank">Walks through Cambridge
+                  </a>
+                </h3> 
               </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/yuca.html" target="_blank">How to Make Yuca Frita
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An instructional animation: peel, chop, remove the stringy core, boil, fry, and eat.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/yuca.html" target="_blank">
-                      [Link to "Yuca" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/95826024" target="_blank">
-                      [Link to "Yuca" Film on Vimeo]
-                    </a>
-                  </span>
-                </div>
+              <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A site-specific public art installation in Harvard Yard, produced for Harvard ARTS FIRST 2011.
+              </div>
+              <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
+                <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
+                  <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
+                  </svg>
+                  <a class="JS-link" href="./modals/walks.html" target="_blank">
+                    [Link to "Walks" Overview]
+                  </a>
+                </span>
               </div>
             </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-busan">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'By Foot: Busan and the Sea' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-busan.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/busan.html" target="_blank">By Foot: Busan and the Sea
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An experimental documentary: a solo trip through Busan, South Korea.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/busan.html" target="_blank">
-                      [Link to "Busan" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="https://vimeo.com/203944431" target="_blank">
-                      [Link to "Busan" Trailer on Vimeo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-after">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'After, After That' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-after.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/after.html" target="_blank">After, After That
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An experimental documentary: a cross between two marks.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/after.html" target="_blank">
-                      [Link to "After" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/55657740" target="_blank">
-                      [Link to "After" Online Film]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-breakfast">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Persefone's Breakfast' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-breakfast.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/breakfast.html" target="_blank">Persefone's Breakfast
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An experimental animation: Persephone's voice messages to Hades as she leaves the Underworld once and for all.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/breakfast.html" target="_blank">
-                      [Link to "Breakfast" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/134973465" target="_blank">
-                      [Link to "Breakfast" Film on Vimeo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white" id="homepageProjectContainer-food">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Animating Food' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-food.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/food.html" target="_blank">Food Animation Demos
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">Experiments in object animation to depict different facets of texture, color, and changes over time in food.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/food.html" target="_blank">
-                      [Link to Food Animation Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/95826022" target="_blank">	
-                      [Link to Food Animation Demo 1]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/95826020" target="_blank">
-                      [Link to Food Animation Demo 2]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/95826025" target="_blank">
-                      [Link to Food Animation Demo 3]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-health">
-              <h2>PUBLIC HEALTH RESEARCH
-              </h2> 
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-nlm">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Library Partnership' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-nlm.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/nlm.html" target="_blank">Library Partnership
-                    </a> (ongoing)
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">Prototype development and user-centered design in a partnership with Chicago public libraries to tailor + implement an educational tool about clinical trials.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/nlm.html" target="_blank">
-                      [Link to Library Project Overview]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-chec">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="ChicagoCHEC logo" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-chec.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/chec.html" target="_blank">ChicagoCHEC Community Engagement
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A tri-instiutional U54 partnership focused on cancer health equity in Chicago. Community engagement activities + long-term partnerships to increase underserved communities' access to tri-instiutional resources.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/chec.html" target="_blank">
-                      [Link to ChicagoCHEC Overview]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-pp">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Perceptions of Planned Parenthood' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-pp.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="JS-link padding-L-p5em">
-                  <h3>
-                    <a href="./modals/pp.html" target="_blank">Perceptions of Planned Parenthood
-                    </a> (ongoing)
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">Qualitative study on medical providers' perceptions of Planned Parenthood (PP) in family planning referrals.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/pp.html" target="_blank">
-                      [Link to PP Study Overview]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-media">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Social Media Use' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-media.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/media.html" target="_blank">Social Media Use by Community-Based Organizations
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A content analysis of community-based organizations' social media posts.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/media.html" target="_blank">
-                      [Link to Social Media Study Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                    <a class="JS-link" href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1129" target="_blank">
-                      [Link to Research Article on BMC Public Health]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-lmhtf">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Bodegas Saludable' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-lmhtf.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/lmhtf.html" target="_blank">Bodegas Saludables
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">Video explaining a community research partner's public health program.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/lmhtf.html" target="_blank">
-                      [Link to "Bodegas" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/231980215" target="_blank">
-                      [Link to "Bodegas" Video Excerpt on Vimeo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-webdev">
-              <h2>WEB DEVELOPMENT
-              </h2> 
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-apples">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Everything But Apples' logo" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-apples.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/apples.html" target="_blank">Everything But Apples
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A multiplayer web-enabled party game; a social-digital version of Apples to Apples.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/apples.html" target="_blank">
-                      [Link to "Apples" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/235844101/" target="_blank">
-                      [Link to "Apples" Demo Presentation on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                    </svg>
-                    <a class="JS-link" href="https://github.com/amgault/everythingButApples" target="_blank">
-                      [Link to "Apples" GitHub Repo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://everythingbutapples.herokuapp.com" target="_blank">
-                      [Link to "Apples" Demo on Heroku]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-nytreact">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="NYT React App icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-nyt.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/nytreact.html" target="_blank">NYT React Demo
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A demo web app made with React and Bootstrap that lets users search New York Times Articles and save select articles to the page.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/nytreact.html" target="_blank">
-                      [Link to "NYT React" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                    </svg>
-                    <a class="JS-link" href="https://github.com/smendez92/nytreact" target="_blank">
-                      [Link to "NYT React" GitHub Repo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://nyreactapp.herokuapp.com" target="_blank">
-                      [Link to "NYT React" Heroku Demo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-giftpitch">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="GiftPitch icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-gift.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/giftpitch.html" target="_blank">GiftPitch Demo
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">Front-end logic for a web app letting users take a personality quiz to help find the perfect gift for someone from Amazon, Etsy, or Ebay.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/giftpitch.html" target="_blank">
-                      [Link GiftPitch to Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                    </svg>
-                    <a class="JS-link" href="https://github.com/jmoc1181/GiftProject" target="_blank">
-                      [Link to GiftPitch GitHub Repo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/235300604" target="_blank">
-                      [Link to GiftPitch Walkthrough Video]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-video">
-              <h2>VIDEO
-              </h2> 
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-joliet">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="Spanish Community Center cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-joliet.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/joliet.html" target="_blank">Spanish Community Center (SCC) Promo Video
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A promotional video for the 
-                  <a href="http://spanishcenter.org/" target="_blank">[Spanish Community Center]
-                  </a> in Joliet, IL.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/joliet.html" target="_blank">
-                      [Link to SCC Video Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/221224584" target="_blank">
-                      [Link to SCC Promo Video on Vimeo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-artemis">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Artemis 1' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-artemis.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/artemis.html" target="_blank">Artemis I Fundraiser Video
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A fundraising video for a high-altitude balloon launch by 
-                  <a href="https://sshchicago.org/" target="_blank">[South Side Hackerspace: Chicago]
-                  </a> to document the 2017 solar eclipse.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/artemis.html" target="_blank">
-                      [Link to "Artemis" Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/223448852" target="_blank">
-                      [Link to "Artemis" Video on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.generosity.com/education-fundraising/experience-the-2017-eclipse-with-us-artemis-i" target="_blank">
-                      [Link to "Artemis" Fundraising Campaign]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-whyu">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'WhyUEdu Information Series' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-whyu.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/whyu.html" target="_blank">WhyUEdu Info Series
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">2 sets of informational videos + worksheets on aspects of the US college application process.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/whyu.html" target="_blank">
-                      [Link to WhyUEdu Series Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/128663374/341f06632a" target="_blank">
-                      [Link to WhyUEdu Series Excerpt 1 on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/128663372/553014bdd5" target="_blank">
-                      [Link to WhyUEdu Series Excerpt 2 on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.samuelanimates.com/assets/documents/Why+Essay+Planning+Worksheet.pdf" target="_blank">
-                      [Link to WhyUEdu Series Worksheet PDF 1]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.samuelanimates.com/assets/documents/Sample+Questions.pdf" target="_blank">
-                      [Link to WhyUEdu Serie Worksheet PDF 2]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-teeny">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="Teeny logo" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-teeny.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/teeny.html" target="_blank">Teeny Kickstarter Campaign Video
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A fundraising video for a Kickstarter campaign promoting a Taiwanese artisan's work.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/teeny.html" target="_blank">
-                      [Link to Teeny Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/172990828" target="_blank">
-                      [Link to Teeny Fundraising Video on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-L-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                    <a class="JS-link" href="https://www.kickstarter.com/projects/849732009/teeny-artisan-coin-holders-for-your-change-and-ess" target="_blank">
-                      [Link to Teeny Fundraising Campaign]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-bottom-1em margin-top-1em">
-            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-art">
-              <h2>PUBLIC ART
-              </h2> 
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-dots">
-              <div class="homepage-project-icon-container display-block ">
-                <img alt="'Connect the Dots!' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-dots.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/dots.html" target="_blank">Connect the Dots!
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">An interactive art installation taking place in a public bathroom.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/dots.html" target="_blank">
-                      [Link to "Dots" Overview]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white clear-both " id="homepageProjectContainer-walks">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Walks through Cambridge' cartoon icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-walks.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/walks.html" target="_blank">Walks through Cambridge
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A site-specific public art installation in Harvard Yard, produced for Harvard ARTS FIRST 2011.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/walks.html" target="_blank">
-                      [Link to "Walks" Overview]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em padding-B-p5em bg-white " id="homepageProjectContainer-projection">
-              <div class="homepage-project-icon-container display-block">
-                <img alt="'Projection Mapping' icon" class="homepage-project-icon display-block max-height-12em" src="./assets/images/homepage-icon-projection.svg"> 
-              </div>
-              <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
-                <div class="padding-L-p5em">
-                  <h3>
-                    <a href="./modals/projection.html" target="_blank">Projection Mapping Demos
-                    </a>
-                  </h3> 
-                </div>
-                <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">A visual art technique in which video is projected onto a site-specific surface. It involved 3D modeling, video, animation, and public art installation techniques.
-                </div>
-                <div class="homepage-project-links-container padding-T-p5em border-top-2px-thin-gray font-size-p75em">
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                      <path d="M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z" fill="#010101"/>
-                    </svg>
-                    <a class="JS-link" href="./modals/projection.html" target="_blank">
-                      [Link to Projection Mapping Overview]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/80842844" target="_blank">
-                      [Link to Projection Mapping Demo 1 on Vimeo]
-                    </a>
-                  </span>
-                  <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
-                    <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0h24v24H0V0z" fill="none"/>
-                      <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
-                    </svg>
-                    <a class="JS-link" href="http://www.vimeo.com/231818824" target="_blank">
-                      [Link to Projection Mapping Demo 2 on Vimeo]
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </section>
-        </main>
-      </div>
+          </div>
+        </section>
+      </main>
     </div>
     <nav class="bg-white display-none height-100pc top-2p75-em width-100pc z1 max-width-22em" id="navbar-modal">
       <div id="navbar-text-container">
@@ -1491,9 +446,13 @@
         </button>
       </div>
     </aside>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
-    <script src="./assets/javascript/mini-app.js">
-    </script>
+
+            <!-- Include jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/></script>
+            <!-- Include this page's Javascript -->
+            <script src="./assets/javascript/app.js"/></script>
+            <!-- Include Mustache -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+
   </body>
 </html>
