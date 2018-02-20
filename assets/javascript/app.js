@@ -583,7 +583,17 @@ const projectsData = [
 			"title": "NYTReact"
 		},
 		"tarot": {
-			"title": "AR-Tarot"
+			"title": "AR-Tarot",
+			"sidebar": {
+				"photo": "",
+				"year": "2018",
+				"caption": ""
+			},
+			"atAGlance": [
+				"",
+				""
+			],
+			"note": 
 		}
 	}
 ]
