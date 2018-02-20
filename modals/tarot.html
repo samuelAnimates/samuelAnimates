@@ -42,14 +42,17 @@
 			* {
 				box-sizing: border-box;
 			}
-			a{
+			a {
 				color: inherit;
-				text-decoration: none;
+				text-decoration: underline;
+				text-decoration-color: rgb(0,58,204);
 			}
-			a:hover, a:focus, button:hover, button:focus {
-				background-color: rgb(17, 17, 17);
-				border: thin single rgb(0, 72, 182);
-				color: rgb(236, 229, 102);
+			a:hover,
+			a:focus,
+			button:hover,
+			button:focus {
+				background-color: rgb(0,36,128);
+				color: rgb(255,255,255);
 				text-decoration: underline;
 				cursor: pointer;
 			}
@@ -210,44 +213,18 @@
 			}
 		</style>
     </head>
-    
     <body>
 		<nav class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
-				<div class="float-left header-nav-link height-3em width-33pc" id="home-button">
-					<button class="JS-link bg-white font-weight-600 height-3em">[HOME]</button>
-				</div>
-				<div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
-					<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
-				</div>
-		</nav>
-			<header>
-				<h2>AR-Tarot</h2>
-			</header>
-		<main>
-			<div class="snapshot-container">
-				<div id="slides">
-					<div class="slide showing"><img src="../assets/images/projectPhotos/nytReact.png" alt="NYT REact demo screenshot"></div>
-				</div>
-				<div class="caption">
-					<h2>2017</h2>
-					<p class="stats">Mongo-Express-React-Node app using Bootstrap as a frontend design framework and the New York Times API to query, display, and save news articles.</p>
-				</div>
+			<div class="float-left header-nav-link height-3em width-33pc" id="home-button">
+				<button class="JS-link bg-white font-weight-600 height-3em">[HOME]</button>
 			</div>
-            <div class="statement-block">
-                <h3>Links</h3>
-                <ul>
-                    <li>GitHub Repo: [<a target="_blank" href="https://github.com/smendez92/nytreact">https://github.com/smendez92/nytreact</a>]</li>
-                    <li>Heroku Deployment: [<a target="_blank" href="https://nyreactapp.herokuapp.com/">https://nyreactapp.herokuapp.com/</a>]</li>
-                </ul>
-            </div>      
-        <div class="statement-block">
-            <h3>Skills Strengthened</h3>
-            <ul>
-                <li>Setting up database schema using Mongoose, with CRUD routes to interact with the database via express.</li>
-                <li>Deploying a React app with a public-facing client and a server.</li>
-            </ul>
-		</div>
-	</main>
+			<div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
+				<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
+			</div>
+		</nav>
+		<main data-pageId="tarot" data-role="modal">
+		</main>
+
 	<!-- CONNECT FOOTER ASIDE -->
 	<aside class="bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em" id="connect-footer-modal">
 		<div class="display-block text-center width-100pc">
@@ -295,8 +272,12 @@
 			<button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]</button>
 		</div>
 	</aside>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-	<script src="../assets/javascript/app.js"></script>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include this page's Javascript -->
+    <script src="../assets/javascript/app.js"></script>
+    <!-- Include Mustache -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
 	</body>
     
 </html>

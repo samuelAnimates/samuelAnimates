@@ -36,7 +36,7 @@
         </button>
       </div>
     </header>
-      <main class="margin-auto max-width-56em padding-T-4em width-90pc">
+      <main class="margin-auto max-width-56em padding-T-4em width-90pc" data-role="homepage">
         <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto max-width-50em padding-B-2em padding-L-p5em padding-R-p5em">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
@@ -78,7 +78,7 @@
                     <path d="M0 0h24v24H0z" fill="none"/>
                     <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
                   </svg>
-                  <a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank">[Link to My CV as a Published Google Doc]
+                  <a class="JS-link" href="https://docs.google.com/document/d/e/2PACX-1vSMS4XleOQlHUDp5mbn00Z29u8Pbg3EhHyVDzDJag1cWMi6uTh6vCOnqk6BYG7L16BAlchdHuvuq5zb/pub" target="_blank">My CV as a Published Google Doc
                   </a>
                 </span>
                 <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
@@ -86,7 +86,7 @@
                     <path d="M0 0h24v24H0V0z" fill="none"/>
                     <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z"/>
                   </svg>
-                  <a class="JS-link" href="http://www.vimeo.com/user15152945" target="_blank">[Link to My Vimeo Profile]
+                  <a class="JS-link" href="http://www.vimeo.com/user15152945" target="_blank">My Vimeo Profile
                   </a>
                 </span>
                 <span class="display-inline-block padding-R-p5em">
@@ -94,7 +94,7 @@
                     <path d="M0 0h24v24H0V0z" fill="none"/>
                     <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
                   </svg>
-                  <a class="JS-link" href="https://github.com/smendez92" target="_blank">[Link to My GitHub Profile]
+                  <a class="JS-link" href="https://github.com/smendez92" target="_blank">My GitHub Profile
                   </a>
                 </span>
                 <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
@@ -102,7 +102,7 @@
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
                     <path d="M0 0h24v24H0z" fill="none"/>
                   </svg>
-                  <a class="JS-link" href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank">[Link to My LinkedIn Profile]
+                  <a class="JS-link" href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank">My LinkedIn Profile
                   </a>
                 </span> 
               </div>
@@ -137,14 +137,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="homepage-project-links-container bg-239-241-241 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                   {{#links}}
                     <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                       <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
                         {{{icon}}}
                       </svg>
                       <a class="JS-link" href={{url}} target="_blank">
-                        [{{linkText}}]
+                        {{linkText}}
                       </a>
                     </span>
                   {{/links}}
@@ -155,14 +155,14 @@
         </section>
 
         <!-- News Section -->
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-1em margin-top-1em max-width-50em padding-B-2em">
+        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-1em margin-top-1em max-width-50em">
           <div class="homepage-project-container width-100pc" id="homepage-section-news">
             <div class="bg-white-sheer height-3em padding-B-p5em padding-T-1p5em text-center">
               <h2 class="floating-heading left-0 margin-auto position-absolute right-0">
                 NEWS
               </h2> 
             </div>
-            <div class="bg-white">
+            <div class="bg-white border-top-1px-thin-gray padding-B-2em padding-T-1p5em">
               <table class="margin-auto width-90pc" id="news-table">
                 <tr class="text-left">
                   <th scope="col">Date <span class="font-size-p75em">(YYYY.MM)</span>
@@ -174,10 +174,10 @@
                 <script id="news-template" type="text/x-handlebars-template">​
                   {{#newsitems}}
                     <tr>
-                      <td class="width-3em">
+                      <td class="text-center width-3em">
                         {{date}}
                       </td>
-                      <td class="padding-T-p5em">
+                      <td class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
                         {{update}}
                       </td>
                     </tr>
@@ -216,14 +216,14 @@
                       </div>
                     </div>
                   </div>
-                  <div class="homepage-project-links-container bg-239-241-241 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                  <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                     {{#links}}
                       <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                         <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
                           {{{icon}}}
                         </svg>
                         <a class="JS-link" href={{url}} target="_blank">
-                          [{{linkText}}]
+                          {{linkText}}
                         </a>
                       </span>
                     {{/links}}
@@ -353,12 +353,15 @@
       </div>
     </aside>
 
-            <!-- Include jQuery -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <!-- Include this page's Javascript -->
-            <script src="./assets/javascript/app.js"></script>
-            <!-- Include Mustache -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+    <footer>
+      
+    </footer>
 
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include this page's Javascript -->
+    <script src="./assets/javascript/app.js"></script>
+    <!-- Include Mustache -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
   </body>
 </html>

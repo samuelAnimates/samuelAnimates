@@ -26,16 +26,16 @@
 	line-height: 1;
   }
   a {
-	color: inherit;
-	text-decoration: underline;
+		color: inherit;
+		text-decoration: underline;
+		text-decoration-color: rgb(0,58,204);
   }
   a:hover,
   a:focus,
   button:hover,
   button:focus {
-	background-color: rgb(17, 17, 17);
-	border: thin single rgb(0, 72, 182);
-	color: rgb(236, 229, 102);
+	background-color: rgb(0,36,128);
+	color: rgb(255,255,255);
 	text-decoration: underline;
 	cursor: pointer;
   }
@@ -216,8 +216,8 @@ ONE CLASS DOES ONE THING
 .bg-black{
 	background-color: rgb(17, 17, 17);
 }
-.bg-239-241-241 {
-	background-color: rgb(239, 241, 241);
+.bg-242-242-242 {
+	background-color: rgb(242, 241, 241);
 }
 .bg-pink-lightest{
 	background-color: rgb(255, 246, 252);
@@ -347,6 +347,9 @@ ul {
 .text-shadow{
 	text-shadow: -5px 5px black;
 }
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
 .width-80pc{
 	width: 80%;
 }
@@ -434,9 +437,6 @@ Responsive portions
 	.homepage-project-links-container{
 		width: 100%;
 	}
-	.project-container-doublewidth{
-		width: 100%;
-	}
 }
 
 
@@ -490,10 +490,7 @@ Responsive portions
 		width: 90%;
 	}
 	.homepage-project-links-container{
-		width: 75%;
-	}
-	.project-container-doublewidth{
-		width: 100%;
+		width: 77%;
 	}
 	
 }

@@ -112,7 +112,7 @@ const projectsData = [
 				"update": "'10 Days in Saigon' was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest."
 			},
 			{
-				"date": "2017.9",
+				"date": "2017.09",
 				"update": "'A Bodega' screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District."
 			}
 		]
@@ -148,7 +148,7 @@ const projectsData = [
 					{
 						"name": "How to Make Yuca Frita",
 						"shortName": "Yuca",
-						"descriptionShort": "A 10-week web series documenting wheelchair travel in Ho Chi Minh City, Vietnam.",
+						"descriptionShort": "An instructional animation: peel, chop, remove the stringy core, boil, fry, and eat.",
 						"links": [
 							{
 								"url": "./modals/yuca.html",
@@ -190,7 +190,7 @@ const projectsData = [
 					{
 						"name": "After, After That",
 						"shortName": "after",
-						"descriptionShort": "An experimental documentary: a solo trip through Busan, South Korea.",
+						"descriptionShort": "An experimental documentary: a cross between two marks.",
 						"links": [
 							{
 								"url": "./modals/after.html",
@@ -238,7 +238,7 @@ const projectsData = [
 					{
 						"name": "Health for All",
 						"shortName": "nlm",
-						"descriptionShort": "Prototype development for a clinical trial informational tool under development in partnership with Chicago Public Libraries.",
+						"descriptionShort": "Ongoing prototype development for a clinical trial informational tool under development in partnership with Chicago Public Libraries.",
 						"links": [
 							{
 								"url": "./modals/nlm.html",
@@ -553,7 +553,7 @@ const projectsData = [
 					},
 					{
 						"name": "Walks Through Cambridge",
-						"shortName": "Yuca",
+						"shortName": "walks",
 						"descriptionShort": "A site-specific public art installation in Harvard Yard, produced for Harvard ARTS FIRST 2011.",
 						"links": [
 							{
@@ -571,8 +571,50 @@ const projectsData = [
 			},
 			
 		]
+	},
+	{
+		"apples": {
+			"title": "Everything but Apples"
+		},
+		"giftpitch": {
+			"title": "GiftPitch"
+		},
+		"nytreact": {
+			"title": "NYTReact"
+		},
+		"tarot": {
+			"title": "AR-Tarot"
+		}
 	}
 ]
+
+const modalTemplate = `
+	<h1>{{title}}</h1>
+	<div class="snapshot-container">
+	<div id="slides">
+		<div class="slide showing">
+			<img src="../assets/images/projectPhotos/tarot.jpg" alt="AR-Tarot demo screenshot">
+		</div>
+	</div>
+		<div class="caption">
+			<h2>2018</h2>
+			<p class="stats">Mongo-Express-React-Node app using Bootstrap as a frontend design framework and the New York Times API to query, display, and save news articles.</p>
+		</div>
+	</div>
+	<div class="statement-block">
+		<h3>Links</h3>
+		<ul>
+			<li>GitHub Repo: [<a target="_blank" href="https://github.com/smendez92/nytreact">https://github.com/smendez92/nytreact</a>]</li>
+			<li>Heroku Deployment: [<a target="_blank" href="https://nyreactapp.herokuapp.com/">https://nyreactapp.herokuapp.com/</a>]</li>
+		</ul>
+	</div>      
+	<div class="statement-block">
+		<h3>Skills Strengthened</h3>
+		<ul>
+			<li>Setting up database schema using Mongoose, with CRUD routes to interact with the database via express.</li>
+			<li>Deploying a React app with a public-facing client and a server.</li>
+		</ul>
+	</div>`
 
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
@@ -644,10 +686,17 @@ function showNavBar(){
 //<=============== HOMEPAGE FUNCTIONS =========================>
 $(document).ready(function () {
 
-	$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
-	$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
-	$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
-	
+	if ($("main").data("role") == "modal"){
+		console.log("AYY");
+		let pageName = $("main").data("pageId");
+		console.log(pageName);
+		$('main').append(Mustache.to_html(modalTemplate, projectsData[3].pageName).replace(/[\u200B]/g, ''));
+	}
+	else{
+		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
+		$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
+		$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
+	}
 
 	//An open modal closes if enter or x is pressed
 	$(document).keydown(function (e) {
