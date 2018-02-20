@@ -688,9 +688,7 @@ $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
 		console.log("AYY");
-		let pageName = $("main").data("pageId");
-		console.log(pageName);
-		$('main').append(Mustache.to_html(modalTemplate, projectsData[3].pageName).replace(/[\u200B]/g, ''));
+		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
 	}
 	else{
 		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
