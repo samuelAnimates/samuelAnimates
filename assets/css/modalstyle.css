@@ -29,12 +29,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-	padding: 0 .25em 0 .25em
+	line-height: 1.1;
+	padding: 0 .25em 0 .25em;
+	background-color: rgb(250, 250, 250);
 }
 ul {
+	display: block;
 	list-style: square;
 	list-style-position: inside;
+	text-indent: -1.4em;
+}
+ul li {
+	margin-bottom: 0.3em;
+	padding-left: 1.4em;
 }
 blockquote, q {
 	quotes: none;
@@ -57,6 +64,7 @@ table {
 
 a {
 	color: inherit;
+	line-height: .9em;
 	text-decoration: underline;
 	text-decoration-color: rgb(0,58,204);
 }
@@ -69,11 +77,6 @@ button:focus {
 	text-decoration: underline;
 	cursor: pointer;
 }
-
-body{
-	background-color: rgb(250, 250, 250);
-}
-
 
 h1{
 	font-size: 2.0em;
@@ -104,14 +107,6 @@ header{
 
 }
 
-img {
-    max-width: 100%;
-    max-height: 13em;
-}
-
-li{
-	padding: .25em 0 .25em 0;
-}
 
 main{
 	padding: 0 .5em .5em .5em;
@@ -126,6 +121,15 @@ main{
 	color: rgb(250, 250, 250);
 	background-color: rgb(17, 17, 17);
 
+}
+.color-250-250-250{
+	color: rgb(250,250,250);
+}
+.bg-17-17-17{
+	background-color: rgb(17,17,17)
+}
+.bg-252-255-224{
+	background-color: rgb(255,255,224);
 }
 
 .description{
@@ -228,13 +232,6 @@ main{
 
 }
 
-.stats{
-
-	font-size: .75em;
-	text-align: center;
-
-}
-
 .synopsis-block{
 
 	padding: 0 .25em 1.125em .25em;
@@ -242,21 +239,48 @@ main{
 
 }
 
-/* Slideshow styles */
-#slides {
-	background-color: black;
-	height: 13em;
-	position: relative;
+
+.display-block{
+	display: block;
+}
+.font-weight-600{
+	font-weight: 600;
+}
+.height-auto{
+	height: auto;
+}
+.margin-auto{
+	margin: auto;
+}
+.max-height-13em{
+	max-height:13em;
+}
+.max-width-19p35em{
+	max-width: 19.35em;
+}
+.min-width{
+	min-width: 18em;
+}
+.padding-all-p5em{
+	padding: .5em .5em .5em .5em;
+}
+.padding-L-p5em{
+	padding-left: 0.5em;
+}
+.padding-R-p5em{
+	padding-right: 0.5em;
+}
+.text-center{
 	text-align: center;
 }
-
-.slide {
-	float: left; 
-	display: block;
-	width: 100%;
-	height: auto;
-	padding: .5em .5em .5em .5em;
-    z-index: 1;
+.width-auto{
+	width: auto;
+}
+.width-50pc{
+	width: 50%;
+}
+.width-100pc{
+	width: 100%
 }
 
 #connect-footer-modal {

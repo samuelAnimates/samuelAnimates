@@ -443,6 +443,12 @@ Responsive portions
 {
 	.floating-heading{
 			z-index: 3;
+			right: 0;
+			left: 0;
+			position: absolute;
+	}
+	.floating-height-3em{
+		height: 3em;
 	}
 	.footer-social-icon-container {
 		padding: .5em .5em .5em .5em;

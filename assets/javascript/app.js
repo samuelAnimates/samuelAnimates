@@ -573,57 +573,124 @@ const projectsData = [
 		]
 	},
 	{
+		"after": {
+			"title": "Everything but Apples"
+		},
 		"apples": {
+			"title": "Everything but Apples"
+		},
+		"artemis": {
+			"title": "Everything but Apples"
+		},
+		"bodega": {
+			"title": "Everything but Apples"
+		},
+		"breakfast": {
+			"title": "Everything but Apples"
+		},
+		"busan": {
 			"title": "Everything but Apples"
 		},
 		"giftpitch": {
 			"title": "GiftPitch"
 		},
+		"hernandez": {
+			"title": "Everything but Apples"
+		},
+		"joliet": {
+			"title": "Everything but Apples"
+		},
+		"lmhtf": {
+			"title": "Everything but Apples"
+		},
+		"media": {
+			"title": "Everything but Apples"
+		},
+		"nlm": {
+			"title": "Everything but Apples"
+		},
 		"nytreact": {
 			"title": "NYTReact"
+		},
+		"saigon": {
+			"title": "Everything but Apples"
 		},
 		"tarot": {
 			"title": "AR-Tarot",
 			"sidebar": {
-				"photo": "",
-				"year": "2018",
-				"caption": ""
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
 			},
 			"atAGlance": [
-				"",
-				""
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
 			],
-			"note": 
+			"note": [
+				{
+					"title": "",
+					"text": "",
+				},
+				{
+					"title": "",
+					"text": "",
+				}
+			]
+		},
+		"teeny": {
+			"title": "Everything but Apples"
+		},
+		"walks": {
+			"title": "Everything but Apples"
+		},
+		"whyu": {
+			"title": "Everything but Apples"
+		},
+		"wiki": {
+			"title": "Everything but Apples"
+		},
+		"yuca": {
+			"title": "Everything but Apples",
 		}
 	}
 ]
 
 const modalTemplate = `
 	<h1>{{title}}</h1>
-	<div class="snapshot-container">
-	<div id="slides">
-		<div class="slide showing">
-			<img src="../assets/images/projectPhotos/tarot.jpg" alt="AR-Tarot demo screenshot">
+	{{#sidebar}}
+		{{#photo}}
+		<div class="padding-B-p5em padding-T-p5em">
+			<div class="bg-17-17-17 color-250-250-250 text-center">
+				<div class="display-block height-auto margin-auto padding-all-p5em width-100pc">
+					<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
+				</div>
+				<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
+					<p class="font-weight-600">{{year}}</p>
+					<p>{{caption}}</p>
+				</div>
+			</div>
 		</div>
-	</div>
-		<div class="caption">
-			<h2>2018</h2>
-			<p class="stats">Mongo-Express-React-Node app using Bootstrap as a frontend design framework and the New York Times API to query, display, and save news articles.</p>
+		{{/photo}}
+	{{/sidebar}}
+	<div class="min-width padding-B-p5em padding-T-p5em">
+		<div class="bg-252-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
+			<div class="padding-B-p5em">
+				<h3>At a Glance</h3>
+			</div>
+			<div class="display-block padding-L-p5em margin-auto width-90pc">
+				<ul>
+					{{#atAGlance}}
+						<li><span class="font-weight-600">{{title}}</span>: {{{text}}}</li>
+					{{/atAGlance}}
+				</ul>
+			</div>
 		</div>
-	</div>
-	<div class="statement-block">
-		<h3>Links</h3>
-		<ul>
-			<li>GitHub Repo: [<a target="_blank" href="https://github.com/smendez92/nytreact">https://github.com/smendez92/nytreact</a>]</li>
-			<li>Heroku Deployment: [<a target="_blank" href="https://nyreactapp.herokuapp.com/">https://nyreactapp.herokuapp.com/</a>]</li>
-		</ul>
-	</div>      
-	<div class="statement-block">
-		<h3>Skills Strengthened</h3>
-		<ul>
-			<li>Setting up database schema using Mongoose, with CRUD routes to interact with the database via express.</li>
-			<li>Deploying a React app with a public-facing client and a server.</li>
-		</ul>
 	</div>`
 
 var isNavDisplayed = false;
@@ -697,7 +764,6 @@ function showNavBar(){
 $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
-		console.log("AYY");
 		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
 	}
 	else{
