@@ -586,7 +586,7 @@ const projectsData = [
 			"title": "A BODEGA",
 			"sidebar": {
 				"vimeo": "https://player.vimeo.com/video/91566613",
-				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"iframeTitle": "'A Bodega' full film on Vimeo.",
 				"year": "2014",
 				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
 			},
@@ -620,7 +620,38 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"busan": {
-			"title": "Everything but Apples"
+			"title": "BY FOOT: BUSAN AND THE SEA",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/91566613",
+				"iframeTitle": "'By Foot: Busan and the Sea' full film on vimeo.",
+				"year": "2016",
+				"caption": "Experimental documentary made using pixilation, photography, and live action video. 0_min __s."
+			},
+			"atAGlance": [
+				{
+					"title": "Lessons Learned",
+					"text": "Animation and experimental documentary are powerful documentary tools to start conversations around social equity where they might not typically arise."
+				},
+				{
+					"title": "Support",
+					"text": "Created with financial support from the Harvard Visual and Environmental Studies department, a Cordeiro Global Health and Health Policy Summer Research Fellowship, and a grant from the Harvard College Research Program"
+				}
+
+			],
+			"note": [
+				{
+					"title": "Recognition",
+					"text": "<ul><li>Official Latino Film Fest, Exceptional Artistry award winner, New York, NY, 2017.</li></ul>",
+				},
+				{
+					"title": "Background",
+					"text": "",
+				},
+				{
+					"title": "Process",
+					"text": "",
+				}
+			]
 		},
 		"dots":{
 			title: "Connect the Dots!",
@@ -917,7 +948,7 @@ const modalTemplate = `
 			{{#vimeo}}
 				<div class="bg-17-17-17 color-250-250-250 text-center">
 					<div class="vimeo-embed-container">
-						<iframe src={{{vimeo}}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe>
+						<iframe src={{{vimeo}}} title={{iframeTitle}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>
 					</div>
 					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
 						<p class="font-weight-600 padding-B-p25em padding-T-p5em">{{year}}</p>
