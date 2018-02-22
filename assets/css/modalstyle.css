@@ -156,21 +156,18 @@ main{
 
 }
 
-.embed-container{
-
+.vimeo-embed-container{
 	left: 16.7%;
 	position: relative;
 	padding-top: 37.49625%;
 	width: 66.66%;
 	height: 37.49625%;
-
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
-
+.vimeo-embed-container iframe, .vimeo-embed-container object, .vimeo-embed-container embed {
+	left: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
 
@@ -189,18 +186,7 @@ main{
 	padding: .5em .5em .5em .5em;
 }
 
-.inline-title{
 
-	font-style: italic;
-	font-weight: 400;
-
-}
-
-.inspiration-block{
-
-	text-align: left;
-
-}
 
 .progress-bar { 
 	background-color: #8b4d4e;
@@ -208,26 +194,7 @@ main{
 	width: 1%;
   }
 
-.quote-block{
-	background-color: rgb(221, 221, 221);
-	float: left;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
 
-.recognition-block{
-
-	background-color: rgb(210, 210, 210);
-	padding: .5em .25em 1em .25em;
-	text-align: left;
-
-}
-
-.recognition-text{
-
-	padding: 0.125em 0.125em 0.125em 0.125em;
-
-}
 
 
 .display-block{
@@ -241,6 +208,9 @@ main{
 }
 .height-auto{
 	height: auto;
+}
+.left-0{
+	left: 0;
 }
 .margin-auto{
 	margin: auto;
@@ -500,7 +470,6 @@ h3{
 @media only screen and (min-width : 700px){
 
 	.floating-lefthand-container{
-
 		float: left;
 		padding-right: 0.5em;
 		width: 50%;
@@ -512,16 +481,14 @@ h3{
 		width: 50%;
 	}
 
-	.embed-container{
-
+	.vimeo-embed-container{
 		float: left;
 		left: 0;
 		margin-right: 0;
 		position: relative;
 		padding-top: 56.25%;
-		width: 100%;
 		height: 56.25%;
-
+		width: 100%;
 	}
 
 
@@ -540,15 +507,13 @@ h3{
 		width: 50%;
 	}
 
-	.embed-container{
-
+	.vimeo-embed-container{
 		left: 0;
 		margin-right: 0;
 		position: relative;
 		padding-top: 56.25%;
-		width: 100%;
 		height: 56.25%;
-
+		width: 100%;
 	}
 
 }

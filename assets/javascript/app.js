@@ -583,7 +583,38 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"bodega": {
-			"title": "Everything but Apples"
+			"title": "A BODEGA",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/91566613",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2014",
+				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
+			},
+			"atAGlance": [
+				{
+					"title": "Lessons Learned",
+					"text": "Animation and experimental documentary are powerful documentary tools to start conversations around social equity where they might not typically arise."
+				},
+				{
+					"title": "Support",
+					"text": "Created with financial support from the Harvard Visual and Environmental Studies department, a Cordeiro Global Health and Health Policy Summer Research Fellowship, and a grant from the Harvard College Research Program"
+				}
+
+			],
+			"note": [
+				{
+					"title": "Recognition",
+					"text": "<ul><li>National Academy of Medicine's Visualize Health Equity project, official selection and panel speaker, Washington DC, 2017.</li><li>Chicago Onscreen: Local Film Showcase, official selection, Chicago Park District, 2017.</li><li>Chicago REEL Shorts Film Festival, Best Documentary nomination, Chicago, IL, 2014.</li><li>Blue Plum Animation Festival, official selection, Johnson City, TN, 2014.</li></ul>",
+				},
+				{
+					"title": "Background",
+					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film, <span class='inline-title'>A Bodega</span>.",
+				},
+				{
+					"title": "Process",
+					"text": "Over the course of 3 months, I filmed observational footage at several bodegas in Lawrence, MA, that sell produce. I conducted interviews with members of the Lawrence Mayor's Health Task Force and the owners of one such bodega, focusing on the topic of food access and the food for sale in this corner store. Over the course of 6 months, I used stop-motion animation sequences to document food bought at the bodega, illustrate dishes that local residents might make out of the ingredients, and contextualize the bodega within the city. Through an iterative process of animation, editing, and critique, I dropped some segments from the film and chose others to expand on until the final shape of the film was formed.",
+				}
+			]
 		},
 		"breakfast": {
 			"title": "Everything but Apples"
@@ -871,19 +902,30 @@ const modalContactTemplate = `
 const modalTemplate = `
 	<h1>{{title}}</h1>
 	{{#sidebar}}
-		{{#photo}}
 		<div class="floating-lefthand-container padding-B-p5em padding-T-p5em">
-			<div class="bg-17-17-17 color-250-250-250 text-center">
-				<div class="display-block height-auto margin-auto padding-all-p5em width-100pc">
-					<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
+			{{#photo}}
+				<div class="bg-17-17-17 color-250-250-250 text-center">
+					<div class="display-block height-auto margin-auto padding-all-p5em width-100pc">
+						<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
+					</div>
+					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
+						<p class="font-weight-600 padding-B-p25em">{{year}}</p>
+						<p>{{caption}}</p>
+					</div>
 				</div>
-				<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
-					<p class="font-weight-600 padding-B-p25em">{{year}}</p>
-					<p>{{caption}}</p>
+			{{/photo}}
+			{{#vimeo}}
+				<div class="bg-17-17-17 color-250-250-250 text-center">
+					<div class="vimeo-embed-container">
+						<iframe src={{{vimeo}}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe>
+					</div>
+					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
+						<p class="font-weight-600 padding-B-p25em padding-T-p5em">{{year}}</p>
+						<p class="padding-B-p25em">{{caption}}</p>
+					</div>
 				</div>
-			</div>
+			{{/vimeo}}
 		</div>
-		{{/photo}}
 	{{/sidebar}}
 	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
 		<div class="bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
