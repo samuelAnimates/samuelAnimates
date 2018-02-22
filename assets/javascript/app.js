@@ -591,32 +591,8 @@ const projectsData = [
 		"busan": {
 			"title": "Everything but Apples"
 		},
-		"giftpitch": {
-			"title": "GiftPitch"
-		},
-		"hernandez": {
-			"title": "Everything but Apples"
-		},
-		"joliet": {
-			"title": "Everything but Apples"
-		},
-		"lmhtf": {
-			"title": "Everything but Apples"
-		},
-		"media": {
-			"title": "Everything but Apples"
-		},
-		"nlm": {
-			"title": "Everything but Apples"
-		},
-		"nytreact": {
-			"title": "NYTReact"
-		},
-		"saigon": {
-			"title": "Everything but Apples"
-		},
-		"tarot": {
-			"title": "AR-Tarot",
+		"dots":{
+			title: "Connect the Dots!",
 			"sidebar": {
 				"photo": "../assets/images/projectPhotos/tarot.jpg",
 				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
@@ -634,12 +610,114 @@ const projectsData = [
 			],
 			"note": [
 				{
-					"title": "",
-					"text": "",
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
 				},
 				{
-					"title": "",
-					"text": "",
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
+				}
+			]
+		},
+		"giftpitch": {
+			"title": "GiftPitch"
+		},
+		"hernandez": {
+			"title": "Everything but Apples"
+		},
+		"joliet": {
+			"title": "Everything but Apples"
+		},
+		"lmhtf": {
+			"title": "Everything but Apples"
+		},
+		"media": {
+			"title": "Everything but Apples"
+		},
+		"nlm": {
+			"title": "Everything but Apples",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
+			},
+			"atAGlance": [
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+			],
+			"note": [
+				{
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
+				},
+				{
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
+				}
+			]
+		},
+		"nytreact": {
+			"title": "NYTReact",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
+			},
+			"atAGlance": [
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+			],
+			"note": [
+				{
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
+				},
+				{
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
+				}
+			]
+		},
+		"saigon": {
+			"title": "Everything but Apples"
+		},
+		"tarot": {
+			"title": "AR-TAROT",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
+			},
+			"atAGlance": [
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+			],
+			"note": [
+				{
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
+				},
+				{
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
 				}
 			]
 		},
@@ -647,13 +725,63 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"walks": {
-			"title": "Everything but Apples"
+			"title": "Everything but Apples",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
+			},
+			"atAGlance": [
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+			],
+			"note": [
+				{
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
+				},
+				{
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
+				}
+			]
 		},
 		"whyu": {
 			"title": "Everything but Apples"
 		},
 		"wiki": {
-			"title": "Everything but Apples"
+			"title": "Everything but Apples",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
+				"year": "2018.",
+				"caption": "Web app made with augmented reality support using a-frame."
+			},
+			"atAGlance": [
+				{
+					"title": "Link",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+				},
+				{
+					"title": "Link",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+			],
+			"note": [
+				{
+					"title": "Ayy",
+					"text": "lmao lmao lmao",
+				},
+				{
+					"title": "LMAO",
+					"text": "ay ay ay ay ay",
+				}
+			]
 		},
 		"yuca": {
 			"title": "Everything but Apples",
@@ -661,11 +789,70 @@ const projectsData = [
 	}
 ]
 
+const modalNavTemplate = `
+	<nav class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
+		<div class="float-left header-nav-link height-3em width-33pc" id="home-button">
+			<button class="JS-link bg-white font-weight-600 height-3em">[HOME]</button>
+		</div>
+		<div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
+			<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
+		</div>
+	</nav>`
+
+const modalContactTemplate = `
+	<aside class="bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em" id="connect-footer-modal">
+		<div class="display-block text-center width-100pc">
+			<h2>CONNECT</h2>
+		</div>
+		<div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
+			<div class="float-left text-center footer-social-icon-container">
+				<a href="http://www.vimeo.com/user15152945" id="Vimeo-link"><p class="font-size-p5em bg-black color-white font-weight-400">VIMEO</p><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-vimeo.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<a href="https://github.com/smendez92" id="GitHub-link"><p class="font-size-p5em bg-black color-white font-weight-400">GITHUB</p><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-github.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<a href="https://www.linkedin.com/in/samuel-r-mendez/" id="LinkedIn-link"><p class="font-size-p5em bg-black color-white font-weight-400">LINKEDIN</p><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-linkedin.svg"></a>
+			</div>
+			<div class="float-left text-center footer-social-icon-container">
+				<a href="https://www.instagram.com/samuelanimates/" id="Instagram-link"><p class="font-size-p5em bg-black color-white font-weight-400">INSTAGRAM</p><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-instagram.svg"></a>
+			</div>
+		</div>
+		<section class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
+			<h3>Contact Form</h3>
+			<form action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" enctype="text/plain" id="gform" name="gform" onsubmit="submitted=true;" target="hidden_iframe">
+				<div>
+					<label class="clear-left float-left text-right width-6p5em" for="entry.1804477893">FIRST NAME</label> <input class="float-right width-14p5em" id="entry.1804477893" name="entry.1804477893" placeholder="Samuel" type="text">
+				</div>
+				<div>
+					<label class="clear-left float-left text-right width-6p5em" for="entry.779358458">LAST NAME</label> <input class="float-right width-14p5em" id="entry.779358458" name="entry.779358458" placeholder="Mendez" type="text">
+				</div>
+				<div>
+					<label class="clear-left float-left text-right width-6p5em" for="entry.1973645689">EMAIL</label> <input class="float-right width-14p5em" id="entry.1973645689" name="entry.1973645689" placeholder="mendez@samuelanimates.com" type="text">
+				</div>
+				<div>
+					<label class="clear-left float-left text-right width-6p5em" for="entry.282615151">MESSAGE</label> 
+					<textarea class="float-right width-14p5em" form="gform" id="entry.282615151" name="entry.282615151" placeholder="Hello, world!" rows="4"></textarea>
+				</div>
+				<div class="button-container">
+					<input class="clear-both float-right" type="submit" value="SEND">
+				</div>
+				<div id="my-hidden-iframe">
+					<iframe id="hidden_iframe" name="hidden_iframe"></iframe>
+				</div>
+			</form>
+		</section>
+		<div class="JS-link clear-both float-right">
+			<button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]</button>
+		</div>
+	</aside>
+` 
+
 const modalTemplate = `
 	<h1>{{title}}</h1>
 	{{#sidebar}}
 		{{#photo}}
-		<div class="padding-B-p5em padding-T-p5em">
+		<div class="floating-lefthand-container padding-B-p5em padding-T-p5em">
 			<div class="bg-17-17-17 color-250-250-250 text-center">
 				<div class="display-block height-auto margin-auto padding-all-p5em width-100pc">
 					<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
@@ -678,10 +865,10 @@ const modalTemplate = `
 		</div>
 		{{/photo}}
 	{{/sidebar}}
-	<div class="min-width padding-B-p5em padding-T-p5em">
-		<div class="bg-252-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
+	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
+		<div class="bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
 			<div class="padding-B-p5em">
-				<h3>At a Glance</h3>
+				<h2>AT A GLANCE</h2>
 			</div>
 			<div class="display-block padding-L-p5em margin-auto width-90pc">
 				<ul>
@@ -691,6 +878,14 @@ const modalTemplate = `
 				</ul>
 			</div>
 		</div>
+	</div>
+	<div class="clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
+		<h2>OVERVIEW</h2>	
+		{{#note}}
+			<div class="padding-B-p5em padding-T-p5em">
+				<p><h3 class="display-inline">{{title}}:</h3> {{{text}}}</p>
+			</div>
+		{{/note}}
 	</div>`
 
 var isNavDisplayed = false;
@@ -764,6 +959,8 @@ function showNavBar(){
 $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
+		$('body').prepend(Mustache.to_html(modalNavTemplate).replace(/[\u200B]/g, ''));
+		$('body').append(Mustache.to_html(modalContactTemplate).replace(/[\u200B]/g, ''));
 		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
 	}
 	else{
