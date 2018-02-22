@@ -594,28 +594,33 @@ const projectsData = [
 		"dots":{
 			title: "Connect the Dots!",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
-				"year": "2018.",
-				"caption": "Web app made with augmented reality support using a-frame."
+				"photo": "../assets/images/projectPhotos/dots-3.jpg",
+				"alttext": "'Connect the Dots!' detail",
+				"year": "2013",
+				"caption": "Site-specific art installation in two public bathrooms in a Harvard College dorm."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"title": "Support",
+					"text": "Made possible by a grant from the General Education program at Harvard University, and logistic support from the Quincy House dorm."
 				},
 				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"title": "Materials",
+					"text": "Paper, pens, tape, and ribbon."
+				},
+				{
+					"title": "Lesson Learned",
+					"text": "Giving up control in an interactive piece creates room for unexpected outcomes, even in a familiar environment.</a>"
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Process",
+					"text": "I designed and printed a connect-the-dots banner to hang in two public bathrooms. After hanging them up on the walls and providing pens, I let anonymous classmates shape the installation over the course of 2 weeks.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Motivation",
+					"text": "This project came from seeing firsthand a lack of handwashing in this very busy bathroom in a centrally-located Harvard dorm. Given the fact that were already signs reminding people to wash their hands, I created a way to remind people that they were in a shared space. Their current environment was shaped by by many others' interactions with it before them, and their own actions will shape the environment for the next person who enters.",
 				}
 			]
 		},
@@ -635,12 +640,12 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"nlm": {
-			"title": "Everything but Apples",
+			"title": "Health for All",
 			"sidebar": {
 				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
-				"year": "2018.",
-				"caption": "Web app made with augmented reality support using a-frame."
+				"alttext": "Mockup for a paper prototype, for use in co-design sessions at local libraries.",
+				"year": "Ongoing",
+				"caption": ""
 			},
 			"atAGlance": [
 				{
@@ -663,21 +668,26 @@ const projectsData = [
 			]
 		},
 		"nytreact": {
-			"title": "NYTReact",
+			"title": "NYT REACT",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
-				"year": "2018.",
-				"caption": "Web app made with augmented reality support using a-frame."
+				"photo": "../assets/images/projectPhotos/nytReact.png",
+				"alttext": "NYT REact demo screenshot",
+				"year": "2017",
+				"caption": "Mongo-Express-React-Node app using Bootstrap as a frontend design framework and the New York Times API to query, display, and save news articles."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"title": "GitHub Repo",
+					"text": "<a target='_blank' href='https://github.com/smendez92/nytreact'>https://github.com/smendez92/nytreact</a>"
 				},
 				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"title": "Heroku Demo",
+					"text": "<a target='_blank' href='https://nyreactapp.herokuapp.com/'>https://nyreactapp.herokuapp.com/</a>"
+				},
+				{
+					"title": "Skills Strengthened",
+					"text": "Setting up database schema using Mongoose and CRUD routes to interact with the database via Express; deploying a React app with a public-facing client and a server."
+				}
 			],
 			"note": [
 				{
@@ -858,7 +868,7 @@ const modalTemplate = `
 					<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
 				</div>
 				<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
-					<p class="font-weight-600">{{year}}</p>
+					<p class="font-weight-600 padding-B-p25em">{{year}}</p>
 					<p>{{caption}}</p>
 				</div>
 			</div>

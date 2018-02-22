@@ -442,6 +442,9 @@ h3{
 .max-width-56em{
 	max-width: 56em;
 }
+.padding-B-p25em{
+	padding-bottom: 0.25em;
+}
 .padding-B-p5em{
 	padding-bottom: 0.5em;
 }
