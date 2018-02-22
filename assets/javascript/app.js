@@ -713,12 +713,12 @@ const projectsData = [
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"title": "Live Demo on GitHub Pages",
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>https://smendez92.github.io/AR-tarot/index</a>"
 				},
 				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"title": "GitHub Repo",
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>https://github.com/smendez92/AR-tarot</a>"}
 			],
 			"note": [
 				{
@@ -771,30 +771,35 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"wiki": {
-			"title": "Everything but Apples",
+			"title": "WHEELCHAIR TRAVEL A11Y WIKI",
 			"sidebar": {
 				"photo": "../assets/images/projectPhotos/tarot.jpg",
 				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
-				"year": "2018.",
-				"caption": "Web app made with augmented reality support using a-frame."
+				"year": "Ongoing",
+				"caption": "Web app made Mongo, Express, React, and Node, allowing users to collectively create a wheelchair accessibility (A11Y) travel wiki by city."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"title": "GitHub Repo",
+					"text": "<a href='https://github.com/smendez92/wheelchairWiki' target='_blank'>GitHub Repo</a>"
 				},
 				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"title": "Live Demo on Heroku",
+					"text": "<a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>https://wheelchairtravelwiki.herokuapp.com</a>"
+				},
+				{
+					"title": "Role:",
+					"text": "Front-end programme/designer. Responsible for responsive design in React, dynamic data display in a Leaflet map, and creating interfaces for users to edit existing data."
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Background",
+					"text": "This project arose from my work with Muui on our '10 Days in Saigon' web series: [<a href='https://drive.google.com/open?id=1msCQD_ab_Lz6mLz80wyu1qHXCBk&usp=sharing' target='_blank'>See the Map overview here</a>]. We want to make a searchable, flexible, collective database to store usable information about wheelchair accessible travel by city. Our goal is to provide a structure for desribing wheelchair accessibility that can help people contribute to collective knowledge without a steep learning curve. Initial demo developed together with Bex Way, currently undergoing a process of feedack, usability testing, and revision.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Current Progress",
+					"text": "The initial demo is live on Heroku, with plans in place to add more functionality around placing map markers, finding the nearest bathroom, and web accessibility.",
 				}
 			]
 		},
