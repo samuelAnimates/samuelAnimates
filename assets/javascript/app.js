@@ -735,30 +735,35 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"walks": {
-			"title": "Everything but Apples",
+			"title": "WALKS THROUGH CAMBRIDGE",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
-				"year": "2018.",
-				"caption": "Web app made with augmented reality support using a-frame."
+				"photo": "../assets/images/projectPhotos/walks-3.jpg",
+				"alttext": "'Walks through Cambridge' detail: one yard sign in a series printed with a handwritten message.",
+				"year": "2011",
+				"caption": "Site-specific public art installation made for Harvard ARTS FIRST '11 (April 28 - May 1, 2011)."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"title": "Materials",
+					"text": "metal yard sign posts and paper."
 				},
 				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"title": "Lesson Learned",
+					"text": "Installation along a typical path of motion through a space can be used to share a message with an audience by chance.</>"
+				},
+				{
+					"title": "Support",
+					"text": "Supported by an ARTS FIRST '11 grant from Harvard's Office for the Arts. Made possible with participation from freshman classmates at Harvard."
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Process",
+					"text": "I took 2 groups of participants on 30-minute silent walks in one direction, away from the freshman dorms of Harvard Yard. Afterwards, I interviewed them about their experience on the walk, as well as their experience adjusting to life on campus. I then compiled key quotes and major themes to write their experiences into two paragraphs. I divided the text into sentences on yard signs so viewers would read one line at a time as they walked along a path within Harvard Yard.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Final text on yard signs",
+					"text": "It was sunny and warm as we walked straight past the Northwest Labs, to places we’ve never seen—it was a little amazing. Walking eventually became automatic, like riding a train looking at the scenery. Past the cobblestone and buildings with character is a different world in an actual neighborhood. The whole time I felt like I was in one of those movies where the main character goes to an alternate universe: they can see/hear everything going on, but they can’t interact with it.<br/><br/>I liked Cambridge immediately: the college town experience, with Boston right there as an option as well. But it doesn’t feel much different from Ann Arbor, aside from a big city right there. It feels less real somehow. I guess because the Square is filled with shops and boutiques, not like a big grocery store or something. Maybe it’s just because I haven’t explored Cambridge or maybe I don’t use it as a real town. In some ways I feel like living somewhere is supposed to mean grocery shopping. But I mean I don’t know what that means if I’m not living here.",
 				}
 			]
 		},
