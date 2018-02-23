@@ -364,7 +364,7 @@ const projectsData = [
 						],
 						"logo": {
 							"altText": "'Apples' cartoon logo",
-							"svg": "./assets/images/homepage-icon-pp.svg"
+							"svg": "./assets/images/homepage-icon-apples.svg"
 						}
 					},
 					{
@@ -525,8 +525,8 @@ const projectsData = [
 							}
 						],
 						"logo": {
-							"altText": "'After, After That' cartoon logo",
-							"svg": "./assets/images/homepage-icon-after.svg"
+							"altText": "Teeny logo",
+							"svg": "./assets/images/homepage-icon-teeny.svg"
 						}
 					}
 				]
@@ -574,10 +574,41 @@ const projectsData = [
 	},
 	{
 		"after": {
-			"title": "Everything but Apples"
+			"title": "EVERYTHING BUT APPLES"
 		},
 		"apples": {
-			"title": "Everything but Apples"
+			"title": "EVERYTHING BUT APPLES",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/235844101",
+				"iframeTitle": "'Everything but Apples' team presentation",
+				"year": "2017",
+				"caption": "Socio-technical web app."
+			},
+			"atAGlance": [
+				{
+					"title": "Link to Heroku Deployment",
+					"text": "<a href='http://everythingbutapples.herokuapp.com/'>http://everythingbutapples.herokuapp.com/</a>"
+				},
+				{
+					"title": "Link to GitHub Repo",
+					"text": "<a href='https://github.com/amgault/everythingButApples'>https://github.com/amgault/everythingButApples</a>"
+				},
+				{
+					"title": "Role",
+					"text": "Co-designed the card database & co-wrote the overall game logic. Backend developer focusing on the user story for the 'table' screen, tracking the progress of the game, & sending signals to each player's device via socket.io."
+				}
+
+			],
+			"note": [
+				{
+					"title": "Goal",
+					"text": "Working in a team of 6 over the course of ~2 weeks, create an application using MVC architecture, database queries, and a technology new to us at the time. We created a multiplayer party game designed for player's hands to be displayed on a phone screen, with a main game 'table' displayed on a central laptop screen. Socket.io facilitated two-way connection between the 'table' and players' hands."
+				},
+				{
+					"title": "Process",
+					"text": "This was a whirlwind project we're all extremely proud of: our first multiplayer web app deployed to heroku, all with a cohesive mobile-ready frontend design. I wrote our ORM, controller, and router files necessary for retrieving cards from a database, before moving on to the actual game logic. This side of the backend development was filled with a lot of fun puzzles, trying to figure out efficient ways to divide the game logic between player devices in order to reduce the overall number of server calls + the amount of data shuttled back and forth. Given our short time frame, we all ended up pitching in to fix front and backend bugs as they popped up. So, I also created our SVG logo to make the front-end display a little more efficient. Thank you to my teammates Amanda Gault, Jordan Peart, Gowri Rajasekaran, Max Rashes, & Bex Way."
+				}
+			]
 		},
 		"artemis": {
 			"title": "Everything but Apples"
@@ -608,11 +639,11 @@ const projectsData = [
 				},
 				{
 					"title": "Background",
-					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film.",
+					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film."
 				},
 				{
 					"title": "Process",
-					"text": "Over the course of 3 months, I filmed observational footage at several bodegas in Lawrence, MA, that sell produce. I conducted interviews with members of the Lawrence Mayor's Health Task Force and the owners of one such bodega, focusing on the topic of food access and the food for sale in this corner store. Over the course of 6 months, I used stop-motion animation sequences to document food bought at the bodega, illustrate dishes that local residents might make out of the ingredients, and contextualize the bodega within the city. Through an iterative process of animation, editing, and critique, I dropped some segments from the film and chose others to expand on until the final shape of the film was formed.",
+					"text": "Over the course of 3 months, I filmed observational footage at several bodegas in Lawrence, MA, that sell produce. I conducted interviews with members of the Lawrence Mayor's Health Task Force and the owners of one such bodega, focusing on the topic of food access and the food for sale in this corner store. Over the course of 6 months, I used stop-motion animation sequences to document food bought at the bodega, illustrate dishes that local residents might make out of the ingredients, and contextualize the bodega within the city. Through an iterative process of animation, editing, and critique, I dropped some segments from the film and chose others to expand on until the final shape of the film was formed."
 				}
 			]
 		},
@@ -687,34 +718,30 @@ const projectsData = [
 		"hernandez": {
 			"title": "NO ONE CAN HEAR YOU (EXCERPT)",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/91566613",
-				"iframeTitle": "'A Bodega' full film on Vimeo.",
-				"year": "2014",
-				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
+				"vimeo": "https://player.vimeo.com/video/233932687",
+				"iframeTitle": "'No One Can Hear You' work in progress, excerpt on Vimeo.",
+				"year": "In-progress",
+				"caption": "Experimental animation made with hand drawings, 2D digital images, and documentary footage."
 			},
 			"atAGlance": [
 				{
-					"title": "Lessons Learned",
-					"text": "Animation and experimental documentary are powerful documentary tools to start conversations around social equity where they might not typically arise."
+					"title": "Key Questions",
+					"text": "How do I use documntary methods in a fictional animation to present the slice of the Latinx experience I was familiar with as a first-gen college student?"
 				},
 				{
-					"title": "Support",
-					"text": "Created with financial support from the Harvard Visual and Environmental Studies department, a Cordeiro Global Health and Health Policy Summer Research Fellowship, and a grant from the Harvard College Research Program"
+					"title": "Current Status",
+					"text": "Rough cut of background audio in place. Interview with a community leader being incorporated. Animation sequences in an iterative process of production, testing, & revision."
 				}
 
 			],
 			"note": [
 				{
-					"title": "Recognition",
-					"text": "<ul><li>National Academy of Medicine's Visualize Health Equity project, official selection and panel speaker, Washington DC, 2017.</li><li>Chicago Onscreen: Local Film Showcase, official selection, Chicago Park District, 2017.</li><li>Chicago REEL Shorts Film Festival, Best Documentary nomination, Chicago, IL, 2014.</li><li>Blue Plum Animation Festival, official selection, Johnson City, TN, 2014.</li></ul>",
-				},
-				{
 					"title": "Background",
-					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film, <span clasdega</span>.",
+					"text": "I'm interested in exploring the experience of first-generation college students like myself and many of my friends. The feeling of isolation on-campus is relatively easy for me to describe, compared to the feeling of competing interests that can kick in after graduation. Family, community, self, and career can create a wide set of priorities, and it can be hard to feel like any choice is right. It can feel like making progress in one area takes time and energy away from another. I want to use the story of a Latina astronaut drifting off into space to help me organize my own thoughts about what I prioritize in my own life, and what lessons I might be able to bring into my future work.",
 				},
 				{
 					"title": "Process",
-					"text": "Over the course of 3 months, I filmed observational footage at several bodegas in Lawrence, MA, that sell produce. I conducted interviews with members of the Lawrence Mayor's Health Task Force and the owners of one such bodega, focusing on the topic of food access and the food for sale in this corner store. Over the course of 6 months, I used stop-motion animation sequences to document food bought at the bodega, illustrate dishes that local residents might make out of the ingredients, and contextualize the bodega within the city. Through an iterative process of animation, editing, and critique, I dropped some segments from the film and chose others to expand on until the final shape of the film was formed.",
+					"text": "For this film, I am imagining the unfinished business my main chracter might have left on earth as she drifts off into space. What problems does she still want to solve? I aim to evoke images from this character's life around these questions, piecing together many small animated moments to do so."
 				}
 			]
 		},
