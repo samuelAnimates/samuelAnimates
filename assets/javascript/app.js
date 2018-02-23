@@ -688,10 +688,32 @@ const projectsData = [
 			"title": "Everything but Apples"
 		},
 		"joliet": {
-			"title": "Everything but Apples"
+			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)"
 		},
 		"lmhtf": {
-			"title": "Everything but Apples"
+			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/231980215",
+				"iframeTitle": "'Bodegas Saludables' excerpt on vimeo.",
+				"year": "2014",
+				"caption": "Intro video for a local public health program in Lawrence, MA. (Excerpt above)"
+			},
+			"atAGlance": [
+				{
+					"title": "Context",
+					"text": "Made for community partners at the <a href='http://viswanathlab.org/' target='_blank' class='inline-title'>Viswanath Lab</a> while working on my senior thesis film <a href='./bodega.html' class='inline-title'>A Bodega</a>"
+				},
+				{
+					"title": "Lessons Learned",
+					"text": "By being proactive in communication with community partners, it's possible to respond to project timeline changes and still meet the needs of all partners."
+				}
+			],
+			"note": [
+				{
+					"title": "Process",
+					"text": "I started making <a href='./bodega.html' class='inline-title'>A Bodega</a> with the aim of making a documentary about a public health program by the Lawrence Mayor's Health Task Force (MHTF). They were starting a new program focused on helping corner stores stock fresh/frozen prodce, as well host cooking demos and excerises classes, to create an environment of health around local resources. I visited bodegas and sat in on meetings with the MHTF, recording interviews and documentary footage along the way.<br/><br/>The timeline of the MHTF project ended up not aligning with my own timeline for finishing my thesis film and graduating from college. However, there was still a need for a tool to help explain the MHTF's goals + engage potential stakeholders around their corner store project. So, I worked on this video while finishing my thesis as a part of our partnership.",
+				}
+			]
 		},
 		"media": {
 			"title": "Everything but Apples"
