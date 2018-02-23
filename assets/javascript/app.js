@@ -648,7 +648,33 @@ const projectsData = [
 			]
 		},
 		"breakfast": {
-			"title": "Everything but Apples"
+			"title": "PERSEFONE\'S BREAKFAST",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/134973465",
+				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
+				"year": "2015",
+				"caption": "Experimental animation made using 2D digital methods, archival footage, live action, 3D CGI, & object animation. 06min 44s."
+			},
+			"atAGlance": [
+				{
+					"title": "Recognition",
+					"text": "Chicagoland Shorts Vol. 3, Finalist, 2017."
+				},
+				{
+					"title": "Recognition",
+					"text": "Official Latino Short Film Festival, Exceptional Artistry award nomination, New York, NY, 2016."
+				}
+			],
+			"note": [
+				{
+					"title": "Background",
+					"text": "The idea for this film came during the making of '<a href='./bodega.html'>A Bodega</a>', as a way to explore my own anger around issues of food deserts. Communities in food deserts are denied access to both longterm health and to aspects of their cultural identity; when they can't buy ingredients to make the food that's been made for generations, they're missing out on a key experience of their own story. While '<a href='./bodega.html'>A Bodega</a>' highlighted resources that minortizied communities have built up for themselves, 'Persefone's Breakfast' refashions the Persephone myth to imagine what it could look like to opt out of oppressive systems entirely.",
+				},
+				{
+					"title": "Process",
+					"text": "The filmmaking process started with the creating models of the Underworld, depicted as a sort of modern metropolis. From there, I made test animation sequences to imagine what media tools might be used in such a world to force an identity on Perspehone: maps, newsreels, food, statistical figures and more. An iterative process of writing, animating, recording audio, editing rough cuts and garnering feedback was used to discover the film's final shape. Voice messages were chosen as a way to give Persefone control over her story again, as she completely dictates the pace of the film, even leaving the listener on hold as she rejects the narrative the Underworld has forced on her. She uses food to leave it behind once and for all.",
+				}
+			]
 		},
 		"busan": {
 			"title": "BY FOOT: BUSAN AND THE SEA",
