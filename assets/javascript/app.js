@@ -622,34 +622,29 @@ const projectsData = [
 		"busan": {
 			"title": "BY FOOT: BUSAN AND THE SEA",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/91566613",
-				"iframeTitle": "'By Foot: Busan and the Sea' full film on vimeo.",
+				"vimeo": "https://player.vimeo.com/video/203944431",
+				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
 				"year": "2016",
-				"caption": "Experimental documentary made using pixilation, photography, and live action video. 0_min __s."
+				"caption": "Experimental documentary made using pixilation, photography, and live action video. 04min 22s. Trailer above."
 			},
 			"atAGlance": [
 				{
 					"title": "Lessons Learned",
-					"text": "Animation and experimental documentary are powerful documentary tools to start conversations around social equity where they might not typically arise."
-				},
-				{
-					"title": "Support",
-					"text": "Created with financial support from the Harvard Visual and Environmental Studies department, a Cordeiro Global Health and Health Policy Summer Research Fellowship, and a grant from the Harvard College Research Program"
+					"text": "Animation can lower the audience barrier to works that don't focus on human subjects or narrative storytelling; animation can be effectively applied as an observational documentary technique. It can be used to focus on individual details and human-scale movement through an environment."
 				}
-
 			],
 			"note": [
 				{
 					"title": "Recognition",
-					"text": "<ul><li>Official Latino Film Fest, Exceptional Artistry award winner, New York, NY, 2017.</li></ul>",
+					"text": "<ul><li>Official Latino Film Fest, Exceptional Artistry award winner, New York, NY, 2017.</li><li>SHORT to the Point, official selection, 2017.</li></ul>",
 				},
 				{
 					"title": "Background",
-					"text": "",
+					"text": "This film came out of a desire to apply animation as an observational documentary method, without the use of a narrator or other framing devices to give the film a familiar structure found in narrative films.",
 				},
 				{
 					"title": "Process",
-					"text": "",
+					"text": "Despite its energetic pace, this film required a lot of slow, purposeful movement. Sometimes that meant taking a few steps, snapping a photo, and repeating until I got tired. Other times, that meant using a sound recorder to listen carefully to the environment around me, chasing down a soundscape that felt unique to that specific part of the city. Other times, it meant doubling back over my path to take photos of interesting recurring patterns in the environment I noticed through my slow walking. Sometimes I went into the day with a plan for my photograpghy, based off of online research or passing by the location earlier. Many days, I used a process of forward animation, in which spontaneity ruled as a I animted one step ata time without a predetermined path.",
 				}
 			]
 		},
