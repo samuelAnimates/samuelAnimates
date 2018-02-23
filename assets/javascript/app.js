@@ -926,7 +926,34 @@ const projectsData = [
 			]
 		},
 		"teeny": {
-			"title": "Everything but Apples"
+			"title": "TEENY FUNDRAISING VIDEO",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/172990828",
+				"iframeTitle": "'Teeny' fundraising video on Vimeo.",
+				"year": "2017",
+				"caption": "Kickstarter campaign video made with live action footage, pre-supplied product photos, and object animation. 01min 03s."
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "Director, editor, and animator."
+				},
+				{
+					"title": "Goal",
+					"text": "Use existing narration and product photos as a starting point to create a 1-minute promo video for a Kickstarter campaign."
+				},
+				{
+					"title": "Results",
+					"text": "A short promo video for a successfully funded Kickstarter campaign."
+				}
+
+			],
+			"note": [
+				{
+					"title": "Process",
+					"text": "I storyboarded a campaign video, wrote a shorter version of the existing narration for re-recording, created animation segments, shot new video footage of the product in use, edited existing photos, and edited the final video for use in the Kickstarter campaign."
+				}
+			]
 		},
 		"walks": {
 			"title": "WALKS THROUGH CAMBRIDGE",
@@ -998,7 +1025,30 @@ const projectsData = [
 			]
 		},
 		"yuca": {
-			"title": "Everything but Apples",
+			"title": "HOW TO MAKE YUCA FRITA",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/95826023",
+				"iframeTitle": "'How to Make Yuca Frita' full film on Vimeo.",
+				"year": "2014",
+				"caption": "Short object animation incorporating live action video. 01min 39s."
+			},
+			"atAGlance": [
+				{
+					"title": "Support",
+					"text": "This film was made possible with the support of Harvard VES."
+				},
+				{
+					"title": "Lessons Learned",
+					"text": "Animation can help bridge language barriers and prioritize breaking down a process into small, distinct steps. "
+				}
+
+			],
+			"note": [
+				{
+					"title": "Process",
+					"text": "I started off by shopping for yuca in Lawrence, MA, at a bodega that has filled a local need by selling fresh + frozen produce in a food desert. I then practiced making yuca frita and, after feeling confident in my cooking, I made three batches of yuca to transition between on-screen: raw, boiled, and completely cooked. I then took these batches to the studio to make a frame-by-frame animation overnight in one fell swoop.<br/><br/>I originally thought this animation would make up one scene in '<a href='../modals/bodega.html' target='_blank' >A Bodega</a>', but found myself trying to squeeze it in where it didn't fit—I took it as a good sign that I had to cut out scenes I loved individually. So, after finishing that film, I went back into this scene, fleshing it out with sound, music, an introduction,and an ending."
+				}
+			]
 		}
 	}
 ]
