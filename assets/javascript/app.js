@@ -574,7 +574,29 @@ const projectsData = [
 	},
 	{
 		"after": {
-			"title": "EVERYTHING BUT APPLES"
+			"title": "AFTER, AFTER THAT",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/55657740",
+				"iframeTitle": "'After, After That' full film on Vimeo.",
+				"year": "2012",
+				"caption": "Live action video, experimental animation. 04min 16s."
+			},
+			"atAGlance": [
+				{
+					"title": "Lessons Learned",
+					"text": "Experimental video takes on some qualities of animation, and using animation's frame-by-frame approach to filmmaking can aid in editing and creating a cohesive experimental video work."
+				}
+			],
+			"note": [
+				{
+					"title": "Background",
+					"text": "This film was inspired by animated documentaries like Chris Landreth's 'Ryan' and Jonathon Hodgson's 'Feeling My Way'."
+				},
+				{
+					"title": "Process",
+					"text": "I started off by reaching out through personal contacts and listservs to find people with tattoos/scars that had a story behind them. I ended up interviewing 3 people on camera and making several trips to a tattoo parlor to film the tattoo process, as well as an interview with a tattoo artist. After transcribing the interviews and putting together multiple combinations of the footage, I discovered the final format of this film. I was interested in the similarities of two subjects' verbal storytelling, as well as some of the common themes in their vastly different stories. I started with sound editing on these two interviews. Then, I eited the video to underscore the features of the marks that the interviewees focused on. This was important in documenting these stories, in which the physical marks played a narrative role where theinterviewees couldn't rely on spoken words alone."
+				}
+			]
 		},
 		"apples": {
 			"title": "EVERYTHING BUT APPLES",
@@ -611,7 +633,71 @@ const projectsData = [
 			]
 		},
 		"artemis": {
-			"title": "Everything but Apples"
+			"title": "ARTEMIS I FUNDRAISER VIDEO",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/223448852",
+				"iframeTitle": "'Artemis I' fundraising video on Vimeo.",
+				"year": "2017",
+				"caption": "Fundraiser video for an online campaign through Generosity by Indiegogo. 01min 27s."
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "Director, editor, and primary videographer."
+				},
+				{
+					"title": "Goal",
+					"text": "Produce a short video introduction to a fundraising campaign for a high altitude balloon flight documenting the August 2017 solar eclipse through live-stream video, photography, and 360 video."
+				},
+				{
+					"title": "Results",
+					"text": "A promo video for a nonprofit fundraiser campaign that raised over $8,000."
+				}
+
+			],
+			"note": [
+				{
+					"title": "Motivation",
+					"text": "I took this on as a volunteer project to help support this local group of makers. The excitement they had for this project was contagious, and their resourcefulness + curiosity in carrying it out was inspiring. Beyond the launch of Artemis I, I know how important being in a community of creators is for nurturing technical skills + personal growth, and I was very happy to support this process in my own way."
+				},
+				{
+					"title": "Process",
+					"text": "I storyboarded a video based off of the group's needs, edited iteratively as the video progressed. Shot footage on-location at the South Side Hackerspace, in addition to using SSH members' video recordings and royalty free footage courtesy of NASA. Did all sound editing, animation, and video editing."
+				}
+			]
+		},
+		"walks": {
+			"title": "WALKS THROUGH CAMBRIDGE",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/walks-3.jpg",
+				"alttext": "'Walks through Cambridge' detail: one yard sign in a series printed with a handwritten message.",
+				"year": "2011",
+				"caption": "Site-specific public art installation made for Harvard ARTS FIRST '11 (April 28 - May 1, 2011)."
+			},
+			"atAGlance": [
+				{
+					"title": "Materials",
+					"text": "metal yard sign posts and paper."
+				},
+				{
+					"title": "Lesson Learned",
+					"text": "Installation along a typical path of motion through a space can be used to share a message with an audience by chance.</>"
+				},
+				{
+					"title": "Support",
+					"text": "Supported by an ARTS FIRST '11 grant from Harvard's Office for the Arts. Made possible with participation from freshman classmates at Harvard."
+				}
+			],
+			"note": [
+				{
+					"title": "Process",
+					"text": "I took 2 groups of participants on 30-minute silent walks in one direction, away from the freshman dorms of Harvard Yard. Afterwards, I interviewed them about their experience on the walk, as well as their experience adjusting to life on campus. I then compiled key quotes and major themes to write their experiences into two paragraphs. I divided the text into sentences on yard signs so viewers would read one line at a time as they walked along a path within Harvard Yard.",
+				},
+				{
+					"title": "Final text on yard signs",
+					"text": "It was sunny and warm as we walked straight past the Northwest Labs, to places we’ve never seen—it was a little amazing. Walking eventually became automatic, like riding a train looking at the scenery. Past the cobblestone and buildings with character is a different world in an actual neighborhood. The whole time I felt like I was in one of those movies where the main character goes to an alternate universe: they can see/hear everything going on, but they can’t interact with it.<br/><br/>I liked Cambridge immediately: the college town experience, with Boston right there as an option as well. But it doesn’t feel much different from Ann Arbor, aside from a big city right there. It feels less real somehow. I guess because the Square is filled with shops and boutiques, not like a big grocery store or something. Maybe it’s just because I haven’t explored Cambridge or maybe I don’t use it as a real town. In some ways I feel like living somewhere is supposed to mean grocery shopping. But I mean I don’t know what that means if I’m not living here.",
+				}
+			]
 		},
 		"bodega": {
 			"title": "A BODEGA",
