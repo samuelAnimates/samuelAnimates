@@ -608,7 +608,7 @@ const projectsData = [
 				},
 				{
 					"title": "Background",
-					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film, <span class='inline-title'>A Bodega</span>.",
+					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film.",
 				},
 				{
 					"title": "Process",
@@ -685,10 +685,72 @@ const projectsData = [
 			"title": "GiftPitch"
 		},
 		"hernandez": {
-			"title": "Everything but Apples"
+			"title": "NO ONE CAN HEAR YOU (EXCERPT)",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/91566613",
+				"iframeTitle": "'A Bodega' full film on Vimeo.",
+				"year": "2014",
+				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
+			},
+			"atAGlance": [
+				{
+					"title": "Lessons Learned",
+					"text": "Animation and experimental documentary are powerful documentary tools to start conversations around social equity where they might not typically arise."
+				},
+				{
+					"title": "Support",
+					"text": "Created with financial support from the Harvard Visual and Environmental Studies department, a Cordeiro Global Health and Health Policy Summer Research Fellowship, and a grant from the Harvard College Research Program"
+				}
+
+			],
+			"note": [
+				{
+					"title": "Recognition",
+					"text": "<ul><li>National Academy of Medicine's Visualize Health Equity project, official selection and panel speaker, Washington DC, 2017.</li><li>Chicago Onscreen: Local Film Showcase, official selection, Chicago Park District, 2017.</li><li>Chicago REEL Shorts Film Festival, Best Documentary nomination, Chicago, IL, 2014.</li><li>Blue Plum Animation Festival, official selection, Johnson City, TN, 2014.</li></ul>",
+				},
+				{
+					"title": "Background",
+					"text": "Social issues like food access are often discussed in terms of what's lacking in a particular geographic location — what outside help is needed to affect change? An asset-focused look at this issue of limited food access in Lawrence, MA, is needed to highlight existing opportunities for change within the city. This method also gives credit to local residents for their current efforts in addressing this issue, despite systemic hurdles that produce food access issues across the country. I decided to explore what this could look like through my undergraduate thesis film, <span clasdega</span>.",
+				},
+				{
+					"title": "Process",
+					"text": "Over the course of 3 months, I filmed observational footage at several bodegas in Lawrence, MA, that sell produce. I conducted interviews with members of the Lawrence Mayor's Health Task Force and the owners of one such bodega, focusing on the topic of food access and the food for sale in this corner store. Over the course of 6 months, I used stop-motion animation sequences to document food bought at the bodega, illustrate dishes that local residents might make out of the ingredients, and contextualize the bodega within the city. Through an iterative process of animation, editing, and critique, I dropped some segments from the film and chose others to expand on until the final shape of the film was formed.",
+				}
+			]
 		},
 		"joliet": {
-			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)"
+			"title": "JOLIET SCC PROMOTIONAL VIDEO",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/221224584",
+				"iframeTitle": "Joliet Spanish Community Center on Vimeo.",
+				"year": "2017",
+				"caption": "Promotional video made with on-site recordings. 02min 18s."
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "Director, videographer, and editor."
+				},
+				{
+					"title": "Goal",
+					"text": "Create a short bilingual promotional video introducing the <a href='http://spanishcenter.org/'>Spanish Community Center</a> (SCC) to potential donors and community members."
+				},
+				{
+					"title": "Support",
+					"text": "Thank you to Veronica, Jasmine, and Gerardo for your help recording."
+				}
+
+			],
+			"note": [
+				{
+					"title": "Motivation",
+					"text": "I chose to take this on as a volunteer project because of the amazing and necessary work that the SCC does for the Joliet community. Just a few words into conversation with staff, volunteers, or leadership, and you can see just how dedicated this group is to serving the significant, but often ignored, Spanish-speaking population of Will County, IL."
+				},
+				{
+					"title": "Process",
+					"text": "Developed the concept and went on-site to record interviews conducted by SCC volunteers. Worked with the Executive Director to frame the community and staff experience within the broad scope of essential services offered by the organization."
+				}
+			]
 		},
 		"lmhtf": {
 			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)",
@@ -701,7 +763,7 @@ const projectsData = [
 			"atAGlance": [
 				{
 					"title": "Context",
-					"text": "Made for community partners at the <a href='http://viswanathlab.org/' target='_blank' class='inline-title'>Viswanath Lab</a> while working on my senior thesis film <a href='./bodega.html' class='inline-title'>A Bodega</a>"
+					"text": "Made for community partners at the <a href='http://viswanathlab.org/' target='_blank' clasanath Lab</a> while working on my senior thesis film <a href='./bodega.html'> A Boddega</a>."
 				},
 				{
 					"title": "Lessons Learned",
@@ -711,7 +773,7 @@ const projectsData = [
 			"note": [
 				{
 					"title": "Process",
-					"text": "I started making <a href='./bodega.html' class='inline-title'>A Bodega</a> with the aim of making a documentary about a public health program by the Lawrence Mayor's Health Task Force (MHTF). They were starting a new program focused on helping corner stores stock fresh/frozen prodce, as well host cooking demos and excerises classes, to create an environment of health around local resources. I visited bodegas and sat in on meetings with the MHTF, recording interviews and documentary footage along the way.<br/><br/>The timeline of the MHTF project ended up not aligning with my own timeline for finishing my thesis film and graduating from college. However, there was still a need for a tool to help explain the MHTF's goals + engage potential stakeholders around their corner store project. So, I worked on this video while finishing my thesis as a part of our partnership.",
+					"text": "I started making '<a href='./bodega.html'> A Bodega</a>' with the aim of making a documentary about a public health program by the Lawrence Mayor's Health Task Force (MHTF). They were starting a new program focused on helping corner stores stock fresh/frozen prodce, as well host cooking demos and excerises classes, to create an environment of health around local resources. I visited bodegas and sat in on meetings with the MHTF, recording interviews and documentary footage along the way.<br/><br/>The timeline of the MHTF project ended up not aligning with my own timeline for finishing my thesis film and graduating from college. However, there was still a need for a tool to help explain the MHTF's goals + engage potential stakeholders around their corner store project. So, I worked on this video while finishing my thesis as a part of our partnership.",
 				}
 			]
 		},
