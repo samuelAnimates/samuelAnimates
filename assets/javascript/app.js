@@ -666,39 +666,6 @@ const projectsData = [
 				}
 			]
 		},
-		"walks": {
-			"title": "WALKS THROUGH CAMBRIDGE",
-			"sidebar": {
-				"photo": "../assets/images/projectPhotos/walks-3.jpg",
-				"alttext": "'Walks through Cambridge' detail: one yard sign in a series printed with a handwritten message.",
-				"year": "2011",
-				"caption": "Site-specific public art installation made for Harvard ARTS FIRST '11 (April 28 - May 1, 2011)."
-			},
-			"atAGlance": [
-				{
-					"title": "Materials",
-					"text": "metal yard sign posts and paper."
-				},
-				{
-					"title": "Lesson Learned",
-					"text": "Installation along a typical path of motion through a space can be used to share a message with an audience by chance.</>"
-				},
-				{
-					"title": "Support",
-					"text": "Supported by an ARTS FIRST '11 grant from Harvard's Office for the Arts. Made possible with participation from freshman classmates at Harvard."
-				}
-			],
-			"note": [
-				{
-					"title": "Process",
-					"text": "I took 2 groups of participants on 30-minute silent walks in one direction, away from the freshman dorms of Harvard Yard. Afterwards, I interviewed them about their experience on the walk, as well as their experience adjusting to life on campus. I then compiled key quotes and major themes to write their experiences into two paragraphs. I divided the text into sentences on yard signs so viewers would read one line at a time as they walked along a path within Harvard Yard.",
-				},
-				{
-					"title": "Final text on yard signs",
-					"text": "It was sunny and warm as we walked straight past the Northwest Labs, to places we’ve never seen—it was a little amazing. Walking eventually became automatic, like riding a train looking at the scenery. Past the cobblestone and buildings with character is a different world in an actual neighborhood. The whole time I felt like I was in one of those movies where the main character goes to an alternate universe: they can see/hear everything going on, but they can’t interact with it.<br/><br/>I liked Cambridge immediately: the college town experience, with Boston right there as an option as well. But it doesn’t feel much different from Ann Arbor, aside from a big city right there. It feels less real somehow. I guess because the Square is filled with shops and boutiques, not like a big grocery store or something. Maybe it’s just because I haven’t explored Cambridge or maybe I don’t use it as a real town. In some ways I feel like living somewhere is supposed to mean grocery shopping. But I mean I don’t know what that means if I’m not living here.",
-				}
-			]
-		},
 		"bodega": {
 			"title": "A BODEGA",
 			"sidebar": {
@@ -825,7 +792,34 @@ const projectsData = [
 			]
 		},
 		"giftpitch": {
-			"title": "GiftPitch"
+			"title": "GIFTPITCH",
+			"sidebar": {
+				"vimeo": "https://player.vimeo.com/video/235300604",
+				"iframeTitle": "'GiftPitch' web app walkthrough video.",
+				"year": "2017",
+				"caption": "Front end for a web app that allowing the user to take personality quiz to get gift recommendations."
+			},
+			"atAGlance": [
+				{
+					"title": "Link to GitHub Repo",
+					"text": "<a href='https://github.com/jmoc1181/GiftProject'>https://github.com/jmoc1181/GiftProject</a>"
+				},
+				{
+					"title": "Role",
+					"text": "Developer responsible for personality quiz logic and tying results to appropriate calls; content writer."
+				}
+
+			],
+			"note": [
+				{
+					"title": "Context",
+					"text": "First class project for Northwestern Coding Boot Camp: a web app that lets users take a personality quiz about a loved one to receive a tailored set of gift options for them from Amazon, Etsy, and Ebay."
+				},
+				{
+					"title": "Process",
+					"text": "This was a whirlwind project we're all extremely proud of: our first multiplayer web app deployed to heroku, all with a cohesive mobile-ready frontend design. I wrote our ORM, controller, and router files necessary for retrieving cards from a database, before moving on to the actual game logic. This side of the backend development was filled with a lot of fun puzzles, trying to figure out efficient ways to divide the game logic between player devices in order to reduce the overall number of server calls + the amount of data shuttled back and forth. Given our short time frame, we all ended up pitching in to fix front and backend bugs as they popped up. So, I also created our SVG logo to make the front-end display a little more efficient. Thank you to my teammates Amanda Gault, Jordan Peart, Gowri Rajasekaran, Max Rashes, & Bex Way."
+				}
+			]
 		},
 		"hernandez": {
 			"title": "NO ONE CAN HEAR YOU (EXCERPT)",
