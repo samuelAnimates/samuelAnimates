@@ -976,7 +976,6 @@ const projectsData = [
 		},
 		"saigon": {
 			"title": "Everything but Apples",
-			,
 			"sidebar": {
 				"video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F",
 				"iframeTitle": "'10 Days in Saigon' episode on Facebook.",
@@ -994,6 +993,13 @@ const projectsData = [
 				}
 
 			],
+			"middleEmbedWithText": [
+				{
+					"embed": "",
+					"text": ""
+				}
+			],
+
 			"note": [
 				{
 					"title": "Background",
@@ -1262,6 +1268,13 @@ const modalTemplate = `
 			</div>
 		</div>
 	</div>
+	{{#middleEmbedWithText}}
+		<div class="clear-both width-100pc">
+			<div class="floating-righthand-container padding-B-p5em padding-T-p5em width-50pc">
+				<iframe class="height-15em position-relative width-100pc" src='https://www.google.com/maps/d/embed?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US' webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe>
+			</div>
+		</div>
+	{{/middleEmbedWithText}}
 	<div class="clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
 		<h2>OVERVIEW</h2>	
 		{{#note}}

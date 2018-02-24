@@ -388,6 +388,9 @@ h3{
 .height-3em{
 	height: 3em;
 }
+.height-15em{
+	height: 15em;
+}
 .margin-auto {
 	margin: auto;
 }
@@ -430,6 +433,9 @@ h3{
 .padding-T-4em{
 	padding-top: 4em;
 }
+.position-relative{
+	position: relative;
+}
 .text-center{
 	text-align: center;
 }
@@ -450,6 +456,9 @@ h3{
 }
 .width-80pc{
 	width: 80%;
+}
+.width-50pc{
+	width: 50%;
 }
 .width-33pc{
 	width: 33%;
