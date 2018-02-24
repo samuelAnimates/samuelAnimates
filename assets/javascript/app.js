@@ -576,7 +576,7 @@ const projectsData = [
 		"after": {
 			"title": "AFTER, AFTER THAT",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/55657740",
+				"video": "https://player.vimeo.com/video/55657740",
 				"iframeTitle": "'After, After That' full film on Vimeo.",
 				"year": "2012",
 				"caption": "Live action video, experimental animation. 04min 16s."
@@ -601,7 +601,7 @@ const projectsData = [
 		"apples": {
 			"title": "EVERYTHING BUT APPLES",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/235844101",
+				"video": "https://player.vimeo.com/video/235844101",
 				"iframeTitle": "'Everything but Apples' team presentation",
 				"year": "2017",
 				"caption": "Socio-technical web app."
@@ -635,7 +635,7 @@ const projectsData = [
 		"artemis": {
 			"title": "ARTEMIS I FUNDRAISER VIDEO",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/223448852",
+				"video": "https://player.vimeo.com/video/223448852",
 				"iframeTitle": "'Artemis I' fundraising video on Vimeo.",
 				"year": "2017",
 				"caption": "Fundraiser video for an online campaign through Generosity by Indiegogo. 01min 27s."
@@ -669,7 +669,7 @@ const projectsData = [
 		"bodega": {
 			"title": "A BODEGA",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/91566613",
+				"video": "https://player.vimeo.com/video/91566613",
 				"iframeTitle": "'A Bodega' full film on Vimeo.",
 				"year": "2014",
 				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
@@ -703,7 +703,7 @@ const projectsData = [
 		"breakfast": {
 			"title": "PERSEFONE\'S BREAKFAST",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/134973465",
+				"video": "https://player.vimeo.com/video/134973465",
 				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
 				"year": "2015",
 				"caption": "Experimental animation made using 2D digital methods, archival footage, live action, 3D CGI, & object animation. 06min 44s."
@@ -732,7 +732,7 @@ const projectsData = [
 		"busan": {
 			"title": "BY FOOT: BUSAN AND THE SEA",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/203944431",
+				"video": "https://player.vimeo.com/video/203944431",
 				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
 				"year": "2016",
 				"caption": "Experimental documentary made using pixilation, photography, and live action video. 04min 22s. Trailer above."
@@ -794,7 +794,7 @@ const projectsData = [
 		"giftpitch": {
 			"title": "GIFTPITCH",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/235300604",
+				"video": "https://player.vimeo.com/video/235300604",
 				"iframeTitle": "'GiftPitch' web app walkthrough video.",
 				"year": "2017",
 				"caption": "Front end for a web app that allowing the user to take personality quiz to get gift recommendations."
@@ -824,7 +824,7 @@ const projectsData = [
 		"hernandez": {
 			"title": "NO ONE CAN HEAR YOU (EXCERPT)",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/233932687",
+				"video": "https://player.vimeo.com/video/233932687",
 				"iframeTitle": "'No One Can Hear You' work in progress, excerpt on Vimeo.",
 				"year": "In-progress",
 				"caption": "Experimental animation made with hand drawings, 2D digital images, and documentary footage."
@@ -854,7 +854,7 @@ const projectsData = [
 		"joliet": {
 			"title": "JOLIET SCC PROMOTIONAL VIDEO",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/221224584",
+				"video": "https://player.vimeo.com/video/221224584",
 				"iframeTitle": "Joliet Spanish Community Center on Vimeo.",
 				"year": "2017",
 				"caption": "Promotional video made with on-site recordings. 02min 18s."
@@ -888,7 +888,7 @@ const projectsData = [
 		"lmhtf": {
 			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/231980215",
+				"video": "https://player.vimeo.com/video/231980215",
 				"iframeTitle": "'Bodegas Saludables' excerpt on vimeo.",
 				"year": "2014",
 				"caption": "Intro video for a local public health program in Lawrence, MA. (Excerpt above)"
@@ -975,7 +975,35 @@ const projectsData = [
 			]
 		},
 		"saigon": {
-			"title": "Everything but Apples"
+			"title": "Everything but Apples",
+			,
+			"sidebar": {
+				"video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F",
+				"iframeTitle": "'10 Days in Saigon' episode on Facebook.",
+				"year": "2017",
+				"caption": "10-week Web Series"
+			},
+			"atAGlance": [
+				{
+					"title": "Recognition",
+					"text": "We Care Film Fest, official selection, 2017"
+				},
+				{
+					"title": "Recognition",
+					"text": "Travel FilmFest, Best Travel Web Series nomination, 2017"
+				}
+
+			],
+			"note": [
+				{
+					"title": "Background",
+					"text": "This project grew out of a conversation with Kunho Kim, cofounder of <a href='http://www.wearemuui.com/en/about-us/' target='_blank'>Muui</a>. One of the group's goals is to 'make disability sexier' by creating projects that address wheelchair users' needs while creating a more well-rounded depiction disability than is typically seen in mass media. A major goal of this work was to create a method of incorporating accessibility info into a general interest series. Our background research revealed a lack of models to follow, so we set out to discover what this could like ourselves.<br/><br/>We decided to make a travel series showing a wheelchair user hanging out in an exciting city with his friends. We avoided unnecessarily exoticizing the city by giving the microphone to local residents. We avoid 'otherizing' disability by highlighting first-person footage from a wheelchair user's point of view.",
+				},
+				{
+					"title": "Process",
+					"text": "We scheduled days of travel with Kunho's friends in the city where he spent his teen years: Saigon, Vietnam. Everywhere we went, Kunho wore a GoPro and documented wheelchair accessibility while I recorded observational footage on a DSLR. We then recorded interviews with Kunho's local friends, and we edited the audio down to web-friendy snippets. From there, I edited the videos and trained remote interns to make Korean, English, & Vietnamese subtitles for Facebook and YouTube."
+				}
+			]
 		},
 		"tarot": {
 			"title": "AR-TAROT",
@@ -1008,7 +1036,7 @@ const projectsData = [
 		"teeny": {
 			"title": "TEENY FUNDRAISING VIDEO",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/172990828",
+				"video": "https://player.vimeo.com/video/172990828",
 				"iframeTitle": "'Teeny' fundraising video on Vimeo.",
 				"year": "2017",
 				"caption": "Kickstarter campaign video made with live action footage, pre-supplied product photos, and object animation. 01min 03s."
@@ -1107,7 +1135,7 @@ const projectsData = [
 		"yuca": {
 			"title": "HOW TO MAKE YUCA FRITA",
 			"sidebar": {
-				"vimeo": "https://player.vimeo.com/video/95826023",
+				"video": "https://player.vimeo.com/video/95826023",
 				"iframeTitle": "'How to Make Yuca Frita' full film on Vimeo.",
 				"year": "2014",
 				"caption": "Short object animation incorporating live action video. 01min 39s."
@@ -1207,7 +1235,7 @@ const modalTemplate = `
 					</div>
 				</div>
 			{{/photo}}
-			{{#vimeo}}
+			{{#video}}
 				<div class="bg-17-17-17 color-250-250-250 text-center">
 					<div class="vimeo-embed-container">
 						<iframe src={{{vimeo}}} title={{iframeTitle}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>
@@ -1217,7 +1245,7 @@ const modalTemplate = `
 						<p class="padding-B-p25em">{{caption}}</p>
 					</div>
 				</div>
-			{{/vimeo}}
+			{{/video}}
 		</div>
 	{{/sidebar}}
 	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
