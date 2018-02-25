@@ -975,14 +975,18 @@ const projectsData = [
 			]
 		},
 		"saigon": {
-			"title": "Everything but Apples",
+			"title": "10 DAYS IN SAIGON",
 			"sidebar": {
-				"video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F",
+				"video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F&show_text=0&width=560",
 				"iframeTitle": "'10 Days in Saigon' episode on Facebook.",
 				"year": "2017",
 				"caption": "10-week Web Series"
 			},
 			"atAGlance": [
+				{
+					title: "Lessons Learned",
+					"text": "Documenting everyday experiences can be an effective way of examinaing a social issue. We focused on travel as an enjoyable personal activity, which allowed us to highlight the need for wheelchair accesibility while avoiding tropes of 'inspiration'."
+				},
 				{
 					"title": "Recognition",
 					"text": "We Care Film Fest, official selection, 2017"
@@ -993,10 +997,13 @@ const projectsData = [
 				}
 
 			],
-			"middleEmbedWithText": [
+			"middleIframeWithText": [
 				{
-					"embed": "",
-					"text": ""
+					"embeddedMedia": "https://www.google.com/maps/d/embed?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US",
+					"text": {
+						"mediaTitle": "OUTCOMES",
+						"bodyText": "We produced a 10-week original series, comprising 34 videos: site visits, restaurants visits, personal stories, and visual shorts.<br/><br/>The format I came up with for this series was used as a model for Muui's later video work in Busan and Seoul. We produced a Google Map to document the sites in our series, which was the inspiration for ongoing work on a <a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>Wheelchair Travel Accessibility web app</a>.<br/><br/>'10 Days in Saigon' received media coverage in Vietnam, Korea, and the US, and was featured in international film festivals."
+					}
 				}
 			],
 
@@ -1243,12 +1250,12 @@ const modalTemplate = `
 			{{/photo}}
 			{{#video}}
 				<div class="bg-17-17-17 color-250-250-250 text-center">
-					<div class="vimeo-embed-container">
-						<iframe src={{{vimeo}}} title={{iframeTitle}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>
+					<div class="video-embed-container">
+						<iframe src={{{video}}} title={{iframeTitle}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>
 					</div>
-					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
-						<p class="font-weight-600 padding-B-p25em padding-T-p5em">{{year}}</p>
-						<p class="padding-B-p25em">{{caption}}</p>
+					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center">
+						<p class="font-weight-600 padding-B-p25em padding-T-p5em text-center">{{year}}</p>
+						<p class="padding-B-p25em text-center">{{caption}}</p>
 					</div>
 				</div>
 			{{/video}}
@@ -1256,9 +1263,7 @@ const modalTemplate = `
 	{{/sidebar}}
 	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
 		<div class="bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
-			<div class="padding-B-p5em">
 				<h2>AT A GLANCE</h2>
-			</div>
 			<div class="display-block padding-L-p5em margin-auto width-90pc">
 				<ul>
 					{{#atAGlance}}
@@ -1268,13 +1273,23 @@ const modalTemplate = `
 			</div>
 		</div>
 	</div>
-	{{#middleEmbedWithText}}
+	{{#middleIframeWithText}}
 		<div class="clear-both width-100pc">
-			<div class="floating-righthand-container padding-B-p5em padding-T-p5em width-50pc">
-				<iframe class="height-15em position-relative width-100pc" src='https://www.google.com/maps/d/embed?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US' webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe>
+			{{#text}}
+				<div class="floating-lefthand-container">
+					<div class="bg-255-224-233 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
+						<h2>{{mediaTitle}}</h2>	
+						<p>{{{bodyText}}}</p>
+					</div>
+				</div>
+			{{/text}}
+			<div class="floating-righthand-container">
+				<div class="bg-255-92-143 margin-bottom-1em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
+					<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>
+				</div>
 			</div>
 		</div>
-	{{/middleEmbedWithText}}
+	{{/middleIframeWithText}}
 	<div class="clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
 		<h2>OVERVIEW</h2>	
 		{{#note}}
