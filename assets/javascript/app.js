@@ -759,7 +759,7 @@ const projectsData = [
 			]
 		},
 		"dots":{
-			title: "Connect the Dots!",
+			title: "CONNECT THE DOTS!",
 			"sidebar": {
 				"photo": "../assets/images/projectPhotos/dots-3.jpg",
 				"alttext": "'Connect the Dots!' detail",
@@ -911,7 +911,30 @@ const projectsData = [
 			]
 		},
 		"media": {
-			"title": "Everything but Apples"
+			"title": "SOCIAL MEDIA USE BY CBOs",
+			"sidebar": {
+				"pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3924229/pdf/1471-2458-13-1129.pdf",
+				"longDescription": "This is a pdf of the social media article I co-authored, full text available online here: <a href='https://doi.org/10.1186/1471-2458-13-1129' target='_blank'>https://doi.org/10.1186/1471-2458-13-1129</a>.",
+				"year": "2013",
+				"caption": "'Social Media Use by Community-Based Organizations Conducting Health Outreach: A Content Analysis'."
+			},
+			"atAGlance": [
+				{
+					"title": "Key Finding",
+					"text": "Community-based organizations in our study used social media as a platform for one-way pushes of promotional information, much like a newsletter or a static website."
+				},
+				{
+					"title": "Link to Article on BioMed Central",
+					"text": "<a href='https://doi.org/10.1186/1471-2458-13-1129' target='_blank'>https://doi.org/10.1186/1471-2458-13-1129</a>"
+				}
+			],
+			"note": [
+				{
+					"title": "Abstract",
+					"text": "Community-based organizations (CBOs) are critical channels for the delivery of health promotion programs. Much of their influence comes from the relationships they have with community members and other key stakeholders and they may be able to harness the power of social media tools to develop and maintain these relationships. There are limited data describing if and how CBOs are using social media. This study assesses the extent to which CBOs engaged in health promotion use popular social media channels, the types of content typically shared, and the extent to which the interactive aspects of social media tools are utilized.<br/><br/>We assessed the social media presence and patterns of usage of CBOs engaged in health promotion in Boston, Lawrence, and Worcester, Massachusetts. We coded content on three popular channels: Facebook, Twitter, and YouTube. We used content analysis techniques to quantitatively summarize posts, tweets, and videos on these channels, respectively. For each organization, we coded all content put forth by the CBO on the three channels in a 30-day window. Two coders were trained and conducted the coding. Data were collected between November 2011 and January 2012.<br/><br/>A total of 166 organizations were included in our census. We found that 42% of organizations used at least one of the channels of interest. Across the three channels, organization promotion was the most common theme for content (66% of posts, 63% of tweets, and 93% of videos included this content). Most organizations updated Facebook and Twitter content at rates close to recommended frequencies. We found limited interaction/engagement with audience members.<br/><br/>Much of the use of social media tools appeared to be uni-directional, a flow of information from the organization to the audience. By better leveraging opportunities for interaction and user engagement, these organizations can reap greater benefits from the non-trivial investment required to use social media well. Future research should assess links between use patterns and organizational characteristics, staff perspectives, and audience engagement."
+				}
+			]
+
 		},
 		"nlm": {
 			"title": "Health for All",
@@ -1259,6 +1282,17 @@ const modalTemplate = `
 					</div>
 				</div>
 			{{/video}}
+			{{#pdf}}
+				<div class="bg-17-17-17 color-250-250-250 text-center">
+					<object class="max-height-13em max-width-19p35em width-100pc" data={{{pdf}}} type="application/pdf" height="400px">
+						<p>{{{longDescription}}}</p>
+					</object>
+					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center">
+					<p class="font-weight-600 padding-B-p25em padding-T-p5em text-center">{{year}}</p>
+					<p class="padding-B-p25em text-center">{{caption}}</p>
+					</div>
+				</div>
+			{{/pdf}}
 		</div>
 	{{/sidebar}}
 	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
