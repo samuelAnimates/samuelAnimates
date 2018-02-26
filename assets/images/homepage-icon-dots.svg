@@ -274,20 +274,11 @@
      id="layer1"
      style="display:inline"
      transform="translate(0,-82)">
-    <rect
-       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter17105)"
-       id="rect5053"
-       width="30.238094"
-       height="29.860117"
-       x="7.5595236"
-       y="270.91965"
-       rx="0.40000001"
-       ry="0.80000001" />
     <ellipse
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#111111;stroke-width:3.57605243;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.57605178, 42.91262177000000100;stroke-dashoffset:36.65000153;stroke-opacity:1;marker-start:url(#DotL);marker-mid:url(#DotM);marker-end:url(#DotS);paint-order:stroke fill markers;"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#111111;stroke-width:3.57605243;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.57605178, 42.91262177;stroke-dashoffset:36.65000153;stroke-opacity:1;marker-start:url(#DotL);marker-mid:url(#DotM);marker-end:url(#DotS);paint-order:stroke fill markers"
        id="path5917"
-       cx="102.29719"
-       cy="190.59322"
+       cx="103.44714"
+       cy="189.5"
        rx="80.310425"
        ry="79.793434" />
   </g>
@@ -295,15 +286,5 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(0,-82)">
-    <rect
-       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter17069)"
-       id="rect5086"
-       width="74.839287"
-       height="108.47916"
-       x="38.55357"
-       y="103.09821"
-       rx="0.39999971"
-       ry="0.79999942" />
-  </g>
+     transform="translate(0,-82)" />
 </svg>

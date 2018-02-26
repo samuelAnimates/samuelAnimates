@@ -440,34 +440,6 @@
      id="layer1"
      style="display:inline"
      transform="translate(0,-82)">
-    <g
-       id="g4672"
-       style="opacity:1;vector-effect:none;fill:#f23333;fill-opacity:1;stroke:none;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:0;paint-order:fill markers stroke;">
-      <path
-         d="m 50.717872,146.88977 v 39.31791 L 100.7118,167.12413 v -26.64225 z"
-         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4532" />
-      <path
-         d="M 50.717872,186.20768 99.948903,233.22045 148.46287,184.53938 100.7118,167.12413 Z"
-         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4534" />
-      <path
-         d="m 100.7118,140.48188 47.75107,6.17852 v 37.87898 L 100.7118,167.12413 Z"
-         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4536" />
-      <path
-         d="M 50.717872,146.88977 99.948903,163.28654 148.46287,146.6604 100.7118,140.48188 Z"
-         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4538" />
-      <path
-         d="m 99.948903,163.28654 v 69.93391 L 148.46287,184.53938 V 146.6604 Z"
-         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4540" />
-      <path
-         d="m 50.717872,146.88977 49.231031,16.39677 v 69.93391 L 50.717872,186.20768 Z"
-         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:17.89604187;stroke-linejoin:round;"
-         id="path4542" />
-    </g>
     <ellipse
        style="display:inline;opacity:0.66699997;fill:#ee1313;fill-opacity:1;stroke:none;stroke-width:4.11299181;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:138.51968384;stroke-opacity:1;paint-order:stroke fill markers;"
        id="path4530-0"
@@ -524,16 +496,6 @@
          style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:17.89603996;stroke-linejoin:round;fill-opacity:1;opacity:0.377;"
          d="m 195.27371,78.630469 v 39.318001 l 49.23059,47.01264 V 97.337339 a 51.816407,35.446856 62.35461 0 0 -2.27118,-3.066481 z"
          id="path4542-2-7-4"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       transform="translate(-152.68007,-94.512791)"
-       id="g4672-3-8"
-       style="display:inline;opacity:1;vector-effect:none;fill:#00226c;fill-opacity:1;stroke:none;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:523.53900146;stroke-opacity:0;paint-order:fill markers stroke;">
-      <path
-         style="fill:#00226c;fill-rule:evenodd;stroke:none;stroke-width:17.89603996;stroke-linejoin:round;fill-opacity:1;"
-         d="m 275.92988,238.18503 a 35.791298,52.319941 12.354628 0 0 -23.30091,19.6143 l 1.34462,0.44804 45.87007,-15.72049 a 35.791298,52.319941 12.354628 0 0 -2.16679,-1.52807 z"
-         id="path4538-8-9"
          inkscape:connector-curvature="0" />
     </g>
     <path
