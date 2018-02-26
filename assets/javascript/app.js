@@ -970,7 +970,7 @@ const projectsData = [
 				"photo": "../assets/images/projectPhotos/nytReact.png",
 				"alttext": "NYT REact demo screenshot",
 				"year": "2017",
-				"caption": "Mongo-Express-React-Node app using Bootstrap as a frontend design framework and the New York Times API to query, display, and save news articles."
+				"caption": "Web appusing the New York Times API to query, display, and save news articles."
 			},
 			"atAGlance": [
 				{
@@ -982,18 +982,15 @@ const projectsData = [
 					"text": "<a target='_blank' href='https://nyreactapp.herokuapp.com/'>https://nyreactapp.herokuapp.com/</a>"
 				},
 				{
-					"title": "Skills Strengthened",
-					"text": "Setting up database schema using Mongoose and CRUD routes to interact with the database via Express; deploying a React app with a public-facing client and a server."
+					"title": "Frameworks Used",
+					"text": "Mongo, Express, React, Node, & Bootstrap."
 				}
+
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
-				},
-				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Skills Strengthened",
+					"text": "Setting up database schema using Mongoose. Setting up CRUD routes to interact with a Mongo database via an Express server. Deploying a React app with a public-facing client and a server."
 				}
 			]
 		},
@@ -1138,7 +1135,7 @@ const projectsData = [
 		"wiki": {
 			"title": "WHEELCHAIR TRAVEL A11Y WIKI",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
+				"photo": "../assets/images/projectPhotos/wiki.png",
 				"alttext": "Screencap of AR-Tarot web app, showing a card and interpration guides.",
 				"year": "Ongoing",
 				"caption": "Web app made Mongo, Express, React, and Node, allowing users to collectively create a wheelchair accessibility (A11Y) travel wiki by city."
@@ -1153,7 +1150,7 @@ const projectsData = [
 					"text": "<a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>https://wheelchairtravelwiki.herokuapp.com</a>"
 				},
 				{
-					"title": "Role:",
+					"title": "Role",
 					"text": "Front-end programme/designer. Responsible for responsive design in React, dynamic data display in a Leaflet map, and creating interfaces for users to edit existing data."
 				}
 			],
@@ -1405,7 +1402,6 @@ $(document).ready(function () {
 		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
 	}
 	else{
-		console.log("ayyy");
 		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
 		$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
 		$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
