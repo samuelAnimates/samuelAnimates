@@ -214,7 +214,7 @@ const projectsData = [
 						"descriptionShort": "An experimental animation: Persephone's voice messages to Hades as she leaves the Underworld once and for all.",
 						"links": [
 							{
-								"url": "./modals/breafast.html",
+								"url": "./modals/breakfast.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
 								"linkText": "\'Persefone\'s Breakfast\' Overview Page"
 							},
@@ -1053,16 +1053,21 @@ const projectsData = [
 				},
 				{
 					"title": "GitHub Repo",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>https://github.com/smendez92/AR-tarot</a>"}
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>https://github.com/smendez92/AR-tarot</a>"
+				},
+				{
+					"title": "Frameworks used",
+					"text": "JQuery and A-Frame"
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Skills Strengthened",
+					"text": "Incorporating augmented reality into a webpage via A-frame. Integrating image descriptions into a webpage. Creating custom border images in CSS.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Web Accessibility (A11Y) Considerations",
+					"text": "This app was designed with a 2D on-screen option for displaying tarot readings, suitable for those without access to a printed Hiro marker or those who rely on a screen reader. Illustration descriptions are readable by everyone as an interpretation aid, and linked to the images in an ARIA-compatible way.",
 				}
 			]
 		},
@@ -1130,7 +1135,38 @@ const projectsData = [
 			]
 		},
 		"whyu": {
-			"title": "Everything but Apples"
+			"title": "WHYUEDU INFORMATIONAL SERIES",
+			"sidebar": {
+				"video": "https://player.vimeo.com/video/128663374",
+				"iframeTitle": "WhyUEdu informational video excerpt on Vimeo.",
+				"year": "2014",
+				"caption": "Informational video & worksheet series. (Excerpt above)"
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "Director, editor, and project manager."
+				},
+				{
+					"title": "Example Worksheet",
+					"text": "<a href='../assets/documents/HowTo+Timeline+for+Interviews.pdf' target='_blank'>How-to and Timeline for interviews with US colleges (PDF)</a>"
+				}
+
+			],
+			"note": [
+				{
+					"title": "Goal",
+					"text": "Create video/text resources to help Chinese students avoid common pitfalls in the US college application process, as part of the WhyUEdu pilot online program for Dipont Education Management."
+				},
+				{
+					"title": "Key Contributions",
+					"text": "Developed the initial concept of using freely available resources to encourage students + parents to make an account on the company's website. Led a team of 6 in background research, script writing, and translation for 4 videos and 5 worksheets."
+				},
+				{
+					"title": "Results",
+					"text": "2 distinct sets of video/text resources related to US college application essays and interviews, comprising 4 videos and 5 supplementary documents. The videos received over 36,000 views cumulatively on QQ Video mobile platform after being shared through the official WhyUEdu mobile social networking account (WeChat)."
+				}
+			]
 		},
 		"wiki": {
 			"title": "WHEELCHAIR TRAVEL A11Y WIKI",
