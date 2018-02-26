@@ -11,31 +11,31 @@ const projectsData = [
 					{
 						"url": "./modals/saigon.html",
 						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-						"linkText": "'10 Days' Overview Page"
+						"linkText": "\'10 Days\' Overview Page"
 					},
 					{
 						"url": "https://www.facebook.com/wearemuui/videos/1834490626823232/",
 						"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z'/>",
-						"linkText": "'10 Days' Trailer on Facebook"
+						"linkText": "\'10 Days\' Trailer on Facebook"
 					},
 					{
 						"url":"https://www.facebook.com/wearemuui/videos/1838183853120576/",
 						"icon": "<path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/><path d='M0 0h24v24H0z' fill='none'/>",
-						"linkText": "'10 Days' Epsiode 1 on Facebook"
+						"linkText": "\'10 Days\' Epsiode 1 on Facebook"
 					},
 					{
 						"url":"https://www.google.com/maps/d/viewer?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US&ll=10.798291852220926%2C106.67387433398437&z=13",
 						"icon": "<path d='M18 8c0-3.31-2.69-6-6-6S6 4.69 6 8c0 4.5 6 11 6 11s6-6.5 6-11zm-8 0c0-1.1.9-2 2-2s2 .9 2 2-.89 2-2 2c-1.1 0-2-.9-2-2zM5 20v2h14v-2H5z'/><path d='M0 0h24v24H0z' fill='none'/>",
-						"linkText": "'10 Days' Google Map"
+						"linkText": "\'10 Days\' Google Map"
 					},
 					{
 						"url": "https://www.giantrobot.media/stories/2017/5/30/muui",
 						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z'/>",
-						"linkText": "'10 Days' Article"
+						"linkText": "\'10 Days\' Article"
 					}
 				],
 				"logo": {
-					"altText": "'10 Days' cartoon logo",
+					"altText": "\'10 Days\' cartoon logo",
 					"svg": "./assets/images/homepage-icon-saigon.svg"
 				}
 			},
@@ -78,16 +78,16 @@ const projectsData = [
 					{
 						"url": "./modals/bodega.html",
 						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-						"linkText": "'A Bodega' Overview Page"
+						"linkText": "\'A Bodega\' Overview Page"
 					},
 					{
 						"url": "https://vimeo.com/91566613",
 						"icon": "<path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/><path d='M0 0h24v24H0z' fill='none'/>",
-						"linkText": "'A Bodega' Film on Vimeo"
+						"linkText": "\'A Bodega\' Film on Vimeo"
 					}
 				],
 				"logo": {
-					"altText": "'A Bodega' cartoon logo",
+					"altText": "\'A Bodega\' cartoon logo",
 					"svg": "./assets/images/homepage-icon-bodega.svg"
 				}
 			}
@@ -97,23 +97,23 @@ const projectsData = [
 		"newsitems": [
 			{
 				"date": "2017.11",
-				"update": "'By Foot: Busan and the Sea'screened at Chinh India Kids Film Festival in New Delhi, India."
+				"update": "\'By Foot: Busan and the Sea\' screened at Chinh India Kids Film Festival in New Delhi, India."
 			},
 			{
 				"date": "2017.11",
-				"update": "'A Bodega' selected for inclusion in the National Academy of Medicine's Visualizing Health Equity project. The film was included in a pop-up gallery, and I was personally invited to speak at a panel event in Washington DC."
+				"update": "\'A Bodega\' selected for inclusion in the National Academy of Medicine's Visualizing Health Equity project. The film was included in a pop-up gallery, and I was personally invited to speak at a panel event in Washington DC."
 			},
 			{
 				"date": "2017.10",
-				"update": "'By Foot: Busan and the Sea' won the Exceptional Artistry award for animation at the Official Latino Short Film Festival in New York City."
+				"update": "\'By Foot: Busan and the Sea\' won the Exceptional Artistry award for animation at the Official Latino Short Film Festival in New York City."
 			},
 			{
 				"date": "2017.10",
-				"update": "'10 Days in Saigon' was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest."
+				"update": "\'10 Days in Saigon\' was nominated for Best Travel Web Series and screened in Limassol, Cyprus, as part of the TRAVEL FilmFest."
 			},
 			{
 				"date": "2017.09",
-				"update": "'A Bodega' screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District."
+				"update": "\'A Bodega\' screened in three Chicago parks as part of the Chicago Onscreen program by the Chicago Park District."
 			}
 		]
 
@@ -132,12 +132,12 @@ const projectsData = [
 							{
 								"url": "./modals/hernandez.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'No One' Overview Page"
+								"linkText": "\'No One\' Overview Page"
 							},
 							{
 								"url": "http://www.vimeo.com/233932687",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z'/>",
-								"linkText": "'No One' Excerpt on Vimeo"
+								"linkText": "\'No One\' Excerpt on Vimeo"
 							}
 						],
 						"logo": {
@@ -153,12 +153,12 @@ const projectsData = [
 							{
 								"url": "./modals/yuca.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Yuca' Overview Page"
+								"linkText": "\'Yuca\' Overview Page"
 							},
 							{
 								"url": "http://www.vimeo.com/95826024",
 								"icon": "<path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'Yuca' Film on Vimeo"
+								"linkText": "\'Yuca\' Film on Vimeo"
 							}
 						],
 						"logo": {
@@ -174,12 +174,12 @@ const projectsData = [
 							{
 								"url": "./modals/busan.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Busan' Overview Page"
+								"linkText": "\'Busan\' Overview Page"
 							},
 							{
 								"url": "https://vimeo.com/203944431",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z'/>",
-								"linkText": "'Busan' Trailer on Vimeo"
+								"linkText": "\'Busan\' Trailer on Vimeo"
 							}
 						],
 						"logo": {
@@ -195,16 +195,16 @@ const projectsData = [
 							{
 								"url": "./modals/after.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'After, After That' Overview Page"
+								"linkText": "\'After, After That\' Overview Page"
 							},
 							{
 								"url": "http://www.vimeo.com/55657740",
 								"icon": "<path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'After, After That' Film on Vimeo"
+								"linkText": "\'After, After That\' Film on Vimeo"
 							}
 						],
 						"logo": {
-							"altText": "'After, After That' cartoon logo",
+							"altText": "\'After, After That\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-after.svg"
 						}
 					},
@@ -216,16 +216,16 @@ const projectsData = [
 							{
 								"url": "./modals/breafast.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Persefone\'s Breakfast' Overview Page"
+								"linkText": "\'Persefone\'s Breakfast\' Overview Page"
 							},
 							{
 								"url": "http://www.vimeo.com/134973465",
 								"icon": "<path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'Persefone\'s Breakfast' Film on Vimeo"
+								"linkText": "\'Persefone\'s Breakfast\' Film on Vimeo"
 							}
 						],
 						"logo": {
-							"altText": "'Persefone\'s Breakfast' cartoon logo",
+							"altText": "\'Persefone\'s Breakfast\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-breakfast.svg"
 						}
 					}
@@ -243,7 +243,7 @@ const projectsData = [
 							{
 								"url": "./modals/nlm.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Health for All' Overview Page"
+								"linkText": "\'Health for All\' Overview Page"
 							}
 						],
 						"logo": {
@@ -296,16 +296,16 @@ const projectsData = [
 							{
 								"url": "./modals/lmhtf.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Bodegas Saludables' Overview Page"
+								"linkText": "\'Bodegas Saludables\' Overview Page"
 							},
 							{
 								"url": "http://www.vimeo.com/231980215",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6l-7 4V7z'/>",
-								"linkText": "'Bodegas Saludables' Excerpt on Vimeo"
+								"linkText": "\'Bodegas Saludables\' Excerpt on Vimeo"
 							}
 						],
 						"logo": {
-							"altText": "'Bodegas Saludables' cartoon logo",
+							"altText": "\'Bodegas Saludables\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-lmhtf.svg"
 						}
 					}
@@ -323,21 +323,21 @@ const projectsData = [
 							{
 								"url": "./modals/tarot.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'AR-Tarot' Overview Page"
+								"linkText": "\'AR-Tarot\' Overview Page"
 							},
 							{
 								"url": "https://github.com/smendez92/AR-tarot",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z'/>",
-								"linkText": "'AR-Tarot' GitHub Repo"
+								"linkText": "\'AR-Tarot\' GitHub Repo"
 							},
 							{
 								"url": "https://smendez92.github.io/AR-tarot/index",
 								"icon": "<path d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'AR-Tarot' Demo on GitHub Pages"
+								"linkText": "\'AR-Tarot\' Demo on GitHub Pages"
 							}
 						],
 						"logo": {
-							"altText": "'AR-Tarot' cartoon logo",
+							"altText": "\'AR-Tarot\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-tarot.svg"
 						}
 					},
@@ -349,21 +349,21 @@ const projectsData = [
 							{
 								"url": "./modals/apples.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Apples' Overview Page"
+								"linkText": "\'Apples\' Overview Page"
 							},
 							{
 								"url": "https://github.com/amgault/everythingButApples",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z'/>",
-								"linkText": "'Apples' GitHub Repo"
+								"linkText": "\'Apples\' GitHub Repo"
 							},
 							{
 								"url": "https://everythingbutapples.herokuapp.com",
 								"icon": "<path d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'Apples' Demo on Heroku"
+								"linkText": "\'Apples\' Demo on Heroku"
 							}
 						],
 						"logo": {
-							"altText": "'Apples' cartoon logo",
+							"altText": "\'Apples\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-apples.svg"
 						}
 					},
@@ -401,21 +401,21 @@ const projectsData = [
 							{
 								"url": "./modals/nytreact.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'NYTReact' Overview Page"
+								"linkText": "\'NYTReact\' Overview Page"
 							},
 							{
 								"url": "https://github.com/smendez92/nytreact",
 								"icon": "<path d='M0 0h24v24H0V0z' fill='none'/><path d='M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z'/>",
-								"linkText": "'NYTReact' GitHub Repo"
+								"linkText": "\'NYTReact\' GitHub Repo"
 							},
 							{
 								"url": "https://nyreactapp.herokuapp.com",
 								"icon": "<path d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z'/><path d='M0 0h24v24H0z' fill='none'/>",
-								"linkText": "'NYTReact' Demo on Heroku"
+								"linkText": "\'NYTReact\' Demo on Heroku"
 							}
 						],
 						"logo": {
-							"altText": "'NYTReact' cartoon logo",
+							"altText": "\'NYTReact\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-nytreact.svg"
 						}
 					}
@@ -559,11 +559,11 @@ const projectsData = [
 							{
 								"url": "./modals/walks.html",
 								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
-								"linkText": "'Walks' Overview Page"
+								"linkText": "\'Walks\' Overview Page"
 							}
 						],
 						"logo": {
-							"altText": "'Walks' cartoon logo",
+							"altText": "\'Walks\' cartoon logo",
 							"svg": "./assets/images/homepage-icon-walks.svg"
 						}
 					}
@@ -577,7 +577,7 @@ const projectsData = [
 			"title": "AFTER, AFTER THAT",
 			"sidebar": {
 				"video": "https://player.vimeo.com/video/55657740",
-				"iframeTitle": "'After, After That' full film on Vimeo.",
+				"iframeTitle": "\'After, After That\' full film on Vimeo.",
 				"year": "2012",
 				"caption": "Live action video, experimental animation. 04min 16s."
 			},
@@ -670,7 +670,7 @@ const projectsData = [
 			"title": "A BODEGA",
 			"sidebar": {
 				"video": "https://player.vimeo.com/video/91566613",
-				"iframeTitle": "'A Bodega' full film on Vimeo.",
+				"iframeTitle": "\'A Bodega\' full film on Vimeo.",
 				"year": "2014",
 				"caption": "Experimental documentary made using object animation, pixilation), & live action video. 05min 58s."
 			},
@@ -704,7 +704,7 @@ const projectsData = [
 			"title": "PERSEFONE\'S BREAKFAST",
 			"sidebar": {
 				"video": "https://player.vimeo.com/video/134973465",
-				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
+				"iframeTitle": "\'By Foot: Busan and the Sea\' trailer on vimeo.",
 				"year": "2015",
 				"caption": "Experimental animation made using 2D digital methods, archival footage, live action, 3D CGI, & object animation. 06min 44s."
 			},
@@ -721,7 +721,7 @@ const projectsData = [
 			"note": [
 				{
 					"title": "Background",
-					"text": "The idea for this film came during the making of '<a href='./bodega.html'>A Bodega</a>', as a way to explore my own anger around issues of food deserts. Communities in food deserts are denied access to both longterm health and to aspects of their cultural identity; when they can't buy ingredients to make the food that's been made for generations, they're missing out on a key experience of their own story. While '<a href='./bodega.html'>A Bodega</a>' highlighted resources that minortizied communities have built up for themselves, 'Persefone's Breakfast' refashions the Persephone myth to imagine what it could look like to opt out of oppressive systems entirely.",
+					"text": "The idea for this film came during the making of \'<a href='./bodega.html'>A Bodega</a>\', as a way to explore my own anger around issues of food deserts. Communities in food deserts are denied access to both longterm health and to aspects of their cultural identity; when they can't buy ingredients to make the food that's been made for generations, they're missing out on a key experience of their own story. While '<a href='./bodega.html'>A Bodega</a>' highlighted resources that minortizied communities have built up for themselves, 'Persefone's Breakfast' refashions the Persephone myth to imagine what it could look like to opt out of oppressive systems entirely.",
 				},
 				{
 					"title": "Process",
@@ -733,7 +733,7 @@ const projectsData = [
 			"title": "BY FOOT: BUSAN AND THE SEA",
 			"sidebar": {
 				"video": "https://player.vimeo.com/video/203944431",
-				"iframeTitle": "'By Foot: Busan and the Sea' trailer on vimeo.",
+				"iframeTitle": "\'By Foot: Busan and the Sea\' trailer on vimeo.",
 				"year": "2016",
 				"caption": "Experimental documentary made using pixilation, photography, and live action video. 04min 22s. Trailer above."
 			},
@@ -889,7 +889,7 @@ const projectsData = [
 			"title": "HEALTHY ON THE BLOCK (BODEGAS SALUDABLES)",
 			"sidebar": {
 				"video": "https://player.vimeo.com/video/231980215",
-				"iframeTitle": "'Bodegas Saludables' excerpt on vimeo.",
+				"iframeTitle": "\'Bodegas Saludables\' excerpt on vimeo.",
 				"year": "2014",
 				"caption": "Intro video for a local public health program in Lawrence, MA. (Excerpt above)"
 			},
@@ -947,11 +947,11 @@ const projectsData = [
 			"atAGlance": [
 				{
 					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>'AR-Tarot' demo on GitHub Pages.</a>"
+					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>\'AR-Tarot\' demo on GitHub Pages.</a>"
 				},
 				{
 					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>'AR-Tarot' GitHub Repo.</a>"}
+					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>\'AR-Tarot\' GitHub Repo.</a>"}
 			],
 			"note": [
 				{
@@ -1001,7 +1001,7 @@ const projectsData = [
 			"title": "10 DAYS IN SAIGON",
 			"sidebar": {
 				"video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwearemuui%2Fvideos%2F1838183853120576%2F&show_text=0&width=560",
-				"iframeTitle": "'10 Days in Saigon' episode on Facebook.",
+				"iframeTitle": "\'10 Days in Saigon\' episode on Facebook.",
 				"year": "2017",
 				"caption": "10-week Web Series"
 			},
@@ -1025,7 +1025,7 @@ const projectsData = [
 					"embeddedMedia": "https://www.google.com/maps/d/embed?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US",
 					"text": {
 						"mediaTitle": "OUTCOMES",
-						"bodyText": "We produced a 10-week original series, comprising 34 videos: site visits, restaurants visits, personal stories, and visual shorts.<br/><br/>The format I came up with for this series was used as a model for Muui's later video work in Busan and Seoul. We produced a Google Map to document the sites in our series, which was the inspiration for ongoing work on a <a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>Wheelchair Travel Accessibility web app</a>.<br/><br/>'10 Days in Saigon' received media coverage in Vietnam, Korea, and the US, and was featured in international film festivals."
+						"bodyText": "We produced a 10-week original series, comprising 34 videos: site visits, restaurants visits, personal stories, and visual shorts.<br/><br/>The format I came up with for this series was used as a model for Muui's later video work in Busan and Seoul. We produced a Google Map to document the sites in our series, which was the inspiration for ongoing work on a <a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>Wheelchair Travel Accessibility web app</a>.<br/><br/>\'10 Days in Saigon\' received media coverage in Vietnam, Korea, and the US, and was featured in international film festivals."
 					}
 				}
 			],
@@ -1160,7 +1160,7 @@ const projectsData = [
 			"note": [
 				{
 					"title": "Background",
-					"text": "This project arose from my work with Muui on our '10 Days in Saigon' web series: [<a href='https://drive.google.com/open?id=1msCQD_ab_Lz6mLz80wyu1qHXCBk&usp=sharing' target='_blank'>See the Map overview here</a>]. We want to make a searchable, flexible, collective database to store usable information about wheelchair accessible travel by city. Our goal is to provide a structure for desribing wheelchair accessibility that can help people contribute to collective knowledge without a steep learning curve. Initial demo developed together with Bex Way, currently undergoing a process of feedack, usability testing, and revision.",
+					"text": "This project arose from my work with Muui on our \'10 Days in Saigon\' web series: [<a href='https://drive.google.com/open?id=1msCQD_ab_Lz6mLz80wyu1qHXCBk&usp=sharing' target='_blank'>See the Map overview here</a>]. We want to make a searchable, flexible, collective database to store usable information about wheelchair accessible travel by city. Our goal is to provide a structure for desribing wheelchair accessibility that can help people contribute to collective knowledge without a steep learning curve. Initial demo developed together with Bex Way, currently undergoing a process of feedack, usability testing, and revision.",
 				},
 				{
 					"title": "Current Progress",
@@ -1197,141 +1197,137 @@ const projectsData = [
 	}
 ]
 
-const modalNavTemplate = `
-	<nav class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
-		<div class="float-left header-nav-link height-3em width-33pc" id="home-button">
-			<button class="JS-link bg-white font-weight-600 height-3em">[HOME]</button>
-		</div>
-		<div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
-			<button class="JS-link bg-white font-weight-600 height-3em">[CONTACT]</button>
-		</div>
-	</nav>`
+const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em width-100pc z2' id='sticky-header'>\
+	<div class='float-left header-nav-link height-3em width-33pc' id='home-button'>\
+		<button class='JS-link bg-white font-weight-600 height-3em'>[HOME]</button>\
+	</div>\
+	<div class='header-nav-link float-right height-3em text-right width-33pc' id='connect-modal-trigger'>\
+		<button class='JS-link bg-white font-weight-600 height-3em'>[CONTACT]</button>\
+	</div>\
+</nav>"
 
-const modalContactTemplate = `
-	<aside class="bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em" id="connect-footer-modal">
-		<div class="display-block text-center width-100pc">
-			<h2>CONNECT</h2>
-		</div>
-		<div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="http://www.vimeo.com/user15152945" id="Vimeo-link"><p class="font-size-p5em bg-black color-white font-weight-400">VIMEO</p><img alt="Vimeo social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-vimeo.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://github.com/smendez92" id="GitHub-link"><p class="font-size-p5em bg-black color-white font-weight-400">GITHUB</p><img alt="GitHub social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-github.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://www.linkedin.com/in/samuel-r-mendez/" id="LinkedIn-link"><p class="font-size-p5em bg-black color-white font-weight-400">LINKEDIN</p><img alt="LinkedIn social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-linkedin.svg"></a>
-			</div>
-			<div class="float-left text-center footer-social-icon-container">
-				<a href="https://www.instagram.com/samuelanimates/" id="Instagram-link"><p class="font-size-p5em bg-black color-white font-weight-400">INSTAGRAM</p><img alt="Instagram social icon" class="display-block margin-auto width-100pc" src="../assets/images/social-icon-instagram.svg"></a>
-			</div>
-		</div>
-		<section class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
-			<h3>Contact Form</h3>
-			<form action="https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?" enctype="text/plain" id="gform" name="gform" onsubmit="submitted=true;" target="hidden_iframe">
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.1804477893">FIRST NAME</label> <input class="float-right width-14p5em" id="entry.1804477893" name="entry.1804477893" placeholder="Samuel" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.779358458">LAST NAME</label> <input class="float-right width-14p5em" id="entry.779358458" name="entry.779358458" placeholder="Mendez" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.1973645689">EMAIL</label> <input class="float-right width-14p5em" id="entry.1973645689" name="entry.1973645689" placeholder="mendez@samuelanimates.com" type="text">
-				</div>
-				<div>
-					<label class="clear-left float-left text-right width-6p5em" for="entry.282615151">MESSAGE</label> 
-					<textarea class="float-right width-14p5em" form="gform" id="entry.282615151" name="entry.282615151" placeholder="Hello, world!" rows="4"></textarea>
-				</div>
-				<div class="button-container">
-					<input class="clear-both float-right" type="submit" value="SEND">
-				</div>
-				<div id="my-hidden-iframe">
-					<iframe id="hidden_iframe" name="hidden_iframe"></iframe>
-				</div>
-			</form>
-		</section>
-		<div class="JS-link clear-both float-right">
-			<button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]</button>
-		</div>
-	</aside>
-` 
+const modalContactTemplate = "<aside class='bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em' id='connect-footer-modal'>\
+	<div class='display-block text-center width-100pc'>\
+		<h2>CONNECT</h2>\
+	</div>\
+	<div class='clear-both display-block margin-auto width-80pc' id='footer-social-container'>\
+		<div class='float-left text-center footer-social-icon-container'>\
+			<a href='http://www.vimeo.com/user15152945' id='Vimeo-link'><p class='font-size-p5em bg-black color-white font-weight-400'>VIMEO</p><img alt='Vimeo social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-vimeo.svg'></a>\
+		</div>\
+		<div class='float-left text-center footer-social-icon-container'>\
+			<a href='https://github.com/smendez92' id='GitHub-link'><p class='font-size-p5em bg-black color-white font-weight-400'>GITHUB</p><img alt='GitHub social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-github.svg'></a>\
+		</div>\
+		<div class='float-left text-center footer-social-icon-container'>\
+			<a href='https://www.linkedin.com/in/samuel-r-mendez/' id='LinkedIn-link'><p class='font-size-p5em bg-black color-white font-weight-400'>LINKEDIN</p><img alt='LinkedIn social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-linkedin.svg'></a>\
+		</div>\
+		<div class='float-left text-center footer-social-icon-container'>\
+			<a href='https://www.instagram.com/samuelanimates/' id='Instagram-link'><p class='font-size-p5em bg-black color-white font-weight-400'>INSTAGRAM</p><img alt='Instagram social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-instagram.svg'></a>\
+		</div>\
+	</div>\
+	<section class='clear-both display-block margin-auto text-center width-80pc' id='footer-contact-form-container'>\
+		<h3>Contact Form</h3>\
+		<form action='https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?' enctype='text/plain' id='gform' name='gform' onsubmit='submitted=true;' target='hidden_iframe'>\
+			<div>\
+				<label class='clear-left float-left text-right width-6p5em' for='entry.1804477893'>FIRST NAME</label> <input class='float-right width-14p5em' id='entry.1804477893' name='entry.1804477893' placeholder='Samuel' type='text'>\
+			</div>\
+			<div>\
+				<label class='clear-left float-left text-right width-6p5em' for='entry.779358458'>LAST NAME</label> <input class='float-right width-14p5em' id='entry.779358458' name='entry.779358458' placeholder='Mendez' type='text'>\
+			</div>\
+			<div>\
+				<label class='clear-left float-left text-right width-6p5em' for='entry.1973645689'>EMAIL</label> <input class='float-right width-14p5em' id='entry.1973645689' name='entry.1973645689' placeholder='mendez@samuelanimates.com' type='text'>\
+			</div>\
+			<div>\
+				<label class='clear-left float-left text-right width-6p5em' for='entry.282615151'>MESSAGE</label>\
+				<textarea class='float-right width-14p5em' form='gform' id='entry.282615151' name='entry.282615151' placeholder='Hello, world!' rows='4'></textarea>\
+			</div>\
+			<div class='button-container'>\
+				<input class='clear-both float-right' type='submit' value='SEND'>\
+			</div>\
+			<div id='my-hidden-iframe'>\
+				<iframe id='hidden_iframe' name='hidden_iframe'></iframe>\
+			</div>\
+		</form>\
+	</section>\
+	<div class='JS-link clear-both float-right'>\
+		<button class='bg-white font-weight-600 height-3em' id='connect-modal-close-trigger'>[CLOSE]</button>\
+	</div>\
+</aside>"
 
-const modalTemplate = `
-	<h1>{{title}}</h1>
-	{{#sidebar}}
-		<div class="floating-lefthand-container padding-B-p5em padding-T-p5em">
-			{{#photo}}
-				<div class="bg-17-17-17 color-250-250-250 text-center">
-					<div class="display-block height-auto margin-auto padding-all-p5em width-100pc">
-						<img class="max-height-13em max-width-19p35em height-auto width-100pc" src={{{photo}}} alt="AR-Tarot demo screenshot">
-					</div>
-					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em">
-						<p class="font-weight-600 padding-B-p25em">{{year}}</p>
-						<p>{{caption}}</p>
-					</div>
-				</div>
-			{{/photo}}
-			{{#video}}
-				<div class="bg-17-17-17 color-250-250-250 text-center">
-					<div class="video-embed-container">
-						<iframe src={{{video}}} title={{iframeTitle}} webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>
-					</div>
-					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center">
-						<p class="font-weight-600 padding-B-p25em padding-T-p5em text-center">{{year}}</p>
-						<p class="padding-B-p25em text-center">{{caption}}</p>
-					</div>
-				</div>
-			{{/video}}
-			{{#pdf}}
-				<div class="bg-17-17-17 color-250-250-250 text-center">
-					<object class="max-height-13em max-width-19p35em width-100pc" data={{{pdf}}} type="application/pdf" height="400px">
-						<p>{{{longDescription}}}</p>
-					</object>
-					<div class="bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center">
-					<p class="font-weight-600 padding-B-p25em padding-T-p5em text-center">{{year}}</p>
-					<p class="padding-B-p25em text-center">{{caption}}</p>
-					</div>
-				</div>
-			{{/pdf}}
-		</div>
-	{{/sidebar}}
-	<div class="floating-righthand-container padding-B-p5em padding-T-p5em">
-		<div class="bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
-				<h2>AT A GLANCE</h2>
-			<div class="display-block padding-L-p5em margin-auto width-90pc">
-				<ul>
-					{{#atAGlance}}
-						<li><span class="font-weight-600">{{title}}</span>: {{{text}}}</li>
-					{{/atAGlance}}
-				</ul>
-			</div>
-		</div>
-	</div>
-	{{#middleIframeWithText}}
-		<div class="clear-both width-100pc">
-			{{#text}}
-				<div class="floating-lefthand-container">
-					<div class="bg-255-224-233 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
-						<h2>{{mediaTitle}}</h2>	
-						<p>{{{bodyText}}}</p>
-					</div>
-				</div>
-			{{/text}}
-			<div class="floating-righthand-container">
-				<div class="bg-255-92-143 margin-bottom-1em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
-					<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>
-				</div>
-			</div>
-		</div>
-	{{/middleIframeWithText}}
-	<div class="clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc">
-		<h2>OVERVIEW</h2>	
-		{{#note}}
-			<div class="padding-B-p5em padding-T-p5em">
-				<p><h3 class="display-inline">{{title}}:</h3> {{{text}}}</p>
-			</div>
-		{{/note}}
-	</div>`
+const modalTemplate = "<h1>{{title}}</h1>\
+{{#sidebar}}\
+	<div class='floating-lefthand-container padding-B-p5em padding-T-p5em'>\
+		{{#photo}}\
+			<div class='bg-17-17-17 color-250-250-250 text-center'>\
+				<div class='display-block height-auto margin-auto padding-all-p5em width-100pc'>\
+					<img class='max-height-13em max-width-19p35em height-auto width-100pc' src={{{photo}}} alt='AR-Tarot demo screenshot'>\
+				</div>\
+				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em'>\
+					<p class='font-weight-600 padding-B-p25em'>{{year}}</p>\
+					<p>{{caption}}</p>\
+				</div>\
+			</div>\
+		{{/photo}}\
+		{{#video}}\
+			<div class='bg-17-17-17 color-250-250-250 text-center'>\
+				<div class='video-embed-container'>\
+					<iframe src={{{video}}} title={{iframeTitle}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'>It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>\
+				</div>\
+				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
+					<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
+					<p class='padding-B-p25em text-center'>{{caption}}</p>\
+				</div>\
+			</div>\
+		{{/video}}\
+		{{#pdf}}\
+			<div class='bg-17-17-17 color-250-250-250 text-center'>\
+				<object class='max-height-13em max-width-19p35em width-100pc' data={{{pdf}}} type='application/pdf' height='400px'>\
+					<p>{{{longDescription}}}</p>\
+				</object>\
+				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
+				<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
+				<p class='padding-B-p25em text-center'>{{caption}}</p>\
+				</div>\
+			</div>\
+		{{/pdf}}\
+	</div>\
+{{/sidebar}}\
+<div class='floating-righthand-container padding-B-p5em padding-T-p5em'>\
+	<div class='bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
+			<h2>AT A GLANCE</h2>\
+		<div class='display-block padding-L-p5em margin-auto width-90pc'>\
+			<ul>\
+				{{#atAGlance}}\
+					<li><span class='font-weight-600'>{{title}}</span>: {{{text}}}</li>\
+				{{/atAGlance}}\
+			</ul>\
+		</div>\
+	</div>\
+</div>\
+{{#middleIframeWithText}}\
+	<div class='clear-both width-100pc'>\
+		{{#text}}\
+			<div class='floating-lefthand-container'>\
+				<div class='bg-255-224-233 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+					<h2>{{mediaTitle}}</h2>\
+					<p>{{{bodyText}}}</p>\
+				</div>\
+			</div>\
+		{{/text}}\
+		<div class='floating-righthand-container'>\
+			<div class='bg-255-92-143 margin-bottom-1em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+				<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
+			</div>\
+		</div>\
+	</div>\
+{{/middleIframeWithText}}\
+<div class='clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+	<h2>OVERVIEW</h2>\
+	{{#note}}\
+		<div class='padding-B-p5em padding-T-p5em'>\
+			<p><h3 class='display-inline'>{{title}}:</h3> {{{text}}}</p>\
+		</div>\
+	{{/note}}\
+</div>"
 
 var isNavDisplayed = false;
 var isConnectDisplayed = false;
@@ -1409,6 +1405,7 @@ $(document).ready(function () {
 		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
 	}
 	else{
+		console.log("ayyy");
 		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
 		$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
 		$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
