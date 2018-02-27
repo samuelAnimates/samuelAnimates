@@ -937,30 +937,27 @@ const projectsData = [
 
 		},
 		"nlm": {
-			"title": "Health for All",
+			"title": "HEALTH FOR ALL - LIBRARY PARTNERSHIP",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Mockup for a paper prototype, for use in co-design sessions at local libraries.",
+				"photo": "../assets/images/projectPhotos/nlm.jpg",
+				"alttext": "Northwestern Medicine and Chicago Public Library logos",
 				"year": "Ongoing",
-				"caption": ""
+				"caption": "A partnership between Northwestern Medicine and Chicago Public Library to spread knowledge and awareness of clinical trials in underrepresented communities."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>\'AR-Tarot\' demo on GitHub Pages.</a>"
-				},
-				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>\'AR-Tarot\' GitHub Repo.</a>"}
+					"title": "Role",
+					"text": "Focus Group and Co-design session lead; prototyping and coordinating with our developnebt team to create a web app based off of paper and digital prototypes."
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Background",
+					"text": "Ethnic and racial minority groups are underrepresented in many clinical trials in the US. This lack of representation may contribute to existing health disparities, because the participant pool in clinical trials doesn't reflect the population or the populations that bear the burden of many diseases. This project aims to create a tool to begin informing people about clinical trials in Chicago Public Library branches.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Current Progress",
+					"text": "I am currently leading a user-centered design process to iteratively build on an existing flashcard informational tool.",
 				}
 			]
 		},
