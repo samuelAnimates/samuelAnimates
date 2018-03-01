@@ -1002,13 +1002,13 @@ const projectsData = [
 			"atAGlance": [
 				{
 					"title": "Role",
-					"text": "Focus Group and Co-design session lead; prototyping and coordinating with our developnebt team to create a web app based off of paper and digital prototypes."
+					"text": ""
 				}
 			],
 			"note": [
 				{
 					"title": "Background",
-					"text": "Ethnic and racial minority groups are underrepresented in many clinical trials in the US. This lack of representation may contribute to existing health disparities, because the participant pool in clinical trials doesn't reflect the population or the populations that bear the burden of many diseases. This project aims to create a tool to begin informing people about clinical trials in Chicago Public Library branches.",
+					"text": "",
 				},
 				{
 					"title": "Current Progress",
@@ -1510,6 +1510,47 @@ $(document).ready(function () {
 
 
 	});
+
+	//Swap out the IG social icon for the blue one once the link is hovered or focused on
+	$("#Instagram-link").on("mouseenter focus", function(event){
+		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram-blue.svg');
+	});
+
+	//Swap out the GitHub social icon for the blue one once the link is hovered or focused on
+	$("#GitHub-link").on("mouseenter focus", function(event){
+		$("#github-social-icon").attr('src', './assets/images/social-icon-github-blue.svg');
+	});
+
+	//Swap out the LinkedIn social icon for the blue one once the link is hovered or focused on
+	$("#LinkedIn-link").on("mouseenter focus", function(event){
+		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin-blue.svg');
+	});
+
+	//Swap out the Vimeo social icon for the blue one once the link is hovered or focused on
+	$("#Vimeo-link").on("mouseenter focus", function(event){
+		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo-blue.svg');
+	});
+
+	//Swap back in the IG social icon once the link is hovered or focused on
+	$("#Instagram-link").on("mouseleave focusout", function(event){
+		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram.svg');
+	});
+
+	//Swap back in the GitHub social icon once the link is hovered or focused on
+	$("#GitHub-link").on("mouseleave focusout", function(event){
+		$("#github-social-icon").attr('src', './assets/images/social-icon-github.svg');
+	});
+
+	//Swap back in the LinkedIn social icon once the link is hovered or focused on
+	$("#LinkedIn-link").on("mouseleave focusout", function(event){
+		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin.svg');
+	});
+
+	//Swap back in the Vimeo social icon once the link is hovered or focused on
+	$("#Vimeo-link").on("mouseleave focusout", function(event){
+		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo.svg');
+	});
+	
 
 	//The navigation bar slides back out to the left once a navigation link is clicked
 	$( ".navbar-individual-link-container" ).click(function() {
