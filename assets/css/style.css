@@ -222,6 +222,9 @@ ONE CLASS DOES ONE THING
 .bg-pink-lightest{
 	background-color: rgb(255, 246, 252);
 }
+.bg-255-246-252-p57{
+	background-color: rgba(255, 204, 238, 0.57);
+}
 .border-none {
 	border: none;
 }

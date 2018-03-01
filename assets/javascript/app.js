@@ -991,6 +991,31 @@ const projectsData = [
 				}
 			]
 		},
+		"pp": {
+			"title": "PERCEPTIONS OF PLANNED PARENTHOOD",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/pp.jpg",
+				"alttext": "Northwestern Medicine and Chicago Public Library logos",
+				"year": "Ongoing",
+				"caption": "A qualitative study on general practitioners' views of Planned Parenthood in specialty family planning referrals."
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "Focus Group and Co-design session lead; prototyping and coordinating with our developnebt team to create a web app based off of paper and digital prototypes."
+				}
+			],
+			"note": [
+				{
+					"title": "Background",
+					"text": "Ethnic and racial minority groups are underrepresented in many clinical trials in the US. This lack of representation may contribute to existing health disparities, because the participant pool in clinical trials doesn't reflect the population or the populations that bear the burden of many diseases. This project aims to create a tool to begin informing people about clinical trials in Chicago Public Library branches.",
+				},
+				{
+					"title": "Current Progress",
+					"text": "I am the lead author of this manuscript, under review for publication.",
+				}
+			]
+		},
 		"saigon": {
 			"title": "10 DAYS IN SAIGON",
 			"sidebar": {
