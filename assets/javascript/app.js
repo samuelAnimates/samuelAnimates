@@ -1002,13 +1002,13 @@ const projectsData = [
 			"atAGlance": [
 				{
 					"title": "Role",
-					"text": ""
+					"text": "I conducted interviews, coded data, and conudcted analysis on this study. I am serving as the lead author for this manuscript."
 				}
 			],
 			"note": [
 				{
 					"title": "Background",
-					"text": "",
+					"text": "This study came from a parent study around general practitioners' family planning referral patterns as part of a recently integrated healthcare system. Certain themes around Planned Parenthood were consistent across the qualitative interviews in our provider population, and I am the lead author of the manuscript detailing these findings.",
 				},
 				{
 					"title": "Current Progress",
