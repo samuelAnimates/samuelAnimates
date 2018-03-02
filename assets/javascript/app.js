@@ -1451,7 +1451,7 @@ function showNavBar(){
 //<=============== END FUNCTION DECLARATIONS =========================>
 
 
-//<=============== HOMEPAGE FUNCTIONS =========================>
+//<=============== PAGE FUNCTIONS =========================>
 $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
@@ -1462,7 +1462,7 @@ $(document).ready(function () {
 	else{
 		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
 		$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
-		$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
+		$('#project-sections').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
 	}
 
 	//An open modal closes if enter or x is pressed
