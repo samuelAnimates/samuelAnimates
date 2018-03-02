@@ -23,7 +23,161 @@
     <link rel="icon" href="./assets/images/png/logo.png">
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
-
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+        display: block;
+      }
+      body{
+        line-height: 1.1;
+      }
+      a{
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: rgb(0,58,204);
+      }
+      a:hover,a:focus,button:hover,button:focus{
+        background-color: rgb(0,36,128);
+        color: rgb(255,255,255);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      button{
+        font-size: 1em;
+        border: none;
+      }
+      h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        font-family: 'Overpass Mono', monospace;
+      }
+      h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Overpass Mono', monospace;
+      }
+      h3 {
+        font-size: 1.25em;
+        font-weight: 600;
+        font-family: 'Overpass Mono', monospace;
+      }
+      section::after{
+        content: "";
+        margin-bottom: 1em;
+      }
+      #sticky-header{
+        position: fixed;
+        top: 0;
+      }
+      .bg-white{
+        background-color: rgb(250, 250, 250);
+      }
+      .bg-white-opaque{
+        background-color: rgba(250, 250, 250, 0.96);
+      }
+      .bg-white-sheer {
+        background-color: rgba(250, 250, 250, 0.57);
+      }
+      .border-all-1px-thin-gray{
+        border-style: solid;
+        border: 1px solid rgba(206, 206, 206, 0.2);
+      }
+      .border-top-1px-thin-gray{
+        border-top: 1px solid rgba(77, 77, 77, 0.267);
+      }
+      .box-shadow{
+        box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
+      }
+      .color-black {
+        color: rgb(17, 17, 17);
+      }
+      .clear-both {
+        clear: both;
+      }
+      .display-block {
+        display: block;
+      }
+      .display-inline-block {
+        display: inline-block;
+      }
+      .gradient {
+        background: rgb(250, 250, 250);
+        background: linear-gradient(to bottom, rgb(250, 250, 250) 0%, #fffcfc 5%, #ffe5f9 15%, #fcffe0 43%, #d6f4ff 69%, #fff7e0 100%);
+      }	
+      .float-left{
+        float: left;
+      }
+      .float-right{
+        float: right;
+      }
+      .font-Assistant{
+        font-family: 'Assistant', sans-serif;
+        }
+      .font-Overpass{
+      font-family: 'Overpass Mono', monospace;
+      }
+      .font-weight-600{
+        font-weight: 600;
+      }
+      .height-3em{
+        height: 3em;
+      }
+      .margin-auto{
+        margin: auto;
+      }
+      .max-width-56em{
+        max-width: 56em;
+      }
+      .padding-B-p5em{
+        padding-bottom: 0.5em;
+      }
+      .padding-B-1em {
+        padding-bottom: 1em;
+      }
+      .padding-B-2em{
+        padding-bottom: 2em;
+      }
+      .padding-L-p5em{
+        padding-left: .5em;
+      }
+      .padding-R-p5em{
+        padding-right: .5em;
+      }
+      .padding-T-1p5em{
+        padding-top: 1.5em;
+      }
+      .padding-T-4em{
+        padding-top: 4em;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right{
+        text-align: right;
+      }
+      .width-33pc{
+        width: 33%;
+      }
+      .width-90pc {
+        width: 90%;
+      }
+      .width-100pc {
+        width: 100%;
+      }
+      .z2 {
+        z-index: 2;
+      }
+    </style>
   </head>
   <body class="gradient">
     <header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
@@ -51,7 +205,7 @@
             </div>
             <div class="display-block padding-B-1em padding-L-p5em padding-R-p5em">
               <div class="homepage-portrait-container display-block margin-auto padding-B-1em text-center">
-                <div role="img" aria-label="Samuel R. Mendez round cartoon portrait" class="circle">
+                <div role="img" aria-label="Samuel R. Mendez cartoon portrait in a circular frame." class="circle">
                 </div>
                 <div class="font-Overpass font-size-p75em padding-T-1p5em">"I could trace about 80% of my humor back to specific SpongeBob episodes."
                 </div>
