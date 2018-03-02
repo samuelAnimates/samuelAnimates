@@ -222,6 +222,9 @@ ONE CLASS DOES ONE THING
 .bg-pink-lightest{
 	background-color: rgb(255, 246, 252);
 }
+.bg-255-246-252-p57{
+	background-color: rgba(255, 204, 238, 0.57);
+}
 .border-none {
 	border: none;
 }
@@ -296,6 +299,12 @@ ul {
 
 .z1{
 	z-index: 1;
+}
+.z3{
+	z-index: 3;
+}
+.z4{
+	z-index: 4;
 }
 .max-width-22em{
 	max-width: 22em;
@@ -442,7 +451,7 @@ Responsive portions
 @media screen and (min-width: 930px)
 {
 	.floating-heading{
-			z-index: 3;
+			z-index: 2;
 			right: 0;
 			left: 0;
 			position: absolute;

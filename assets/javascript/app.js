@@ -937,30 +937,27 @@ const projectsData = [
 
 		},
 		"nlm": {
-			"title": "Health for All",
+			"title": "HEALTH FOR ALL - LIBRARY PARTNERSHIP",
 			"sidebar": {
-				"photo": "../assets/images/projectPhotos/tarot.jpg",
-				"alttext": "Mockup for a paper prototype, for use in co-design sessions at local libraries.",
+				"photo": "../assets/images/projectPhotos/nlm.jpg",
+				"alttext": "Northwestern Medicine and Chicago Public Library logos",
 				"year": "Ongoing",
-				"caption": ""
+				"caption": "A partnership between Northwestern Medicine and Chicago Public Library to spread knowledge and awareness of clinical trials in underrepresented communities."
 			},
 			"atAGlance": [
 				{
-					"title": "Link",
-					"text": "<a href='https://smendez92.github.io/AR-tarot/index' target='_blank'>\'AR-Tarot\' demo on GitHub Pages.</a>"
-				},
-				{
-					"title": "Link",
-					"text": "<a href='https://github.com/smendez92/AR-tarot' target='_blank'>\'AR-Tarot\' GitHub Repo.</a>"}
+					"title": "Role",
+					"text": "Focus Group and Co-design session lead; prototyping and coordinating with our developnebt team to create a web app based off of paper and digital prototypes."
+				}
 			],
 			"note": [
 				{
-					"title": "Ayy",
-					"text": "lmao lmao lmao",
+					"title": "Background",
+					"text": "Ethnic and racial minority groups are underrepresented in many clinical trials in the US. This lack of representation may contribute to existing health disparities, because the participant pool in clinical trials doesn't reflect the population or the populations that bear the burden of many diseases. This project aims to create a tool to begin informing people about clinical trials in Chicago Public Library branches.",
 				},
 				{
-					"title": "LMAO",
-					"text": "ay ay ay ay ay",
+					"title": "Current Progress",
+					"text": "I am currently leading a user-centered design process to iteratively build on an existing flashcard informational tool.",
 				}
 			]
 		},
@@ -991,6 +988,31 @@ const projectsData = [
 				{
 					"title": "Skills Strengthened",
 					"text": "Setting up database schema using Mongoose. Setting up CRUD routes to interact with a Mongo database via an Express server. Deploying a React app with a public-facing client and a server."
+				}
+			]
+		},
+		"pp": {
+			"title": "PERCEPTIONS OF PLANNED PARENTHOOD",
+			"sidebar": {
+				"photo": "../assets/images/projectPhotos/pp.jpg",
+				"alttext": "Northwestern Medicine and Chicago Public Library logos",
+				"year": "Ongoing",
+				"caption": "A qualitative study on general practitioners' views of Planned Parenthood in specialty family planning referrals."
+			},
+			"atAGlance": [
+				{
+					"title": "Role",
+					"text": "I conducted interviews, coded data, and conudcted analysis on this study. I am serving as the lead author for this manuscript."
+				}
+			],
+			"note": [
+				{
+					"title": "Background",
+					"text": "This study came from a parent study around general practitioners' family planning referral patterns as part of a recently integrated healthcare system. Certain themes around Planned Parenthood were consistent across the qualitative interviews in our provider population, and I am the lead author of the manuscript detailing these findings.",
+				},
+				{
+					"title": "Current Progress",
+					"text": "I am the lead author of this manuscript, under review for publication.",
 				}
 			]
 		},
@@ -1488,6 +1510,47 @@ $(document).ready(function () {
 
 
 	});
+
+	//Swap out the IG social icon for the blue one once the link is hovered or focused on
+	$("#Instagram-link").on("mouseenter focus", function(event){
+		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram-blue.svg');
+	});
+
+	//Swap out the GitHub social icon for the blue one once the link is hovered or focused on
+	$("#GitHub-link").on("mouseenter focus", function(event){
+		$("#github-social-icon").attr('src', './assets/images/social-icon-github-blue.svg');
+	});
+
+	//Swap out the LinkedIn social icon for the blue one once the link is hovered or focused on
+	$("#LinkedIn-link").on("mouseenter focus", function(event){
+		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin-blue.svg');
+	});
+
+	//Swap out the Vimeo social icon for the blue one once the link is hovered or focused on
+	$("#Vimeo-link").on("mouseenter focus", function(event){
+		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo-blue.svg');
+	});
+
+	//Swap back in the IG social icon once the link is hovered or focused on
+	$("#Instagram-link").on("mouseleave focusout", function(event){
+		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram.svg');
+	});
+
+	//Swap back in the GitHub social icon once the link is hovered or focused on
+	$("#GitHub-link").on("mouseleave focusout", function(event){
+		$("#github-social-icon").attr('src', './assets/images/social-icon-github.svg');
+	});
+
+	//Swap back in the LinkedIn social icon once the link is hovered or focused on
+	$("#LinkedIn-link").on("mouseleave focusout", function(event){
+		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin.svg');
+	});
+
+	//Swap back in the Vimeo social icon once the link is hovered or focused on
+	$("#Vimeo-link").on("mouseleave focusout", function(event){
+		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo.svg');
+	});
+	
 
 	//The navigation bar slides back out to the left once a navigation link is clicked
 	$( ".navbar-individual-link-container" ).click(function() {
