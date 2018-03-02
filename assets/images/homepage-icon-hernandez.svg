@@ -359,7 +359,7 @@
        fx="105.45831"
        fy="190.2757"
        r="61.62318"
-       gradientTransform="matrix(2.2642155,-0.01089756,0.01180508,2.4527727,-135.56823,-275.27811)"
+       gradientTransform="matrix(3.2224838,-0.01585828,0.01680126,3.5693077,-235.53454,-487.98013)"
        gradientUnits="userSpaceOnUse"
        spreadMethod="reflect" />
     <filter
@@ -489,7 +489,8 @@
        y1="142.02975"
        x2="111.88097"
        y2="159.03868"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4232231,0,0,1.4552134,-42.590711,-87.391744)" />
     <filter
        inkscape:label="Blotting Paper"
        inkscape:menu="Textures"
@@ -552,7 +553,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="163.05399"
+     inkscape:cx="-53.750241"
      inkscape:cy="470.0113"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -581,21 +582,20 @@
      style="display:inline"
      transform="translate(0,-82)">
     <path
-       style="display:inline;fill:url(#linearGradient5007);fill-opacity:1;stroke:none;stroke-width:12.47456455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter10608)"
-       d="m 166.43075,190.27463 c 0,34.85119 11.35165,63.39385 -60.76784,63.10376 -74.894979,-0.30112 -60.767808,-28.25257 -60.76781,-63.10376 2e-6,-34.85124 27.206671,-63.10382 60.76781,-63.10382 33.56114,0 60.76784,28.25258 60.76784,63.10382 z"
+       style="display:inline;fill:url(#linearGradient5007);fill-opacity:1;stroke:none;stroke-width:17.95251274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 194.27738,189.49845 c 0,50.71592 16.15593,92.25159 -86.4862,91.82944 C 1.1989197,280.8897 21.305035,240.21437 21.305032,189.49845 c 3e-6,-50.71599 38.721163,-91.829525 86.486148,-91.829525 47.76499,0 86.4862,41.113535 86.4862,91.829525 z"
        id="circle4549-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />
     <path
-       style="display:inline;fill:#cdcd0a;fill-opacity:1;stroke:none;stroke-width:12.47456455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4619);opacity:0.277"
-       d="m 166.43075,190.27463 c 0,34.85119 11.35165,63.39385 -60.76784,63.10376 -74.894994,-0.30112 -60.767814,-28.25257 -60.767814,-63.10376 0,-34.85124 27.20667,-63.10382 60.767814,-63.10382 33.56114,0 60.76784,28.25258 60.76784,63.10382 z"
+       style="display:inline;opacity:0.27700004;fill:#cdcd0a;fill-opacity:1;stroke:none;stroke-width:15.74862671;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.43853,189.49858 c 0,46.43322 13.57946,84.46141 -72.69377,84.07491 -89.593448,-0.40119 -72.693752,-37.64169 -72.693752,-84.07491 0,-46.43329 32.54609,-84.07499 72.693752,-84.07499 40.14765,0 72.69377,37.6417 72.69377,84.07499 z"
        id="circle4549-5-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssss"
-       transform="matrix(0.84052463,0,0,0.91555512,15.275962,14.541925)" />
+       sodipodi:nodetypes="sssss" />
     <path
-       style="display:inline;fill:url(#radialGradient4627-5);fill-opacity:1;stroke:none;stroke-width:12.47456455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5005)"
-       d="m 166.43075,190.27463 c 0,34.85119 11.35165,63.39385 -60.76784,63.10376 -74.894996,-0.30112 -60.767826,-28.25257 -60.767826,-63.10376 0,-34.85124 27.206678,-63.10382 60.767826,-63.10382 33.56114,0 60.76784,28.25258 60.76784,63.10382 z"
+       style="display:inline;opacity:0.10400002;fill:url(#radialGradient4627-5);fill-opacity:1;stroke:none;stroke-width:17.95251274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 194.27739,189.49845 c 0,50.71592 16.15593,92.25159 -86.4862,91.82944 C 1.1989071,280.8897 21.305022,240.21437 21.305022,189.49845 c 0,-50.71599 38.721172,-91.829525 86.486168,-91.829525 47.76499,0 86.4862,41.113535 86.4862,91.829525 z"
        id="circle4549-5-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />

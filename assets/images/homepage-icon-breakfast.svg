@@ -15,149 +15,9 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="homepage-icon-Breakfast.svg">
+   sodipodi:docname="homepage-icon-breakfast.svg">
   <defs
      id="defs2">
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB;"
-       id="filter5406"
-       x="-0.2"
-       width="1.4"
-       y="-0.2"
-       height="1.4"
-       inkscape:label="Wax Print"
-       inkscape:menu="Textures"
-       inkscape:menu-tooltip="Wax print on tissue texture">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.74461304"
-         id="feGaussianBlur5408"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix4568" />
-      <feGaussianBlur
-         id="feGaussianBlur4570"
-         result="result1"
-         in="fbSourceGraphic"
-         stdDeviation="2" />
-      <feTurbulence
-         id="feTurbulence4572"
-         result="result0"
-         numOctaves="5"
-         baseFrequency="0.05"
-         type="fractalNoise" />
-      <feDisplacementMap
-         in2="result0"
-         id="feDisplacementMap4574"
-         result="result2"
-         scale="10"
-         yChannelSelector="G"
-         xChannelSelector="R"
-         in="result1" />
-      <feColorMatrix
-         id="feColorMatrix4576"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
-         result="result3" />
-      <feBlend
-         in2="result3"
-         id="feBlend4578"
-         mode="multiply"
-         in="result2"
-         result="result5" />
-      <feGaussianBlur
-         id="feGaussianBlur4580"
-         result="result4"
-         in="result3"
-         stdDeviation="5" />
-      <feComposite
-         in2="result5"
-         id="feComposite4582"
-         k1="0.5"
-         k3="1.5"
-         k2="0.15"
-         in="result4"
-         operator="arithmetic"
-         result="result6" />
-      <feComposite
-         in2="result4"
-         id="feComposite4584"
-         operator="in"
-         in="result6" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB;"
-       id="filter5454"
-       x="-0.2"
-       width="1.4"
-       y="-0.2"
-       height="1.4"
-       inkscape:label="Wax Print"
-       inkscape:menu="Textures"
-       inkscape:menu-tooltip="Wax print on tissue texture">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.8615326"
-         id="feGaussianBlur5456"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix4604" />
-      <feGaussianBlur
-         id="feGaussianBlur4606"
-         result="result1"
-         in="fbSourceGraphic"
-         stdDeviation="2" />
-      <feTurbulence
-         id="feTurbulence4608"
-         result="result0"
-         numOctaves="5"
-         baseFrequency="0.05"
-         type="fractalNoise" />
-      <feDisplacementMap
-         in2="result0"
-         id="feDisplacementMap4610"
-         result="result2"
-         scale="10"
-         yChannelSelector="G"
-         xChannelSelector="R"
-         in="result1" />
-      <feColorMatrix
-         id="feColorMatrix4612"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
-         result="result3" />
-      <feBlend
-         in2="result3"
-         id="feBlend4614"
-         mode="multiply"
-         in="result2"
-         result="result5" />
-      <feGaussianBlur
-         id="feGaussianBlur4616"
-         result="result4"
-         in="result3"
-         stdDeviation="5" />
-      <feComposite
-         in2="result5"
-         id="feComposite4618"
-         k1="0.5"
-         k3="1.5"
-         k2="0.15"
-         in="result4"
-         operator="arithmetic"
-         result="result6" />
-      <feComposite
-         in2="result4"
-         id="feComposite4620"
-         operator="in"
-         in="result6" />
-    </filter>
     <filter
        inkscape:label="Wax Print"
        inkscape:menu="Textures"
@@ -226,10 +86,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="80.014801"
-     inkscape:cy="331.42857"
+     inkscape:cx="-12.85636"
+     inkscape:cy="239.12788"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="986"
@@ -255,10 +115,10 @@
      style="display:inline"
      transform="translate(0,-82)">
     <circle
-       style="fill:#000000;fill-opacity:0;stroke:#0000ff;stroke-width:3.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98823529;filter:url(#filter5454)"
+       style="fill:#000000;fill-opacity:0;stroke:#0000ff;stroke-width:3.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98823529"
        r="74.461304"
        cy="189.5"
-       cx="107.50001"
+       cx="107.5"
        id="circle4487" />
   </g>
   <g
@@ -271,9 +131,9 @@
        cx="107.5"
        cy="189.5"
        r="74.461304"
-       style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4602)" />
+       style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
     <circle
-       style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5406)"
+       style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        r="74.461304"
        cy="189.5"
        cx="107.5"
