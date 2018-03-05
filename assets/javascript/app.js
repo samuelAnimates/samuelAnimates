@@ -1261,51 +1261,79 @@ const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em w
 	</div>\
 </nav>"
 
-const modalContactTemplate = "<aside class='bg-white display-block display-none font-Overpass height-100pc top-2p75-em width-100pc z1 max-width-22em' id='connect-footer-modal'>\
-	<div class='display-block text-center width-100pc'>\
-		<h2>CONNECT</h2>\
+const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
+<div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em'>\
+  <div class='display-block text-center width-100pc'>\
+	<h2 class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em' id='contact-dialog-title'>CONTACT\
+	</h2>\
+  </div>\
+  <div class='clear-both display-block margin-auto width-80pc' id='footer-social-container'>\
+	<div class='float-left text-center footer-social-icon-container'>\
+	  <a href='http://www.vimeo.com/user15152945' target='_blank' id='Vimeo-link'>\
+		<span class='font-size-p75em font-weight-400'>Vimeo\
+		</span>\
+		<img id='vimeo-social-icon' alt='Vimeo social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-vimeo.svg'>\
+	  </a>\
 	</div>\
-	<div class='clear-both display-block margin-auto width-80pc' id='footer-social-container'>\
-		<div class='float-left text-center footer-social-icon-container'>\
-			<a href='http://www.vimeo.com/user15152945' id='Vimeo-link'><p class='font-size-p5em bg-black color-white font-weight-400'>VIMEO</p><img alt='Vimeo social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-vimeo.svg'></a>\
-		</div>\
-		<div class='float-left text-center footer-social-icon-container'>\
-			<a href='https://github.com/smendez92' id='GitHub-link'><p class='font-size-p5em bg-black color-white font-weight-400'>GITHUB</p><img alt='GitHub social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-github.svg'></a>\
-		</div>\
-		<div class='float-left text-center footer-social-icon-container'>\
-			<a href='https://www.linkedin.com/in/samuel-r-mendez/' id='LinkedIn-link'><p class='font-size-p5em bg-black color-white font-weight-400'>LINKEDIN</p><img alt='LinkedIn social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-linkedin.svg'></a>\
-		</div>\
-		<div class='float-left text-center footer-social-icon-container'>\
-			<a href='https://www.instagram.com/samuelanimates/' id='Instagram-link'><p class='font-size-p5em bg-black color-white font-weight-400'>INSTAGRAM</p><img alt='Instagram social icon' class='display-block margin-auto width-100pc' src='../assets/images/social-icon-instagram.svg'></a>\
-		</div>\
+	<div class='float-left text-center footer-social-icon-container'>\
+	  <a href='https://github.com/smendez92' target='_blank' id='GitHub-link'>\
+		<span class='font-size-p75em font-weight-400'>GitHub\
+		</span>\
+		<img id='github-social-icon' alt='GitHub social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-github.svg'>\
+	  </a>\
 	</div>\
-	<section class='clear-both display-block margin-auto text-center width-80pc' id='footer-contact-form-container'>\
-		<h3>Contact Form</h3>\
-		<form action='https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?' enctype='text/plain' id='gform' name='gform' onsubmit='submitted=true;' target='hidden_iframe'>\
-			<div>\
-				<label class='clear-left float-left text-right width-6p5em' for='entry.1804477893'>FIRST NAME</label> <input class='float-right width-14p5em' id='entry.1804477893' name='entry.1804477893' placeholder='Samuel' type='text'>\
-			</div>\
-			<div>\
-				<label class='clear-left float-left text-right width-6p5em' for='entry.779358458'>LAST NAME</label> <input class='float-right width-14p5em' id='entry.779358458' name='entry.779358458' placeholder='Mendez' type='text'>\
-			</div>\
-			<div>\
-				<label class='clear-left float-left text-right width-6p5em' for='entry.1973645689'>EMAIL</label> <input class='float-right width-14p5em' id='entry.1973645689' name='entry.1973645689' placeholder='mendez@samuelanimates.com' type='text'>\
-			</div>\
-			<div>\
-				<label class='clear-left float-left text-right width-6p5em' for='entry.282615151'>MESSAGE</label>\
-				<textarea class='float-right width-14p5em' form='gform' id='entry.282615151' name='entry.282615151' placeholder='Hello, world!' rows='4'></textarea>\
-			</div>\
-			<div class='button-container'>\
-				<input class='clear-both float-right' type='submit' value='SEND'>\
-			</div>\
-			<div id='my-hidden-iframe'>\
-				<iframe id='hidden_iframe' name='hidden_iframe'></iframe>\
-			</div>\
-		</form>\
-	</section>\
-	<div class='JS-link clear-both float-right'>\
-		<button class='bg-white font-weight-600 height-3em' id='connect-modal-close-trigger'>[CLOSE]</button>\
+	<div class='float-left text-center footer-social-icon-container'>\
+	  <a href='https://www.linkedin.com/in/samuel-r-mendez/' target='_blank' id='LinkedIn-link'>\
+		<span class='font-size-p75em font-weight-400'>LinkedIn\</span>\
+		<img id='linkedin-social-icon' alt='LinkedIn social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-linkedin.svg'></a>\
 	</div>\
+	<div class='float-left text-center footer-social-icon-container'>\
+	  <a href='https://www.instagram.com/samuelanimates/' target='_blank' id='Instagram-link'>\
+		<span class='font-size-p75em font-weight-400'>Instagram\
+		</span>\
+		<img id='instagram-social-icon' alt='Instagram social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-instagram.svg'>\
+	  </a>\
+	</div>\
+  </div>\
+  <div class='clear-both display-block margin-auto text-center width-80pc' id='footer-contact-form-container'>\
+	<h3>\
+	  Contact Form\
+	</h3>\
+	<form action='https://docs.google.com/forms/d/e/1FAIpQLSdMLIT-OOCOKwzMosstB4sdsCMdd01QJnTD7YCpW_-d9MMuJw/formResponse?' enctype='text/plain' id='gform' name='gform' onsubmit='submitted=true;' target='hidden_iframe'>\
+	  <div>\
+		<label class='clear-left float-left text-right width-6p5em' for='entry.1804477893'>FIRST NAME\
+		</label>\
+		<input class='float-right width-14p5em' id='entry.1804477893' name='entry.1804477893' placeholder='Samuel' type='text'> \
+	  </div>\
+	  <div>\
+		<label class='clear-left float-left text-right width-6p5em' for='entry.779358458'>LAST NAME\
+		</label>\
+		<input class='float-right width-14p5em' id='entry.779358458' name='entry.779358458' placeholder='Mendez' type='text'> \
+	  </div>\
+	  <div>\
+		<label class='clear-left float-left text-right width-6p5em' for='entry.1973645689'>EMAIL\
+		</label>\
+		<input class='float-right width-14p5em' id='entry.1973645689' name='entry.1973645689' placeholder='mendez@samuelanimates.com' type='text'>\
+	  </div>\
+	  <div>\
+		<label class='clear-left float-left text-right width-6p5em' for='entry.282615151'>MESSAGE\
+		</label>\
+		<textarea class='color-black float-right width-14p5em' form='gform' id='entry.282615151' name='entry.282615151' placeholder='Hi, world!' rows='4'></textarea>\
+	  </div>\
+	  <div class='button-container'>\
+		<input class='clear-both float-right' type='submit' value='SEND'>\
+	  </div>\
+	  <div id='my-hidden-iframe'>\
+		<iframe id='hidden_iframe' name='hidden_iframe'>\
+		</iframe>\
+	  </div>\
+	</form>\
+  </div>\
+  <div class='JS-link clear-both float-right'>\
+	<button class='bg-white font-weight-600 height-3em' id='connect-modal-close-trigger'>[CLOSE]\
+	</button>\
+  </div>\
+</div>\
 </aside>"
 
 const modalTemplate = "<h1>{{title}}</h1>\
@@ -1391,6 +1419,7 @@ var focused = null;
 function hideConnectModal(){
 
 	$( "#connect-footer-modal" ).addClass("display-none");
+	$( "#connect-footer-modal" ).attr("aria-hidden", "true");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -1403,6 +1432,7 @@ function hideNavBar(){
 
 
 	$( "#navbar-modal" ).addClass("display-none");
+	$( "#navbar-modal" ).attr("aria-hidden", "true");
 
 	//Remove the CSS class that blocks the main page from scrolling
 	$("body").removeClass("modal-open");
@@ -1414,6 +1444,7 @@ function hideNavBar(){
 function showConnectModal(){
 
 	$( "#connect-footer-modal" ).removeClass("display-none");
+	$( "#connect-footer-modal" ).attr("aria-hidden", "false");
 
 	var offset = window.pageYOffset;
 
@@ -1433,6 +1464,7 @@ function showConnectModal(){
 function showNavBar(){
 
 	$( "#navbar-modal" ).removeClass("display-none");
+	$( "#navbar-modal" ).attr("aria-hidden", "false");
 
 	var offset = window.pageYOffset;
 
@@ -1448,10 +1480,11 @@ function showNavBar(){
 	isNavDisplayed = true;
 
 }
+
 //<=============== END FUNCTION DECLARATIONS =========================>
 
 
-//<=============== HOMEPAGE FUNCTIONS =========================>
+//<=============== PAGE FUNCTIONS =========================>
 $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
@@ -1462,7 +1495,7 @@ $(document).ready(function () {
 	else{
 		$('#homepage-section-highlights-container').append(Mustache.to_html($("#highlighted-projects-template").html(), projectsData[0]).replace(/[\u200B]/g, ''));
 		$('#news-table').append(Mustache.to_html($("#news-template").html(), projectsData[1]).replace(/[\u200B]/g, ''));
-		$('main').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
+		$('#project-sections').append(Mustache.to_html($("#projects-template").html(), projectsData[2]).replace(/[\u200B]/g, ''));
 	}
 
 	//An open modal closes if enter or x is pressed
@@ -1512,43 +1545,71 @@ $(document).ready(function () {
 	});
 
 	//Swap out the IG social icon for the blue one once the link is hovered or focused on
-	$("#Instagram-link").on("mouseenter focus", function(event){
-		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram-blue.svg');
+	$(document).on("mouseenter focus", '#Instagram-link', function(event){
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
+		else{
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -4)+"-blue"+$(this).find('img').attr('src').slice(-4));
+		}
 	});
 
 	//Swap out the GitHub social icon for the blue one once the link is hovered or focused on
 	$("#GitHub-link").on("mouseenter focus", function(event){
-		$("#github-social-icon").attr('src', './assets/images/social-icon-github-blue.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
+		else{
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -4)+"-blue"+$(this).find('img').attr('src').slice(-4));
+		}
 	});
 
 	//Swap out the LinkedIn social icon for the blue one once the link is hovered or focused on
 	$("#LinkedIn-link").on("mouseenter focus", function(event){
-		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin-blue.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
+		else{
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -4)+"-blue"+$(this).find('img').attr('src').slice(-4));
+		}
 	});
 
 	//Swap out the Vimeo social icon for the blue one once the link is hovered or focused on
 	$("#Vimeo-link").on("mouseenter focus", function(event){
-		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo-blue.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
+		else{
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -4)+"-blue"+$(this).find('img').attr('src').slice(-4));
+		}
 	});
 
 	//Swap back in the IG social icon once the link is hovered or focused on
 	$("#Instagram-link").on("mouseleave focusout", function(event){
-		$("#instagram-social-icon").attr('src', './assets/images/social-icon-instagram.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
 	});
 
 	//Swap back in the GitHub social icon once the link is hovered or focused on
 	$("#GitHub-link").on("mouseleave focusout", function(event){
-		$("#github-social-icon").attr('src', './assets/images/social-icon-github.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
 	});
 
 	//Swap back in the LinkedIn social icon once the link is hovered or focused on
 	$("#LinkedIn-link").on("mouseleave focusout", function(event){
-		$("#linkedin-social-icon").attr('src', './assets/images/social-icon-linkedin.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
 	});
 
 	//Swap back in the Vimeo social icon once the link is hovered or focused on
 	$("#Vimeo-link").on("mouseleave focusout", function(event){
-		$("#vimeo-social-icon").attr('src', './assets/images/social-icon-vimeo.svg');
+		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
+			$(this).find('img').attr('src', $(this).find('img').attr('src').slice(0, -9)+".svg");
+		}
 	});
 	
 

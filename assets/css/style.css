@@ -1,6 +1,9 @@
 /*=========================================================================
 Styles for html elements
 ============================================================================*/
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
 ul {
 	list-style-position: inside;
 }
@@ -82,8 +85,20 @@ ONE CLASS DOES ONE THING
 .bottom-0{
 	bottom: 0;
 }
+.clear-left{
+	clear: left;
+}
+.color-white{
+	color: rgb(236, 236, 236);
+}
 .display-none {
 	display: none;
+}
+.float-left{
+	float: left;
+}
+.font-size-p5em{
+	font-size: 0.5em;
 }
 .font-size-p75em{
 	font-size: 0.75em;
@@ -103,6 +118,21 @@ ONE CLASS DOES ONE THING
 .left-0{
 	left: 0;
 }
+.max-width-22em{
+	max-width: 22em;
+}
+.margin-top-1em{
+	margin-top: 1em;
+}
+.margin-top-3-em{
+	margin-top: 3em;
+}
+.margin-top-4em{
+	margin-top: 4em;
+}
+.max-height-12em{
+	max-height: 12em;
+}
 .max-width-26em{
 	max-width: 26em;
 }
@@ -117,6 +147,12 @@ ONE CLASS DOES ONE THING
 }
 .padding-T-p25em{
 	padding-top: 0.25em;
+}
+.padding-T-p5em {
+	padding-top: 0.5em;
+}
+.padding-T-2em{
+	padding-top: 2em;
 }
 .padding-T-4p5em {
 	padding-top: 4.5em;
@@ -133,11 +169,23 @@ ONE CLASS DOES ONE THING
 .text-left {
 	text-align: left;
 }
+.text-shadow{
+	text-shadow: -5px 5px black;
+}
+.top-0{
+	top: 0;
+}
 .top-2p75-em {
 	top: 2.75em;
 }
 .width-3em{
 	width: 4em;
+}
+.width-6p5em{
+	width: 6.5em;
+}
+.width-14p5em{
+	width: 14.5em;
 }
 .width-10pc{
 	width: 10%;
@@ -148,6 +196,9 @@ ONE CLASS DOES ONE THING
 .width-70pc{
 	width: 70%;
 }
+.width-80pc{
+	width: 80%;
+}
 .z1{
 	z-index: 1;
 }
@@ -156,58 +207,6 @@ ONE CLASS DOES ONE THING
 }
 .z4{
 	z-index: 4;
-}
-.max-width-22em{
-	max-width: 22em;
-}
-.clear-left{
-	clear: left;
-}
-.color-white{
-	color: rgb(236, 236, 236);
-}
-.float-left{
-	float: left;
-}
-.font-size-p5em{
-	font-size: 0.5em;
-}
-
-.margin-top-1em{
-	margin-top: 1em;
-}
-.margin-bottom-1em{
-	margin-bottom: 1em;
-}
-.margin-top-3-em{
-	margin-top: 3em;
-}
-.margin-top-4em{
-	margin-top: 4em;
-}
-.max-height-12em{
-	max-height: 12em;
-}
-.padding-T-2em{
-	padding-top: 2em;
-}
-.padding-T-p5em {
-	padding-top: 0.5em;
-}
-.text-shadow{
-	text-shadow: -5px 5px black;
-}
-tr:nth-child(even) {
-	background-color: #f2f2f2;
-}
-.width-80pc{
-	width: 80%;
-}
-.width-6p5em{
-	width: 6.5em;
-}
-.width-14p5em{
-	width: 14.5em;
 }
 
 /*=========================================================================

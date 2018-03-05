@@ -39,6 +39,7 @@
         display: block;
       }
       body{
+        font-size: 1em;
         line-height: 1.1;
       }
       a{
@@ -70,10 +71,6 @@
         font-size: 1.25em;
         font-weight: 600;
         font-family: 'Overpass Mono', monospace;
-      }
-      section::after{
-        content: "";
-        margin-bottom: 1em;
       }
       #sticky-header{
         position: fixed;
@@ -135,6 +132,9 @@
       .margin-auto{
         margin: auto;
       }
+      .margin-bottom-2em{
+        margin-bottom: 2em;
+      }
       .max-width-56em{
         max-width: 56em;
       }
@@ -190,10 +190,9 @@
         </button>
       </div>
     </header>
-      <main class="font-Assistant" data-role="homepage">
-        <div class="margin-auto max-width-56em padding-T-4em width-90pc">
-          
-        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto max-width-50em padding-B-2em padding-L-p5em padding-R-p5em">
+    <main class="font-Assistant margin-bottom-2em" data-role="homepage">
+      <div class="display-block margin-auto max-width-50em padding-T-4em width-90pc">
+        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
               <h1>SAMUEL R. MENDEZ
@@ -265,8 +264,7 @@
             </div>
           </div>		
         </section>
-
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-1em margin-top-1em max-width-50em" id="homepage-section-highlights-container">
+        <section class="box-shadow border-all-1px-thin-gray color-black clear-both display-block margin-auto margin-bottom-2em margin-top-1em width-100pc" id="homepage-section-highlights-container">
           <!-- Mustache template script for highlights section -->
           <script id="highlighted-projects-template" type="text/html-template">​
             <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
@@ -275,7 +273,7 @@
               </h2> 
             </div>
             {{#projects}}
-              <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white " id="homepageHighlightProjectContainer-{{shortName}}">
+              <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
                 <div class="homepage-project-icon-container display-block">
                   <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
                 </div>
@@ -309,9 +307,8 @@
             {{/projects}}
           </script>
         </section>
-
         <!-- News Section -->
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-1em margin-top-1em max-width-50em">
+        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
           <div class="homepage-project-container width-100pc" id="homepage-section-news">
             <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center">
               <h2 class="floating-heading margin-auto">
@@ -343,11 +340,12 @@
             </div>
           </div>
         </section>
-
+      </div>
+      <div class="display-block margin-auto max-width-50em width-90pc" id="project-sections">
         <!-- Mustache template script for remaining project sections -->
         <script id="projects-template" type="text/html-template">​
           {{#sections}}
-            <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-1em margin-top-1em max-width-50em width-90pc">
+            <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em width-100pc">
               <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
                 <h2 class="floating-heading margin-auto">
                   {{sectionName}}
@@ -392,57 +390,60 @@
       </div>
     </main>
 
-    <div class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" id="navbar-modal">
-      <nav class="bg-white font-Assistant height-100pc top-2p75-em width-100pc z4 max-width-22em">
-        <div id="navbar-text-container">
+    <div role="dialog" aria-hidden="true" aria-labelledby="dialog-title" class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" style="top:0; left:0;" id="navbar-modal">
+      <nav class="bg-white font-Assistant height-100pc position-absolute top-0 width-100pc z4 max-width-22em">
+        <div id="navbar-text-container" class="top-0">
+          <div class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
+            <h2 id="dialog-title">NAVIGATION</h2>
+          </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p5em display-block" href="#homepage-section-highlights" id="highlights-navbar-link">[Highlights]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p5em display-block" href="#homepage-section-highlights" id="highlights-navbar-link">[Highlights]
               </a>
             </div> 
           </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p25em display-block" href="#homepage-section-animation" id="animation-navbar-link">[Animation]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p25em display-block" href="#homepage-section-animation" id="animation-navbar-link">[Animation]
               </a>
             </div> 
           </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p25em display-block" href="#homepage-section-health" id="publichealth-navbar-link">[Public Health]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p25em display-block" href="#homepage-section-health" id="publichealth-navbar-link">[Public Health]
               </a>
             </div> 
           </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p25em display-block" href="#homepage-section-webdev" id="webdev-navbar-link">[Web Dev]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p25em display-block" href="#homepage-section-webdev" id="webdev-navbar-link">[Web Dev]
               </a>
             </div> 
           </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p25em display-block" href="#homepage-section-video" id="video-navbar-link">[Video]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p25em display-block" href="#homepage-section-video" id="video-navbar-link">[Video]
               </a>
             </div> 
           </div>
           <div>
-            <div class="font-size-1p5em font-weight-600">
-              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-T-p25em display-block" href="#homepage-section-art" id="art-navbar-link">[Public Art]
+            <div class="font-weight-600">
+              <a class="JS-link border-left-p75em-solid padding-B-p25em padding-L-p5em padding-T-p25em display-block" href="#homepage-section-art" id="art-navbar-link">[Public Art]
               </a>
             </div> 
           </div>
         </div>
         <div class="JS-link">
-          <button class="bg-white font-weight-600 height-3em" id="navbar-modal-close-trigger">[CLOSE]
+          <button class="bg-white font-weight-600" id="navbar-modal-close-trigger">[CLOSE]
           </button>
         </div>
       </nav>
     </div>
-    
-    <aside class="bg-255-246-252-p57 display-none height-100pc position-absolute top-2p75-em width-100pc z3" id="connect-footer-modal">
+  
+    <aside role="dialog" aria-hidden="true" aria-labelledby="contact-dialog-title" class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" style="top:0; left:0;" id="connect-footer-modal">
       <div class="bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em">
         <div class="display-block text-center width-100pc">
-          <h2>CONTACT
+          <h2 class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em" id="contact-dialog-title">CONTACT
           </h2> 
         </div>
         <div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
@@ -515,16 +516,13 @@
         </div>
       </div>
     </aside>
-
     <footer>
-      
     </footer>
-
     <!-- Include minified jQuery v3.2.1 -->
     <script src="./assets/javascript/jQuery.js"></script>
     <!-- Include this page's Javascript -->
     <script src="./assets/javascript/app.js"></script>
     <!-- Include local copy of minified Mustache 2.3.0 -->
-		<script src="./assets/javascript/mustache.js"></script>
+    <script src="./assets/javascript/mustache.js"></script>
   </body>
 </html>
