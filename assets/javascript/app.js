@@ -1452,7 +1452,7 @@ function showConnectModal(){
 	$("body").addClass("modal-open");	
 	window.scrollTo(0, offset);
 	
-	document.getElementById("Vimeo-link").focus();
+	document.getElementById("contact-dialog-title").focus();
 	$("main").click(function(e){
 		return false;
 	});
@@ -1473,7 +1473,7 @@ function showNavBar(){
 	$("body").addClass("modal-open");
 	window.scrollTo(0, offset);
 
-	document.getElementById("highlights-navbar-link").focus();
+	document.getElementById("nav-dialog-title").focus();
 	$("main").click(function(e){
 		return false;
 	});
