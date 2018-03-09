@@ -1,13 +1,10 @@
 /*=========================================================================
 Styles for html elements
 ============================================================================*/
-tr:nth-child(even) {
-	background-color: #f2f2f2;
+.align li{
+	text-indent: -1.3em;
+	margin-left: 1.7em;
 }
-ul {
-	list-style-position: inside;
-}
-
 /*=========================================================================
 modals
 =========================================================================*/
@@ -47,14 +44,9 @@ Decorative elements
 	width: 10em;
 	height: 10em; 
 }
-.homepage-project-icon-container::after{
-    content: '';
-	border-top: 1.5em solid rgba(77, 77, 77, 0.267);
-	border-right: 1.5em solid transparent;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.homepage-project-container:nth-child(even) {
+	background-color: rgb(255, 245, 251);
 }
 
 /*=========================================================================
@@ -109,6 +101,9 @@ ONE CLASS DOES ONE THING
 .font-weight-400{
 	font-weight: 400;
 }
+.font-weight-600{
+	font-weight: 600;
+}
 .height-100pc {
 	height: 100%;
 }
@@ -118,8 +113,20 @@ ONE CLASS DOES ONE THING
 .left-0{
 	left: 0;
 }
+.list-style-position-inside{
+	list-style-position: inside;
+}
+.list-style-square{
+	list-style: square;
+}
 .max-width-22em{
 	max-width: 22em;
+}
+.margin-bottom-1em{
+	margin-bottom: 1em;
+}
+.margin-left-1p7em{
+	margin-left: 1.7em;
 }
 .margin-top-1em{
 	margin-top: 1em;
@@ -145,6 +152,9 @@ ONE CLASS DOES ONE THING
 .padding-B-p25em {
 	padding-bottom: 0.25em;
 }
+.padding-L-1p4em{
+	padding-top: -1.4em;
+}
 .padding-T-p25em{
 	padding-top: 0.25em;
 }
@@ -165,6 +175,9 @@ ONE CLASS DOES ONE THING
 }
 .right-0{
 	right: 0;
+}
+.text-indent-neg1p3em{
+	text-indent: -1.3em;
 }
 .text-left {
 	text-align: left;
