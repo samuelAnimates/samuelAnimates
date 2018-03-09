@@ -1264,7 +1264,7 @@ const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em w
 const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
 <div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em'>\
   <div class='display-block text-center width-100pc'>\
-	<h2 class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em' id='contact-dialog-title'>CONTACT\
+	<h2 class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em' tabindex='0' id='contact-dialog-title'>CONTACT\
 	</h2>\
   </div>\
   <div class='clear-both display-block margin-auto width-80pc' id='footer-social-container'>\
@@ -1452,7 +1452,7 @@ function showConnectModal(){
 	$("body").addClass("modal-open");	
 	window.scrollTo(0, offset);
 	
-	document.getElementById("contact-dialog-title").focus();
+	$("#contact-dialog-title").focus();
 	$("main").click(function(e){
 		return false;
 	});
@@ -1473,6 +1473,7 @@ function showNavBar(){
 	$("body").addClass("modal-open");
 	window.scrollTo(0, offset);
 
+	
 	document.getElementById("nav-dialog-title").focus();
 	$("main").click(function(e){
 		return false;
@@ -1628,7 +1629,7 @@ $(document).ready(function () {
 	});
 
 	//The Connect modal slides in/out once the trigger is clicked
-	$( "#connect-modal-trigger" ).click(function() {
+	$(document).on("click", '#connect-modal-trigger', function(event){
 
 		if (!isConnectDisplayed && !isNavDisplayed){
 			showConnectModal();
@@ -1648,7 +1649,7 @@ $(document).ready(function () {
 	});
 
 	//Close the Connect modal when the close button is pressed
-	$( "#connect-modal-close-trigger").click(function(){
+	$(document).on("click", '#connect-modal-close-trigger', function(event){
 
 		hideConnectModal();
 
@@ -1656,7 +1657,7 @@ $(document).ready(function () {
 
 
 	//Show message after Contact Form has been submitted
-	$('#gform').on('submit', function(e) {
+	$(document).on("submit", '#gform', function(event){
 		
 		var formContent = {
 			message: $("#entry\\.282615151").val(),
