@@ -1,10 +1,7 @@
 /*=========================================================================
 Styles for html elements
 ============================================================================*/
-tr:nth-child(even) {
-	background-color: #f2f2f2;
-}
-.align{
+.align li{
 	text-indent: -1.3em;
 	margin-left: 1.7em;
 }
@@ -47,14 +44,9 @@ Decorative elements
 	width: 10em;
 	height: 10em; 
 }
-.homepage-project-icon-container::after{
-    content: '';
-	border-top: 1.5em solid rgba(77, 77, 77, 0.267);
-	border-right: 1.5em solid transparent;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.homepage-project-container:nth-child(even) {
+	background-color: rgb(255, 245, 251);
 }
 
 /*=========================================================================
