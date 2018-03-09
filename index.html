@@ -21,7 +21,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta property="og:image" content="http://www.samuelanimates.com/assets/images/png/portrait.png">
     <link rel="icon" href="./assets/images/png/logo.png">
-    <link href="./assets/css/mini-style.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Assistant%7COverpass+Mono" rel="stylesheet">
     <style>
       * {
@@ -37,6 +37,11 @@
       }
       article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
         display: block;
+      }
+      ol, ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
       }
       body{
         font-size: 1em;
@@ -312,31 +317,22 @@
           <div class="homepage-project-container width-100pc" id="homepage-section-news">
             <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center">
               <h2 class="floating-heading margin-auto">
-                NEWS
+                RECENT NEWS
               </h2> 
             </div>
             <div class="bg-white border-top-1px-thin-gray padding-B-2em padding-T-1p5em">
-              <table class="margin-auto width-90pc" id="news-table">
-                <tr class="text-left">
-                  <th scope="col">Date <span class="font-size-p75em">(YYYY.MM)</span>
-                  </th>
-                  <th scope="col">Update
-                  </th>
-                </tr>
-                <!-- Mustache template script for news items -->
-                <script id="news-template" type="text/html-template">​
-                  {{#newsitems}}
-                    <tr>
-                      <td class="text-center width-3em">
-                        {{date}}
-                      </td>
-                      <td class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
-                        {{update}}
-                      </td>
-                    </tr>
-                  {{/newsitems}}
-                </script>
-              </table>
+              <div class="margin-auto width-90pc" id="news-table">
+                <ul class="list-style-position-inside list-style-square">
+                  <!-- Mustache template script for news items -->
+                  <script id="news-template" type="text/html-template">​
+                    {{#newsitems}}
+                      <li class="align list-style-square">
+                          <span class="font-weight-600">{{date}}:</span> {{update}}
+                      </li>
+                    {{/newsitems}}
+                  </script>
+                </ul>
+              </div>
             </div>
           </div>
         </section>

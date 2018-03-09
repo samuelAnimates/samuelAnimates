@@ -4,10 +4,10 @@ Styles for html elements
 tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
-ul {
-	list-style-position: inside;
+.align{
+	text-indent: -1.3em;
+	margin-left: 1.7em;
 }
-
 /*=========================================================================
 modals
 =========================================================================*/
@@ -109,6 +109,9 @@ ONE CLASS DOES ONE THING
 .font-weight-400{
 	font-weight: 400;
 }
+.font-weight-600{
+	font-weight: 600;
+}
 .height-100pc {
 	height: 100%;
 }
@@ -118,8 +121,20 @@ ONE CLASS DOES ONE THING
 .left-0{
 	left: 0;
 }
+.list-style-position-inside{
+	list-style-position: inside;
+}
+.list-style-square{
+	list-style: square;
+}
 .max-width-22em{
 	max-width: 22em;
+}
+.margin-bottom-1em{
+	margin-bottom: 1em;
+}
+.margin-left-1p7em{
+	margin-left: 1.7em;
 }
 .margin-top-1em{
 	margin-top: 1em;
@@ -145,6 +160,9 @@ ONE CLASS DOES ONE THING
 .padding-B-p25em {
 	padding-bottom: 0.25em;
 }
+.padding-L-1p4em{
+	padding-top: -1.4em;
+}
 .padding-T-p25em{
 	padding-top: 0.25em;
 }
@@ -165,6 +183,9 @@ ONE CLASS DOES ONE THING
 }
 .right-0{
 	right: 0;
+}
+.text-indent-neg1p3em{
+	text-indent: -1.3em;
 }
 .text-left {
 	text-align: left;
