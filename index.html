@@ -66,20 +66,19 @@
         font-size: 2.5em;
         font-weight: 700;
         font-family: 'Overpass Mono', monospace;
+        line-height: 1.15em;
       }
       h2 {
         font-size: 1.5em;
         font-weight: 700;
         font-family: 'Overpass Mono', monospace;
+        line-height: 1.15em;
       }
       h3 {
         font-size: 1.25em;
         font-weight: 600;
         font-family: 'Overpass Mono', monospace;
-      }
-      #sticky-header{
-        position: fixed;
-        top: 0;
+        line-height: 1.15em;
       }
       .bg-white{
         background-color: rgb(250, 250, 250);
@@ -93,9 +92,6 @@
       .border-all-1px-thin-gray{
         border-style: solid;
         border: 1px solid rgba(206, 206, 206, 0.2);
-      }
-      .border-top-1px-thin-gray{
-        border-top: 1px solid rgba(77, 77, 77, 0.267);
       }
       .box-shadow{
         box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
@@ -164,11 +160,17 @@
       .padding-T-4em{
         padding-top: 4em;
       }
+      .position-absolute{
+        position: absolute;
+      }
       .text-center {
         text-align: center;
       }
       .text-right{
         text-align: right;
+      }
+      .top-0{
+        top: 0;
       }
       .width-33pc{
         width: 33%;
@@ -185,7 +187,7 @@
     </style>
   </head>
   <body class="gradient">
-    <header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
+    <header class="bg-white-opaque font-Overpass height-3em position-absolute width-100pc top-0 z2">
       <div class="float-left header-nav-link height-3em width-33pc" id="navbar-modal-trigger">
         <button class="bg-white font-weight-600 height-3em">[NAV]
         </button>
@@ -195,6 +197,14 @@
         </button>
       </div>
     </header>
+    <aside class="padding-T-4em">
+      <button id="contrast-toggle-button">
+        High Contrast
+      </button>
+      <button id="font-toggle-button">
+        Toggle Font Size
+      </button>
+    </aside>
     <main class="font-Assistant margin-bottom-2em" data-role="homepage">
       <div class="display-block margin-auto max-width-50em padding-T-4em width-90pc">
         <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
@@ -229,7 +239,7 @@
                 </div>
               </div>
             </div>
-            <div class="border-top-1px-thin-gray clear-both padding-T-1p5em width-100pc">
+            <div class="border-style-solid border-color-rgb100-100-100 border-top-1px border-style-solid clear-both padding-T-1p5em width-100pc">
               <div>
                 <h3> Personal Links
                 </h3>
@@ -278,9 +288,9 @@
               </h2> 
             </div>
             {{#projects}}
-              <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
-                <div class="homepage-project-icon-container display-block">
-                  <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
+              <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
+                <div class="homepage-project-icon-container bg-inherit display-block">
+                  <img alt="{{logo.altText}}" class="homepage-project-icon display-block margin-auto max-height-10em max-width-8em min-width-5em" src={{{logo.svg}}}>
                 </div>
                 <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
                   <div class="padding-L-p5em">
@@ -296,7 +306,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                <div class="homepage-project-links-container bg-242-242-242 border-color-rgba-150-150-150-p2 border-top-2px border-style-solid clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                   {{#links}}
                     <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                       <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -314,13 +324,13 @@
         </section>
         <!-- News Section -->
         <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
-          <div class="homepage-project-container width-100pc" id="homepage-section-news">
             <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center">
               <h2 class="floating-heading margin-auto">
                 RECENT NEWS
               </h2> 
             </div>
-            <div class="bg-white border-top-1px-thin-gray padding-B-2em padding-T-1p5em">
+          <div class="homepage-project-container width-100pc" id="homepage-section-news">
+            <div class="bg-white border-style-solid border-top-responsive border-color-rgb100-100-100 padding-B-2em padding-T-1p5em">
               <div class="margin-auto width-90pc" id="news-table">
                 <ul class="list-style-position-inside list-style-square">
                   <!-- Mustache template script for news items -->
@@ -348,9 +358,9 @@
                 </h2>
               </div>
               {{#projects}}
-                <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
-                  <div class="homepage-project-icon-container display-block">
-                    <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
+                <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
+                  <div class="homepage-project-icon-container bg-inherit display-block">
+                    <img alt="{{logo.altText}}" class="homepage-project-icon display-block margin-auto max-height-10em max-width-8em min-width-5em" src={{{logo.svg}}}>
                   </div>
                   <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
                     <div class="padding-L-p5em">
@@ -366,7 +376,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                  <div class="homepage-project-links-container bg-242-242-242 border-color-rgba-150-150-150-p2 border-top-2px border-style-solid clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                     {{#links}}
                       <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                         <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">

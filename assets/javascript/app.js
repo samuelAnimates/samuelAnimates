@@ -1526,6 +1526,18 @@ $(document).ready(function () {
 		window.location.replace("../index.html");
 	});
 
+	//
+	$( "#font-toggle-button" ).click(function() {
+		$("body").css({"font-size":"1.5em","line-height":"1.15em"});
+		$("header").removeClass("position-absolute");
+		$(".font-size-p75em").removeClass("font-size-p75em");
+		$(".border-top-responsive").addClass("border-top-3px");
+		$(".border-top-responsive").removeClass(".border-top-responsive");
+		$(".homepage-project-icon-container").addClass("width-100pc");
+		$(".homepage-project-links-container").addClass("width-100pc");
+
+	});
+
 	//The navigation bar slides in/out once the trigger is clicked
 	$( "#navbar-modal-trigger" ).click(function() {
 
