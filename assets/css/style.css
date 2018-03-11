@@ -1,11 +1,4 @@
 /*=========================================================================
-Styles for html elements
-============================================================================*/
-.align{
-	text-indent: -1.3em;
-	margin-left: 1.7em;
-}
-/*=========================================================================
 modals
 =========================================================================*/
 #connect-footer-modal {
@@ -95,8 +88,14 @@ ONE CLASS DOES ONE THING
 .font-size-p75em{
 	font-size: 0.75em;
 }
+.font-size-p9em{
+	font-size: 0.9em;
+}
 .font-size-1p5em{
 	font-size: 1.5em;
+}
+.font-weight-300{
+	font-weight: 300;
 }
 .font-weight-400{
 	font-weight: 400;
@@ -152,14 +151,26 @@ ONE CLASS DOES ONE THING
 .padding-B-p25em {
 	padding-bottom: 0.25em;
 }
-.padding-L-1p4em{
-	padding-top: -1.4em;
+.padding-B-1em {
+	padding-bottom: 1em;
+}
+.padding-B-1p5em {
+	padding-bottom: 1.5em;
+}
+.padding-L-2em{
+	padding-left: 2em;
+}
+.padding-R-2em{
+	padding-right: 2em;
 }
 .padding-T-p25em{
 	padding-top: 0.25em;
 }
 .padding-T-p5em {
 	padding-top: 0.5em;
+}
+.padding-T-1em{
+	padding-top: 1em;
 }
 .padding-T-2em{
 	padding-top: 2em;

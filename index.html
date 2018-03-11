@@ -124,9 +124,9 @@
       }
       .font-Assistant{
         font-family: 'Assistant', sans-serif;
-        }
+      }
       .font-Overpass{
-      font-family: 'Overpass Mono', monospace;
+        font-family: 'Overpass Mono', monospace;
       }
       .font-weight-600{
         font-weight: 600;
@@ -292,7 +292,7 @@
                   </div>
                   <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
                     <div class="position-relative padding-T-p5em">
-                      {{descriptionShort}}
+                      <p>{{descriptionShort}}</p>
                     </div>
                   </div>
                 </div>
@@ -326,8 +326,8 @@
                   <!-- Mustache template script for news items -->
                   <script id="news-template" type="text/html-template">​
                     {{#newsitems}}
-                      <li class="align list-style-square">
-                          <span class="font-weight-600">{{date}}:</span> {{update}}
+                      <li class="text-indent-neg1p3em margin-left-1p7em list-style-square">
+                        <span class="font-weight-600">{{date}}:</span> {{update}}
                       </li>
                     {{/newsitems}}
                   </script>
@@ -362,7 +362,7 @@
                     </div>
                     <div class="position-relative padding-B-p5em padding-L-p5em padding-T-p5em">
                       <div class="position-relative padding-T-p5em">
-                        {{descriptionShort}}
+                        <p>{{descriptionShort}}</p>
                       </div>
                     </div>
                   </div>
@@ -512,7 +512,11 @@
         </div>
       </div>
     </aside>
-    <footer>
+    <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-bottom-2em max-width-50em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-90pc">
+      <div class="bg-white border-all-1px-thin-gray display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
+        <h2>Thanks for visiting</h2>  
+        <p>This portfolio was designed and coded by me, with an eye toward web accessibility. Any and all suggestions for improved accessibility are welcome. Feel free to fork the <a href="https://github.com/smendez92/samuelAnimates" target="_blank">GitHub repo for this portfolio site</a>.</p>
+      </div>
     </footer>
     <!-- Include minified jQuery v3.2.1 -->
     <script src="./assets/javascript/jQuery.js"></script>
