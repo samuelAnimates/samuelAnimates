@@ -209,44 +209,51 @@
   <body class="gradient">
     <header class="sticky-header font-Overpass font-size-p9em width-10pc z2">
       <div class="header-nav-link height-3em text-left" id="navbar-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em min-width-6em width-100pc">NAV
+        <button class="bg-white color-black font-weight-600 height-3em min-width-6em width-100pc">NAV
         </button>
       </div>
       <div class="header-nav-link height-3em text-left" id="connect-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em min-width-6em width-100pc">CONTACT
+        <button class="bg-white color-black font-weight-600 height-3em min-width-6em width-100pc">CONTACT
         </button>
       </div>
     </header>
     <aside class="position-fixed top-6-em width-5pc">
-      <button aria-labelledby="font-toggle-svg-title" id="font-toggle-button" class="text-center width-100pc" title="Toggle font size">
+      <button aria-labelledby="font-toggle-svg-title" id="font-toggle-button" class="bg-white color-black text-center width-100pc" title="Toggle font size.">
         <svg aria-labelledby="font-toggle-svg-title" fill="#000000" height="32" role="img" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
           <title id="font-toggle-svg-title">Toggle font size.</title>
           <path d="M0 0h24v24H0z" fill="none"/>
           <path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"/>
         </svg>
       </button>
+      <button aria-labelledby="font-toggle-svg-title" id="contrast-toggle-button" class="bg-white color-black text-center width-100pc" title="Toggle high contrast mode.">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <title id="font-toggle-svg-title">Toggle high contrast mode.</title>
+          <path d="M24 0H0v24h24z" fill="none"/>
+          <path d="M17.66 7.93L12 2.27 6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58c2.05 0 4.1-.78 5.66-2.34 3.12-3.12 3.12-8.19 0-11.31zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/>
+      </svg>
+      </button>
     </aside>
     <main class="font-Assistant margin-bottom-2em responsive-main" data-role="homepage">
       <div class="display-block margin-auto max-width-50em padding-T-2em width-90pc">
-        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
+        <section class="bg-white box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
               <h1>SAMUEL R. MENDEZ
               </h1>
             </div>
-            <div class="padding-B-p5em">
+            <div class="bg-white padding-B-p5em">
               <h2>ABOUT ME
               </h2>
             </div>
-            <div class="display-block padding-B-1em padding-L-p5em padding-R-p5em">
-              <div class="homepage-portrait-container display-block margin-auto padding-B-1em text-center">
+            <div class="bg-white display-block padding-B-1em padding-L-p5em padding-R-p5em">
+              <div class="bg-white homepage-portrait-container display-block margin-auto padding-B-1em text-center">
                 <div role="img" aria-label="Samuel R. Mendez cartoon portrait in a circular frame." class="circle">
                 </div>
                 <div class="font-Overpass font-size-p75em padding-T-1p5em">"I could trace about 80% of my humor back to specific SpongeBob episodes."
                 </div>
               </div>
-              <div class="homepage-about-text-container padding-L-p5em padding-R-p5em">
-                <div class="padding-B-p5em padding-L-p5em text-left">
+              <div class="homepage-about-text-container color-black padding-L-p5em padding-R-p5em">
+                <div class="padding-B-p5em bg-white padding-L-p5em text-left">
                   <p class="padding-B-p5em">
                     <span class="font-weight-600">Interests:</span> community-based research, social determinants of health, accessibility, digital documentary methods.
                   </p>
@@ -254,13 +261,13 @@
                       I make animated short films, I conduct community-based research, and I do front-end web development with an eye toward web accessibility. As I recognize the time & effort I put into learning these skills, I recognize the privilege of having such chances to do so in the first place. I want use the chances I've been given to make the spaces & systems I occupy accessible to a wider range of people.
                   </p>
                 </div>
-                <div class="padding-B-1em padding-L-p5em text-left">
+                <div class="bg-white padding-B-1em padding-L-p5em text-left">
                   <span class="font-weight-600">Long-term Goals:
                   </span> develop animation and video as participatory research methods; build empathy across community research partners and increase accessibility of such partnerships; develop research partnership models and platforms to disseminate lessons learned.
                 </div>
               </div>
             </div>
-            <div class="border-style-solid border-color-rgb100-100-100 border-top-1px border-style-solid clear-both padding-T-1p5em width-100pc">
+            <div class="bg-white border-style-solid border-color-rgb100-100-100 border-top-1px border-style-solid clear-both padding-T-1p5em width-100pc">
               <div>
                 <h3> Personal Links
                 </h3>
@@ -379,7 +386,7 @@
                 </h2>
               </div>
               {{#projects}}
-                <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
+                <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 color-black padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
                   <div class="homepage-project-icon-container bg-inherit display-block">
                     <img alt="{{logo.altText}}" class="homepage-project-icon display-block margin-auto max-height-10em max-width-8em min-width-5em" src={{{logo.svg}}}>
                   </div>
@@ -544,7 +551,7 @@
       </div>
     </aside>
     <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-top-1em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-100pc">
-      <div class="bg-white border-style-solid border-color-rgba-150-150-150-p2 border-2px display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
+      <div class="bg-white color-black border-style-solid border-color-rgba-150-150-150-p2 border-2px display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
         <h2>Thanks for visiting</h2>  
         <p>This portfolio was designed and coded by me, with an eye toward web accessibility. Any and all suggestions for improved accessibility are welcome. Feel free to fork the <a href="https://github.com/smendez92/samuelAnimates" target="_blank">GitHub repo for this portfolio site</a>.</p>
       </div>

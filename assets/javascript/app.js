@@ -1516,6 +1516,7 @@ function showNavBar(){
 	var isConnectDisplayed = false;
 	var focused = null;
 	var fontToggleTrackerNum = 1;
+	var isHighContrast = false;
 
 //<=============== PAGE FUNCTIONS =========================>
 $(document).ready(function () {
@@ -1566,19 +1567,16 @@ $(document).ready(function () {
 			$("body").css({"font-size":"1.25em","line-height":"1.15em"});
 			fontToggleTrackerNum = 1.25;
 		}
-		
 		else if (fontToggleTrackerNum === 1.25){
 			$("body").css({"font-size":"1.5em","line-height":"1.15em"});
 			fontToggleTrackerNum = 1.5;
 		}
-
 		else if (fontToggleTrackerNum === 1.5){
 			$("body").css({"font-size":"2em","line-height":"1.15em"});
 			$("header").removeClass("font-size-p9em");
 			$("header").addClass("font-size-p75em");
 			fontToggleTrackerNum = 2;
 		}
-
 		else if (fontToggleTrackerNum === 2){
 			$("body").css({"font-size":"1em","line-height":"1.1em"});
 			fontToggleTrackerNum = 1;
@@ -1586,7 +1584,40 @@ $(document).ready(function () {
 			$("header").removeClass("font-size-p75em");
 			reformatPageForBaselineFont();
 		}
+	});
 
+	//Reformat page when the font-toggle button is clicked
+	$( "#contrast-toggle-button" ).click(function() {
+		if(isHighContrast===false){
+			$("body").removeClass("gradient");
+			$(".bg-white").addClass("bg-black");
+			$(".bg-white").removeClass("bg-white");
+			$(".bg-white-sheer").addClass("bg-black");
+			$(".bg-white-sheer").removeClass("bg-white-sheer");
+			$(".color-black").addClass("color-white");
+			$(".color-black").removeClass("color-black");
+			$(".homepage-project-container:nth-child(odd)").css("background-color","rgb(17,17,17)");
+			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(0,0,0)");
+			$(".bg-242-242-242").css("background-color","rgb(30,30,30)");
+			$(".border-color-rgba-150-150-150-p2").css("border-color","rgb(200,200,200)");
+			$("svg").attr("fill", "#ffffff");
+			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(149,179,255)"});
+			isHighContrast = true;
+		}
+		else if(isHighContrast===true){
+			$("body").addClass("gradient");
+			$(".bg-black").addClass("bg-white");
+			$(".bg-black").removeClass("bg-black");
+			$(".color-white").addClass("color-black");
+			$(".color-white").removeClass("color-white");
+			$(".homepage-project-container:nth-child(odd)").css("background-color","rgb(250, 250, 250)");
+			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(255, 245, 251)");
+			$(".bg-242-242-242").css("background-color","rgb(242,242,242)");
+			$(".border-color-rgba-150-150-150-p2").css("border-color","rgba(150,150,150,0.2)");
+			$("svg").attr("fill", "#000000");
+			isHighContrast = false;
+		}
+		
 	});
 
 	//The navigation bar slides in/out once the trigger is clicked
