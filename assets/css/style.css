@@ -1,3 +1,4 @@
+
 /*=========================================================================
 modals
 =========================================================================*/
@@ -69,9 +70,6 @@ ONE CLASS DOES ONE THING
 .border-left-p75em-solid {
 	border-left: 0.75em solid;
 }
-.border-color-rgba-150-150-150-p2{
-	border-color: rgba(150, 150, 150, 0.2)
-}
 .border-top-1px{
 	border-top-width: 1px;
 }
@@ -111,6 +109,9 @@ ONE CLASS DOES ONE THING
 .font-size-p9em{
 	font-size: 0.9em;
 }
+font-size-p95em{
+	font-size: 0.95em;
+}
 .font-size-1p5em{
 	font-size: 1.5em;
 }
@@ -143,6 +144,9 @@ ONE CLASS DOES ONE THING
 }
 .max-width-22em{
 	max-width: 22em;
+}
+.max-width-32em{
+	max-width: 32em;
 }
 .margin-bottom-1em{
 	margin-bottom: 1em;
@@ -237,6 +241,9 @@ ONE CLASS DOES ONE THING
 .width-14p5em{
 	width: 14.5em;
 }
+.width-9p5pc{
+	width: 9.5%;
+}
 .width-10pc{
 	width: 10%;
 }
@@ -309,6 +316,9 @@ Responsive portions
 	.homepage-project-links-container{
 		width: 100%;
 	}
+	.responsive-main{
+		width: 100%;
+	}
 }
 
 
@@ -316,15 +326,6 @@ Responsive portions
 {
 	.border-top-responsive{
 		border-top-width: 1px;
-	}
-	.floating-heading{
-			z-index: 2;
-			right: 0;
-			left: 0;
-			position: absolute;
-	}
-	.floating-height-3em{
-		height: 3em;
 	}
 	.footer-social-icon-container {
 		padding: .5em .5em .5em .5em;
@@ -365,6 +366,15 @@ Responsive portions
 	}
 	.homepage-project-links-container{
 		width: 77%;
+	}
+	.responsive-main{
+		width: 100%;
+		padding-left: 10%;
+	}
+	.sticky-header{
+		position: fixed;
+		left: 0px;
+		top: 0px;
 	}
 	
 }

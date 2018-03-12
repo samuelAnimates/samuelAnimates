@@ -60,7 +60,7 @@
       }
       button{
         font-size: 1em;
-        border: none;
+        border: 2px solid rgb(0,58,204);
       }
       h1 {
         font-size: 2.5em;
@@ -89,9 +89,14 @@
       .bg-white-sheer {
         background-color: rgba(250, 250, 250, 0.57);
       }
-      .border-all-1px-thin-gray{
+      .border-style-solid{
         border-style: solid;
-        border: 1px solid rgba(206, 206, 206, 0.2);
+      }
+      .border-2px{
+        border-width: 2px;
+      }
+      .border-color-rgba-150-150-150-p2{
+        border-color: rgba(206, 206, 206, 0.2);
       }
       .box-shadow{
         box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
@@ -124,6 +129,9 @@
       .font-Overpass{
         font-family: 'Overpass Mono', monospace;
       }
+      .font-size-p9em{
+        font-size: 0.9em;
+      }
       .font-weight-600{
         font-weight: 600;
       }
@@ -138,6 +146,9 @@
       }
       .max-width-56em{
         max-width: 56em;
+      }
+      .min-width-6em{
+        min-width: 6em;
       }
       .padding-B-p5em{
         padding-bottom: 0.5em;
@@ -157,11 +168,14 @@
       .padding-T-1p5em{
         padding-top: 1.5em;
       }
-      .padding-T-4em{
-        padding-top: 4em;
+      .padding-T-2em{
+        padding-top: 2em;
       }
       .position-absolute{
         position: absolute;
+      }
+      .position-fixed{
+        position: fixed;
       }
       .text-center {
         text-align: center;
@@ -171,6 +185,12 @@
       }
       .top-0{
         top: 0;
+      }
+      .top-6-em{
+        top: 6em;
+      }
+      .width-5pc{
+        width: 5%;
       }
       .width-33pc{
         width: 33%;
@@ -187,27 +207,28 @@
     </style>
   </head>
   <body class="gradient">
-    <header class="bg-white-opaque font-Overpass height-3em position-absolute width-100pc top-0 z2">
-      <div class="float-left header-nav-link height-3em width-33pc" id="navbar-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em">[NAV]
+    <header class="sticky-header font-Overpass font-size-p9em width-10pc z2">
+      <div class="header-nav-link height-3em text-left" id="navbar-modal-trigger">
+        <button class="bg-white font-weight-600 height-3em min-width-6em width-100pc">NAV
         </button>
       </div>
-      <div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em">[CONTACT]
+      <div class="header-nav-link height-3em text-left" id="connect-modal-trigger">
+        <button class="bg-white font-weight-600 height-3em min-width-6em width-100pc">CONTACT
         </button>
       </div>
     </header>
-    <aside class="padding-T-4em">
-      <button id="contrast-toggle-button">
-        High Contrast
-      </button>
-      <button id="font-toggle-button">
-        Toggle Font Size
+    <aside class="position-fixed top-6-em width-5pc">
+      <button aria-labelledby="font-toggle-svg-title" id="font-toggle-button" class="text-center width-100pc" title="Toggle font size">
+        <svg aria-labelledby="font-toggle-svg-title" fill="#000000" height="32" role="img" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+          <title id="font-toggle-svg-title">Toggle font size.</title>
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"/>
+        </svg>
       </button>
     </aside>
-    <main class="font-Assistant margin-bottom-2em" data-role="homepage">
-      <div class="display-block margin-auto max-width-50em padding-T-4em width-90pc">
-        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
+    <main class="font-Assistant margin-bottom-2em responsive-main" data-role="homepage">
+      <div class="display-block margin-auto max-width-50em padding-T-2em width-90pc">
+        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
               <h1>SAMUEL R. MENDEZ
@@ -279,11 +300,11 @@
             </div>
           </div>		
         </section>
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both display-block margin-auto margin-bottom-2em margin-top-1em width-100pc" id="homepage-section-highlights-container">
+        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both display-block margin-auto margin-bottom-2em margin-top-1em width-100pc" id="homepage-section-highlights-container">
           <!-- Mustache template script for highlights section -->
           <script id="highlighted-projects-template" type="text/html-template">​
-            <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
-              <h2 class="floating-heading margin-auto">
+            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
+              <h2 class="margin-auto">
                 {{sectionName}}
               </h2> 
             </div>
@@ -323,9 +344,9 @@
           </script>
         </section>
         <!-- News Section -->
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
-            <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center">
-              <h2 class="floating-heading margin-auto">
+        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
+            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center">
+              <h2 class="margin-auto">
                 RECENT NEWS
               </h2> 
             </div>
@@ -351,9 +372,9 @@
         <!-- Mustache template script for remaining project sections -->
         <script id="projects-template" type="text/html-template">​
           {{#sections}}
-            <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em width-100pc">
-              <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
-                <h2 class="floating-heading margin-auto">
+            <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both margin-auto margin-bottom-2em margin-top-1em width-100pc">
+              <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
+                <h2 class="margin-auto">
                   {{sectionName}}
                 </h2>
               </div>
@@ -447,7 +468,7 @@
     </div>
   
     <aside role="dialog" aria-hidden="true" aria-labelledby="contact-dialog-title" class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" style="top:0; left:0;" id="connect-footer-modal">
-      <div class="bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em">
+      <div class="bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-32em">
         <div class="display-block text-center width-100pc">
           <h2 class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em" tabindex="0" id="contact-dialog-title">CONTACT LINKS
           </h2> 
@@ -522,8 +543,8 @@
         </div>
       </div>
     </aside>
-    <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-bottom-2em max-width-50em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-90pc">
-      <div class="bg-white border-all-1px-thin-gray display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
+    <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-top-1em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-100pc">
+      <div class="bg-white border-style-solid border-color-rgba-150-150-150-p2 border-2px display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
         <h2>Thanks for visiting</h2>  
         <p>This portfolio was designed and coded by me, with an eye toward web accessibility. Any and all suggestions for improved accessibility are welcome. Feel free to fork the <a href="https://github.com/smendez92/samuelAnimates" target="_blank">GitHub repo for this portfolio site</a>.</p>
       </div>
