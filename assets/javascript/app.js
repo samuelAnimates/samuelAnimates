@@ -1647,6 +1647,13 @@ $(document).ready(function () {
 
 	});
 
+	$(document).on("mouseenter focus", ".JS-a11y-button", function(event){
+		$(this).find('svg').attr("fill", "#FAFAFA");
+	})
+	$(document).on("mouseleave focusout", ".JS-a11y-button", function(event){
+		$(this).find('svg').attr("fill", "#000000");
+	})
+
 	//Swap out the IG social icon for the blue one once the link is hovered or focused on
 	$(document).on("mouseenter focus", '#Instagram-link', function(event){
 		if(($(this).find('img').attr('src').endsWith("blue.svg"))){
