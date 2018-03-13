@@ -1592,7 +1592,7 @@ $(document).ready(function () {
 			$("body").removeClass("gradient");
 			$(".bg-white").addClass("bg-black");
 			$(".bg-white").removeClass("bg-white");
-			$(".bg-white-sheer").addClass("bg-black");
+			$(".bg-white-sheer").addClass("bg-black sheer-replace");
 			$(".bg-white-sheer").removeClass("bg-white-sheer");
 			$(".color-black").addClass("color-white");
 			$(".color-black").removeClass("color-black");
@@ -1609,8 +1609,9 @@ $(document).ready(function () {
 		}
 		else if(isHighContrast===true){
 			$("body").addClass("gradient");
-			$(".bg-black").addClass("bg-white");
+			$(".bg-black:not(#thisid)").addClass("bg-white");
 			$(".bg-black").removeClass("bg-black");
+			$(".sheer-replace").addClass("bg-white-sheer");
 			$(".color-white").addClass("color-black");
 			$(".color-white").removeClass("color-white");
 			$(".homepage-project-container:nth-child(odd)").css("background-color","rgb(250, 250, 250)");
