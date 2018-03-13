@@ -1,5 +1,7 @@
+//Holds the data for all the project text and project images that appear on the site, as well as news items.
 const projectsData = [
-    {
+	//Highlighted Project data for home page
+	{
 		"sectionName": "HIGHLIGHTED PROJECTS",
 		"sectionShortName": "",
 		"projects": [
@@ -93,6 +95,7 @@ const projectsData = [
 			}
 		]
 	},
+	//New items data for home page
 	{
 		"newsitems": [
 			{
@@ -118,6 +121,7 @@ const projectsData = [
 		]
 
 	},
+	//project overview data for home page
 	{
 		"sections": [
 			{
@@ -572,6 +576,7 @@ const projectsData = [
 			
 		]
 	},
+	//Page-by-page data for project overview pages
 	{
 		"after": {
 			"title": "AFTER, AFTER THAT",
@@ -1252,6 +1257,7 @@ const projectsData = [
 	}
 ]
 
+//Mustache template for Nav bar that appears in each project overview page
 const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em width-100pc z2' id='sticky-header'>\
 	<div class='float-left header-nav-link height-3em width-33pc' id='home-button'>\
 		<button class='JS-link bg-white font-weight-600 height-3em'>[HOME]</button>\
@@ -1261,6 +1267,7 @@ const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em w
 	</div>\
 </nav>"
 
+//Mustache template for the contact modal that appears in each project overview page
 const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
 <div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em'>\
   <div class='display-block text-center width-100pc'>\
@@ -1336,6 +1343,7 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 </div>\
 </aside>"
 
+//Mustache template for each project overview page
 const modalTemplate = "<h1>{{title}}</h1>\
 {{#sidebar}}\
 	<div class='floating-lefthand-container padding-B-p5em padding-T-p5em'>\
@@ -1412,10 +1420,6 @@ const modalTemplate = "<h1>{{title}}</h1>\
 	{{/note}}\
 </div>"
 
-var isNavDisplayed = false;
-var isConnectDisplayed = false;
-var focused = null;
-
 function hideConnectModal(){
 
 	$( "#connect-footer-modal" ).addClass("display-none");
@@ -1439,6 +1443,29 @@ function hideNavBar(){
 	$("main").unbind('click');
 	isNavDisplayed = false;
 
+}
+
+function reformatPageForLargerFont(){
+	$(".stickyheader").css({"position":"relative"});
+	$(".homepage-about-text-container").addClass("width-100pc");
+	$(".homepage-portrait-container").addClass("width-100pc");
+	$(".font-size-p75em").removeClass("font-size-p75em");
+	$(".border-top-responsive").addClass("border-top-3px");
+	$(".border-top-responsive").removeClass(".border-top-responsive");
+	$(".homepage-project-icon-container").addClass("width-100pc");
+	$(".homepage-project-links-container").addClass("width-100pc");
+}
+
+function reformatPageForBaselineFont(){
+	$(".stickyheader").css({"position":"relative"});
+	$(".homepage-about-text-container").removeClass("width-100pc");
+	$(".homepage-portrait-container").removeClass("width-100pc");
+	$(".font-size-p95em").addClass("font-size-p75em");
+	$(".font-size-p95em").removeClass("font-size-p95em");
+	$(".border-top-responsive").removeClass("border-top-3px");
+	$(".border-top-responsive").removeClass(".border-top-responsive");
+	$(".homepage-project-icon-container").removeClass("width-100pc");
+	$(".homepage-project-links-container").removeClass("width-100pc");
 }
 
 function showConnectModal(){
@@ -1484,6 +1511,12 @@ function showNavBar(){
 
 //<=============== END FUNCTION DECLARATIONS =========================>
 
+	//State tracker variables
+	var isNavDisplayed = false;
+	var isConnectDisplayed = false;
+	var focused = null;
+	var fontToggleTrackerNum = 1;
+	var isHighContrast = false;
 
 //<=============== PAGE FUNCTIONS =========================>
 $(document).ready(function () {
@@ -1524,6 +1557,74 @@ $(document).ready(function () {
 	//The home button acts as a JS link in modal pages.
 	$( "#home-button" ).click(function() {
 		window.location.replace("../index.html");
+	});
+
+	//Reformat page when the font-toggle button is clicked
+	$( "#font-toggle-button" ).click(function() {
+		
+		if (fontToggleTrackerNum === 1){
+			reformatPageForLargerFont();
+			$("body").css({"font-size":"1.25em","line-height":"1.15em"});
+			fontToggleTrackerNum = 1.25;
+		}
+		else if (fontToggleTrackerNum === 1.25){
+			$("body").css({"font-size":"1.5em","line-height":"1.15em"});
+			fontToggleTrackerNum = 1.5;
+		}
+		else if (fontToggleTrackerNum === 1.5){
+			$("body").css({"font-size":"2em","line-height":"1.15em"});
+			$("header").removeClass("font-size-p9em");
+			$("header").addClass("font-size-p75em");
+			fontToggleTrackerNum = 2;
+		}
+		else if (fontToggleTrackerNum === 2){
+			$("body").css({"font-size":"1em","line-height":"1.1em"});
+			fontToggleTrackerNum = 1;
+			$("header").addClass("font-size-p9em");
+			$("header").removeClass("font-size-p75em");
+			reformatPageForBaselineFont();
+		}
+	});
+
+	//Reformat page when the font-toggle button is clicked
+	$( "#contrast-toggle-button" ).click(function() {
+		if(isHighContrast===false){
+			$("body").removeClass("gradient");
+			$(".bg-white").addClass("bg-black");
+			$(".bg-white").removeClass("bg-white");
+			$(".bg-white-sheer").addClass("bg-black");
+			$(".bg-white-sheer").removeClass("bg-white-sheer");
+			$(".color-black").addClass("color-white");
+			$(".color-black").removeClass("color-black");
+			$(".homepage-project-container:nth-child(odd)").css("background-color","rgb(17,17,17)");
+			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(0,0,0)");
+			$(".bg-242-242-242").css("background-color","rgb(30,30,30)");
+			$(".border-color-rgba-150-150-150-p2").css("border-color","rgb(200,200,200)");
+			$("svg").attr("fill", "#ffffff");
+			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(149,179,255)"});
+			$("a").addClass("highContrastHover");
+			$("button").addClass("highContrastHover");
+			$(".JS-social-icon-link").addClass("bg-white");
+			isHighContrast = true;
+		}
+		else if(isHighContrast===true){
+			$("body").addClass("gradient");
+			$(".bg-black").addClass("bg-white");
+			$(".bg-black").removeClass("bg-black");
+			$(".color-white").addClass("color-black");
+			$(".color-white").removeClass("color-white");
+			$(".homepage-project-container:nth-child(odd)").css("background-color","rgb(250, 250, 250)");
+			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(255, 245, 251)");
+			$(".bg-242-242-242").css("background-color","rgb(242,242,242)");
+			$(".border-color-rgba-150-150-150-p2").css("border-color","rgba(150,150,150,0.2)");
+			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(0,58,204)"});
+			$("a").removeClass("highContrastHover");
+			$("button").removeClass("highContrastHover");
+			$(".JS-social-icon-link").removeClass("bg-white");
+			$("svg").attr("fill", "#000000");
+			isHighContrast = false;
+		}
+		
 	});
 
 	//The navigation bar slides in/out once the trigger is clicked

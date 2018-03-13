@@ -58,28 +58,33 @@
         text-decoration: underline;
         cursor: pointer;
       }
+      .highContrastHover:hover, .highContrastHover:focus{
+        background-color: rgb(250, 250, 250) !important;
+        color: rgb(7, 7, 7) !important;
+        text-decoration: underline;
+        cursor: pointer;
+      }
       button{
         font-size: 1em;
-        border: none;
+        border: 2px solid rgb(0,58,204);
       }
       h1 {
         font-size: 2.5em;
         font-weight: 700;
         font-family: 'Overpass Mono', monospace;
+        line-height: 1.15em;
       }
       h2 {
         font-size: 1.5em;
         font-weight: 700;
         font-family: 'Overpass Mono', monospace;
+        line-height: 1.15em;
       }
       h3 {
         font-size: 1.25em;
         font-weight: 600;
         font-family: 'Overpass Mono', monospace;
-      }
-      #sticky-header{
-        position: fixed;
-        top: 0;
+        line-height: 1.15em;
       }
       .bg-white{
         background-color: rgb(250, 250, 250);
@@ -90,12 +95,14 @@
       .bg-white-sheer {
         background-color: rgba(250, 250, 250, 0.57);
       }
-      .border-all-1px-thin-gray{
+      .border-style-solid{
         border-style: solid;
-        border: 1px solid rgba(206, 206, 206, 0.2);
       }
-      .border-top-1px-thin-gray{
-        border-top: 1px solid rgba(77, 77, 77, 0.267);
+      .border-2px{
+        border-width: 2px;
+      }
+      .border-color-rgba-150-150-150-p2{
+        border-color: rgba(206, 206, 206, 0.2);
       }
       .box-shadow{
         box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
@@ -128,6 +135,12 @@
       .font-Overpass{
         font-family: 'Overpass Mono', monospace;
       }
+      .font-size-p9em{
+        font-size: 0.9em;
+      }
+      .font-size-1p25em{
+        font-size: 1.25em;
+      }
       .font-weight-600{
         font-weight: 600;
       }
@@ -142,6 +155,12 @@
       }
       .max-width-56em{
         max-width: 56em;
+      }
+      .min-width-32px{
+        min-width: 32px;
+      }
+      .min-width-6em{
+        min-width: 6em;
       }
       .padding-B-p5em{
         padding-bottom: 0.5em;
@@ -161,14 +180,32 @@
       .padding-T-1p5em{
         padding-top: 1.5em;
       }
-      .padding-T-4em{
-        padding-top: 4em;
+      .padding-T-2em{
+        padding-top: 2em;
+      }
+      .position-absolute{
+        position: absolute;
+      }
+      .position-fixed{
+        position: fixed;
       }
       .text-center {
         text-align: center;
       }
       .text-right{
         text-align: right;
+      }
+      .text-shadow{
+        text-shadow: 2px 2px 2px rgba(221, 126, 192, 0.1);
+      }
+      .top-0{
+        top: 0;
+      }
+      .top-9-em{
+        top: 9em;
+      }
+      .width-5pc{
+        width: 5%;
       }
       .width-33pc{
         width: 33%;
@@ -185,51 +222,64 @@
     </style>
   </head>
   <body class="gradient">
-    <header class="bg-white-opaque font-Overpass height-3em width-100pc z2" id="sticky-header">
-      <div class="float-left header-nav-link height-3em width-33pc" id="navbar-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em">[NAV]
+    <header class="sticky-header font-Overpass font-size-p9em width-10pc z2">
+      <div class="header-nav-link height-3em text-left" id="navbar-modal-trigger">
+        <button class="bg-white box-shadow color-black font-weight-600 height-3em min-width-6em width-100pc">NAV
         </button>
       </div>
-      <div class="header-nav-link float-right height-3em text-right width-33pc" id="connect-modal-trigger">
-        <button class="bg-white font-weight-600 height-3em">[CONTACT]
+      <div class="header-nav-link height-3em text-left" id="connect-modal-trigger">
+        <button class="bg-white box-shadow color-black font-weight-600 height-3em min-width-6em width-100pc">CONTACT
         </button>
       </div>
     </header>
-    <main class="font-Assistant margin-bottom-2em" data-role="homepage">
-      <div class="display-block margin-auto max-width-50em padding-T-4em width-90pc">
-        <section class="box-shadow border-all-1px-thin-gray bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
+    <aside class="position-fixed min-width-32px top-9-em width-5pc z2">
+      <button aria-labelledby="font-toggle-svg-title" id="font-toggle-button" class="bg-white box-shadow color-black text-center width-100pc" title="Toggle font size.">
+        <svg aria-labelledby="font-toggle-svg-title" fill="#000000" height="24" role="img" viewBox="2 0 24 18" width="24" xmlns="http://www.w3.org/2000/svg">
+          <title id="font-toggle-svg-title">Toggle font size.</title>
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"/>
+        </svg>
+      </button>
+      <button aria-labelledby="font-toggle-svg-title" id="contrast-toggle-button" class="bg-white box-shadow color-black text-center width-100pc" title="Toggle high contrast mode.">
+        <svg fill="#000000" height="24" viewBox="2 0 24 20" width="24" xmlns="http://www.w3.org/2000/svg">
+          <title id="font-toggle-svg-title">Toggle high contrast mode.</title>
+          <path d="M24 0H0v24h24z" fill="none"/>
+          <path d="M17.66 7.93L12 2.27 6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58c2.05 0 4.1-.78 5.66-2.34 3.12-3.12 3.12-8.19 0-11.31zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/>
+      </svg>
+      </button>
+    </aside>
+    <main class="font-Assistant margin-bottom-2em responsive-main" data-role="homepage">
+      <div class="display-block margin-auto max-width-50em padding-T-2em width-90pc">
+        <section class="bg-white box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px bg-white color-black clear-both margin-auto margin-bottom-2em padding-B-2em padding-L-p5em padding-R-p5em width-100pc">
           <div class="homepage-project-container bg-white text-center width-100pc" id="homepage-section-about">
             <div class="bg-white-sheer padding-B-2em padding-T-1p5em text-center width-100pc">
               <h1>SAMUEL R. MENDEZ
               </h1>
             </div>
-            <div class="padding-B-p5em">
+            <div class="bg-white padding-B-p5em">
               <h2>ABOUT ME
               </h2>
             </div>
-            <div class="display-block padding-B-1em padding-L-p5em padding-R-p5em">
-              <div class="homepage-portrait-container display-block margin-auto padding-B-1em text-center">
+            <div class="bg-white display-block padding-B-1em padding-L-p5em padding-R-p5em">
+              <div class="bg-white homepage-portrait-container display-block margin-auto padding-B-1em text-center">
                 <div role="img" aria-label="Samuel R. Mendez cartoon portrait in a circular frame." class="circle">
                 </div>
                 <div class="font-Overpass font-size-p75em padding-T-1p5em">"I could trace about 80% of my humor back to specific SpongeBob episodes."
                 </div>
               </div>
-              <div class="homepage-about-text-container padding-L-p5em padding-R-p5em">
-                <div class="padding-B-p5em padding-L-p5em text-left">
+              <div class="homepage-about-text-container color-black padding-L-p5em padding-R-p5em">
+                <div class="font-size-1p25em padding-B-p5em bg-white padding-L-p5em text-left">
                   <p class="padding-B-p5em">
-                    <span class="font-weight-600">Interests:</span> community-based research, social determinants of health, accessibility, digital documentary methods.
+                    I make animated short films, I conduct community-based research, and I do front-end web development with an eye toward web accessibility. As I recognize the time & effort I put into learning these skills, I recognize the privilege of having such chances to do so in the first place. I want use the chances I've been given to make the spaces & systems I occupy accessible to a wider range of people.
                   </p>
                   <p>
-                      I make animated short films, I conduct community-based research, and I do front-end web development with an eye toward web accessibility. As I recognize the time & effort I put into learning these skills, I recognize the privilege of having such chances to do so in the first place. I want use the chances I've been given to make the spaces & systems I occupy accessible to a wider range of people.
+                    <span class="font-weight-600">Interests:</span> community-based research, social determinants of health, accessibility, digital documentary methods.
                   </p>
                 </div>
-                <div class="padding-B-1em padding-L-p5em text-left">
-                  <span class="font-weight-600">Long-term Goals:
-                  </span> develop animation and video as participatory research methods; build empathy across community research partners and increase accessibility of such partnerships; develop research partnership models and platforms to disseminate lessons learned.
-                </div>
+
               </div>
             </div>
-            <div class="border-top-1px-thin-gray clear-both padding-T-1p5em width-100pc">
+            <div class="bg-white border-style-solid border-color-rgb100-100-100 border-top-1px border-style-solid clear-both padding-T-1p5em width-100pc">
               <div>
                 <h3> Personal Links
                 </h3>
@@ -269,18 +319,18 @@
             </div>
           </div>		
         </section>
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both display-block margin-auto margin-bottom-2em margin-top-1em width-100pc" id="homepage-section-highlights-container">
+        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both display-block margin-auto margin-bottom-2em margin-top-1em width-100pc" id="homepage-section-highlights-container">
           <!-- Mustache template script for highlights section -->
           <script id="highlighted-projects-template" type="text/html-template">​
-            <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
-              <h2 class="floating-heading margin-auto">
+            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-highlights">
+              <h2 class="margin-auto text-shadow">
                 {{sectionName}}
               </h2> 
             </div>
             {{#projects}}
-              <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
-                <div class="homepage-project-icon-container display-block">
-                  <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
+              <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
+                <div class="homepage-project-icon-container bg-inherit display-block">
+                  <img alt="{{logo.altText}}" class="homepage-project-icon display-block margin-auto max-height-10em max-width-8em min-width-5em" src={{{logo.svg}}}>
                 </div>
                 <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
                   <div class="padding-L-p5em">
@@ -296,7 +346,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                <div class="homepage-project-links-container bg-242-242-242 border-color-rgba-150-150-150-p2 border-top-2px border-style-solid clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                   {{#links}}
                     <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                       <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -313,20 +363,20 @@
           </script>
         </section>
         <!-- News Section -->
-        <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
-          <div class="homepage-project-container width-100pc" id="homepage-section-news">
-            <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center">
-              <h2 class="floating-heading margin-auto">
+        <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both margin-auto margin-bottom-2em margin-top-1em max-width-50em width-100pc">
+            <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center">
+              <h2 class="margin-auto text-shadow">
                 RECENT NEWS
               </h2> 
             </div>
-            <div class="bg-white border-top-1px-thin-gray padding-B-2em padding-T-1p5em">
+          <div class="homepage-project-container width-100pc" id="homepage-section-news">
+            <div class="bg-white border-style-solid border-top-responsive border-color-rgb100-100-100 padding-B-2em padding-T-1p5em">
               <div class="margin-auto width-90pc" id="news-table">
-                <ul class="display-block list-style-position-outside list-style-square">
+                <ul class="display-block list-style-position-outside">
                   <!-- Mustache template script for news items -->
                   <script id="news-template" type="text/html-template">​
                     {{#newsitems}}
-                      <li class="display-block text-indent-neg1p7em margin-bottom-1em margin-left-1p7em list-style-square">
+                      <li class="display-block text-indent-neg1p7em margin-bottom-1em margin-left-1p7em">
                         <span class="font-weight-600">{{date}}:</span> {{update}}
                       </li>
                     {{/newsitems}}
@@ -341,16 +391,16 @@
         <!-- Mustache template script for remaining project sections -->
         <script id="projects-template" type="text/html-template">​
           {{#sections}}
-            <section class="box-shadow border-all-1px-thin-gray color-black clear-both margin-auto margin-bottom-2em margin-top-1em width-100pc">
-              <div class="bg-white-sheer floating-height-3em padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
-                <h2 class="floating-heading margin-auto">
+            <section class="box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black clear-both margin-auto margin-bottom-2em margin-top-1em width-100pc">
+              <div class="bg-white-sheer padding-B-p5em padding-T-1p5em text-center" id="homepage-section-{{sectionShortName}}">
+                <h2 class="margin-auto text-shadow">
                   {{sectionName}}
                 </h2>
               </div>
               {{#projects}}
-                <div class="homepage-project-container border-top-1px-thin-gray padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
-                  <div class="homepage-project-icon-container display-block">
-                    <img alt="{{logo.altText}}" class="homepage-project-icon display-block max-height-12em" src={{{logo.svg}}}>
+                <div class="homepage-project-container border-style-solid border-top-responsive border-color-rgb100-100-100 color-black padding-T-1p5em bg-white" id="homepageHighlightProjectContainer-{{shortName}}">
+                  <div class="homepage-project-icon-container bg-inherit display-block">
+                    <img alt="{{logo.altText}}" class="homepage-project-icon display-block margin-auto max-height-10em max-width-8em min-width-5em" src={{{logo.svg}}}>
                   </div>
                   <div class="homepage-project-text-container padding-L-p5em padding-R-p5em text-left">
                     <div class="padding-L-p5em">
@@ -366,7 +416,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="homepage-project-links-container bg-242-242-242 border-top-2px-thin-gray clear-both display-block font-size-p75em margin-auto padding-T-p5em">
+                  <div class="homepage-project-links-container bg-242-242-242 border-color-rgba-150-150-150-p2 border-top-2px border-style-solid clear-both display-block font-size-p75em margin-auto padding-T-p5em">
                     {{#links}}
                       <span class="display-inline-block padding-B-p5em padding-L-p5em padding-R-p5em">
                         <svg aria-hidden="true" fill="#000000" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -387,7 +437,7 @@
     </main>
 
     <div role="dialog" aria-hidden="true" aria-labelledby="nav-dialog-title" class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" style="top:0; left:0;" id="navbar-modal">
-      <nav class="bg-white font-Assistant height-100pc position-absolute top-0 width-100pc z4 max-width-22em">
+      <nav class="bg-white color-black font-Assistant height-100pc position-absolute top-0 width-100pc z4 max-width-22em">
         <div id="navbar-text-container" class="top-0">
           <div class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em">
             <h2 tabindex="0"   id="nav-dialog-title">NAVIGATION LINKS</h2>
@@ -430,41 +480,41 @@
           </div>
         </div>
         <div class="JS-link">
-          <button class="bg-white font-weight-600" id="navbar-modal-close-trigger">[CLOSE]
+          <button class="bg-white color-black font-weight-600" id="navbar-modal-close-trigger">[CLOSE]
           </button>
         </div>
       </nav>
     </div>
   
     <aside role="dialog" aria-hidden="true" aria-labelledby="contact-dialog-title" class="bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3" style="top:0; left:0;" id="connect-footer-modal">
-      <div class="bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em">
-        <div class="display-block text-center width-100pc">
+      <div class="bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-32em">
+        <div class="color-black display-block text-center width-100pc">
           <h2 class="padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em" tabindex="0" id="contact-dialog-title">CONTACT LINKS
           </h2> 
         </div>
         <div class="clear-both display-block margin-auto width-80pc" id="footer-social-container">
-          <div class="float-left text-center footer-social-icon-container">
+          <div class="float-left JS-social-icon-link text-center footer-social-icon-container">
             <a href="http://www.vimeo.com/user15152945" target="_blank" id="Vimeo-link">
               <span class="font-size-p75em font-weight-400">Vimeo
               </span>
               <img id="vimeo-social-icon" alt="Vimeo social icon" class="display-inline-block margin-auto width-100pc" src="./assets/images/social-icon-vimeo.svg"> 
             </a>
           </div>
-          <div class="float-left text-center footer-social-icon-container">
+          <div class="float-left JS-social-icon-link text-center footer-social-icon-container">
             <a href="https://github.com/smendez92" target="_blank" id="GitHub-link">
               <span class="font-size-p75em font-weight-400">GitHub
               </span>
               <img id="github-social-icon" alt="GitHub social icon" class="display-inline-block margin-auto width-100pc" src="./assets/images/social-icon-github.svg"> 
             </a>
           </div>
-          <div class="float-left text-center footer-social-icon-container">
+          <div class="float-left JS-social-icon-link text-center footer-social-icon-container">
             <a href="https://www.linkedin.com/in/samuel-r-mendez/" target="_blank" id="LinkedIn-link">
               <span class="font-size-p75em font-weight-400">LinkedIn
               </span>
               <img id="linkedin-social-icon" alt="LinkedIn social icon" class="display-inline-block margin-auto width-100pc" src="./assets/images/social-icon-linkedin.svg"> 
             </a>
           </div>
-          <div class="float-left text-center footer-social-icon-container">
+          <div class="float-left JS-social-icon-link text-center footer-social-icon-container">
             <a href="https://www.instagram.com/samuelanimates/" target="_blank" id="Instagram-link">
               <span class="font-size-p75em font-weight-400">Instagram
               </span>
@@ -472,7 +522,7 @@
             </a>
           </div>
         </div>
-        <div class="clear-both display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
+        <div class="clear-both color-black display-block margin-auto text-center width-80pc" id="footer-contact-form-container">
           <h3>
             Contact Form
           </h3>
@@ -498,7 +548,7 @@
               <textarea class="color-black float-right width-14p5em" form="gform" id="entry.282615151" name="entry.282615151" placeholder="Hi, world!" rows="4"></textarea>
             </div>
             <div class="button-container">
-              <input class="clear-both float-right" type="submit" value="SEND"> 
+              <input class="clear-both bg-white color-black float-right" type="submit" value="SEND"> 
             </div>
             <div id="my-hidden-iframe">
               <iframe id="hidden_iframe" name="hidden_iframe">
@@ -507,13 +557,13 @@
           </form>
         </div>
         <div class="JS-link clear-both float-right">
-          <button class="bg-white font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]
+          <button class="bg-white color-black font-weight-600 height-3em" id="connect-modal-close-trigger">[CLOSE]
           </button>
         </div>
       </div>
     </aside>
-    <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-bottom-2em max-width-50em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-90pc">
-      <div class="bg-white border-all-1px-thin-gray display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
+    <footer class="bg-white-sheer display-block font-size-p75em font-weight-300 margin-auto margin-top-1em padding-B-1em padding-L-2em padding-R-2em padding-T-1em width-100pc">
+      <div class="bg-white color-black border-style-solid border-color-rgba-150-150-150-p2 border-2px display-block font-Overpass margin-auto padding-B-1p5em padding-T-1p5em text-center">
         <h2>Thanks for visiting</h2>  
         <p>This portfolio was designed and coded by me, with an eye toward web accessibility. Any and all suggestions for improved accessibility are welcome. Feel free to fork the <a href="https://github.com/smendez92/samuelAnimates" target="_blank">GitHub repo for this portfolio site</a>.</p>
       </div>
