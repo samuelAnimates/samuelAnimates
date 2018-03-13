@@ -136,6 +136,9 @@ font-size-p95em{
 .list-style-position-inside{
 	list-style-position: inside;
 }
+.list-style-position-outside{
+	list-style-position: outside;
+}
 .list-style-square{
 	list-style: square;
 }
@@ -217,8 +220,8 @@ font-size-p95em{
 .right-0{
 	right: 0;
 }
-.text-indent-neg1p3em{
-	text-indent: -1.3em;
+.text-indent-neg1p7em{
+	text-indent: -1.7em;
 }
 .text-left {
 	text-align: left;
