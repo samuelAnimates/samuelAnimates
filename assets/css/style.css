@@ -377,7 +377,7 @@ Responsive portions
 	.sticky-header{
 		position: fixed;
 		left: 0px;
-		top: 0px;
+		top: 2em;
 	}
 	
 }

@@ -1602,6 +1602,9 @@ $(document).ready(function () {
 			$(".border-color-rgba-150-150-150-p2").css("border-color","rgb(200,200,200)");
 			$("svg").attr("fill", "#ffffff");
 			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(149,179,255)"});
+			$("a").addClass("highContrastHover");
+			$("button").addClass("highContrastHover");
+			$(".JS-social-icon-link").addClass("bg-white");
 			isHighContrast = true;
 		}
 		else if(isHighContrast===true){
@@ -1614,6 +1617,10 @@ $(document).ready(function () {
 			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(255, 245, 251)");
 			$(".bg-242-242-242").css("background-color","rgb(242,242,242)");
 			$(".border-color-rgba-150-150-150-p2").css("border-color","rgba(150,150,150,0.2)");
+			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(0,58,204)"});
+			$("a").removeClass("highContrastHover");
+			$("button").removeClass("highContrastHover");
+			$(".JS-social-icon-link").removeClass("bg-white");
 			$("svg").attr("fill", "#000000");
 			isHighContrast = false;
 		}
