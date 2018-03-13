@@ -1344,7 +1344,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="158.52049"
+     inkscape:cx="415.79114"
      inkscape:cy="428.10073"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -1375,7 +1375,16 @@
      style="display:inline"
      transform="translate(0,-82)">
     <rect
-       style="opacity:1;fill:#67ffa2;fill-opacity:1;stroke:none;stroke-width:3.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;"
+       style="display:inline;opacity:1;fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:4.10102415;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5526-4-4"
+       width="140.75494"
+       height="150.19722"
+       x="55.51218"
+       y="107.36568"
+       rx="0.4330126"
+       ry="0.832192" />
+    <rect
+       style="opacity:1;fill:#67ffa2;fill-opacity:1;stroke:#fafafa;stroke-width:8.965;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect5526"
        width="130.02383"
        height="144.3869"

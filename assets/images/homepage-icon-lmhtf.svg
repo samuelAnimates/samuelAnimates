@@ -28,7 +28,7 @@
      id="namedview4602"
      showgrid="false"
      inkscape:zoom="0.58085271"
-     inkscape:cx="-136.86775"
+     inkscape:cx="150.64059"
      inkscape:cy="217.42925"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
@@ -102,6 +102,12 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <circle
+     id="circle4487-2-6"
+     cx="107.5"
+     cy="107.5"
+     r="91.408607"
+     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:4.74466181;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98823529" />
   <g
      id="g9759"
      style="">
@@ -156,5 +162,18 @@
        id="path4534"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;opacity:0.366;"
        sodipodi:type="spiral" />
+  </g>
+  <g
+     id="layer2-8"
+     transform="translate(-226.84322,-41.459752)">
+    <rect
+       style="opacity:0;fill:#2f11f4;fill-opacity:1;stroke:#762c00;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5086-4"
+       width="74.839287"
+       height="108.47916"
+       x="38.55357"
+       y="103.09821"
+       rx="0.39999971"
+       ry="0.79999942" />
   </g>
 </svg>

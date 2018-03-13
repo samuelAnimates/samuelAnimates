@@ -175,6 +175,9 @@ font-size-p95em{
 .max-width-50em{
 	max-width: 50em;
 }
+.min-width-4em{
+	min-width: 4em;
+}
 .min-width-5em{
 	min-width: 5em;
 }
@@ -309,7 +312,8 @@ Responsive portions
 	}
 	.homepage-project-icon-container{
 		margin: auto;
-		width: 15%;
+		width: 14%;
+		height: auto;
 	}
 	.homepage-project-text-container{
 		clear: both;
@@ -355,8 +359,8 @@ Responsive portions
 		width: 35%;
 	}
 	.homepage-project-icon {
-		height: auto;
 		width: 100%;
+		height: auto;
 	}
 	.homepage-project-icon-container{
 		float: left;
