@@ -325,8 +325,7 @@ Responsive portions
 }
 
 
-@media screen and (min-width: 930px)
-{
+@media screen and (min-width: 930px){
 	.border-top-responsive{
 		border-top-width: 1px;
 	}
@@ -379,5 +378,4 @@ Responsive portions
 		left: 0px;
 		top: 2em;
 	}
-	
 }
