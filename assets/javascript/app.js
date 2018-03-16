@@ -1258,13 +1258,13 @@ const projectsData = [
 ]
 
 //Mustache template for Nav bar that appears in each project overview page
-const modalNavTemplate = "<nav class='sticky-header font-Overpass font-size-p9em min-width-5em width-10pc z2'>\
-<a class='bg-white color-black JS-link text-decoration-line-none width-100pc' href='http://www.samuelanimates.com'>\
-	<div class='bg-inherit border-2px border-left-0px border-color-rgba-0-58-204-p75 border-style-solid box-shadow header-nav-link text-center width-100pc'>HOME\
+const modalNavTemplate = "<nav class='sticky-header bg-white color-black font-Overpass font-size-p9em min-width-5em width-10pc z2'>\
+<a class='bg-inherit color-inherit height-1p5em JS-link text-decoration-line-none width-100pc' href='http://www.samuelanimates.com'>\
+	<div class='bg-inherit color-inherit border-2px border-left-0px border-color-rgba-0-58-204-p75 border-style-solid box-shadow header-nav-link text-center width-100pc'>HOME\
 	</div>\
 </a>\
 <div class='header-nav-link' id='connect-modal-trigger'>\
-  <button class='bg-white border-left-0px box-shadow color-black font-weight-600 width-100pc'>CONTACT\
+  <button class='bg-white border-left-0px box-shadow color-black font-weight-600 height-1p5em width-100pc'>CONTACT\
   </button>\
 </div>\
 </nav>"
@@ -1364,10 +1364,10 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 </aside>"
 
 //Mustache template for each project overview page
-const modalTemplate = "<div class='margin-auto text-center width-80pc'><h1>{{title}}</h1></div>\
-<div class='margin-bottom-1em'>\
+const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-80pc'><h1>{{title}}</h1></div>\
+<div>\
 	{{#sidebar}}\
-		<section class='box-shadow floating-lefthand-container'>\
+		<section class='box-shadow box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px floating-lefthand-container'>\
 			<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-T-p5em'>\
 				{{#photo}}\
 					<div class='text-center'>\
@@ -1405,7 +1405,7 @@ const modalTemplate = "<div class='margin-auto text-center width-80pc'><h1>{{tit
 			</div>\
 		</section>\
 	{{/sidebar}}\
-	<section class='bg-255-255-224 color-black box-shadow floating-righthand-container padding-B-p5em padding-T-p5em'>\
+	<section class='bg-255-255-224 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black box-shadow floating-righthand-container padding-B-p5em padding-T-p5em'>\
 			<div class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
 					<h2 class='text-center'>AT A GLANCE</h2>\
 				<div class='display-block padding-L-p5em margin-auto width-90pc'>\
@@ -1419,7 +1419,7 @@ const modalTemplate = "<div class='margin-auto text-center width-80pc'><h1>{{tit
 	</section>\
 </div>\
 {{#middleIframeWithText}}\
-	<drction class='box-shadow clear-both margin-top-1em width-100pc'>\
+	<section class='box-shadow clear-both width-100pc'>\
 		{{#text}}\
 			<div class='floating-lefthand-container'>\
 				<div class='bg-255-224-233 color-black padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
@@ -1429,14 +1429,14 @@ const modalTemplate = "<div class='margin-auto text-center width-80pc'><h1>{{tit
 			</div>\
 		{{/text}}\
 		<div class='floating-righthand-container'>\
-			<div class='bg-255-92-143 margin-bottom-1em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+			<div class='bg-255-92-143 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
 				<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
 			</div>\
 		</div>\
 	</section>\
 {{/middleIframeWithText}}\
-<section class='clear-both display-block margin-auto margin-top-1em max-width-50em width-100pc'>\
-	<div class='bg-219-238-255 color-black box-shadow padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
+<section class='clear-both display-block margin-auto max-width-50em padding-T-2em width-100pc'>\
+	<div class='bg-219-238-255 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black box-shadow padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
 		<h2 class='text-center'>OVERVIEW</h2>\
 		{{#note}}\
 			<div class='padding-B-p5em padding-T-p5em'>\
