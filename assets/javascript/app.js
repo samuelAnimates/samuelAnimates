@@ -1686,11 +1686,23 @@ $(document).ready(function () {
 
 	//
 	$(document).on("mouseenter focus", ".JS-a11y-button", function(event){
-		$(this).find('svg').attr("fill", "#FAFAFA");
+		if(isHighContrast===false){
+			$(this).find('svg').attr("fill", "#FAFAFA");
+		}
+		else{
+			$(this).find('svg').attr("fill", "#000000");
+		}
+		
 	})
 	//
 	$(document).on("mouseleave focusout", ".JS-a11y-button", function(event){
-		$(this).find('svg').attr("fill", "#000000");
+		if(isHighContrast===false){
+			$(this).find('svg').attr("fill", "#000000");
+		}
+		else{
+			$(this).find('svg').attr("fill", "#FAFAFA");
+		}
+		
 	})
 
 	//Swap out the IG social icon for the blue one once the link is hovered or focused on

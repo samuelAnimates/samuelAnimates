@@ -55,8 +55,9 @@ a{
 }
 a:hover,a:focus,button:hover,button:focus{
 	background-color: rgb(0,36,128) !important;
-	color: rgb(255,255,255);
+	color: rgb(255,255,255)  !important;
 	text-decoration: underline;
+	text-decoration-color:  rgb(255,255,255)  !important;
 	cursor: pointer;
 }
 button, input{
