@@ -12,7 +12,7 @@ const projectsData = [
 				"links": [
 					{
 						"url": "./modals/saigon.html",
-						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 						"linkText": "\'10 Days\' Overview Page"
 					},
 					{
@@ -48,7 +48,7 @@ const projectsData = [
 				"links": [
 					{
 						"url": "./modals/wiki.html",
-						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 						"linkText": "Wiki Overview Page"
 					},
 					{
@@ -79,7 +79,7 @@ const projectsData = [
 				"links": [
 					{
 						"url": "./modals/bodega.html",
-						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+						"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 						"linkText": "\'A Bodega\' Overview Page"
 					},
 					{
@@ -135,7 +135,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/hernandez.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'No One\' Overview Page"
 							},
 							{
@@ -156,7 +156,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/yuca.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Yuca\' Overview Page"
 							},
 							{
@@ -177,7 +177,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/busan.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Busan\' Overview Page"
 							},
 							{
@@ -198,7 +198,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/after.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'After, After That\' Overview Page"
 							},
 							{
@@ -219,7 +219,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/breakfast.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Persefone\'s Breakfast\' Overview Page"
 							},
 							{
@@ -246,7 +246,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/nlm.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Health for All\' Overview Page"
 							}
 						],
@@ -262,7 +262,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/pp.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "PP Study Overview Page"
 							}
 						],
@@ -278,7 +278,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/media.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "Social Media Study Overview Page"
 							},
 							{
@@ -299,7 +299,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/lmhtf.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Bodegas Saludables\' Overview Page"
 							},
 							{
@@ -326,7 +326,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/tarot.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'AR-Tarot\' Overview Page"
 							},
 							{
@@ -352,7 +352,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/apples.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Apples\' Overview Page"
 							},
 							{
@@ -378,7 +378,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/giftpitch.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "GiftPitch Overview Page"
 							},
 							{
@@ -404,7 +404,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/nytreact.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'NYTReact\' Overview Page"
 							},
 							{
@@ -436,7 +436,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/joliet.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "SCC Video Overview Page"
 							},
 							{
@@ -457,7 +457,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/artemis.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "Artemis I Video Overview Page"
 							},
 							{
@@ -483,7 +483,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/whyu.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "WhyUEdu Series Overview Page"
 							},
 							{
@@ -514,7 +514,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/teeny.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "Teeny Video Overview Page"
 							},
 							{
@@ -546,7 +546,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/dots.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "Connect the Dots Overview Page"
 							}
 						],
@@ -562,7 +562,7 @@ const projectsData = [
 						"links": [
 							{
 								"url": "./modals/walks.html",
-								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' fill='#010101'/>",
+								"icon": "<path d='M0 0h24v24H0z' fill='none'/><path d='M22 13h-8v-2h8v2zm0-6h-8v2h8V7zm-8 10h8v-2h-8v2zm-2-8v6c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2zm-1.5 6l-2.25-3-1.75 2.26-1.25-1.51L3.5 15h7z' class='JS-svg-composite-icon' fill='#010101'/>",
 								"linkText": "\'Walks\' Overview Page"
 							}
 						],
@@ -1258,14 +1258,34 @@ const projectsData = [
 ]
 
 //Mustache template for Nav bar that appears in each project overview page
-const modalNavTemplate = "<nav class='bg-white-opaque font-Overpass height-3em width-100pc z2' id='sticky-header'>\
-	<div class='float-left header-nav-link height-3em width-33pc' id='home-button'>\
-		<button class='JS-link bg-white font-weight-600 height-3em'>[HOME]</button>\
+const modalNavTemplate = "<nav class='sticky-header font-Overpass font-size-p9em min-width-5em width-10pc z2'>\
+<a class='bg-white color-black JS-link text-decoration-line-none width-100pc' href='http://www.samuelanimates.com'>\
+	<div class='bg-inherit border-2px border-left-0px border-color-rgba-0-58-204-p75 border-style-solid box-shadow header-nav-link text-center width-100pc'>HOME\
 	</div>\
-	<div class='header-nav-link float-right height-3em text-right width-33pc' id='connect-modal-trigger'>\
-		<button class='JS-link bg-white font-weight-600 height-3em'>[CONTACT]</button>\
-	</div>\
+</a>\
+<div class='header-nav-link' id='connect-modal-trigger'>\
+  <button class='bg-white border-left-0px box-shadow color-black font-weight-600 width-100pc'>CONTACT\
+  </button>\
+</div>\
 </nav>"
+
+//Mustache template for Nav bar that appears in each project overview page
+const a11yButtonsTemplate = "<aside class='position-fixed min-width-32px top-4-em width-5pc z2'>\
+<button aria-labelledby='font-toggle-svg-title' id='font-toggle-button' class='bg-white border-left-0px box-shadow color-black JS-a11y-button text-center width-100pc' title='Toggle font size.'>\
+  <svg aria-labelledby='font-toggle-svg-title' fill='#000000' height='24' role='img' viewBox='2 0 24 18' width='24' xmlns='http://www.w3.org/2000/svg'>\
+	<title id='font-toggle-svg-title'>Toggle font size.</title>\
+	<path d='M0 0h24v24H0z' fill='none'/>\
+	<path d='M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z'/>\
+  </svg>\
+</button>\
+<button aria-labelledby='font-toggle-svg-title' id='contrast-toggle-button' class='bg-white border-left-0px box-shadow color-black JS-a11y-button text-center width-100pc' title='Toggle high contrast mode.'>\
+  <svg fill='#000000' height='24' viewBox='2 0 24 20' width='24' xmlns='http://www.w3.org/2000/svg'>\
+	<title id='font-toggle-svg-title'>Toggle high contrast mode.</title>\
+	<path d='M24 0H0v24h24z' fill='none'/>\
+	<path d='M17.66 7.93L12 2.27 6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58c2.05 0 4.1-.78 5.66-2.34 3.12-3.12 3.12-8.19 0-11.31zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z'/>\
+</svg>\
+</button>\
+</aside>"
 
 //Mustache template for the contact modal that appears in each project overview page
 const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
@@ -1344,61 +1364,65 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 </aside>"
 
 //Mustache template for each project overview page
-const modalTemplate = "<h1>{{title}}</h1>\
-{{#sidebar}}\
-	<div class='floating-lefthand-container padding-B-p5em padding-T-p5em'>\
-		{{#photo}}\
-			<div class='bg-17-17-17 color-250-250-250 text-center'>\
-				<div class='display-block height-auto margin-auto padding-all-p5em width-100pc'>\
-					<img class='max-height-13em max-width-19p35em height-auto width-100pc' src={{{photo}}} alt='AR-Tarot demo screenshot'>\
-				</div>\
-				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em'>\
-					<p class='font-weight-600 padding-B-p25em'>{{year}}</p>\
-					<p>{{caption}}</p>\
+const modalTemplate = "<div class='margin-auto text-center width-80pc'><h1>{{title}}</h1></div>\
+<div class='margin-bottom-1em'>\
+	{{#sidebar}}\
+		<section class='box-shadow floating-lefthand-container'>\
+			<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-T-p5em'>\
+				{{#photo}}\
+					<div class='text-center'>\
+						<div class='display-block height-auto margin-auto padding-all-p5em width-100pc'>\
+							<img class='max-height-13em max-width-19p35em height-auto width-100pc' src={{{photo}}} alt='AR-Tarot demo screenshot'>\
+						</div>\
+						<div class='padding-B-p5em padding-L-p5em padding-R-p5em'>\
+							<p class='font-weight-600 padding-B-p25em'>{{year}}</p>\
+							<p>{{caption}}</p>\
+						</div>\
+					</div>\
+				{{/photo}}\
+				{{#video}}\
+					<div class='text-center'>\
+						<div class='video-embed-container'>\
+							<iframe src={{{video}}} title={{iframeTitle}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'>It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>\
+						</div>\
+						<div class='padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
+							<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
+							<p class='padding-B-p25em text-center'>{{caption}}</p>\
+						</div>\
+					</div>\
+				{{/video}}\
+				{{#pdf}}\
+					<div class='text-center'>\
+						<object class='max-height-13em max-width-19p35em width-100pc' data={{{pdf}}} type='application/pdf' height='400px'>\
+							<p>{{{longDescription}}}</p>\
+						</object>\
+						<div class='padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
+						<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
+						<p class='padding-B-p25em text-center'>{{caption}}</p>\
+						</div>\
+					</div>\
+				{{/pdf}}\
+			</div>\
+		</section>\
+	{{/sidebar}}\
+	<section class='bg-255-255-224 color-black box-shadow floating-righthand-container padding-B-p5em padding-T-p5em'>\
+			<div class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
+					<h2 class='text-center'>AT A GLANCE</h2>\
+				<div class='display-block padding-L-p5em margin-auto width-90pc'>\
+					<ul>\
+						{{#atAGlance}}\
+							<li><span class='font-weight-600'>{{title}}</span>: {{{text}}}</li>\
+						{{/atAGlance}}\
+					</ul>\
 				</div>\
 			</div>\
-		{{/photo}}\
-		{{#video}}\
-			<div class='bg-17-17-17 color-250-250-250 text-center'>\
-				<div class='video-embed-container'>\
-					<iframe src={{{video}}} title={{iframeTitle}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'>It looks like your browser has trouble displaying this embedded video. <a href={{{vimeo}}} target='_blank'>Go to this link if you wish to see the video.</a></iframe>\
-				</div>\
-				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
-					<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
-					<p class='padding-B-p25em text-center'>{{caption}}</p>\
-				</div>\
-			</div>\
-		{{/video}}\
-		{{#pdf}}\
-			<div class='bg-17-17-17 color-250-250-250 text-center'>\
-				<object class='max-height-13em max-width-19p35em width-100pc' data={{{pdf}}} type='application/pdf' height='400px'>\
-					<p>{{{longDescription}}}</p>\
-				</object>\
-				<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-L-p5em padding-R-p5em text-center'>\
-				<p class='font-weight-600 padding-B-p25em padding-T-p5em text-center'>{{year}}</p>\
-				<p class='padding-B-p25em text-center'>{{caption}}</p>\
-				</div>\
-			</div>\
-		{{/pdf}}\
-	</div>\
-{{/sidebar}}\
-<div class='floating-righthand-container padding-B-p5em padding-T-p5em'>\
-	<div class='bg-255-255-224 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
-			<h2>AT A GLANCE</h2>\
-		<div class='display-block padding-L-p5em margin-auto width-90pc'>\
-			<ul>\
-				{{#atAGlance}}\
-					<li><span class='font-weight-600'>{{title}}</span>: {{{text}}}</li>\
-				{{/atAGlance}}\
-			</ul>\
-		</div>\
-	</div>\
+	</section>\
 </div>\
 {{#middleIframeWithText}}\
-	<div class='clear-both width-100pc'>\
+	<drction class='box-shadow clear-both margin-top-1em width-100pc'>\
 		{{#text}}\
 			<div class='floating-lefthand-container'>\
-				<div class='bg-255-224-233 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+				<div class='bg-255-224-233 color-black padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
 					<h2>{{mediaTitle}}</h2>\
 					<p>{{{bodyText}}}</p>\
 				</div>\
@@ -1409,16 +1433,18 @@ const modalTemplate = "<h1>{{title}}</h1>\
 				<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
 			</div>\
 		</div>\
-	</div>\
+	</section>\
 {{/middleIframeWithText}}\
-<div class='clear-both bg-219-238-255 display-block margin-auto max-width-50em padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
-	<h2>OVERVIEW</h2>\
-	{{#note}}\
-		<div class='padding-B-p5em padding-T-p5em'>\
-			<p><h3 class='display-inline'>{{title}}:</h3> {{{text}}}</p>\
-		</div>\
-	{{/note}}\
-</div>"
+<section class='clear-both display-block margin-auto margin-top-1em max-width-50em width-100pc'>\
+	<div class='bg-219-238-255 color-black box-shadow padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
+		<h2 class='text-center'>OVERVIEW</h2>\
+		{{#note}}\
+			<div class='padding-B-p5em padding-T-p5em'>\
+				<p><h3 class='display-inline'>{{title}}:</h3> {{{text}}}</p>\
+			</div>\
+		{{/note}}\
+	</div>\
+</section>"
 
 function hideConnectModal(){
 
@@ -1522,6 +1548,7 @@ function showNavBar(){
 $(document).ready(function () {
 
 	if ($("main").data("role") == "modal"){
+		$('body').prepend(Mustache.to_html(a11yButtonsTemplate).replace(/[\u200B]/g, ''));
 		$('body').prepend(Mustache.to_html(modalNavTemplate).replace(/[\u200B]/g, ''));
 		$('body').append(Mustache.to_html(modalContactTemplate).replace(/[\u200B]/g, ''));
 		$('main').append(Mustache.to_html(modalTemplate, projectsData[3][$("main").data("pagename")]).replace(/[\u200B]/g, ''));
@@ -1600,11 +1627,16 @@ $(document).ready(function () {
 			$(".homepage-project-container:nth-child(even)").css("background-color","rgb(0,0,0)");
 			$(".bg-242-242-242").css("background-color","rgb(30,30,30)");
 			$(".border-color-rgba-150-150-150-p2").css("border-color","rgb(200,200,200)");
-			$("svg").attr("fill", "#ffffff");
+			$("svg, .JS-svg-composite-icon").attr("fill", "#ffffff");
 			$("a").css({"color":"inherit","text-decoration":"underline","text-decoration-color":"rgb(149,179,255)"});
 			$("a").addClass("highContrastHover");
 			$("button").addClass("highContrastHover");
 			$(".JS-social-icon-link").addClass("bg-white");
+
+			$(".bg-255-255-224").css("background-color","rgb(20,5,20)");
+			$(".bg-255-224-233").css("background-color","rgb(5,20,15)");
+			$(".bg-219-238-255").css("background-color","rgb(20,15,5)");
+			$(".bg-255-255-224, .bg-255-224-233, .bg-219-238-255").addClass("color-white");
 			isHighContrast = true;
 		}
 		else if(isHighContrast===true){
@@ -1622,7 +1654,12 @@ $(document).ready(function () {
 			$("a").removeClass("highContrastHover");
 			$("button").removeClass("highContrastHover");
 			$(".JS-social-icon-link").removeClass("bg-white");
-			$("svg").attr("fill", "#000000");
+			$("svg, .JS-svg-composite-icon").attr("fill", "#000000");
+
+			$(".bg-255-255-224").css("background-color","rgb(255,255,224)");
+			$(".bg-255-224-233").css("background-color","rgb(255,224,233)");
+			$(".bg-219-238-255").css("background-color","rgb(219,238,255)");
+			$(".bg-255-255-224, .bg-255-224-233, .bg-219-238-255").removeClass("color-white");
 			isHighContrast = false;
 		}
 		
@@ -1647,9 +1684,11 @@ $(document).ready(function () {
 
 	});
 
+	//
 	$(document).on("mouseenter focus", ".JS-a11y-button", function(event){
 		$(this).find('svg').attr("fill", "#FAFAFA");
 	})
+	//
 	$(document).on("mouseleave focusout", ".JS-a11y-button", function(event){
 		$(this).find('svg').attr("fill", "#000000");
 	})

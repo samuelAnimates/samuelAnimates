@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	padding: 0 .25em 0 .25em;
 	background-color: rgb(250, 250, 250);
+	font-size: 1em;
+	line-height: 1.15 em;
 }
 ul {
 	display: block;
@@ -80,31 +82,26 @@ button:focus {
 	cursor: pointer;
 }
 
-h1{
-	font-size: 2.0em;
+h1 {
+	font-size: 2.5em;
 	font-weight: 700;
 	font-family: 'Overpass Mono', monospace;
-	padding-bottom: .25em;
-	text-align: center;
+	line-height: 1.15em;
 }
-
-h2{
+h2 {
 	font-size: 1.5em;
-	font-weight: 600;
-	font-family: 'Assistant', sans-serif;
-	padding-top: .25em;
-	padding-bottom: .125em;
-	text-align: center;
+	font-weight: 700;
+	font-family: 'Overpass Mono', monospace;
+	line-height: 1.15em;
 }
-
-h3{
+h3 {
+	font-size: 1.25em;
 	font-weight: 600;
-	margin-bottom: .5em;
-	text-align: center;
+	font-family: 'Overpass Mono', monospace;
+	line-height: 1.15em;
 }
-
 main{
-	padding: 0 .5em .5em .5em;
+	padding: .5em .5em .5em .5em;
 	max-width: 1280px;
 }
 
@@ -114,7 +111,6 @@ main{
 .font-size-p75em{
 	 font-size: 0.75em;
 }
-
 .clear-both{
 	clear: both;
 }
@@ -123,6 +119,12 @@ main{
 }
 .color-17-17-17{
 	color: rgb(17,17,17);
+}
+.bg-black{
+	background-color: rgb(7,7,7);
+}
+.bg-inherit{
+	background-color: inherit;
 }
 .bg-17-17-17{
 	background-color: rgb(17,17,17)
@@ -201,6 +203,9 @@ main{
 .margin-auto{
 	margin: auto;
 }
+.margin-bottom-2em{
+	margin-bottom: 2em;
+}
 .max-height-13em{
 	max-height:13em;
 }
@@ -265,17 +270,20 @@ main{
 * {
 	box-sizing: border-box;
 }
-a {
+a{
 	color: inherit;
 	text-decoration: underline;
 	text-decoration-color: rgb(0,58,204);
 }
-a:hover,
-a:focus,
-button:hover,
-button:focus {
+a:hover,a:focus,button:hover,button:focus{
 	background-color: rgb(0,36,128);
 	color: rgb(255,255,255);
+	text-decoration: underline;
+	cursor: pointer;
+}
+.highContrastHover:hover, .highContrastHover:focus{
+	background-color: rgb(250, 250, 250) !important;
+	color: rgb(7, 7, 7) !important;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -284,7 +292,7 @@ body{
 }
 button{
 	font-size: 1em;
-	border: none;
+    border: 2px solid rgba(0,58,204,.75);
 }
 h1{
 	font-size: 2.5em;
@@ -314,6 +322,18 @@ h3{
 .border-left-p75em-solid {
 	border-left: 0.75em solid;
 }
+.border-style-solid{
+	border-style: solid;
+}
+.border-2px{
+	border-width: 2px;
+}
+.border-left-0px{
+	border-left-width: 0px;
+}
+.border-color-rgba-0-58-204-p75{
+	border-color: rgba(0,58,204,.75);
+}
 .box-shadow{
 	box-shadow: 3px 4px 2px rgba(221, 126, 192, 0.3);
 }
@@ -327,7 +347,7 @@ h3{
 	color: rgb(17, 17, 17);
 }
 .color-white{
-	color: rgb(236, 236, 236);
+	color: rgb(250, 250, 249);
 }
 .display-block{
 	display: block;
@@ -389,6 +409,12 @@ h3{
 .max-width-56em{
 	max-width: 56em;
 }
+.min-width-5em{
+	min-width: 5em;
+}
+.min-width-32px{
+	min-width: 32px;
+}
 .padding-B-p25em{
 	padding-bottom: 0.25em;
 }
@@ -407,11 +433,20 @@ h3{
 .padding-T-4em{
 	padding-top: 4em;
 }
+.position-fixed{
+	position: fixed;
+}
 .position-relative{
 	position: relative;
 }
+.responsive-main{
+	width: 100%;
+}
 .text-center{
 	text-align: center;
+}
+.text-decoration-line-none{
+	text-decoration-line: none;
 }
 .text-left{
 	text-align: left;
@@ -425,6 +460,9 @@ h3{
 .top-2p75-em{
 	top: 2.75em;
 }
+.top-4-em{
+	top: 4em;
+}
 .width-100pc{
 	width: 100%;
 }
@@ -436,6 +474,12 @@ h3{
 }
 .width-33pc{
 	width: 33%;
+}
+.width-10pc{
+	width: 10%;
+}
+.width-5pc{
+	width: 5%;
 }
 .width-6p5em{
 	width: 6.5em;
@@ -450,11 +494,10 @@ h3{
 	z-index: 2;
 }
 
-@media only screen and (min-width : 700px){
+@media only screen and (min-width : 800px){
 
 	.floating-lefthand-container{
 		float: left;
-		padding-right: 0.5em;
 		width: 50%;
 
 	}
@@ -463,7 +506,6 @@ h3{
 		padding-left: 0.5em;
 		width: 50%;
 	}
-
 	.video-embed-container{
 		float: left;
 		left: 0;
@@ -477,11 +519,10 @@ h3{
 
 }
 
-@media only screen and (min-width : 950px){
+@media only screen and (min-width : 930px){
 
 	.floating-lefthand-container{
 		float: left;
-		padding-right: 0.5em;
 		width: 50%;
 	}
 	.floating-righthand-container{
@@ -489,7 +530,14 @@ h3{
 		padding-left: 0.5em;
 		width: 50%;
 	}
-
+	.responsive-main{
+		width: 100%;
+		padding-left: 10%;
+	}
+	.sticky-header{
+		position: fixed;
+		left: 0px;
+	}
 	.video-embed-container{
 		left: 0;
 		margin-right: 0;
