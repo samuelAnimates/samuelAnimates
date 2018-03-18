@@ -1367,7 +1367,7 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-80pc'><h1>{{title}}</h1></div>\
 <div>\
 	{{#sidebar}}\
-		<section class='box-shadow box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px floating-lefthand-container'>\
+		<section class='box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px floating-lefthand-container'>\
 			<div class='bg-17-17-17 color-250-250-250 padding-B-p5em padding-T-p5em'>\
 				{{#photo}}\
 					<div class='text-center'>\
@@ -1419,18 +1419,22 @@ const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-8
 	</section>\
 </div>\
 {{#middleIframeWithText}}\
-	<section class='box-shadow clear-both width-100pc'>\
-		{{#text}}\
-			<div class='floating-lefthand-container'>\
-				<div class='bg-255-224-233 color-black padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
-					<h2>{{mediaTitle}}</h2>\
-					<p>{{{bodyText}}}</p>\
+	<section class='clear-both padding-T-1em width-100pc'>\
+		<div class='padding-T-1em'>\
+			{{#text}}\
+				<div class='box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px floating-lefthand-container'>\
+					<div class='bg-255-224-233 color-black padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+						<h2>{{mediaTitle}}</h2>\
+						<p>{{{bodyText}}}</p>\
+					</div>\
 				</div>\
-			</div>\
-		{{/text}}\
-		<div class='floating-righthand-container'>\
-			<div class='bg-255-92-143 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
-				<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
+			{{/text}}\
+		</div>\
+		<div class='padding-T-1em'>\
+			<div class='floating-righthand-container'>\
+				<div class='bg-255-92-143 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+					<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
+				</div>\
 			</div>\
 		</div>\
 	</section>\
@@ -1633,9 +1637,9 @@ $(document).ready(function () {
 			$("button").addClass("highContrastHover");
 			$(".JS-social-icon-link").addClass("bg-white");
 
-			$(".bg-255-255-224").css("background-color","rgb(20,5,20)");
-			$(".bg-255-224-233").css("background-color","rgb(5,20,15)");
-			$(".bg-219-238-255").css("background-color","rgb(20,15,5)");
+			$(".bg-255-255-224").css("background-color","rgb(5,5, 50)");
+			$(".bg-255-224-233").css("background-color","rgb(5,20,5)");
+			$(".bg-219-238-255").css("background-color","rgb(20,5,5)");
 			$(".bg-255-255-224, .bg-255-224-233, .bg-219-238-255").addClass("color-white");
 			isHighContrast = true;
 		}
