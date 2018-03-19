@@ -1047,9 +1047,10 @@ const projectsData = [
 			"middleIframeWithText": [
 				{
 					"embeddedMedia": "https://www.google.com/maps/d/embed?mid=1msCQD_ab_Lz6mLz80wyu1qHXCBk&hl=en_US",
+					"mediaTitle": "\'10 DAYS IN SAIGON\'GOOGLE MAP",
 					"text": {
-						"mediaTitle": "OUTCOMES",
-						"bodyText": "We produced a 10-week original series, comprising 34 videos: site visits, restaurants visits, personal stories, and visual shorts.<br/><br/>The format I came up with for this series was used as a model for Muui's later video work in Busan and Seoul. We produced a Google Map to document the sites in our series, which was the inspiration for ongoing work on a <a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>Wheelchair Travel Accessibility web app</a>.<br/><br/>\'10 Days in Saigon\' received media coverage in Vietnam, Korea, and the US, and was featured in international film festivals."
+						"textTitle": "OUTCOMES",
+						"bodyText": "We produced a 10-week original series, comprising 34 videos: site visits, restaurants visits, personal stories, and visual shorts. The format I came up with for this series was used as a model for Muui's later video work in Busan and Seoul. \'10 Days in Saigon\' received media coverage in Vietnam, Korea, and the US, and was featured in international film festivals.<br/><br/>We produced a Google Map to document the sites in our \'10 Days\' series, which was the inspiration for ongoing work on a <a href='https://wheelchairtravelwiki.herokuapp.com' target='_blank'>Wheelchair Travel Accessibility web app</a>."
 					}
 				}
 			],
@@ -1407,7 +1408,7 @@ const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-8
 	{{/sidebar}}\
 	<section class='bg-255-255-224 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black box-shadow floating-righthand-container padding-B-p5em padding-T-p5em'>\
 			<div class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
-					<h2 class='text-center'>AT A GLANCE</h2>\
+					<h2 class='text-center text-shadow'>AT A GLANCE</h2>\
 				<div class='display-block padding-L-p5em margin-auto width-90pc'>\
 					<ul>\
 						{{#atAGlance}}\
@@ -1424,7 +1425,7 @@ const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-8
 			{{#text}}\
 				<div class='box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px floating-lefthand-container'>\
 					<div class='bg-255-224-233 color-black padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
-						<h2>{{mediaTitle}}</h2>\
+						<h2 class='text-center text-shadow'>{{textTitle}}</h2>\
 						<p>{{{bodyText}}}</p>\
 					</div>\
 				</div>\
@@ -1432,8 +1433,13 @@ const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-8
 		</div>\
 		<div class='padding-T-1em'>\
 			<div class='floating-righthand-container'>\
-				<div class='bg-255-92-143 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
-					<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
+				<div class='box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px width-100pc'>\
+					<div class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+						<h2 class='text-center text-shadow'>{{mediaTitle}}</h2>\
+					</div>\
+					<div class='bg-255-92-143 padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em width-100pc'>\
+						<iframe class='height-15em position-relative width-100pc' src={{{embeddedMedia}}} webkitAllowFullScreen='true' mozallowfullscreen='true' allowFullScreen='true'></iframe>\
+					</div>\
 				</div>\
 			</div>\
 		</div>\
@@ -1441,7 +1447,7 @@ const modalTemplate = "<div class='margin-auto padding-T-2em text-center width-8
 {{/middleIframeWithText}}\
 <section class='clear-both display-block margin-auto max-width-50em padding-T-2em width-100pc'>\
 	<div class='bg-219-238-255 box-shadow border-style-solid border-color-rgba-150-150-150-p2 border-2px color-black box-shadow padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em'>\
-		<h2 class='text-center'>OVERVIEW</h2>\
+		<h2 class='text-center text-shadow'>OVERVIEW</h2>\
 		{{#note}}\
 			<div class='padding-B-p5em padding-T-p5em'>\
 				<p><h3 class='display-inline'>{{title}}:</h3> {{{text}}}</p>\
@@ -1600,6 +1606,8 @@ $(document).ready(function () {
 		}
 		else if (fontToggleTrackerNum === 1.25){
 			$("body").css({"font-size":"1.5em","line-height":"1.15em"});
+			$(".floating-lefthand-container").addClass("width-100pc-important");
+			$(".floating-righthand-container").addClass("width-100pc-important");
 			fontToggleTrackerNum = 1.5;
 		}
 		else if (fontToggleTrackerNum === 1.5){
@@ -1613,6 +1621,8 @@ $(document).ready(function () {
 			fontToggleTrackerNum = 1;
 			$("header").addClass("font-size-p9em");
 			$("header").removeClass("font-size-p75em");
+			$(".floating-lefthand-container").removeClass("width-100pc-important");
+			$(".floating-righthand-container").removeClass("width-100pc-important");
 			reformatPageForBaselineFont();
 		}
 	});
@@ -1641,6 +1651,7 @@ $(document).ready(function () {
 			$(".bg-255-224-233").css("background-color","rgb(5,20,5)");
 			$(".bg-219-238-255").css("background-color","rgb(20,5,5)");
 			$(".bg-255-255-224, .bg-255-224-233, .bg-219-238-255").addClass("color-white");
+
 			isHighContrast = true;
 		}
 		else if(isHighContrast===true){
