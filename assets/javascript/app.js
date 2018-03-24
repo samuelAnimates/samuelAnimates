@@ -1290,7 +1290,7 @@ const a11yButtonsTemplate = "<aside class='position-fixed min-width-32px top-4-e
 
 //Mustache template for the contact modal that appears in each project overview page
 const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
-<div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em'>\
+<div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-32em'>\
   <div class='color-black display-block text-center width-100pc'>\
 	<h2 class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em' tabindex='0' id='contact-dialog-title'>CONTACT\
 	</h2>\
@@ -1358,7 +1358,7 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 	</form>\
   </div>\
   <div class='JS-link clear-both float-right'>\
-	<button class='bg-white font-weight-600 height-3em' id='connect-modal-close-trigger'>[CLOSE]\
+	<button class='bg-white color-black font-weight-600 height-3em' id='connect-modal-close-trigger'>[CLOSE]\
 	</button>\
   </div>\
 </div>\

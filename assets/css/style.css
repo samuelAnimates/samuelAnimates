@@ -46,6 +46,11 @@ Decorative elements
 	background-color: rgb(255, 245, 251);
 }
 
+.footer-social-icon-container {
+	padding: .5em .5em .5em .5em;
+	width: 25%;
+}
+
 /*=========================================================================
 ONE CLASS DOES ONE THING
 =========================================================================*/
@@ -279,10 +284,6 @@ Responsive portions
 	.border-top-responsive{
 		border-top-width: 2px;
 	}
-	.footer-social-icon-container {
-		padding: .5em .5em .5em .5em;
-		width: 25%;
-	}
 	.homepage-about-text-container{
 		float: left;
 		width: 100%;
@@ -332,10 +333,6 @@ Responsive portions
 @media screen and (min-width: 930px){
 	.border-top-responsive{
 		border-top-width: 1px;
-	}
-	.footer-social-icon-container {
-		padding: .5em .5em .5em .5em;
-		width: 25%;
 	}
 	.homepage-about-text-container{
 		float: left;
