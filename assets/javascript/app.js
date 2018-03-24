@@ -1291,31 +1291,31 @@ const a11yButtonsTemplate = "<aside class='position-fixed min-width-32px top-4-e
 //Mustache template for the contact modal that appears in each project overview page
 const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dialog-title' class='bg-255-246-252-p57 display-none height-100pc position-absolute width-100pc z3' style='top:0; left:0;' id='connect-footer-modal'>\
 <div class='bg-white display-block float-right font-Overpass height-100pc position-relative width-100pc z4 max-width-22em'>\
-  <div class='display-block text-center width-100pc'>\
+  <div class='color-black display-block text-center width-100pc'>\
 	<h2 class='padding-B-p5em padding-L-p5em padding-R-p5em padding-T-p5em' tabindex='0' id='contact-dialog-title'>CONTACT\
 	</h2>\
   </div>\
   <div class='clear-both display-block margin-auto width-80pc' id='footer-social-container'>\
-	<div class='float-left text-center footer-social-icon-container'>\
+	<div class='float-left JS-social-icon-link text-center footer-social-icon-container'>\
 	  <a href='http://www.vimeo.com/user15152945' target='_blank' id='Vimeo-link'>\
 		<span class='font-size-p75em font-weight-400'>Vimeo\
 		</span>\
 		<img id='vimeo-social-icon' alt='Vimeo social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-vimeo.svg'>\
 	  </a>\
 	</div>\
-	<div class='float-left text-center footer-social-icon-container'>\
+	<div class='float-left JS-social-icon-link text-center footer-social-icon-container'>\
 	  <a href='https://github.com/smendez92' target='_blank' id='GitHub-link'>\
 		<span class='font-size-p75em font-weight-400'>GitHub\
 		</span>\
 		<img id='github-social-icon' alt='GitHub social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-github.svg'>\
 	  </a>\
 	</div>\
-	<div class='float-left text-center footer-social-icon-container'>\
+	<div class='float-left JS-social-icon-link text-center footer-social-icon-container'>\
 	  <a href='https://www.linkedin.com/in/samuel-r-mendez/' target='_blank' id='LinkedIn-link'>\
 		<span class='font-size-p75em font-weight-400'>LinkedIn\</span>\
 		<img id='linkedin-social-icon' alt='LinkedIn social icon' class='display-inline-block margin-auto width-100pc' src='../assets/images/social-icon-linkedin.svg'></a>\
 	</div>\
-	<div class='float-left text-center footer-social-icon-container'>\
+	<div class='float-left JS-social-icon-link text-center footer-social-icon-container'>\
 	  <a href='https://www.instagram.com/samuelanimates/' target='_blank' id='Instagram-link'>\
 		<span class='font-size-p75em font-weight-400'>Instagram\
 		</span>\
@@ -1323,7 +1323,7 @@ const modalContactTemplate = "<aside role='dialog' aria-labelledby='contact-dial
 	  </a>\
 	</div>\
   </div>\
-  <div class='clear-both display-block margin-auto text-center width-80pc' id='footer-contact-form-container'>\
+  <div class='clear-both color-black display-block margin-auto text-center width-80pc' id='footer-contact-form-container'>\
 	<h3>\
 	  Contact Form\
 	</h3>\
