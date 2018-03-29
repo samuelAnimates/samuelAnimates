@@ -186,6 +186,9 @@ font-size-p95em{
 .min-width-5em{
 	min-width: 5em;
 }
+.overflow-x-auto{
+	overflow-x: auto;
+}
 .padding-0p5-0p5-0p5-1p5em {
 	padding: 0.5em 0.5em 0.5em 1.5em;
 }
