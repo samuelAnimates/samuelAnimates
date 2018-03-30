@@ -267,6 +267,9 @@ h3 {
 .min-width-32px{
 	min-width: 32px;
 }
+.overflow-x-auto{
+	overflow-x: auto;
+}
 .padding-all-p5em{
 	padding: .5em .5em .5em .5em;
 }
